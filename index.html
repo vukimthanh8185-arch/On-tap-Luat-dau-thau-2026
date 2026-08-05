@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ôn tập Luật Đấu thầu</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Ứng dụng ôn tập tương tác</p>
+        <h1>Luật Đấu thầu: Lý thuyết & Thực hành</h1>
+        <p class="subtitle">
+          Học theo từng phần, luyện câu hỏi trắc nghiệm, nhận phản hồi đúng/sai và giải thích ngay sau khi chọn đáp án.
+        </p>
+      </div>
+      <div class="score-card">
+        <span>Tiến độ</span>
+        <strong id="progressText">0/0</strong>
+        <div class="progress-track"><div id="progressBar"></div></div>
+      </div>
+    </header>
+
+    <main class="layout">
+      <aside class="sidebar">
+        <div class="search-box">
+          <input id="searchInput" type="search" placeholder="Tìm chủ đề, từ khóa..." />
+        </div>
+        <nav id="topicList" class="topic-list" aria-label="Danh sách chủ đề"></nav>
+      </aside>
+
+      <section class="content">
+        <div class="content-head">
+          <div>
+            <p id="topicIndex" class="eyebrow"></p>
+            <h2 id="topicTitle"></h2>
+          </div>
+          <div class="tab-group" role="tablist">
+            <button id="theoryTab" class="tab active" type="button">Lý thuyết</button>
+            <button id="practiceTab" class="tab" type="button">Thực hành</button>
+          </div>
+        </div>
+
+        <section id="theoryPanel" class="panel active"></section>
+        <section id="practicePanel" class="panel"></section>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Gợi ý: học phần lý thuyết trước, sau đó làm phần thực hành ngay cùng chủ đề để nhớ theo ngữ cảnh.
+      </p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
