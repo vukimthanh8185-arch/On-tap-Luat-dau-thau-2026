@@ -16,7 +16,7 @@
 - `styles.css`: giao diện của app chính.
 - `app.js`: xử lý tương tác câu hỏi, tiến độ, tìm kiếm chủ đề.
 - `data.js`: dữ liệu lý thuyết, câu hỏi, đáp án và giải thích.
-- `on-tap-luat-dau-thau-mobile.html`: bản gộp một file, có tương tác JavaScript.
+- `on-tap-luat-dau-thau.html`: bản gộp một file, có tương tác JavaScript.
 - `on-tap-luat-dau-thau-iphone.html`: bản tĩnh dễ mở hơn trên iPhone/Chrome/Files.
 - `ly-thuyet-on-tap-luat-dau-thau.md`: toàn bộ phần lý thuyết trích xuất dạng Markdown.
 
