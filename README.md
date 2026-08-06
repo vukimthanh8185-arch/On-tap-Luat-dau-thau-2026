@@ -46,16 +46,16 @@ Bản này đã render sẵn nội dung, phù hợp hơn khi mở file local b�
 
 ## Chủ đề ôn tập
 
-1. Quy định chung, phạm vi áp dụng, khái niệm
-2. Chủ thể, trách nhiệm, quản lý nhà nước
-3. Kế hoạch, HSMT và quy trình lựa chọn nhà thầu
-4. Tư cách hợp lệ, năng lực kinh nghiệm, bảo đảm cạnh tranh
-5. Ưu đãi, đấu thầu quốc tế và hiệp định
-6. Bảo đảm dự thầu, hợp đồng và xử lý hồ sơ
-7. Mua sắm tập trung, y tế, trực tiếp, trực tuyến
-8. Đấu thầu qua mạng và chào giá trực tuyến
-9. Vi phạm, cấm thầu và kiến nghị
-10. Tổng hợp tình huống lựa chọn nhà thầu
+1. Quy định chung và phạm vi áp dụng
+2. Phân loại gói thầu và hình thức lựa chọn nhà thầu
+3. Kế hoạch lựa chọn nhà thầu
+4. Hồ sơ mời thầu và chuẩn bị lựa chọn nhà thầu
+5. Đấu thầu qua mạng và Hệ thống mạng đấu thầu quốc gia
+6. Đánh giá hồ sơ dự thầu và xét duyệt trúng thầu
+7. Ưu đãi, mua sắm tập trung và y tế
+8. Hợp đồng trong đấu thầu
+9. Xử lý tình huống, vi phạm và kiến nghị
+10. Đấu thầu quốc tế và hiệp định thương mại
 
 ## Ghi chú
 

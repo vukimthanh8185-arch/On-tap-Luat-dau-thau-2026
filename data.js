@@ -1,62 +1,67 @@
 window.STUDY_DATA = {
   "generatedFrom": {
-    "answers": [
-      "D:\\Thanh\\Luat dau thau\\On tap cau hoi\\Dap an\\DauThau_Dap an 1-2-3-4-5.pdf",
-      "D:\\Thanh\\Luat dau thau\\On tap cau hoi\\Dap an\\Dau thau_Dap an phan 6-7-8-9.pdf"
-    ],
-    "theory": [
-      "D:\\Thanh\\Luat dau thau\\Ly thuyet\\Slide_On thi Luat dau thau.pptx",
-      "D:\\Thanh\\Luat dau thau\\Ly thuyet\\Van ban hop nhat_Luat dau thau.pdf"
-    ],
-    "questionCount": 390,
+    "database": "C:\\Users\\Administrator\\Documents\\Luat Dau thau\\Database for LuatdauthauApp",
     "topicCount": 10,
-    "note": "Phần lý thuyết đã được viết lại dạng bài giảng chi tiết, lồng ghép các mốc/cụm kiến thức xuất hiện trong ngân hàng câu hỏi, gồm cả ví dụ mua thuốc, hóa chất, vật tư xét nghiệm và thiết bị y tế của bệnh viện."
+    "questionCount": 390,
+    "note": "Dữ liệu app được cập nhật từ bộ Markdown chuyên đề trong thư mục Database for LuatdauthauApp."
   },
   "topics": [
     {
-      "title": "Quy định chung, phạm vi áp dụng, khái niệm",
+      "title": "Quy định chung và phạm vi áp dụng",
       "theory": [
         {
-          "heading": "1. Học Luật Đấu thầu từ câu hỏi đầu tiên: khi nào bắt buộc áp dụng?",
+          "heading": "Nguồn pháp lý tham khảo",
           "points": [
-            "Muốn biết một việc mua sắm có phải theo Luật Đấu thầu hay không, trước hết hỏi 3 câu: ai mua, dùng tiền gì, mua để làm gì. Nếu là cơ quan nhà nước, đơn vị sự nghiệp công lập, chủ đầu tư dự án sử dụng vốn nhà nước/ngân sách/đầu tư công thì thường rơi vào phạm vi bắt buộc.",
-            "Ví dụ dễ nhớ: Sở Y tế dùng ngân sách mua thuốc cho bệnh viện công là hoạt động lựa chọn nhà thầu thuộc Luật Đấu thầu. Nhưng hộ kinh doanh cá thể tự mua phần mềm kế toán bằng tiền riêng thì không phải đối tượng áp dụng.",
-            "Một số đơn vị được tự quyết khi không sử dụng nguồn vốn thuộc phạm vi bắt buộc, nhưng vẫn phải bảo đảm công khai, minh bạch, hiệu quả và trách nhiệm giải trình. “Tự quyết” không có nghĩa là muốn chọn ai cũng được."
+            "Luật Đấu thầu số 22/2023/QH15: https://vanban.chinhphu.vn/?classid=1&docid=208419&orggroupid=1&pageid=27160",
+            "Luật số 57/2024/QH15: https://vanban.chinhphu.vn/?classid=1&docid=212485&orggroupid=1&pageid=27160",
+            "Luật số 90/2025/QH15: https://vanban.chinhphu.vn/?docid=214558&orggroupid=1&pageid=27160",
+            "Nghị định số 214/2025/NĐ-CP: https://vanban.chinhphu.vn/?classid=1&docid=214821&pageid=27160&typegroupid=4",
+            "Thông tư số 79/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214844&pageid=27160",
+            "Thông tư số 80/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214968&pageid=27160"
           ],
-          "note": "Mẹo nhớ: nguồn vốn công + chủ thể công + gói thầu phục vụ dự án/dự toán = kiểm tra Luật Đấu thầu trước tiên."
+          "note": "Các nguồn này được ghi trong database chuyên đề để người học đối chiếu khi cần."
         },
         {
-          "heading": "2. Phạm vi điều chỉnh: không chỉ là mở thầu",
+          "heading": "1. Câu hỏi cần trả lời trước tiên",
           "points": [
-            "Luật Đấu thầu điều chỉnh cả hệ sinh thái đấu thầu: quản lý nhà nước, quyền hạn/trách nhiệm của chủ thể, lựa chọn nhà thầu thực hiện gói thầu, lựa chọn nhà đầu tư thực hiện dự án đầu tư kinh doanh.",
-            "Khi câu hỏi hỏi phạm vi điều chỉnh, đáp án đúng thường là phương án bao quát đủ các nhóm trên. Nếu một phương án chỉ nói “lập HSMT” hoặc “mở thầu” thì mới là một bước nghiệp vụ, chưa đủ phạm vi của luật.",
-            "Cần phân biệt: quản lý nhà nước là ban hành, kiểm tra, thanh tra, xử lý vi phạm, quản lý Hệ thống mạng đấu thầu quốc gia; còn lập HSMT, đánh giá HSDT là nghiệp vụ của một cuộc thầu cụ thể."
+            "Khi gặp một tình huống mua sắm hoặc lựa chọn nhà thầu, việc đầu tiên là xác định trường hợp đó có thuộc phạm vi điều chỉnh của Luật Đấu thầu hay không. Nếu xác định sai phạm vi áp dụng, các bước sau như lập kế hoạch, lập hồ sơ mời thầu, đánh giá hồ sơ dự thầu hoặc ký hợp đồng đều có thể sai theo.",
+            "Theo Điều 1 Luật Đấu thầu 2023, Luật điều chỉnh quản lý nhà nước về đấu thầu; thẩm quyền, trách nhiệm của cơ quan, tổ chức, cá nhân trong hoạt động đấu thầu; hoạt động lựa chọn nhà thầu và hoạt động lựa chọn nhà đầu tư."
           ]
         },
         {
-          "heading": "3. Phân loại gói thầu để không nhầm đáp án",
+          "heading": "2. Nhận diện trường hợp bắt buộc áp dụng",
           "points": [
-            "Gói tư vấn là nhóm dùng nhiều chất xám chuyên môn: lập quy hoạch, khảo sát, thiết kế, giám sát, thẩm định, tư vấn quản lý dự án. Ví dụ “lập nhiệm vụ quy hoạch vùng” là tư vấn.",
-            "Gói phi tư vấn là dịch vụ không phải tư vấn chuyên môn như vệ sinh, bảo vệ, in ấn, vận chuyển, bảo trì, tổ chức sự kiện theo yêu cầu có sẵn. Ví dụ “in sổ công tác” thường được xếp là phi tư vấn.",
-            "Gói hàng hóa bao gồm máy móc, thiết bị, nguyên vật liệu, nhiên liệu, vật tư, thuốc, hóa chất, vật tư xét nghiệm, thiết bị y tế và các sản phẩm hữu hình/đầu ra tương tự.",
-            "Gói xây lắp là thi công xây dựng, lắp đặt công trình/hạng mục. Gói hỗn hợp là gói kết hợp nhiều loại như thiết kế - cung cấp hàng hóa - xây lắp."
-          ],
-          "note": "Mẹo làm bài: xác định đúng loại gói thầu trước rồi mới chọn hạn mức, hình thức, phương pháp đánh giá."
+            "Trường hợp điển hình phải áp dụng Luật là hoạt động lựa chọn nhà thầu thuộc dự án, dự toán mua sắm sử dụng vốn ngân sách nhà nước, vốn từ nguồn thu hợp pháp của cơ quan nhà nước, đơn vị sự nghiệp công lập và các nguồn vốn thuộc phạm vi luật định.",
+            "Khi làm bài, cần nhìn đồng thời ba yếu tố: chủ thể mua sắm, nguồn vốn và mục đích sử dụng vốn. Không nên chỉ nhìn tên đơn vị. Một doanh nghiệp nhà nước, bệnh viện công lập hoặc đơn vị sự nghiệp công lập có thể được xử lý khác nhau tùy nguồn tiền cụ thể."
+          ]
         },
         {
-          "heading": "4. Các khái niệm hay xuất hiện trong câu hỏi",
+          "heading": "3. Trường hợp được tự quyết định",
           "points": [
-            "Đấu thầu là quá trình lựa chọn nhà thầu/nhà đầu tư để ký và thực hiện hợp đồng trên cơ sở cạnh tranh, công bằng, minh bạch, hiệu quả kinh tế và trách nhiệm giải trình.",
-            "Chủ đầu tư là bên chịu trách nhiệm tổ chức lựa chọn nhà thầu và quản lý gói thầu. Bên mời thầu là đơn vị thực hiện các công việc mời thầu, có thể là chủ đầu tư hoặc tổ chức được giao/thuê.",
-            "Nhà thầu phụ đặc biệt là nhà thầu phụ thực hiện phần công việc quan trọng, đặc thù trong gói thầu; khi HSMT cho phép hoặc yêu cầu, năng lực của nhà thầu phụ đặc biệt có thể được xem xét theo phạm vi phần việc được giao.",
-            "Hệ thống mạng đấu thầu quốc gia là nơi đăng tải kế hoạch, thông báo, HSMT/E-HSMT, biên bản mở thầu, kết quả, hợp đồng và nhiều thao tác điện tử khác. Nhiều câu hỏi xoay quanh việc “phải đăng ở đâu” chính là hỏi Hệ thống này."
+            "Một số trường hợp không bắt buộc đi theo toàn bộ quy trình lựa chọn nhà thầu của Luật, nhưng vẫn phải bảo đảm công khai, minh bạch, hiệu quả và trách nhiệm giải trình. Tự quyết định không có nghĩa là tùy ý; đơn vị vẫn phải chứng minh việc mua sắm là hợp lý, hiệu quả, có căn cứ và có thể giải trình.",
+            "Các nhóm dễ gặp trong câu hỏi gồm: doanh nghiệp nhà nước không sử dụng vốn ngân sách nhà nước; đơn vị sự nghiệp công lập tự bảo đảm theo điều kiện luật định; khoản tài trợ trong nước khi nhà tài trợ yêu cầu không áp dụng Luật; mua sắm đầu vào trực tiếp để thực hiện hợp đồng đã ký."
+          ]
+        },
+        {
+          "heading": "4. Tư cách hợp lệ và bảo đảm cạnh tranh",
+          "points": [
+            "Nhà thầu là tổ chức phải đáp ứng các điều kiện cơ bản theo Điều 5 Luật Đấu thầu như hạch toán tài chính độc lập, không trong quá trình giải thể hoặc mất khả năng thanh toán, không đang bị cấm tham dự thầu, bảo đảm cạnh tranh và có tên trên Hệ thống mạng đấu thầu quốc gia theo quy định.",
+            "Bảo đảm cạnh tranh không chỉ là khác tên doanh nghiệp. Cần xem xét quan hệ pháp lý, tài chính, sở hữu, quản lý và khả năng phát sinh xung đột lợi ích giữa nhà thầu với chủ đầu tư, bên mời thầu, tư vấn lập hoặc thẩm định hồ sơ mời thầu, tư vấn giám sát, tư vấn thiết kế, dự toán. Với EPC, EP, EC còn phải chú ý quan hệ với đơn vị lập hoặc thẩm tra thiết kế FEED, báo cáo nghiên cứu khả thi hoặc báo cáo kinh tế-kỹ thuật."
+          ]
+        },
+        {
+          "heading": "Bẫy thường gặp",
+          "points": [
+            "Chỉ nhìn tên chủ thể mà không xem nguồn vốn.",
+            "Hiểu “tự quyết định” thành không cần minh bạch.",
+            "Nhầm khác tên pháp nhân là chắc chắn bảo đảm cạnh tranh."
           ]
         }
       ],
       "questions": [
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
           "number": 1,
           "question": "Trường hợp nào sau đây bắt buộc phải lựa chọn nhà thầu theo quy định tại Luật Đấu thầu?",
           "options": [
@@ -66,11 +71,11 @@ window.STUDY_DATA = {
             "Gói thầu mua sắm điện nước, xăng dầu của cơ quan nhà nước"
           ],
           "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Luật Đấu thầu bắt buộc áp dụng với gói thầu thuộc dự án sử dụng vốn ngân sách nhà nước/vốn nhà nước theo phạm vi luật định. Điểm nhận diện là nguồn vốn và chủ thể sử dụng vốn công; các giao dịch thuần túy tư nhân không mặc nhiên bị buộc theo Luật Đấu thầu."
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Gói thầu thuộc dự án sử dụng vốn ngân sách nhà nước của cơ quan nhà nước. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
           "number": 2,
           "question": "Chọn phương án đúng về phạm vi điều chỉnh của Luật Đấu thầu?",
           "options": [
@@ -80,11 +85,11 @@ window.STUDY_DATA = {
             "Tất cả phương án trên đều đúng"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Phạm vi điều chỉnh của Luật Đấu thầu bao gồm quản lý nhà nước về đấu thầu, hoạt động lựa chọn nhà thầu thực hiện gói thầu và lựa chọn nhà đầu tư thực hiện dự án đầu tư kinh doanh. Vì các ý trong câu đều nằm trong phạm vi này nên đáp án tổng hợp là đúng."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Tất cả phương án trên đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
           "number": 3,
           "question": "Trường hợp nào sau đây không thuộc đối tượng áp dụng của Luật Đấu thầu?",
           "options": [
@@ -94,11 +99,11 @@ window.STUDY_DATA = {
             "Hoạt động mua phần mềm kế toán của hộ kinh doanh cá thể"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Đối tượng áp dụng của Luật Đấu thầu là cơ quan, tổ chức, cá nhân tham gia hoặc có liên quan đến hoạt động đấu thầu thuộc phạm vi luật. Hoạt động mua sắm riêng của hộ kinh doanh cá thể không dùng vốn/không thuộc phạm vi luật nên không phải đối tượng áp dụng."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Hoạt động mua phần mềm kế toán của hộ kinh doanh cá thể. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
           "number": 4,
           "question": "Trường hợp nào sau đây cơ quan, tổ chức, doanh nghiệp được tự quyết định việc lựa chọn nhà thầu trên cơ sở bảo đảm công khai, minh bạch, hiệu quả và trách nhiệm giải trình?",
           "options": [
@@ -108,11 +113,11 @@ window.STUDY_DATA = {
             "Lựa chọn nhà thầu của doanh nghiệp nhà nước không sử dụng vốn ngân sách nhà nước, đơn vị sự nghiệp công lập tự bảo đảm chi thường xuyên và chi đầu tư, đơn vị sự nghiệp công lập tự bảo đảm chi thường xuyên không sử dụng ngân sách nhà nước"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Khi doanh nghiệp nhà nước không sử dụng vốn ngân sách nhà nước và gói thầu không thuộc phạm vi bắt buộc của Luật Đấu thầu, doanh nghiệp có thể tự quyết định việc lựa chọn nhà thầu trên cơ sở bảo đảm công khai, minh bạch, hiệu quả và trách nhiệm giải trình."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Lựa chọn nhà thầu của doanh nghiệp nhà nước không sử dụng vốn ngân sách nhà nước, đơn vị sự nghiệp công lập tự bảo đảm chi thường xuyên và chi đầu tư, đơn vị sự nghiệp công lập tự bảo đảm chi thường xuyên không sử dụng ngân sách nhà nước. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
           "number": 5,
           "question": "Đơn vị sự nghiệp công lập A đã trúng thầu gói thầu tổ chức lớp đào tạo cán bộ cho UBND tỉnh X sử dụng vốn ngân sách địa phương. Đơn vị sự nghiệp công lập A có phải tổ chức lựa chọn nhà thầu theo Luật Đấu thầu để thuê dịch vụ hậu cần (như địa điểm ăn nghỉ, photo tài liệu, hội trường tổ chức) hay không?",
           "options": [
@@ -122,11 +127,11 @@ window.STUDY_DATA = {
             "Căn cứ theo phân cấp quyết định mua sắm của UBND tỉnh X"
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Điều kiện xét duyệt trúng thầu phụ thuộc phương pháp đánh giá đã chọn. Nếu phương pháp dựa trên kỹ thuật/giá cố định thì trọng tâm là điểm kỹ thuật; nếu giá thấp nhất hoặc giá đánh giá thì trọng tâm là giá sau sửa lỗi, hiệu chỉnh và quy đổi. Phương án “Đơn vị A được tự quyết định việc mua sắm trên cơ sở bảo đảm công khai, minh bạch, hiệu quả và trách nhiệm giải trình” đúng với phương pháp được nêu trong đề."
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Đơn vị A được tự quyết định việc mua sắm trên cơ sở bảo đảm công khai, minh bạch, hiệu quả và trách nhiệm giải trình. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
           "number": 6,
           "question": "Sở Y tế tỉnh A được doanh nghiệp trong nước tài trợ 5 tỷ đồng để mua sắm thuốc phục vụ khám chữa bệnh cho người nghèo, hỏi Sở Y tế có phải tổ chức đấu thầu thuốc theo quy định của Luật Đấu thầu không?",
           "options": [
@@ -136,68 +141,12 @@ window.STUDY_DATA = {
             "Phải xin ý kiến của UBND tỉnh A để có cơ sở xác định có phải tổ chức lựa chọn nhà thầu theo Luật Đấu thầu hay không"
           ],
           "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Mua thuốc, thiết bị y tế, hóa chất, vật tư xét nghiệm có quy định riêng vì liên quan đến tính sẵn có, tính chuyên dụng, đăng ký lưu hành và an toàn sử dụng. Khi đề nhắc nhóm hàng y tế, cần ưu tiên quy định chuyên ngành trong Luật/Nghị định thay vì áp máy móc như hàng hóa thông thường."
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Sở Y tế A được tự quyết định việc mua sắm trên cơ sở bảo đảm công khai, minh bạch, hiệu quả và trách nhiệm giải trình trong trường hợp nhà tài trợ yêu cầu không lựa chọn nhà thầu theo quy định của Luật Đấu thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
           "number": 7,
-          "question": "Nội dung nào không thuộc nội dung quản lý nhà nước đối với hoạt động đấu thầu?",
-          "options": [
-            "Quản lý hệ thống thông tin và cơ sở dữ liệu về đấu thầu trên phạm vi cả nước.",
-            "Lập hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu, hồ sơ yêu cầu.",
-            "Đào tạo, bồi dưỡng kiến thức, nghiệp vụ chuyên môn về đấu thầu.",
-            "Hợp tác quốc tế về đấu thầu"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Mua thuốc, thiết bị y tế, hóa chất, vật tư xét nghiệm có quy định riêng vì liên quan đến tính sẵn có, tính chuyên dụng, đăng ký lưu hành và an toàn sử dụng. Khi đề nhắc nhóm hàng y tế, cần ưu tiên quy định chuyên ngành trong Luật/Nghị định thay vì áp máy móc như hàng hóa thông thường."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 8,
-          "question": "Theo quy định pháp luật về đấu thầu, gói thầu nào được xếp vào gói thầu cung cấp dịch vụ tư vấn?",
-          "options": [
-            "Thiết kế và cung cấp hệ thống xử lý nước thải",
-            "Gói thầu lập nhiệm vụ quy hoạch vùng",
-            "Gói thầu quảng cáo trên nền tảng xã hội và phát sóng trên VTV",
-            "Gói thầu mua phần mềm kế toán MISA"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Dịch vụ tư vấn là công việc thiên về chuyên môn trí tuệ như lập quy hoạch, khảo sát, thiết kế, giám sát, thẩm định hoặc tư vấn quản lý. Phương án “Gói thầu lập nhiệm vụ quy hoạch vùng” thuộc nhóm tạo sản phẩm tư vấn/chuyên môn, nên được xếp là gói thầu cung cấp dịch vụ tư vấn."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 9,
-          "question": "Gói thầu nào là gói thầu cung cấp dịch vụ phi tư vấn?",
-          "options": [
-            "Gói thầu in sổ công tác của tỉnh A",
-            "Gói thầu thuê kiểm toán dự án",
-            "Gói thầu mua phần mềm kế toán hỗ trợ doanh nghiệp khởi nghiệp sáng tạo, doanh nghiệp nhỏ do phụ nữ làm chủ",
-            "Gói thầu xây dựng trụ sở làm việc của tỉnh A."
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Dịch vụ phi tư vấn là dịch vụ không tạo sản phẩm tư vấn chuyên môn, ví dụ in ấn, vệ sinh, vận chuyển, bảo trì, tổ chức sự kiện theo yêu cầu sẵn có. Vì “Gói thầu in sổ công tác của tỉnh A” là công việc thực hiện dịch vụ thông dụng nên thuộc nhóm phi tư vấn."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 10,
-          "question": "Theo quy định pháp luật về đấu thầu, đấu thầu là gì?",
-          "options": [
-            "Là quá trình lựa chọn nhà thầu để ký kết, thực hiện hợp đồng cung cấp dịch vụ tư vấn, dịch vụ phi tư vấn, mua sắm hàng hóa, xây lắp trên cơ sở bảo đảm cạnh tranh, công bằng, minh bạch, hiệu quả kinh tế và trách nhiệm giải trình (A)",
-            "Là quá trình lựa chọn nhà đầu tư để ký kết, thực hiện hợp đồng dự án đầu tư kinh doanh trên cơ sở bảo đảm cạnh tranh, công bằng, minh bạch, hiệu quả kinh tế và trách nhiệm giải trình (B)",
-            "Là quá trình lựa chọn đơn vị để thực hiện hợp đồng thông qua các quy trình, thủ tục do pháp luật đấu thầu quy định. (C)",
-            "Phương án A và B đều đúng"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Đấu thầu là quá trình lựa chọn nhà thầu/nhà đầu tư để ký kết và thực hiện hợp đồng trên cơ sở cạnh tranh, công bằng, minh bạch và hiệu quả kinh tế. Nếu câu hỏi đưa cả khía cạnh lựa chọn nhà thầu và nhà đầu tư thì đáp án tổng hợp là đúng."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 11,
           "question": "Đấu thầu quốc tế là gì?",
           "options": [
             "Là hoạt động đấu thầu mà nhà thầu trong nước, nước ngoài được tham dự thầu",
@@ -206,40 +155,12 @@ window.STUDY_DATA = {
             "Là hoạt động đấu thầu chỉ nhà thầu trong nước được phép tham dự thầu"
           ],
           "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Đấu thầu quốc tế chỉ đặt ra khi gói thầu thuộc trường hợp cho phép/mở cửa cho nhà thầu nước ngoài hoặc thuộc cam kết hiệp định. Nhà thầu nước ngoài không mặc nhiên được tham dự mọi gói thầu; phải xét phạm vi điều chỉnh và điều kiện cụ thể của gói thầu."
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Là hoạt động đấu thầu mà nhà thầu trong nước, nước ngoài được tham dự thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 12,
-          "question": "Giá đề nghị trúng thầu là gì?",
-          "options": [
-            "Là giá dự thầu của nhà thầu ghi trong quyết định phê duyệt kết quả lựa chọn nhà thầu.",
-            "Là giá dự thầu của nhà thầu được đề nghị trúng thầu sau khi đã được sửa lỗi, hiệu chỉnh sai lệch theo yêu cầu của hồ sơ mời thầu, hồ sơ yêu cầu, trừ đi giá trị giảm giá (nếu có)",
-            "Là giá dự thầu của nhà thầu chưa tính sửa lỗi, hiệu chỉnh sai lệch và giá trị giảm giá (nếu có)",
-            "Là giá trị ghi trong hợp đồng giữa chủ đầu tư và nhà thầu"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Điều kiện xét duyệt trúng thầu phụ thuộc phương pháp đánh giá đã chọn. Nếu phương pháp dựa trên kỹ thuật/giá cố định thì trọng tâm là điểm kỹ thuật; nếu giá thấp nhất hoặc giá đánh giá thì trọng tâm là giá sau sửa lỗi, hiệu chỉnh và quy đổi. Phương án “Là giá dự thầu của nhà thầu được đề nghị trúng thầu sau khi đã được sửa lỗi, hiệu chỉnh sai lệch theo yêu cầu của hồ sơ mời thầu, hồ sơ yêu cầu, trừ đi giá trị giảm giá (nếu có)” đúng với phương pháp được nêu trong đề."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 13,
-          "question": "Theo quy định pháp luật về đấu thầu, hàng hóa gồm?",
-          "options": [
-            "Máy móc, thiết bị, nguyên liệu, nhiên liệu, vật liệu, vật tư, phụ tùng; sản phẩm; phương tiện; hàng tiêu dùng, phần mềm thương mại (A)",
-            "Thuốc, hóa chất, vật tư xét nghiệm, thiết bị y tế (B)",
-            "Phương án A và B đều đúng (C)",
-            "Logistics, bảo hiểm, quảng cáo, nghiệm thu chạy thử, chụp ảnh vệ tinh"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Hàng hóa trong đấu thầu được hiểu rộng, gồm máy móc, thiết bị, nguyên liệu, nhiên liệu, vật liệu, vật tư, phụ tùng, hàng tiêu dùng, thuốc, hóa chất, vật tư xét nghiệm, thiết bị y tế và sản phẩm liên quan. Nếu các phương án đều nằm trong phạm vi đó thì chọn đáp án tổng hợp."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 14,
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 8,
           "question": "Nhà thầu tham gia đấu thầu gói thầu hàng hóa phải độc lập với chủ thể nào sau đây?",
           "options": [
             "Phải độc lập với nhà thầu tư vấn lập hồ sơ mời thầu gói thầu hàng hóa",
@@ -248,12 +169,12 @@ window.STUDY_DATA = {
             "Phải độc lập với nhà thầu tư vấn lập kế hoạch lựa chọn nhà thầu"
           ],
           "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Phương án “Phải độc lập với nhà thầu tư vấn lập hồ sơ mời thầu gói thầu hàng hóa” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Quy định chung, phạm vi áp dụng, khái niệm”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Phải độc lập với nhà thầu tư vấn lập hồ sơ mời thầu gói thầu hàng hóa. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 15,
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 9,
           "question": "Nhận định nào sau đây không phù hợp với quy định về bảo đảm cạnh tranh trong đấu thầu?",
           "options": [
             "Nhà thầu tham dự thầu phải độc lập với chủ đầu tư, trừ trường hợp: nhà thầu là đơn vị sự nghiệp công lập thuộc cơ quan quản lý nhà nước có chức năng, nhiệm vụ được giao phù hợp với tính chất gói thầu của cơ quan quản lý nhà nước đó; đơn vị sự nghiệp công lập và doanh nghiệp có cùng một cơ quan trực tiếp quản lý, góp vốn; các đơn vị sự nghiệp công lập có cùng một cơ quan trực tiếp quản lý",
@@ -262,12 +183,12 @@ window.STUDY_DATA = {
             "Nhà thầu thực hiện hợp đồng phải độc lập với nhà thầu tư vấn lập kế hoạch lựa chọn nhà thầu."
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Bảo đảm cạnh tranh nhằm tránh tình trạng một bên vừa có khả năng chi phối, vừa tham gia cạnh tranh trong cùng gói thầu. Quan hệ sở hữu, quản lý hoặc quan hệ gia đình gần như anh em ruột trong các vị trí có ảnh hưởng có thể làm phát sinh xung đột lợi ích, nên phải xem xét theo quy định về độc lập và cạnh tranh."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Nhà thầu thực hiện hợp đồng phải độc lập với nhà thầu tư vấn lập kế hoạch lựa chọn nhà thầu.. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 16,
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 10,
           "question": "Nội dung nào sau đây không thuộc quy định về bảo đảm cạnh tranh trong đấu thầu khi nhà thầu tham dự thầu đấu thầu rộng rãi gói thầu EPC, EP, EC?",
           "options": [
             "Nhà thầu tham dự thầu phải độc lập với nhà thầu lập, thẩm tra thiết kế FEED",
@@ -276,12 +197,12 @@ window.STUDY_DATA = {
             "Nhà thầu tham dự thầu phải độc lập với nhà thầu khác cùng tham dự đấu thầu rộng rãi"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Bảo đảm cạnh tranh nhằm tránh tình trạng một bên vừa có khả năng chi phối, vừa tham gia cạnh tranh trong cùng gói thầu. Quan hệ sở hữu, quản lý hoặc quan hệ gia đình gần như anh em ruột trong các vị trí có ảnh hưởng có thể làm phát sinh xung đột lợi ích, nên phải xem xét theo quy định về độc lập và cạnh tranh."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Nhà thầu tham dự thầu phải độc lập với nhà thầu khác cùng tham dự đấu thầu rộng rãi. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 17,
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 11,
           "question": "Trường hợp nào sau đây, nhà thầu được đánh giá là không đáp ứng quy định về bảo đảm cạnh tranh khi tham dự thầu gói thầu tổ chức đấu thầu rộng rãi?",
           "options": [
             "Đơn vị sự nghiệp công lập A thuộc Sở Tài chính tỉnh X tham gia gói thầu do Sở Tài chính tỉnh X là chủ đầu tư mà chức năng, nhiệm vụ của đơn vị sự nghiệp công lập A phù hợp với gói thầu",
@@ -290,12 +211,12 @@ window.STUDY_DATA = {
             "Doanh nghiệp C tham gia gói thầu có sử dụng vốn ngân sách nhà nước do đơn vị sự nghiệp công lập A là chủ đầu tư. Đơn vị sự nghiệp công lập A và Doanh nghiệp C đều là đơn vị do Sở X trực tiếp quản lý"
           ],
           "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Bảo đảm cạnh tranh nhằm tránh tình trạng một bên vừa có khả năng chi phối, vừa tham gia cạnh tranh trong cùng gói thầu. Quan hệ sở hữu, quản lý hoặc quan hệ gia đình gần như anh em ruột trong các vị trí có ảnh hưởng có thể làm phát sinh xung đột lợi ích, nên phải xem xét theo quy định về độc lập và cạnh tranh."
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Đơn vị sự nghiệp công lập A tham gia gói thầu do Chi cục B là chủ đầu tư. Chức năng nhiệm vụ của đơn vị sự nghiệp công lập A phù hợp với tính chất gói thầu. Đơn vị sự nghiệp công lập A và Chi cục B lần lượt là đơn vị sự nghiệp công lập và đơn vị hành chính do Sở Tài Chính tỉnh X trực tiếp quản lý. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 18,
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 12,
           "question": "Ai chịu trách nhiệm đăng tải thông tin chủ yếu của hợp đồng trên Hệ thống mạng đấu thầu quốc gia?",
           "options": [
             "Bên mời thầu",
@@ -304,26 +225,12 @@ window.STUDY_DATA = {
             "Chủ đầu tư"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Phương án “Chủ đầu tư” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Quy định chung, phạm vi áp dụng, khái niệm”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Chủ đầu tư. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 19,
-          "question": "Chủ đầu tư có trách nhiệm đăng tải thông tin chủ yếu của hợp đồng trên Hệ thống đấu thầu qua mạng quốc gia chậm nhất là?",
-          "options": [
-            "05 ngày làm việc kể từ ngày ký kết hợp đồng",
-            "05 ngày làm việc kể từ ngày hợp đồng có hiệu lực",
-            "05 ngày kể từ ngày hợp đồng có hiệu lực",
-            "05 ngày làm việc kể từ ngày nhà thầu nộp bảo đảm thực hiện hợp đồng"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Mốc cần nhớ ở câu này là “05 ngày làm việc kể từ ngày hợp đồng có hiệu lực”. Đây là câu hỏi kiểm tra con số/thời hạn cụ thể trong chủ đề “Quy định chung, phạm vi áp dụng, khái niệm”, vì vậy cách làm là xác định đúng thủ tục hoặc loại gói thầu trước, sau đó mới gắn với mốc tương ứng."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 20,
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 13,
           "question": "Danh sách nhà thầu có hành vi vi phạm và bị đánh giá về uy tín được đăng tải trên Hệ thống mạng đấu thầu quốc gia như thế nào?",
           "options": [
             "Tổ chuyên gia đăng tải trong thời hạn 03 ngày làm việc kể từ ngày nhà thầu có hành vi vi phạm",
@@ -332,12 +239,12 @@ window.STUDY_DATA = {
             "Người có thẩm quyền đăng tải trong thời hạn 05 ngày làm việc kể từ ngày nhà thầu có hành vi vi phạm"
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Mốc cần nhớ ở câu này là “Chủ đầu tư đăng tải trong thời hạn 07 ngày làm việc kể từ ngày nhà thầu có hành vi vi phạm”. Đây là câu hỏi kiểm tra con số/thời hạn cụ thể trong chủ đề “Quy định chung, phạm vi áp dụng, khái niệm”, vì vậy cách làm là xác định đúng thủ tục hoặc loại gói thầu trước, sau đó mới gắn với mốc tương ứng."
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Chủ đầu tư đăng tải trong thời hạn 07 ngày làm việc kể từ ngày nhà thầu có hành vi vi phạm. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 21,
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 14,
           "question": "Phát hành hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu được thực hiện như thế nào?",
           "options": [
             "Hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu được phát hành sau 01 ngày kể từ khi thông báo mời quan tâm, thông báo mời sơ tuyển, thông báo mời thầu được đăng tải thành công trên Hệ thống mạng đấu thầu quốc gia",
@@ -346,12 +253,12 @@ window.STUDY_DATA = {
             "Hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu được phát hành ngay sau khi đăng tải thành công thông báo mời quan tâm, thông báo mời sơ tuyển, thông báo mời thầu"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Mốc cần nhớ ở câu này là “Hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu được phát hành ngay sau khi đăng tải thành công thông báo mời quan tâm, thông báo mời sơ tuyển, thông báo mời thầu”. Đây là câu hỏi kiểm tra con số/thời hạn cụ thể trong chủ đề “Quy định chung, phạm vi áp dụng, khái niệm”, vì vậy cách làm là xác định đúng thủ tục hoặc loại gói thầu trước, sau đó mới gắn với mốc tương ứng."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu được phát hành ngay sau khi đăng tải thành công thông báo mời quan tâm, thông báo mời sơ tuyển, thông báo mời thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 22,
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 15,
           "question": "Nhà thầu có trách nhiệm kê khai thông tin nào trên Hệ thống mạng đấu thầu quốc gia?",
           "options": [
             "Thông tin về uy tín của nhà thầu trong việc tham dự thầu",
@@ -360,12 +267,12 @@ window.STUDY_DATA = {
             "Cả 3 phương án trên đều đúng"
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Phương án “Thông tin về năng lực, kinh nghiệm của nhà thầu” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Quy định chung, phạm vi áp dụng, khái niệm”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Thông tin về năng lực, kinh nghiệm của nhà thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 23,
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 16,
           "question": "Trong trường hợp hủy thầu, toàn bộ hồ sơ liên quan đến quá trình lựa chọn nhà thầu của gói thầu đó có cần phải lưu trữ không?",
           "options": [
             "Không cần lưu trữ, hủy hồ sơ ngay sau khi quyết định hủy thầu được ban hành nhưng phải đảm bảo thông tin không bị tiết lộ",
@@ -374,26 +281,12 @@ window.STUDY_DATA = {
             "Có cần lưu trữ, trong thời hạn 03 năm kể từ ngày quyết định hủy thầu được ban hành"
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Hủy thầu là biện pháp làm chấm dứt quá trình lựa chọn nhà thầu trong các trường hợp luật định như hồ sơ không đáp ứng, thay đổi mục tiêu/phạm vi hoặc có vi phạm nghiêm trọng. Không hủy thầu chỉ vì chủ đầu tư muốn chọn lại khi chưa có căn cứ."
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Có cần lưu trữ, trong thời hạn 05 năm kể từ ngày quyết định hủy thầu được ban hành. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 24,
-          "question": "Trường hợp hồ sơ đề xuất về tài chính của Nhà thầu không vượt qua bước đánh giá về kỹ thuật, Nhà thầu từ chối nhận lại hồ sơ đề xuất của mình thì Chủ đầu tư phải xử lý như thế nào?",
-          "options": [
-            "Chủ đầu tư xem xét, quyết định việc hủy hồ sơ nhưng phải đảm bảo thông tin không bị tiết lộ",
-            "Chủ đầu tư phải lưu trữ theo quy định của pháp luật về lưu trữ",
-            "Chủ đầu tư lưu trữ tối thiểu 05 năm",
-            "Tất cả các phương án trên đều sai"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Phương án “Chủ đầu tư xem xét, quyết định việc hủy hồ sơ nhưng phải đảm bảo thông tin không bị tiết lộ” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Quy định chung, phạm vi áp dụng, khái niệm”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 25,
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 17,
           "question": "Hồ sơ hoàn công và quyết toán của gói thầu được lưu trữ theo quy định nào?",
           "options": [
             "Quy định nội bộ của nhà thầu",
@@ -402,54 +295,12 @@ window.STUDY_DATA = {
             "Tất cả phương án trên đều sai"
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Phương án “Quy định của pháp luật về lưu trữ” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Quy định chung, phạm vi áp dụng, khái niệm”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Quy định của pháp luật về lưu trữ. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 26,
-          "question": "Đối với gói thầu xây lắp đấu thầu không qua mạng, hồ sơ đề xuất tài chính của nhà thầu không được lựa chọn sẽ được trả lại khi nào?",
-          "options": [
-            "Khi gửi thư mời thương thảo",
-            "Khi kết thúc giai đoạn đánh giá kỹ thuật",
-            "Khi hoàn trả bảo đảm dự thầu của nhà thầu không được lựa chọn hoặc đăng tải kết quả lựa chọn nhà thầu",
-            "Khi ký hợp đồng"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Hồ sơ tài chính chỉ được xử lý sau khi nhà thầu đạt yêu cầu kỹ thuật. Phương án “Khi hoàn trả bảo đảm dự thầu của nhà thầu không được lựa chọn hoặc đăng tải kết quả lựa chọn nhà thầu” đúng vì bảo đảm nguyên tắc đánh giá hai bước: đạt kỹ thuật trước, xét tài chính sau."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 27,
-          "question": "Đối với gói thầu cung cấp dịch vụ tư vấn không qua mạng, trường hợp hồ sơ đề xuất về tài chính của nhà thầu không vượt qua bước đánh giá về kỹ thuật sẽ được xử lý như thế nào theo quy định của pháp luật về đấu thầu?",
-          "options": [
-            "Trả lại nguyên trạng cho nhà thầu trong thời hạn 10 ngày kể từ ngày ký hợp đồng với nhà thầu được lựa chọn",
-            "Trả lại nguyên trạng cho nhà thầu trong thời hạn 05 ngày kể từ ngày ký hợp đồng với nhà thầu được lựa chọn",
-            "Trả lại nguyên trạng cho nhà thầu trong thời hạn 15 ngày kể từ ngày ký hợp đồng với nhà thầu được lựa chọn",
-            "Hồ sơ được lưu trữ theo quy định của Pháp luật về lưu trữ"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Dịch vụ tư vấn là công việc thiên về chuyên môn trí tuệ như lập quy hoạch, khảo sát, thiết kế, giám sát, thẩm định hoặc tư vấn quản lý. Phương án “Trả lại nguyên trạng cho nhà thầu trong thời hạn 10 ngày kể từ ngày ký hợp đồng với nhà thầu được lựa chọn” thuộc nhóm tạo sản phẩm tư vấn/chuyên môn, nên được xếp là gói thầu cung cấp dịch vụ tư vấn."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 28,
-          "question": "Việc giữ lại hồ sơ tài chính của nhà thầu không đạt kỹ thuật sau thời hạn quy định sẽ...?",
-          "options": [
-            "Là cơ sở để tiếp tục đánh giá trong trường hợp phải đánh giá lại (A)",
-            "Bảo đảm trách nhiệm của chủ đầu tư theo quy định của pháp luật về đấu thầu (B)",
-            "Có thể dẫn tới khiếu nại từ nhà thầu (C)",
-            "Phương án A và B đều đúng"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Nhà thầu không đạt kỹ thuật thì hồ sơ đề xuất tài chính không được mở/xem xét tiếp, vì đánh giá tài chính chỉ dành cho nhà thầu vượt qua bước kỹ thuật. Việc lưu giữ, hoàn trả hoặc hủy hồ sơ tài chính phải bảo đảm bảo mật và đúng mốc thời gian để tránh khiếu nại."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 29,
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 18,
           "question": "Đối tượng được hưởng ưu đãi trong lựa chọn nhà thầu là gì?",
           "options": [
             "Hàng hóa có xuất xứ Việt Nam",
@@ -458,40 +309,12 @@ window.STUDY_DATA = {
             "Tất cả các phương án trên đều đúng"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Ưu đãi trong đấu thầu không phải là cộng điểm tùy ý; chỉ áp dụng cho đối tượng và cách tính được quy định như hàng hóa trong nước, nhà thầu trong nước hoặc nhóm được hưởng ưu đãi. Khi làm bài, cần xác định trước gói thầu có thuộc diện ưu đãi hay không rồi mới tính đến cách xếp hạng."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Tất cả các phương án trên đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 30,
-          "question": "Nhà thầu trong nước nào được hưởng ưu đãi trong lựa chọn nhà thầu?",
-          "options": [
-            "Nhà thầu trong nước sản xuất hàng hóa có xuất xứ Việt Nam phù hợp với hồ sơ mời thầu",
-            "Nhà thầu trong nước tham dự thầu với tư cách độc lập hoặc liên danh với nhà thầu trong nước khác khi tham dự đấu thầu quốc tế",
-            "Nhà thầu có sử dụng lao động nữ, thương binh, người khuyết tật hoặc người dân tộc thiểu số",
-            "Tất cả các phương án trên đều đúng"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Ưu đãi trong đấu thầu không phải là cộng điểm tùy ý; chỉ áp dụng cho đối tượng và cách tính được quy định như hàng hóa trong nước, nhà thầu trong nước hoặc nhóm được hưởng ưu đãi. Khi làm bài, cần xác định trước gói thầu có thuộc diện ưu đãi hay không rồi mới tính đến cách xếp hạng."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 31,
-          "question": "Có 4 nhà thầu tham dự thầu gói thầu mua sắm hàng hóa áp dụng phương pháp giá thấp nhất, trong đó: - Nhà thầu A, B, D là doanh nghiệp nhỏ và vừa do phụ nữ làm chủ. - Nhà thầu A, B, C và D có giá dự thầu sau sửa lỗi, hiệu chỉnh sai lệch, trừ đi giá trị giảm giá lần lượt là: 95 tỷ đồng, 100 tỷ đồng, 100 tỷ đồng và 105 tỷ đồng. - Nhà thầu A, B, C và D chứng minh được hàng hóa mình tham dự có tỷ lệ chi phí sản xuất trong nước lần lượt là: 20%, 40%, 45% và 60%. Trong trường hợp tất cả nhà thầu đều đáp ứng về kỹ thuật thì nhà thầu nào được xét duyệt trúng thầu?",
-          "options": [
-            "Nhà thầu A được xét duyệt trúng thầu",
-            "Nhà thầu B được xét duyệt trúng thầu",
-            "Nhà thầu C được xét duyệt trúng thầu",
-            "Nhà thầu D được xét duyệt trúng thầu"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Điều kiện xét duyệt trúng thầu phụ thuộc phương pháp đánh giá đã chọn. Nếu phương pháp dựa trên kỹ thuật/giá cố định thì trọng tâm là điểm kỹ thuật; nếu giá thấp nhất hoặc giá đánh giá thì trọng tâm là giá sau sửa lỗi, hiệu chỉnh và quy đổi. Phương án “Nhà thầu B được xét duyệt trúng thầu” đúng với phương pháp được nêu trong đề."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 32,
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 19,
           "question": "Điều kiện để tổ chức đấu thầu quốc tế lựa chọn nhà thầu thực hiện gói thầu mua sắm hàng hóa là gì?",
           "options": [
             "Gói thầu mua sắm hàng hóa thông dụng, đơn giản, có sẵn trên thị trường",
@@ -500,12 +323,12 @@ window.STUDY_DATA = {
             "Gói thầu mua sắm hàng hóa thông dụng đã được nhập khẩu và chào bán tại Việt Nam nhưng hàng hóa đó trong nước không sản xuất được"
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Đấu thầu quốc tế chỉ đặt ra khi gói thầu thuộc trường hợp cho phép/mở cửa cho nhà thầu nước ngoài hoặc thuộc cam kết hiệp định. Nhà thầu nước ngoài không mặc nhiên được tham dự mọi gói thầu; phải xét phạm vi điều chỉnh và điều kiện cụ thể của gói thầu."
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Gói thầu mua sắm hàng hóa mà hàng hóa đó trong nước không sản xuất được hoặc sản xuất được nhưng không đáp ứng một trong các yêu cầu về kỹ thuật, chất lượng, giá. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 33,
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 20,
           "question": "Ngôn ngữ sử dụng đối với đấu thầu quốc tế là gì?",
           "options": [
             "Tiếng Việt",
@@ -514,12 +337,12 @@ window.STUDY_DATA = {
             "Tiếng Đức hoặc tiếng Anh"
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Đấu thầu quốc tế chỉ đặt ra khi gói thầu thuộc trường hợp cho phép/mở cửa cho nhà thầu nước ngoài hoặc thuộc cam kết hiệp định. Nhà thầu nước ngoài không mặc nhiên được tham dự mọi gói thầu; phải xét phạm vi điều chỉnh và điều kiện cụ thể của gói thầu."
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Tiếng Anh hoặc tiếng Việt và tiếng Anh. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 34,
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 21,
           "question": "Đối với đấu thầu quốc tế, trường hợp ngôn ngữ sử dụng trong hồ sơ mời thầu là tiếng Việt và tiếng Anh thì khi tham dự thầu, nhà thầu sử dụng ngôn ngữ gì?",
           "options": [
             "Chỉ tiếng Việt",
@@ -528,54 +351,12 @@ window.STUDY_DATA = {
             "Bắt buộc cả tiếng Việt và tiếng Anh"
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Đấu thầu quốc tế chỉ đặt ra khi gói thầu thuộc trường hợp cho phép/mở cửa cho nhà thầu nước ngoài hoặc thuộc cam kết hiệp định. Nhà thầu nước ngoài không mặc nhiên được tham dự mọi gói thầu; phải xét phạm vi điều chỉnh và điều kiện cụ thể của gói thầu."
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Tiếng Việt hoặc tiếng Anh. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 35,
-          "question": "Đối với đấu thầu quốc tế, hồ sơ mời thầu được phát hành như thế nào?",
-          "options": [
-            "HSMT được phát hành trên Hệ thống mạng đấu thầu quốc gia; Nhà thầu nộp tiền mua bản điện tử hồ sơ mời thầu khi nộp hồ sơ dự thầu (A)",
-            "HSMT được bán vào giờ hành chính từ thứ 2 tới thứ 6 tại địa chỉ do Chủ đầu tư quy định (B)",
-            "Phương án A và B đều đúng",
-            "Phương án A và B đều sai"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Đấu thầu quốc tế chỉ đặt ra khi gói thầu thuộc trường hợp cho phép/mở cửa cho nhà thầu nước ngoài hoặc thuộc cam kết hiệp định. Nhà thầu nước ngoài không mặc nhiên được tham dự mọi gói thầu; phải xét phạm vi điều chỉnh và điều kiện cụ thể của gói thầu."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 36,
-          "question": "Đối với gói thầu sử dụng vốn ngân sách nhà nước, tiền bán bản điện tử hồ sơ mời thầu, hồ sơ yêu cầu sẽ được xử lý như thế nào?",
-          "options": [
-            "Sử dụng theo quy chế tài chính của chủ đầu tư",
-            "Nộp vào ngân sách nhà nước theo quy định của Luật Ngân sách nhà nước",
-            "Sử dụng theo cơ chế khoán chi",
-            "Tất cả các đáp án trên đều sai"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Phương án “Nộp vào ngân sách nhà nước theo quy định của Luật Ngân sách nhà nước” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Quy định chung, phạm vi áp dụng, khái niệm”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 37,
-          "question": "Chi phí đăng tải quyết định phê duyệt kế hoạch lựa chọn nhà thầu và quyết định phê duyệt kết quả lựa chọn nhà thầu lên Hệ thống mạng đấu thầu quốc gia đối với gói thầu chỉ định thầu là bao nhiêu?",
-          "options": [
-            "000 đồng/1 gói thầu (đã bao gồm thuế giá trị gia tăng)",
-            "000 đồng/1 gói thầu (đã bao gồm thuế giá trị gia tăng)",
-            "Miễn phí",
-            "000 đồng/1 gói thầu (đã bao gồm thuế giá trị gia tăng)"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Phương án “Miễn phí” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Quy định chung, phạm vi áp dụng, khái niệm”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 38,
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 22,
           "question": "Trong quá trình đánh giá hồ sơ dự thầu gói thầu áp dụng đấu thầu rộng rãi, chủ đầu tư phát hiện người đại diện theo pháp luật của 02 nhà thầu là anh em ruột được xem xét như thế nào?",
           "options": [
             "Thuộc hành vi bị cấm trong đấu thầu",
@@ -584,96 +365,12 @@ window.STUDY_DATA = {
             "Không thuộc hành vi bị cấm, không vi phạm quy định về bảo đảm cạnh tranh trong đấu thầu"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Bảo đảm cạnh tranh nhằm tránh tình trạng một bên vừa có khả năng chi phối, vừa tham gia cạnh tranh trong cùng gói thầu. Quan hệ sở hữu, quản lý hoặc quan hệ gia đình gần như anh em ruột trong các vị trí có ảnh hưởng có thể làm phát sinh xung đột lợi ích, nên phải xem xét theo quy định về độc lập và cạnh tranh."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Không thuộc hành vi bị cấm, không vi phạm quy định về bảo đảm cạnh tranh trong đấu thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 39,
-          "question": "Đình chỉ cuộc thầu được thực hiện trong thời gian nào?",
-          "options": [
-            "Từ ngày phát hành hồ sơ mời sơ tuyển, hồ sơ mời quan tâm, hồ sơ mời thầu, hồ sơ yêu cầu đến trước khi ký kết hợp đồng, thỏa thuận khung đối với mua sắm tập trung",
-            "Trong quá trình tổ chức lựa chọn nhà thầu cho đến trước khi phê duyệt kết quả lựa chọn nhà thầu",
-            "Sau khi phê duyệt kết quả lựa chọn nhà thầu đến khi ký kết hợp đồng, thỏa thuận khung đối với mua sắm tập trung",
-            "Trong quá trình thực hiện hợp đồng"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Đình chỉ cuộc thầu hoặc đình chỉ hoạt động của nhà thầu là biện pháp ngăn hậu quả tiếp tục xảy ra khi có dấu hiệu vi phạm nghiêm trọng. Cần phân biệt đình chỉ tạm thời với cấm tham gia đấu thầu là chế tài có thời hạn."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 40,
-          "question": "Biện pháp nào sau đây được thực hiện trong quá trình thực hiện hợp đồng?",
-          "options": [
-            "Hủy thầu (A)",
-            "Đình chỉ cuộc thầu (B)",
-            "Không công nhận kết quả lựa chọn nhà thầu (C)",
-            "Phương án A và B đều đúng"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Phương án “Không công nhận kết quả lựa chọn nhà thầu” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Quy định chung, phạm vi áp dụng, khái niệm”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 41,
-          "question": "Thành viên tổ chuyên gia cần có tối thiểu bao nhiêu năm kinh nghiệm trong lĩnh vực liên quan?",
-          "options": [
-            "01 năm công tác thuộc một trong các lĩnh vực liên quan đến nội dung pháp lý, kỹ thuật, tài chính của gói thầu",
-            "02 năm công tác thuộc một trong các lĩnh vực liên quan đến nội dung pháp lý, kỹ thuật, tài chính của gói thầu",
-            "03 năm công tác thuộc một trong các lĩnh vực liên quan đến nội dung pháp lý, kỹ thuật, tài chính của gói thầu",
-            "Không có quy định về số năm kinh nghiệm"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Mốc cần nhớ ở câu này là “03 năm công tác thuộc một trong các lĩnh vực liên quan đến nội dung pháp lý, kỹ thuật, tài chính của gói thầu”. Đây là câu hỏi kiểm tra con số/thời hạn cụ thể trong chủ đề “Quy định chung, phạm vi áp dụng, khái niệm”, vì vậy cách làm là xác định đúng thủ tục hoặc loại gói thầu trước, sau đó mới gắn với mốc tương ứng."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 42,
-          "question": "Trường hợp thuê đơn vị tư vấn lập hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu, hồ sơ yêu cầu; đánh giá hồ sơ quan tâm, hồ sơ dự sơ tuyển, hồ sơ dự thầu, hồ sơ đề xuất, tổ chuyên gia được thành lập bởi?",
-          "options": [
-            "Người có thẩm quyền",
-            "Chủ đầu tư",
-            "Bên mời thầu",
-            "Đơn vị tư vấn được chủ đầu tư lựa chọn"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Phương án “Đơn vị tư vấn được chủ đầu tư lựa chọn” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Quy định chung, phạm vi áp dụng, khái niệm”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 43,
-          "question": "Nhiệm vụ nào sau đây không thuộc trách nhiệm của người có thẩm quyền?",
-          "options": [
-            "Phê duyệt kế hoạch lựa chọn nhà thầu",
-            "Giải quyết kiến nghị và xử lý các vi phạm pháp luật về đấu thầu",
-            "Quyết định việc hủy thầu khi thay đổi mục tiêu đầu tư trong quyết định đầu tư",
-            "Quyết định việc hủy thầu, đình chỉ cuộc đấu thầu, không công nhận kết quả lựa chọn nhà thầu khi phát hiện có hành vi vi phạm pháp luật về đấu thầu"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Mua thuốc, thiết bị y tế, hóa chất, vật tư xét nghiệm có quy định riêng vì liên quan đến tính sẵn có, tính chuyên dụng, đăng ký lưu hành và an toàn sử dụng. Khi đề nhắc nhóm hàng y tế, cần ưu tiên quy định chuyên ngành trong Luật/Nghị định thay vì áp máy móc như hàng hóa thông thường."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 44,
-          "question": "Thời hiệu áp dụng biện pháp cấm tham gia hoạt động đấu thầu là bao lâu?",
-          "options": [
-            "10 năm tính từ ngày xảy ra hành vi vi phạm",
-            "10 năm tính từ ngày phát hiện ra hành vi vi phạm",
-            "05 năm tính từ ngày phát hiện ra hành vi vi phạm",
-            "05 năm tính từ ngày xảy ra hành vi vi phạm"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Cấm tham gia hoạt động đấu thầu là chế tài áp dụng khi nhà thầu hoặc cá nhân có hành vi vi phạm nghiêm trọng. Khi làm câu hỏi loại này, phải xác định đúng hành vi trước rồi mới chọn thời hạn: gian lận thường nặng hơn cản trở, còn vi phạm quy trình/tư vấn sai vai trò có mức xử lý riêng."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 45,
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 23,
           "question": "Chủ thể nào không có quyền cấm tham gia hoạt động đấu thầu?",
           "options": [
             "Người có thẩm quyền",
@@ -682,12 +379,12 @@ window.STUDY_DATA = {
             "Chủ tịch Ủy ban nhân dân cấp tỉnh"
           ],
           "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Cấm tham gia hoạt động đấu thầu là chế tài áp dụng khi nhà thầu hoặc cá nhân có hành vi vi phạm nghiêm trọng. Khi làm câu hỏi loại này, phải xác định đúng hành vi trước rồi mới chọn thời hạn: gian lận thường nặng hơn cản trở, còn vi phạm quy trình/tư vấn sai vai trò có mức xử lý riêng."
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Chủ đầu tư. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 46,
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 24,
           "question": "Người có thẩm quyền ban hành quyết định cấm tham gia hoạt động đấu thầu với thời gian cấm bao lâu đối với trường hợp tổ chức, cá nhân có từ 02 hành vi vi phạm trở lên thuộc cùng phạm vi quản lý của người có thẩm quyền và các hành vi này chưa bị cấm tham gia hoạt động đấu thầu?",
           "options": [
             "Bằng tổng thời gian cấm của các hành vi vi phạm nhưng tối thiểu trên 05 năm",
@@ -696,96 +393,12 @@ window.STUDY_DATA = {
             "Bằng thời gian cấm của hành vi vi phạm có thời gian bị cấm cao nhất"
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Mua thuốc, thiết bị y tế, hóa chất, vật tư xét nghiệm có quy định riêng vì liên quan đến tính sẵn có, tính chuyên dụng, đăng ký lưu hành và an toàn sử dụng. Khi đề nhắc nhóm hàng y tế, cần ưu tiên quy định chuyên ngành trong Luật/Nghị định thay vì áp máy móc như hàng hóa thông thường."
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Bằng tổng thời gian cấm của các hành vi vi phạm nhưng tối đa không quá 05 năm. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 47,
-          "question": "Hành vi gian lận trong hoạt động đấu thầu sẽ bị cấm tham gia hoạt động đấu thầu trong thời gian bao lâu?",
-          "options": [
-            "Từ 06 tháng đến 01 năm",
-            "02 năm",
-            "Từ 01 năm đến 02 năm",
-            "Từ 03 năm đến 05 năm"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Gian lận là hành vi cố ý làm sai lệch thông tin, hồ sơ hoặc kết quả lựa chọn nhà thầu. Đây là nhóm vi phạm nặng vì đánh trực tiếp vào tính trung thực của cuộc thầu; tài liệu ôn tập gắn với chế tài cấm tham gia đấu thầu có thời hạn, thường phải nhớ mốc 03 đến 05 năm tùy hành vi."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 48,
-          "question": "Hành vi cản trở trong hoạt động đấu thầu sẽ bị cấm tham gia hoạt động đấu thầu trong thời gian bao lâu?",
-          "options": [
-            "06 tháng",
-            "Từ 06 tháng đến dưới 1 năm",
-            "Từ 01 năm đến 03 năm",
-            "05 năm"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Cản trở trong đấu thầu là hành vi gây khó khăn, can thiệp trái phép hoặc làm ảnh hưởng đến việc tham gia/đánh giá/giám sát đấu thầu. Logic chế tài là bảo vệ tính cạnh tranh và minh bạch; tài liệu ôn tập gắn nhóm này với thời hạn cấm tham gia đấu thầu thấp hơn nhóm gian lận."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 49,
-          "question": "Hủy thầu được thực hiện trong thời gian nào?",
-          "options": [
-            "Từ ngày có thời điểm đóng thầu đến khi có kết quả lựa chọn nhà thầu",
-            "Từ ngày phát hành hồ sơ mời sơ tuyển, hồ sơ mời quan tâm, hồ sơ mời thầu, hồ sơ yêu cầu đến trước khi ký kết hợp đồng, thỏa thuận khung đối với mua sắm tập trung",
-            "Từ ngày có thời điểm đóng thầu đến khi ký kết hợp đồng, thỏa thuận khung đối với mua sắm tập trung",
-            "Từ ngày phát hành hồ sơ mời sơ tuyển, hồ sơ mời quan tâm, hồ sơ mời thầu, hồ sơ yêu cầu kể cả sau khi đã ký hợp đồng"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Hủy thầu là biện pháp làm chấm dứt quá trình lựa chọn nhà thầu trong các trường hợp luật định như hồ sơ không đáp ứng, thay đổi mục tiêu/phạm vi hoặc có vi phạm nghiêm trọng. Không hủy thầu chỉ vì chủ đầu tư muốn chọn lại khi chưa có căn cứ."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 50,
-          "question": "Thẩm quyền phê duyệt kế hoạch tổng thể lựa chọn nhà thầu thuộc chủ thể nào?",
-          "options": [
-            "Người có thẩm quyền",
-            "Chủ đầu tư (trường hợp xác định được chủ đầu tư)",
-            "Người đứng đầu cơ quan được giao chuẩn bị dự án",
-            "Bên mời thầu"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Mua thuốc, thiết bị y tế, hóa chất, vật tư xét nghiệm có quy định riêng vì liên quan đến tính sẵn có, tính chuyên dụng, đăng ký lưu hành và an toàn sử dụng. Khi đề nhắc nhóm hàng y tế, cần ưu tiên quy định chuyên ngành trong Luật/Nghị định thay vì áp máy móc như hàng hóa thông thường."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 51,
-          "question": "Trường hợp nào sau đây việc phê duyệt kế hoạch lựa chọn nhà thầu thuộc trách nhiệm của chủ đầu tư?",
-          "options": [
-            "Chủ đầu tư không có trách nhiệm phê duyệt kế hoạch lựa chọn nhà thầu",
-            "Chủ đầu tư có trách nhiệm phê duyệt kế hoạch lựa chọn nhà thầu, trừ trường hợp chưa xác định được chủ đầu tư theo quy định của pháp luật",
-            "Trường hợp gói thầu được thực hiện trước khi có quyết định phê duyệt dự án và chưa xác định được chủ đầu tư",
-            "Chủ đầu tư chỉ được phê duyệt kế hoạch lựa chọn nhà thầu trong trường hợp được người có thẩm quyền ủy quyền"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Mua thuốc, thiết bị y tế, hóa chất, vật tư xét nghiệm có quy định riêng vì liên quan đến tính sẵn có, tính chuyên dụng, đăng ký lưu hành và an toàn sử dụng. Khi đề nhắc nhóm hàng y tế, cần ưu tiên quy định chuyên ngành trong Luật/Nghị định thay vì áp máy móc như hàng hóa thông thường."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 52,
-          "question": "Nhà thầu tư vấn giám sát đồng thời thực hiện tư vấn kiểm định đối với gói thầu do nhà thầu đó giám sát thì nhà thầu đó sẽ bị xử lý như thế nào?",
-          "options": [
-            "Bị cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm và khi tham dự thầu phải thực hiện biện pháp bảo đảm dự thầu với giá trị gấp 03 lần giá trị yêu cầu trong thời hạn 02 năm",
-            "Khi tham dự thầu phải thực hiện biện pháp bảo đảm dự thầu với giá trị gấp 03 lần giá trị yêu cầu trong thời hạn 02 năm",
-            "Bị cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm",
-            "Không bị xử lý vi phạm"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Mốc cần nhớ ở câu này là “Bị cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm”. Đây là câu hỏi kiểm tra con số/thời hạn cụ thể trong chủ đề “Quy định chung, phạm vi áp dụng, khái niệm”, vì vậy cách làm là xác định đúng thủ tục hoặc loại gói thầu trước, sau đó mới gắn với mốc tương ứng."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 53,
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 25,
           "question": "Tham gia lập, đồng thời tham gia thẩm định hồ sơ mời thầu đối với cùng một gói thầu sẽ bị cấm tham gia hoạt động đấu thầu trong thời gian bao lâu?",
           "options": [
             "02 năm",
@@ -794,12 +407,12 @@ window.STUDY_DATA = {
             "Từ 06 tháng đến 01 năm"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Cấm tham gia hoạt động đấu thầu là chế tài áp dụng khi nhà thầu hoặc cá nhân có hành vi vi phạm nghiêm trọng. Khi làm câu hỏi loại này, phải xác định đúng hành vi trước rồi mới chọn thời hạn: gian lận thường nặng hơn cản trở, còn vi phạm quy trình/tư vấn sai vai trò có mức xử lý riêng."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Từ 06 tháng đến 01 năm. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 54,
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 26,
           "question": "Nhà thầu liên danh A-B gồm 2 thành viên là nhà thầu A và nhà thầu B. Nhà thầu A làm giả thông tin, hồ sơ, tài liệu về hợp đồng tương tự của mình để tham dự thầu sẽ bị xử lý như thế nào?",
           "options": [
             "Thành viên liên danh A bị cấm tham gia hoạt động đấu thầu từ 03 năm đến 05 năm",
@@ -808,12 +421,12 @@ window.STUDY_DATA = {
             "Tất cả thành viên trong liên danh A-B bị cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm"
           ],
           "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Hợp đồng tương tự dùng để chứng minh nhà thầu đã từng thực hiện công việc có bản chất, quy mô và mức độ phức tạp gần với gói thầu đang xét. Nếu hợp đồng kê khai không đạt, nhà thầu chỉ có thể được làm rõ/bổ sung trong phạm vi quy định, không được biến một kinh nghiệm không tương tự thành tương tự."
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Thành viên liên danh A bị cấm tham gia hoạt động đấu thầu từ 03 năm đến 05 năm. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 55,
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 27,
           "question": "Nhà thầu liên danh A-B gồm 2 thành viên là nhà thầu A và nhà thầu B. Nhà thầu A dàn xếp, thỏa thuận với các bên rút hồ sơ dự thầu để liên danh A-B trúng thầu sẽ bị xử lý như thế nào?",
           "options": [
             "Thành viên liên danh A bị cấm tham gia hoạt động đấu thầu từ 03 năm đến 05 năm",
@@ -822,12 +435,12 @@ window.STUDY_DATA = {
             "Tất cả thành viên trong liên danh A-B bị cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm"
           ],
           "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Với nhà thầu liên danh, trách nhiệm và năng lực được xem xét theo phần việc mà từng thành viên đảm nhận và theo cam kết liên danh. Nếu một thành viên vi phạm hoặc không còn năng lực, hệ quả pháp lý thường gắn với thành viên đó và phần việc liên quan, đồng thời phải bảo đảm liên danh còn khả năng thực hiện hợp đồng."
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Tất cả thành viên trong liên danh A-B bị cấm tham gia hoạt động đấu thầu từ 03 năm đến 05 năm. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 56,
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 28,
           "question": "Thành viên A trong nhà thầu liên danh A-B thực hiện hành vi \"làm giả hoặc làm sai lệch thông tin, hồ sơ, tài liệu trong đấu thầu\" thì việc cấm tham gia hoạt động đấu thầu được xử lý như thế nào?",
           "options": [
             "Cấm tham gia hoạt động đấu thầu từ 03 năm đến 05 năm đối với thành viên A",
@@ -836,40 +449,12 @@ window.STUDY_DATA = {
             "Cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm đối với tất cả thành viên trong nhà thầu liên danh A-B"
           ],
           "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Với nhà thầu liên danh, trách nhiệm và năng lực được xem xét theo phần việc mà từng thành viên đảm nhận và theo cam kết liên danh. Nếu một thành viên vi phạm hoặc không còn năng lực, hệ quả pháp lý thường gắn với thành viên đó và phần việc liên quan, đồng thời phải bảo đảm liên danh còn khả năng thực hiện hợp đồng."
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Cấm tham gia hoạt động đấu thầu từ 03 năm đến 05 năm đối với thành viên A. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 57,
-          "question": "Nhà thầu liên danh A-B tham dự thầu và nộp bảo đảm dự thầu riêng rẽ, trong quá trình đánh giá hồ sơ dự thầu tổ chuyên gia có bằng chứng cho thấy nhà thầu A có hành vi gian lận, thuộc hành vi bị cấm trong đấu thầu, trong trường hợp này bảo đảm dự thầu của nhà thầu liên danh xử lý như thế nào?",
-          "options": [
-            "Không hoàn trả bảo đảm dự thầu của cả nhà thầu liên danh A-B",
-            "Không hoàn trả bảo đảm dự thầu của nhà thầu A",
-            "Không hoàn trả bảo đảm dự thầu của nhà thầu B",
-            "Nhà thầu A và nhà thầu B vẫn được hoàn trả bảo đảm dự thầu"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Với nhà thầu liên danh, trách nhiệm và năng lực được xem xét theo phần việc mà từng thành viên đảm nhận và theo cam kết liên danh. Nếu một thành viên vi phạm hoặc không còn năng lực, hệ quả pháp lý thường gắn với thành viên đó và phần việc liên quan, đồng thời phải bảo đảm liên danh còn khả năng thực hiện hợp đồng."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 58,
-          "question": "Trường hợp nào sau đây Công ty B khi tham dự gói thầu xây lắp X thuộc Dự án Y được kết luận là đáp ứng về bảo đảm cạnh tranh trong đấu thầu?",
-          "options": [
-            "Công ty B sử dụng nhà thầu phụ là công ty A, công ty A là nhà thầu tư vấn lập Chương V yêu cầu kỹ thuật cho E-HSMT của gói thầu xây lắp X",
-            "Công ty B tham dự gói thầu xây lắp X đồng thời là nhà thầu tư vấn lập Chương V yêu cầu kỹ thuật của E-HSMT của gói thầu xây lắp X.",
-            "Công ty B sử dụng nhà thầu phụ là công ty tư vấn C, công ty tư vấn C sở hữu 30% cổ phần của công ty A và công ty A là nhà thầu tư vấn thiết kế kỹ thuật cho dự án Y",
-            "Công ty A là nhà thầu tư vấn lập hồ sơ mời thầu gói thầu xây lắp X có sở hữu 30% vốn góp của Công ty B"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Bảo đảm cạnh tranh nhằm tránh tình trạng một bên vừa có khả năng chi phối, vừa tham gia cạnh tranh trong cùng gói thầu. Quan hệ sở hữu, quản lý hoặc quan hệ gia đình gần như anh em ruột trong các vị trí có ảnh hưởng có thể làm phát sinh xung đột lợi ích, nên phải xem xét theo quy định về độc lập và cạnh tranh."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 59,
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 29,
           "question": "Đối với gói thầu đấu thầu trước, nhà thầu có phải thực hiện biện pháp bảo đảm dự thầu không?",
           "options": [
             "Không phải thực hiện nhưng phải có cam kết trong đơn dự thầu",
@@ -878,40 +463,12 @@ window.STUDY_DATA = {
             "Chỉ phải thực hiện đối với gói thầu có giá trị bảo đảm dự thầu trên 50 triệu đồng"
           ],
           "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Đấu thầu trước là việc thực hiện trước một số thủ tục lựa chọn nhà thầu trước khi dự án hoặc dự toán được phê duyệt đầy đủ theo điều kiện luật định. Mục tiêu là rút ngắn tiến độ, nhưng vẫn không được ký hợp đồng khi chưa đủ căn cứ bố trí vốn/phê duyệt theo quy định."
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Không phải thực hiện nhưng phải có cam kết trong đơn dự thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 60,
-          "question": "Chọn phương án đúng đối với nhà thầu phụ đặc biệt?",
-          "options": [
-            "Đối với đấu thầu trong nước, khi tham gia gói thầu của dự án thuộc lĩnh vực khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số thì nhà thầu trong nước được sử dụng nhà thầu phụ đặc biệt là nhà thầu nước ngoài đối với phần công việc đặc thù mà nhà thầu trong nước chưa thực hiện được hoặc cần chuyển giao công nghệ (A)",
-            "Trong mọi trường hợp, đối với đấu thầu trong nước, nhà thầu không được phép sử dụng nhà thầu phụ đặc biệt là nhà thầu nước ngoài (B)",
-            "Giá trị công việc tối đa dành cho nhà thầu phụ trong hợp đồng phải bao gồm khối lượng công việc dành cho nhà thầu phụ đặc biệt (C)",
-            "Phương án A và C đều đúng"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Phương án “Đối với đấu thầu trong nước, khi tham gia gói thầu của dự án thuộc lĩnh vực khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số thì nhà thầu trong nước được sử dụng nhà thầu phụ đặc biệt là nhà thầu nước ngoài đối với phần công việc đặc thù mà nhà thầu trong nước chưa thực hiện được hoặc cần chuyển giao công nghệ” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Quy định chung, phạm vi áp dụng, khái niệm”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 61,
-          "question": "Trường hợp gói thầu có giá gói thầu dưới 500 triệu đồng đối với dự toán mua sắm thì chủ đầu tư được quyết định cho phép nhà thầu nào sau đây được tham dự thầu?",
-          "options": [
-            "Nhà thầu có từ 50% lao động trở lên là người khuyết tật, thương binh, dân tộc thiểu số có hợp đồng lao động với thời gian thực hiện hợp đồng từ 03 tháng trở lên và đến thời điểm đóng thầu hợp đồng vẫn còn hiệu lực",
-            "Nhà thầu có từ 25% lao động trở lên là người khuyết tật, thương binh, dân tộc thiểu số có hợp đồng lao động với thời gian thực hiện hợp đồng từ 03 tháng trở lên và đến thời điểm đóng thầu hợp đồng vẫn còn hiệu lực",
-            "Nhà thầu có từ 50% lao động trở lên là người khuyết tật, thương binh, dân tộc thiểu số có hợp đồng lao động với thời gian thực hiện hợp đồng dưới 03 tháng và đến thời điểm đóng thầu hợp đồng vẫn còn hiệu lực",
-            "Nhà thầu có từ 25% lao động trở lên là người khuyết tật, thương binh, dân tộc thiểu số có hợp đồng lao động với thời gian thực hiện hợp đồng dưới 03 tháng và đến thời điểm đóng thầu hợp đồng vẫn còn hiệu lực"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Mốc cần nhớ ở câu này là “Nhà thầu có từ 50% lao động trở lên là người khuyết tật, thương binh, dân tộc thiểu số có hợp đồng lao động với thời gian thực hiện hợp đồng từ 03 tháng trở lên và đến thời điểm đóng thầu hợp đồng vẫn còn hiệu lực”. Đây là câu hỏi kiểm tra con số/thời hạn cụ thể trong chủ đề “Quy định chung, phạm vi áp dụng, khái niệm”, vì vậy cách làm là xác định đúng thủ tục hoặc loại gói thầu trước, sau đó mới gắn với mốc tương ứng."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 62,
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 30,
           "question": "Trường hợp nào sau đây nhà thầu bị coi là không đáp ứng tư cách hợp lệ khi tham dự thầu theo quy định tại khoản 1 Điều 5 của Luật Đấu thầu?",
           "options": [
             "Nhà thầu A sử dụng tài khoản tham gia Hệ thống của chi nhánh B để tham dự thầu (A)",
@@ -920,12 +477,12 @@ window.STUDY_DATA = {
             "Đáp án A và C là đúng"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Tư cách hợp lệ là điều kiện “được quyền đứng trong cuộc thầu”: nhà thầu phải tồn tại hợp pháp, hạch toán độc lập khi cần, không đang bị cấm thầu/giải thể/phá sản và đáp ứng yêu cầu trên Hệ thống. Vì phương án “Đáp án A và C là đúng” phản ánh đúng điều kiện hợp lệ nên được chọn."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Đáp án A và C là đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 63,
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 31,
           "question": "Chủ thể nào sau đây được gia hạn thời điểm đóng thầu trên Hệ thống mạng đấu thầu quốc gia?",
           "options": [
             "Người có thẩm quyền",
@@ -934,12 +491,12 @@ window.STUDY_DATA = {
             "Tư vấn đấu thầu"
           ],
           "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Gia hạn thời điểm đóng thầu trên Hệ thống thuộc trách nhiệm/thẩm quyền thao tác của chủ đầu tư theo quy trình qua mạng. Việc gia hạn phải được công khai trên Hệ thống để toàn bộ nhà thầu biết cùng thời điểm."
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Chủ đầu tư. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (1.1-Quy định chung) - Luật Đấu thầu",
-          "number": 64,
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 32,
           "question": "Thời gian có hiệu lực thi hành của Luật số 90/2025/QH15?",
           "options": [
             "Từ ngày 01 tháng 7 năm 2025",
@@ -948,1216 +505,129 @@ window.STUDY_DATA = {
             "Tất cả các đáp án trên đều sai"
           ],
           "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Mốc cần nhớ ở câu này là “Từ ngày 01 tháng 7 năm 2025”. Đây là câu hỏi kiểm tra con số/thời hạn cụ thể trong chủ đề “Quy định chung, phạm vi áp dụng, khái niệm”, vì vậy cách làm là xác định đúng thủ tục hoặc loại gói thầu trước, sau đó mới gắn với mốc tương ứng."
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Từ ngày 01 tháng 7 năm 2025. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 44,
-          "question": "Đối với đấu thầu quốc tế, hồ sơ mời thầu phải quy định sử dụng lao động trong nước trong trường hợp nào?",
-          "options": [
-            "Những vị trí công việc mà lao động trong nước đáp ứng được và có khả năng cung cấp (A)",
-            "Những vị trí công việc mà lao động trong nước không đáp ứng được nhưng cần tạo điều kiện để tiếp nhận công nghệ từ nước ngoài được chuyển giao (B)",
-            "Lao động phổ thông (C)",
-            "Phương án A và C đều đúng"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Đấu thầu quốc tế chỉ đặt ra khi gói thầu thuộc trường hợp cho phép/mở cửa cho nhà thầu nước ngoài hoặc thuộc cam kết hiệp định. Nhà thầu nước ngoài không mặc nhiên được tham dự mọi gói thầu; phải xét phạm vi điều chỉnh và điều kiện cụ thể của gói thầu."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 21,
-          "question": "Nhà thầu có được tham dự thầu với tư cách nhà thầu liên danh trong trường hợp phạm vi công việc của gói thầu mua sắm hàng hóa chỉ gồm 01 hạng mục là hệ thống máy chủ không?",
-          "options": [
-            "Được liên danh nếu nhà thầu phân chia công việc trong liên danh theo các công việc thuộc quá trình sản xuất hạng mục trong bảng giá dự thầu",
-            "Không được liên danh, nhà thầu chỉ được tham dự với tư cách độc lập do phạm vi công việc chỉ gồm 01 hạng mục",
-            "Được liên danh trong trường hợp 01 thành viên thực hiện toàn bộ hạng mục hệ thống máy chủ, thành viên còn lại thực hiện thu xếp tài chính cho gói thầu",
-            "Tùy thuộc vào quy định của hồ sơ mời thầu"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Hàng hóa trong đấu thầu được hiểu rộng, gồm máy móc, thiết bị, nguyên liệu, nhiên liệu, vật liệu, vật tư, phụ tùng, hàng tiêu dùng, thuốc, hóa chất, vật tư xét nghiệm, thiết bị y tế và sản phẩm liên quan. Nếu các phương án đều nằm trong phạm vi đó thì chọn đáp án tổng hợp."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (7.1 - HĐ)-N",
-          "number": 15,
-          "question": "Loại hợp đồng nào được áp dụng khi tại thời điểm lựa chọn nhà thầu chưa đủ cơ sở xác định phạm vi công việc, nhu cầu cần thiết về các yếu tố, chi phí đầu vào để thực hiện các công việc dự kiến của hợp đồng?",
-          "options": [
-            "Hợp đồng trọn gói",
-            "Hợp đồng theo chi phí cộng phí",
-            "Hợp đồng theo đơn giá cố định",
-            "Hợp đồng theo kết quả đầu ra"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Phương án “Hợp đồng theo chi phí cộng phí” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Quy định chung, phạm vi áp dụng, khái niệm”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
-          "number": 17,
-          "question": "Trường hợp nào dưới đây, chủ đầu tư và nhà thầu liên danh được thỏa thuận điều chỉnh phạm vi công việc giữa các thành viên liên danh?",
-          "options": [
-            "Khi một thành viên liên danh không muốn tiếp tục thực hiện phần việc đã cam kết",
-            "Khi chủ đầu tư thấy một thành viên trong liên danh thực hiện tốt nên muốn điều chuyển toàn bộ phần việc cho thành viên liên danh đó",
-            "Khi cần đẩy nhanh tiến độ thực hiện hợp đồng hoặc do điều kiện khách quan không phải lỗi của nhà thầu làm ảnh hưởng tiến độ",
-            "Khi một thành viên liên danh đề nghị chuyển nhượng phần việc để tiết kiệm chi phí"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Với nhà thầu liên danh, trách nhiệm và năng lực được xem xét theo phần việc mà từng thành viên đảm nhận và theo cam kết liên danh. Nếu một thành viên vi phạm hoặc không còn năng lực, hệ quả pháp lý thường gắn với thành viên đó và phần việc liên quan, đồng thời phải bảo đảm liên danh còn khả năng thực hiện hợp đồng."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
-          "number": 20,
-          "question": "Việc chấp thuận hoặc không chấp thuận việc điều chuyển khối lượng, phạm vi công việc của nhà thầu phụ cho tổ chức, đơn vị khác khi cần đáp ứng yêu cầu về tiến độ, chất lượng gói thầu khi nhà thầu chính đề xuất thuộc trách nhiệm của ai?",
-          "options": [
-            "Tổ chuyên gia",
-            "Chủ đầu tư",
-            "Người có thẩm quyền",
-            "Tổ thẩm định"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Mua thuốc, thiết bị y tế, hóa chất, vật tư xét nghiệm có quy định riêng vì liên quan đến tính sẵn có, tính chuyên dụng, đăng ký lưu hành và an toàn sử dụng. Khi đề nhắc nhóm hàng y tế, cần ưu tiên quy định chuyên ngành trong Luật/Nghị định thay vì áp máy móc như hàng hóa thông thường."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
-          "number": 23,
-          "question": "Đối với gói thầu xây lắp áp dụng đấu thầu quốc tế, trường hợp nhà thầu xếp thứ nhất có hồ sơ dự thầu không cân bằng (có đơn giá chào cao hơn đáng kể so với đơn giá tương ứng trong dự toán gói thầu ở các hạng mục công việc có các yêu cầu kỹ thuật đơn giản, dễ thực hiện, hạng mục công việc có khả năng phát sinh khối lượng ngoài khối lượng trong bảng giá dự thầu và có đơn giá chào thấp hơn đáng kể so với đơn giá tương ứng trong dự toán gói thầu ở các hạng mục công việc phức tạp, khó thực hiện) thì chủ đầu tư có thể xử lý thế nào?",
-          "options": [
-            "Yêu cầu nhà thầu làm rõ bằng văn bản về các chi phí cấu thành giá dự thầu (A)",
-            "Có thể quy định giá trị bảo đảm thực hiện hợp đồng lớn hơn 10% nhưng không quá 30% giá hợp đồng để đề phòng rủi ro (B)",
-            "Mời nhà thầu chào lại giá (C)",
-            "Phương án A và B đều đúng"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Đấu thầu quốc tế chỉ đặt ra khi gói thầu thuộc trường hợp cho phép/mở cửa cho nhà thầu nước ngoài hoặc thuộc cam kết hiệp định. Nhà thầu nước ngoài không mặc nhiên được tham dự mọi gói thầu; phải xét phạm vi điều chỉnh và điều kiện cụ thể của gói thầu."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
-          "number": 26,
-          "question": "Trong lễ mở thầu đối với gói thầu đấu thầu quốc tế không qua mạng, chủ đầu tư xử lý như thế nào khi nhà thầu đề nghị bổ sung thư giảm giá do bị thất lạc trong quá trình nộp hồ sơ dự thầu theo đường bưu điện?",
-          "options": [
-            "Chủ đầu tư chấp nhận do đây là lỗi vận chuyển theo bưu điện",
-            "Chủ đầu tư không chấp nhận vì thư giảm giá của nhà thầu nộp sau thời điểm đóng thầu",
-            "Chủ đầu tư tạm thời ghi nhận nội dung trong thư giảm giá của nhà thầu và trình Người có thẩm quyền quyết định",
-            "Chủ đầu tư coi là tình huống trong đấu thầu và xử lý trên cơ sở bảo đảm cạnh tranh, công bằng, minh bạch, hiệu quả kinh tế và trách nhiệm giải trình"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Đấu thầu quốc tế chỉ đặt ra khi gói thầu thuộc trường hợp cho phép/mở cửa cho nhà thầu nước ngoài hoặc thuộc cam kết hiệp định. Nhà thầu nước ngoài không mặc nhiên được tham dự mọi gói thầu; phải xét phạm vi điều chỉnh và điều kiện cụ thể của gói thầu."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 4,
-          "question": "Hoạt động nào sau đây không thuộc phạm vi điều chỉnh của Nghị định số 95/2020/NĐ-CP?",
-          "options": [
-            "Mua sắm thiết bị văn phòng",
-            "Thuê dịch vụ tư vấn",
-            "Thuê quyền sử dụng đất",
-            "Mua sắm vật tư y tế"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Phạm vi điều chỉnh của Luật Đấu thầu bao gồm quản lý nhà nước về đấu thầu, hoạt động lựa chọn nhà thầu thực hiện gói thầu và lựa chọn nhà đầu tư thực hiện dự án đầu tư kinh doanh. Vì các ý trong câu đều nằm trong phạm vi này nên đáp án tổng hợp là đúng."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 10,
-          "question": "Trường hợp tổ chức lựa chọn nhà thầu đối với gói thầu mua sắm hàng hóa thuộc phạm vi điều chỉnh của Hiệp định UKVFTA tại thời điểm tháng 9/2025, cơ quan mua sắm lập hồ sơ mời thầu theo Mẫu hồ sơ mời thầu ban hành kèm theo Thông tư nào?",
-          "options": [
-            "Thông tư số 09/2020/TT-BKHĐT",
-            "Thông tư số 12/2022/TT-BKHĐT",
-            "Thông tư số 15/2022/TT-BKHĐT",
-            "Thông tư số 20/2022/TT-BKHĐT"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Phạm vi điều chỉnh của Luật Đấu thầu bao gồm quản lý nhà nước về đấu thầu, hoạt động lựa chọn nhà thầu thực hiện gói thầu và lựa chọn nhà đầu tư thực hiện dự án đầu tư kinh doanh. Vì các ý trong câu đều nằm trong phạm vi này nên đáp án tổng hợp là đúng."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 14,
-          "question": "Đối với gói thầu thuộc phạm vi điều chỉnh của Hiệp định Đối tác Toàn diện và Tiến bộ Xuyên Thái Bình Dương (CPTPP), ngôn ngữ sử dụng trong đấu thầu nội khối là:",
-          "options": [
-            "Chỉ tiếng Việt",
-            "Chỉ tiếng Anh",
-            "Tiếng Việt; hoặc tiếng Việt và tiếng Anh",
-            "Bất kỳ ngôn ngữ nào của các nước thành viên"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Phạm vi điều chỉnh của Luật Đấu thầu bao gồm quản lý nhà nước về đấu thầu, hoạt động lựa chọn nhà thầu thực hiện gói thầu và lựa chọn nhà đầu tư thực hiện dự án đầu tư kinh doanh. Vì các ý trong câu đều nằm trong phạm vi này nên đáp án tổng hợp là đúng."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 17,
-          "question": "Đối với gói thầu thuộc phạm vi điều chỉnh của Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh Châu Âu (EVFTA), có những hình thức lựa chọn nhà thầu nào:",
-          "options": [
-            "Đấu thầu hạn chế và chỉ định thầu",
-            "Chỉ có chỉ định thầu",
-            "Đấu thầu rộng rãi và chỉ định thầu",
-            "Chỉ có đấu thầu rộng rãi"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Phạm vi điều chỉnh của Luật Đấu thầu bao gồm quản lý nhà nước về đấu thầu, hoạt động lựa chọn nhà thầu thực hiện gói thầu và lựa chọn nhà đầu tư thực hiện dự án đầu tư kinh doanh. Vì các ý trong câu đều nằm trong phạm vi này nên đáp án tổng hợp là đúng."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 44,
-          "question": "Đối với gói thầu dịch vụ xây dựng thuộc phạm vi điều chỉnh của Hiệp định CPTPP và tổ chức đấu thầu quốc tế, cơ quan mua sắm có thể áp dụng ưu đãi đối với nhà thầu nội khối nào?",
-          "options": [
-            "Nhà thầu liên danh trong đó có thành viên liên danh là nhà thầu Nhật Bản và thành viên này đảm nhận từ 50% trở lên giá trị công việc của gói thầu",
-            "Nhà thầu liên danh trong đó có thành viên liên danh là nhà thầu nội khối và thành viên này đảm nhận từ 25% trở lên giá trị công việc của gói thầu",
-            "Nhà thầu liên danh trong đó có thành viên liên danh là nhà thầu Hoa Kỳ và thành viên này đảm nhận từ 50% trở lên giá trị công việc của gói thầu",
-            "Nhà thầu liên danh trong đó có thành viên liên danh là nhà thầu nội khối và thành viên này đảm nhận từ 40% trở lên giá trị công việc của gói thầu"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Phạm vi điều chỉnh của Luật Đấu thầu bao gồm quản lý nhà nước về đấu thầu, hoạt động lựa chọn nhà thầu thực hiện gói thầu và lựa chọn nhà đầu tư thực hiện dự án đầu tư kinh doanh. Vì các ý trong câu đều nằm trong phạm vi này nên đáp án tổng hợp là đúng."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 46,
-          "question": "Đối với gói thầu chỉ thuộc phạm vi điều chỉnh của Hiệp định CPTPP, thời điểm chấm dứt áp dụng ưu đãi trong nước là?",
-          "options": [
-            "14 tháng 01 năm 2038",
-            "01 tháng 08 năm 2038",
-            "14 tháng 01 năm 2044",
-            "01 tháng 08 năm 2044"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Phạm vi điều chỉnh của Luật Đấu thầu bao gồm quản lý nhà nước về đấu thầu, hoạt động lựa chọn nhà thầu thực hiện gói thầu và lựa chọn nhà đầu tư thực hiện dự án đầu tư kinh doanh. Vì các ý trong câu đều nằm trong phạm vi này nên đáp án tổng hợp là đúng."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 47,
-          "question": "Đối với gói thầu thuộc phạm vi điều chỉnh của Hiệp định EVFTA, trong giai đoạn từ 01/8/2020 đến 13/01/2029, tổng giá trị ưu đãi trong nước tối đa trong một năm là?",
-          "options": [
-            "30% tổng giá hợp đồng các gói thầu thuộc phạm vi điều chỉnh của Nghị định số 95/2020/NĐ-CP",
-            "40% tổng giá hợp đồng các gói thầu thuộc phạm vi điều chỉnh của Nghị định số 95/2020/NĐ-CP",
-            "50% tổng giá hợp đồng các gói thầu thuộc phạm vi điều chỉnh của Nghị định số 95/2020/NĐ-CP",
-            "60% tổng giá hợp đồng các gói thầu thuộc phạm vi điều chỉnh của Nghị định số 95/2020/NĐ-CP"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Phạm vi điều chỉnh của Luật Đấu thầu bao gồm quản lý nhà nước về đấu thầu, hoạt động lựa chọn nhà thầu thực hiện gói thầu và lựa chọn nhà đầu tư thực hiện dự án đầu tư kinh doanh. Vì các ý trong câu đều nằm trong phạm vi này nên đáp án tổng hợp là đúng."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 48,
-          "question": "Một nhà thầu EU tham gia đấu thầu quốc tế gói thầu mua sắm hàng hóa thuộc Hiệp định EVFTA có chi phí sản xuất hàng hóa tại nước thành viên là 45%, gói thầu có áp dụng ưu đãi đối với hàng hóa từ các nước thành viên. Nhà thầu này có được hưởng ưu đãi không?",
-          "options": [
-            "Không được hưởng ưu đãi vì chi phí sản xuất hàng hóa tại các nước thành viên dưới 50%",
-            "Được hưởng ưu đãi vì có chi phí sản xuất hàng hóa tại nước thành viên",
-            "Được hưởng ưu đãi vì tổng chi phí tại nước thành viên là 45%",
-            "Không đủ thông tin để xác định tính chất phức tạp của gói thầu"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Nhóm câu hỏi này kiểm tra cam kết mua sắm chính phủ trong các hiệp định thương mại mà Việt Nam mở cửa thị trường. Phương án “Không được hưởng ưu đãi vì chi phí sản xuất hàng hóa tại các nước thành viên dưới 50%” đúng vì khớp phạm vi/khái niệm hiệp định được nêu trong đề, không áp dụng đại trà cho mọi gói thầu trong nước."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 49,
-          "question": "Gói thầu thuộc phạm vi điều chỉnh của Hiệp định CPTPP mua sắm hàng hóa thông dụng, sẵn có trên thị trường với đặc tính kỹ thuật được tiêu chuẩn hóa, tương đương nhau về chất lượng và có giá gói thầu không quá 10 tỷ đồng thì thời gian chuẩn bị hồ sơ dự thầu tối thiểu là?",
-          "options": [
-            "10 ngày",
-            "15 ngày",
-            "20 ngày",
-            "25 ngày"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Phạm vi điều chỉnh của Luật Đấu thầu bao gồm quản lý nhà nước về đấu thầu, hoạt động lựa chọn nhà thầu thực hiện gói thầu và lựa chọn nhà đầu tư thực hiện dự án đầu tư kinh doanh. Vì các ý trong câu đều nằm trong phạm vi này nên đáp án tổng hợp là đúng."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 50,
-          "question": "Đối với gói thầu thuộc phạm vi điều chỉnh của Hiệp định EVFTA tổ chức đấu thầu quốc tế, có áp dụng ưu đãi đối với hàng hóa, nhà thầu nội khối, một trong các nguyên tắc ưu đãi là?",
-          "options": [
-            "Sau khi tính ưu đãi, nếu các hồ sơ dự thầu xếp hạng ngang nhau thì ưu tiên cho nhà thầu sử dụng nhiều lao động nội khối hơn (tính trên giá trị tiền lương, tiền công chi trả)",
-            "Sau khi tính ưu đãi, nếu các hồ sơ dự thầu xếp hạng ngang nhau thì ưu tiên cho nhà thầu có đề xuất chi phí nội khối thấp hơn.",
-            "Nhà thầu được hưởng tất cả các ưu đãi thuộc đối tượng áp dụng",
-            "Sau khi tính ưu đãi, nếu các hồ sơ dự thầu xếp hạng ngang nhau thì ưu tiên cho nhà thầu có đề xuất chi phí nội khối ít chênh lệch nhất so với yêu cầu của hồ sơ mời thầu Nhận học bổng mỗi tuần"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Phạm vi điều chỉnh của Luật Đấu thầu bao gồm quản lý nhà nước về đấu thầu, hoạt động lựa chọn nhà thầu thực hiện gói thầu và lựa chọn nhà đầu tư thực hiện dự án đầu tư kinh doanh. Vì các ý trong câu đều nằm trong phạm vi này nên đáp án tổng hợp là đúng."
-        }
-      ]
-    },
-    {
-      "title": "Chủ thể, trách nhiệm, quản lý nhà nước",
-      "theory": [
-        {
-          "heading": "1. Bản đồ vai trò: ai chịu trách nhiệm việc gì?",
-          "points": [
-            "Người có thẩm quyền quyết định các vấn đề lớn theo phân cấp: phê duyệt chủ trương/dự án hoặc nội dung thuộc thẩm quyền, xử lý tình huống phức tạp, xem xét cấm tham gia đấu thầu trong phạm vi quản lý.",
-            "Chủ đầu tư là “nhạc trưởng” của gói thầu: lập/phê duyệt hoặc trình kế hoạch, phê duyệt HSMT/E-HSMT, tổ chức lựa chọn nhà thầu, phê duyệt kết quả, ký và quản lý hợp đồng, đăng tải thông tin theo trách nhiệm.",
-            "Bên mời thầu làm phần nghiệp vụ: phát hành hồ sơ, tiếp nhận và mở thầu, trả lời làm rõ theo phân công, phối hợp tổ chuyên gia, trình kết quả.",
-            "Tổ chuyên gia đánh giá hồ sơ; tổ thẩm định kiểm tra lại tính đầy đủ, hợp lệ, phù hợp của HSMT/kết quả trước khi phê duyệt. Một người/đơn vị không được vừa lập vừa thẩm định cùng một nội dung nếu gây xung đột vai trò."
-          ],
-          "note": "Mẹo nhớ: người có thẩm quyền quyết định cấp cao; chủ đầu tư chịu trách nhiệm gói thầu; bên mời thầu làm thủ tục; tổ chuyên gia đánh giá; tổ thẩm định kiểm tra."
-        },
-        {
-          "heading": "2. Những việc phải đăng tải và mốc hay hỏi",
-          "points": [
-            "Kế hoạch lựa chọn nhà thầu phải đăng tải trên Hệ thống mạng đấu thầu quốc gia chậm nhất 05 ngày làm việc kể từ ngày kế hoạch được ký ban hành.",
-            "Thông tin chủ yếu của hợp đồng do chủ đầu tư đăng tải; trong ngân hàng câu hỏi thường gắn mốc 05 ngày làm việc kể từ ngày hợp đồng có hiệu lực.",
-            "Danh sách nhà thầu có hành vi vi phạm/đánh giá uy tín được đăng tải để cảnh báo và phục vụ quản lý. Cần nhớ chủ đầu tư là chủ thể thường được hỏi về trách nhiệm đăng tải thông tin liên quan đến hợp đồng, chất lượng hàng hóa và uy tín nhà thầu.",
-            "Khi E-HSMT thiếu thiết kế, bản vẽ, tiêu chuẩn kỹ thuật hoặc có thông tin không rõ, chủ đầu tư phải sửa đổi, bổ sung và đăng tải lại trên Hệ thống để mọi nhà thầu tiếp cận như nhau."
-          ]
-        },
-        {
-          "heading": "3. Qua mạng: trách nhiệm không được “đẩy” sai người",
-          "points": [
-            "Trong đấu thầu qua mạng, thao tác trên Hệ thống để lại dấu vết pháp lý. Vì vậy ai có trách nhiệm đăng tải thì người đó hoặc tài khoản được phân quyền đúng mới được thực hiện.",
-            "Nhà thầu tư vấn đấu thầu có thể hỗ trợ nghiệp vụ, nhưng không được thay chủ đầu tư đăng tải các nội dung thuộc trách nhiệm của chủ đầu tư. Ngân hàng câu hỏi gắn hành vi này với khóa tài khoản 06 tháng.",
-            "Sau khi đánh giá E-HSDT, tổ trưởng tổ chuyên gia phải đính kèm bản scan báo cáo đánh giá có chữ ký của các thành viên. Đây là điểm hay hỏi vì nó gắn trách nhiệm cá nhân với hồ sơ điện tử."
-          ]
-        },
-        {
-          "heading": "4. Quản lý nhà nước khác với nghiệp vụ gói thầu",
-          "points": [
-            "Quản lý nhà nước gồm ban hành văn bản, hướng dẫn, thanh tra, kiểm tra, xử lý vi phạm, quản lý Hệ thống mạng đấu thầu quốc gia, đào tạo/bồi dưỡng, hợp tác quốc tế.",
-            "Lập HSMT, đánh giá HSDT, mời thầu, thương thảo hợp đồng là nghiệp vụ của một gói thầu cụ thể, không phải nội dung quản lý nhà nước ở tầm vĩ mô.",
-            "Khi câu hỏi hỏi “nội dung nào không thuộc quản lý nhà nước”, hãy loại các việc quá cụ thể của một gói thầu."
-          ]
-        }
-      ],
-      "questions": [
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 9,
-          "question": "Khi chủ đầu tư sửa đổi E-HSMT, thay đổi thời điểm đóng thầu (nếu có) trên Hệ thống mạng đấu thầu quốc gia, nhận định nào sau đây đúng?",
-          "options": [
-            "Nhà thầu chịu trách nhiệm theo dõi thông tin trên Hệ thống mạng đấu thầu quốc gia để cập nhật thông tin về việc sửa đổi E-HSMT, thay đổi thời điểm đóng thầu (nếu có) để làm cơ sở chuẩn bị E-HSDT",
-            "Nhà thầu phải tự chịu trách nhiệm và chịu bất lợi trong quá trình tham dự thầu nếu không theo dõi, cập nhật thông tin sửa đổi E-HSMT, thời điểm đóng thầu trên Hệ thống mạng đấu thầu quốc gia trong quá trình tham dự thầu",
-            "Hệ thống mạng đấu thầu quốc gia tự động gửi email thông báo về việc sửa đổi E-HSMT, thay đổi thời điểm đóng thầu (nếu có) cho các nhà thầu quan tâm đến gói thầu",
-            "Các phương án trên đều đúng"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Khi E-HSMT thiếu thông tin hoặc có nội dung chưa phù hợp, chủ đầu tư phải sửa đổi/bổ sung và đăng tải lại trên Hệ thống để mọi nhà thầu tiếp cận cùng một bộ yêu cầu. Đây là nguyên tắc bình đẳng thông tin; không thể chỉ giải thích riêng cho một nhà thầu."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 10,
-          "question": "Trường hợp E-HSMT không đầy đủ thông tin (thiếu thiết kế, bản vẽ và các tài liệu khác) hoặc thông tin không rõ ràng, gây khó khăn cho nhà thầu trong việc chuẩn bị E-HSDT thì chủ đầu tư phải làm gì?",
-          "options": [
-            "Phải sửa đổi, bổ sung E-HSMT cho phù hợp và tiến hành đăng tải lại E-HSMT",
-            "Thực hiện bổ sung, hoàn thiện cho phù hợp và sửa đổi trên Hệ thống",
-            "Đính kèm thêm các thành phần còn thiếu của E-HSMT trên Hệ thống",
-            "Hủy thầu"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Khi E-HSMT thiếu thông tin hoặc có nội dung chưa phù hợp, chủ đầu tư phải sửa đổi/bổ sung và đăng tải lại trên Hệ thống để mọi nhà thầu tiếp cận cùng một bộ yêu cầu. Đây là nguyên tắc bình đẳng thông tin; không thể chỉ giải thích riêng cho một nhà thầu."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 24,
-          "question": "Đối với đấu thầu rộng rãi qua mạng, một số nội dung do Hệ thống mạng đấu thầu quốc gia đánh giá \"không đạt\" thì Tổ chuyên gia không thể sửa đổi kết quả đánh giá từ \"không đạt\" thành \"đạt\". Phương án nào sau đây là đúng?",
-          "options": [
-            "Tư cách hợp lệ, nhà thầu không có nhân sự bị tòa án kết án có hành vi vi phạm quy định về đấu thầu gây hậu quả nghiêm trọng, trạng thái bị tạm ngừng, chấm dứt tham gia Hệ thống mạng đấu thầu quốc gia, doanh thu bình quân hằng năm.",
-            "Tư cách hợp lệ, bảo đảm dự thầu, thực hiện nghĩa vụ kê khai thuế và nộp thuế, kết quả hoạt động tài chính, doanh thu bình quân hằng năm",
-            "Tư cách hợp lệ, nhà thầu không có nhân sự bị tòa án kết án có hành vi vi phạm quy định về đấu thầu gây hậu quả nghiêm trọng, trạng thái bị tạm ngừng, chấm dứt tham gia Hệ thống mạng đấu thầu quốc gia, thực hiện nghĩa vụ kê khai thuế và nộp thuế, kết quả hoạt động tài chính, doanh thu bình quân hằng năm",
-            "Tư cách hợp lệ, nhà thầu không có nhân sự bị tòa án kết án có hành vi vi phạm quy định về đấu thầu gây hậu quả nghiêm trọng, lịch sử không hoàn thành hợp đồng do lỗi của nhà thầu, thực hiện nghĩa vụ kê khai thuế và nộp thuế, kết quả hoạt động tài chính, doanh thu bình quân hằng năm"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Mốc cần nhớ ở câu này là “Tư cách hợp lệ, nhà thầu không có nhân sự bị tòa án kết án có hành vi vi phạm quy định về đấu thầu gây hậu quả nghiêm trọng, lịch sử không hoàn thành hợp đồng do lỗi của nhà thầu, thực hiện nghĩa vụ kê khai thuế và nộp thuế, kết quả hoạt động tài chính, doanh thu bình quân hằng năm”. Đây là câu hỏi kiểm tra con số/thời hạn cụ thể trong chủ đề “Chủ thể, trách nhiệm, quản lý nhà nước”, vì vậy cách làm là xác định đúng thủ tục hoặc loại gói thầu trước, sau đó mới gắn với mốc tương ứng."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 25,
-          "question": "Đối với gói thầu đấu thầu qua mạng, trường hợp sửa đổi E-HSMT sau khi phát hành, chủ đầu tư phải đăng tải tài liệu nào sau đây trên Hệ thống?",
-          "options": [
-            "Quyết định sửa đổi kèm theo những nội dung sửa đổi E-HSMT (A)",
-            "E-HSMT đã được sửa đổi (B)",
-            "Báo cáo thẩm định E-HSMT sửa đổi (C)",
-            "Phương án A và B đều đúng"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Khi E-HSMT thiếu thông tin hoặc có nội dung chưa phù hợp, chủ đầu tư phải sửa đổi/bổ sung và đăng tải lại trên Hệ thống để mọi nhà thầu tiếp cận cùng một bộ yêu cầu. Đây là nguyên tắc bình đẳng thông tin; không thể chỉ giải thích riêng cho một nhà thầu."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 30,
-          "question": "Đối với đấu thầu qua mạng, việc làm rõ E-HSDT giữa Chủ đầu tư và nhà thầu có E- HSDT cần phải làm rõ được thực hiện như thế nào?",
-          "options": [
-            "Chủ đầu tư được làm rõ đối với các nội dung về tư cách hợp lệ, năng lực, kinh nghiệm, không được làm rõ đối với yêu cầu về kỹ thuật, tài chính",
-            "Chủ đầu tư được làm rõ đối với yêu cầu về kỹ thuật, tài chính, không được làm rõ đối với các nội dung về tư cách hợp lệ, năng lực, kinh nghiệm",
-            "Chủ đầu tư dành cho nhà thầu tối đa 03 ngày để nhà thầu thực hiện việc làm rõ E-HSDT",
-            "Chủ đầu tư dành cho nhà thầu tối thiểu 03 ngày làm việc để nhà thầu thực hiện việc làm rõ E-HSDT"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Làm rõ E-HSDT là để giải thích nội dung đã nộp, không phải cho phép nhà thầu thay đổi bản chất hồ sơ. Chủ đầu tư phải dành thời gian tối thiểu theo quy định để nhà thầu phản hồi; trong ngân hàng câu hỏi, mốc cần nhớ là tối thiểu 03 ngày làm việc."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 35,
-          "question": "Đối với đấu thầu qua mạng, sau khi đánh giá E-HSDT, tổ trưởng tổ chuyên gia phải thực hiện nội dung gì sau đây trên Hệ thống mạng đấu thầu quốc gia?",
-          "options": [
-            "Đính kèm bản scan báo cáo đánh giá E-HSDT (có chữ ký của tất cả thành viên trong tổ chuyên gia)",
-            "Đính kèm bản scan báo cáo đánh giá E-HSDT (không cần có chữ ký của tất cả thành viên trong tổ chuyên gia)",
-            "Đính kèm bản scan báo cáo đánh giá E-HSDT (chỉ cần chữ ký của tổ trưởng tổ chuyên gia)",
-            "Tất cả các phương án đều sai"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Sau khi đánh giá E-HSDT, tổ trưởng tổ chuyên gia phải đính kèm bản scan báo cáo đánh giá có chữ ký của các thành viên để lưu vết trách nhiệm trên Hệ thống. Báo cáo đánh giá không chỉ là kết quả cuối cùng mà còn là căn cứ chứng minh quá trình đánh giá."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 41,
-          "question": "Đối với gói thầu xây lắp, áp dụng đấu thầu rộng rãi qua mạng, trường hợp hợp đồng tương tự mà nhà thầu cung cấp trong E-HSDT không đáp ứng theo yêu cầu của E-HSMT, chủ đầu tư xử lý như thế nào?",
-          "options": [
-            "Đánh giá nhà thầu không đáp ứng về năng lực, kinh nghiệm. Nhà thầu không được bổ sung, thay thế hợp đồng tương tự khác",
-            "Yêu cầu nhà thầu bổ sung, thay thế hợp đồng tương tự khác (được cập nhật từ hồ sơ năng lực của nhà thầu trên Hệ thống). Trường hợp nhà thầu không có hợp đồng đáp ứng yêu cầu của E-HSMT thì nhà thầu bị loại",
-            "Tiếp tục đánh giá E-HSDT của nhà thầu, trường hợp nhà thầu xếp thứ nhất, cho phép nhà thầu bổ sung, thay thế hợp đồng tương tự khác.",
-            "Đồng thời với việc yêu cầu nhà thầu bổ sung hợp đồng thay thế khác thì chủ đầu tư xem xét, điều chỉnh lại yêu cầu về hợp đồng tương tự trong hồ sơ mời thầu"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Hợp đồng tương tự dùng để chứng minh nhà thầu đã từng thực hiện công việc có bản chất, quy mô và mức độ phức tạp gần với gói thầu đang xét. Nếu hợp đồng kê khai không đạt, nhà thầu chỉ có thể được làm rõ/bổ sung trong phạm vi quy định, không được biến một kinh nghiệm không tương tự thành tương tự."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 51,
-          "question": "Gói thầu cung cấp dịch vụ vệ sinh tòa nhà do Sở Tài chính tỉnh X làm chủ đầu tư có giá gói thầu 01 tỷ đồng, thời gian thực hiện là 12 tháng, hợp đồng tương tự yêu cầu 30% giá gói thầu. Trường hợp nào sau đây nhà thầu được coi là đáp ứng về giá trị của hợp đồng tương tự?",
-          "options": [
-            "Nhà thầu cung cấp hợp đồng A (chưa hoàn thành, chưa được thanh lý) có giá trị công việc dịch vụ vệ sinh tòa nhà (đã được nghiệm thu) là 100 triệu đồng; hợp đồng B (chưa hoàn thành, chưa được thanh lý) có giá trị công việc dịch vụ vệ sinh tòa nhà (đã được nghiệm thu) là 250 triệu đồng",
-            "Nhà thầu cung cấp hợp đồng A (đã nghiệm thu, đã được thanh lý) có giá trị công việc dịch vụ vệ sinh tòa nhà là 300 triệu đồng",
-            "Nhà thầu cung cấp hợp đồng A (chưa hoàn thành, chưa được thanh lý) có giá trị công việc dịch vụ vệ sinh tòa nhà (chưa được nghiệm thu) là 100 triệu đồng; hợp đồng B (chưa hoàn thành, chưa được thanh lý) có giá trị công việc dịch vụ vệ sinh tòa nhà (đã được nghiệm thu) là 400 triệu đồng",
-            "Tất cả đáp án trên đều đúng"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Hợp đồng tương tự dùng để chứng minh nhà thầu đã từng thực hiện công việc có bản chất, quy mô và mức độ phức tạp gần với gói thầu đang xét. Nếu hợp đồng kê khai không đạt, nhà thầu chỉ có thể được làm rõ/bổ sung trong phạm vi quy định, không được biến một kinh nghiệm không tương tự thành tương tự."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 52,
-          "question": "Gói thầu mua sắm trang thiết bị do Sở Tư pháp tỉnh X làm chủ đầu tư có giá gói thầu 03 tỷ đồng, thời gian thực hiện là 12 tháng, trong đó có 02 hạng mục: máy điều hòa (mã HS 8415) giá dự toán 01 tỷ đồng, máy tính xách tay (mã HS 8507) giá dự toán 02 tỷ đồng, hợp đồng tương tự yêu cầu 50% giá gói thầu. Trường hợp nào sau đây nhà thầu được coi là không đáp ứng về giá trị của hợp đồng tương tự?",
-          "options": [
-            "Nhà thầu cung cấp 02 hợp đồng, trong đó: 01 hợp đồng đã thực hiện việc cung cấp mã hàng hóa 8415 với giá trị 400 triệu đồng, 01 hợp đồng đã thực hiện việc cung cấp mã hàng hóa 8415 với giá trị 100 triệu đồng và mã hàng hóa 8507 với giá trị 01 tỷ đồng (A)",
-            "Nhà thầu cung cấp 01 hợp đồng có đầy đủ các mã hàng hóa 8415 và 8507 và tổng giá trị của mã hàng hóa 8415, 8507 trong hợp đồng đã hoàn thành với giá trị 1,6 tỷ đồng (B)",
-            "Nhà thầu cung cấp 02 hợp đồng, trong đó: 01 hợp đồng đã thực hiện việc cung cấp mã hàng hóa 8415 với giá trị 600 triệu đồng và 01 hợp đồng đã thực hiện việc cung cấp mã hàng hóa 8507 với giá trị 01 tỷ đồng (C)",
-            "Phương án A và B đều không đáp ứng về giá trị hợp đồng tương tự"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Hợp đồng tương tự dùng để chứng minh nhà thầu đã từng thực hiện công việc có bản chất, quy mô và mức độ phức tạp gần với gói thầu đang xét. Nếu hợp đồng kê khai không đạt, nhà thầu chỉ có thể được làm rõ/bổ sung trong phạm vi quy định, không được biến một kinh nghiệm không tương tự thành tương tự."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 60,
-          "question": "Chủ đầu tư dự kiến mua sắm hàng hóa (không phải mua sắm tập trung hoặc mua sắm hàng hóa có số lượng, khối lượng mời thầu lớn) như sau: - Hàng hóa A có mã HS là 9035, giá trị dự toán là 4.000.000.000 đồng - Hàng hóa B có mã HS là 9035, giá trị dự toán là 6.000.000.000 E-HSMT yêu cầu về kinh nghiệm thực hiện hợp đồng cung cấp hàng hóa tương tự trong trường hợp nào sau đây là phù hợp?",
-          "options": [
-            "Cung cấp 01 hợp đồng có mã hàng hóa 9035 với giá trị tối thiểu 02 tỷ đồng",
-            "Cung cấp 01 hợp đồng có mã hàng hóa 9035 với giá trị tối thiểu 03 tỷ đồng",
-            "Cung cấp 01 hợp đồng có mã hàng hóa 9035 với giá trị tối thiểu 05 tỷ đồng",
-            "Cung cấp 01 hợp đồng có mã hàng hóa 9035 với giá trị tối thiểu 07 tỷ đồng"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Mua sắm tập trung gom nhu cầu của nhiều đơn vị để lựa chọn nhà thầu chung, sau đó phân bổ/ký hợp đồng theo thỏa thuận khung hoặc danh sách trúng thầu. Phương án “Cung cấp 01 hợp đồng có mã hàng hóa 9035 với giá trị tối thiểu 03 tỷ đồng” đúng vì bám đúng vai trò của đơn vị mua sắm tập trung và cách thực hiện sau lựa chọn."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 2,
-          "question": "Trường hợp sau khi có quyết định phê duyệt kết quả lựa chọn nhà thầu, nhà thầu không trúng thầu có yêu cầu giải thích về lý do cụ thể không trúng thầu, chủ đầu tư phải trả lời trong thời hạn bao lâu?",
-          "options": [
-            "02 ngày làm việc kể từ ngày được yêu cầu",
-            "03 ngày làm việc kể từ ngày được yêu cầu",
-            "05 ngày làm việc kể từ ngày được yêu cầu",
-            "07 ngày làm việc kể từ ngày được yêu cầu"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Điều kiện xét duyệt trúng thầu phụ thuộc phương pháp đánh giá đã chọn. Nếu phương pháp dựa trên kỹ thuật/giá cố định thì trọng tâm là điểm kỹ thuật; nếu giá thấp nhất hoặc giá đánh giá thì trọng tâm là giá sau sửa lỗi, hiệu chỉnh và quy đổi. Phương án “02 ngày làm việc kể từ ngày được yêu cầu” đúng với phương pháp được nêu trong đề."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 6,
-          "question": "Trường hợp E-HSMT của gói thầu mua sắm hàng hóa có yêu cầu về cam kết, hợp đồng nguyên tắc bảo hành, bảo trì, duy tu, bảo dưỡng mà E-HSDT của nhà thầu không đính kèm các tài liệu này thì Chủ đầu tư xử lý như thế nào?",
-          "options": [
-            "Hồ sơ dự thầu của nhà thầu bị loại, không được xem xét, đánh giá",
-            "Chủ đầu tư yêu cầu nhà thầu làm rõ, bổ sung tài liệu trong một khoảng thời gian phù hợp nhưng không ít hơn 03 ngày làm việc để làm cơ sở đánh giá E-HSDT",
-            "Xin ý kiến người có thẩm quyền để xử lý tình huống trong đấu thầu trên cơ sở bảo đảm các mục tiêu của công tác đấu thầu",
-            "Tiếp tục đánh giá E-HSDT, trường hợp nhà thầu trúng thầu thì yêu cầu nhà thầu bổ sung, làm rõ tài liệu"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Mốc cần nhớ ở câu này là “Chủ đầu tư yêu cầu nhà thầu làm rõ, bổ sung tài liệu trong một khoảng thời gian phù hợp nhưng không ít hơn 03 ngày làm việc để làm cơ sở đánh giá E-HSDT”. Đây là câu hỏi kiểm tra con số/thời hạn cụ thể trong chủ đề “Chủ thể, trách nhiệm, quản lý nhà nước”, vì vậy cách làm là xác định đúng thủ tục hoặc loại gói thầu trước, sau đó mới gắn với mốc tương ứng."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 17,
-          "question": "Đối với đấu thầu qua mạng, sau khi đánh giá E-HSDT, tổ trưởng tổ chuyên gia đính kèm bản scan báo cáo đánh giá E-HSDT lên Hệ thống mạng đấu thầu quốc gia với yêu cầu nào sau đây?",
-          "options": [
-            "Báo cáo đánh giá E-HSDT có chữ ký của tất cả thành viên trong tổ chuyên gia (A)",
-            "Báo cáo đánh giá E-HSDT chỉ cần có chữ ký của tổ trưởng tổ chuyên gia (B)",
-            "Báo cáo đánh giá E-HSDT (đăng tải báo cáo đánh giá tổng hợp, không cần kèm theo các phiếu chấm của thành viên trong tổ chuyên gia) (C)",
-            "Phương án B và C đều đúng"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Sau khi đánh giá E-HSDT, tổ trưởng tổ chuyên gia phải đính kèm bản scan báo cáo đánh giá có chữ ký của các thành viên để lưu vết trách nhiệm trên Hệ thống. Báo cáo đánh giá không chỉ là kết quả cuối cùng mà còn là căn cứ chứng minh quá trình đánh giá."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 35,
-          "question": "E-HSMT gói thầu mua sắm hàng hóa có yêu cầu cung cấp hàng mẫu, trong trường hợp này hàng mẫu được nhà thầu gửi đến chủ đầu tư theo cách thức nào sau đây là phù hợp?",
-          "options": [
-            "Nhà thầu có thể nộp bổ sung hàng mẫu trong thời hạn 05 ngày làm việc sau thời điểm đóng thầu",
-            "Nhà thầu phải nộp hàng mẫu ngay sau khi nộp thành công E-HSDT trên Hệ thống mạng đấu thầu quốc gia",
-            "Nhà thầu nộp hàng mẫu trong thời hạn 05 ngày sau khi nộp thành công E-HSDT trên Hệ thống mạng đấu thầu quốc gia",
-            "Các phương án trên đều sai."
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Hàng mẫu chỉ được yêu cầu/nộp theo đúng E-HSMT và thời hạn quy định. Trường hợp E-HSMT cho phép bổ sung hàng mẫu sau đóng thầu trong thời hạn cụ thể, việc bổ sung không được làm thay đổi nội dung cơ bản của E-HSDT mà chỉ phục vụ kiểm chứng kỹ thuật."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 7,
-          "question": "Đối với gói thầu chào giá trực tuyến rút gọn, nhà thầu xác nhận về việc chấp thuận được trao hợp đồng trong thời gian tối đa bao lâu kể từ ngày chủ đầu tư mời nhà thầu xác nhận trên Hệ thống mạng đấu thầu quốc gia?",
-          "options": [
-            "03 ngày",
-            "03 ngày làm việc",
-            "05 ngày",
-            "05 ngày làm việc"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Chào giá trực tuyến đặt trọng tâm vào cạnh tranh giá trên Hệ thống theo thời điểm và lượt chào. Phương án “03 ngày làm việc” đúng vì phản ánh đúng nghĩa vụ/thời hạn/quy tắc vận hành của nhà thầu trong quy trình này."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 9,
-          "question": "Trong quá trình đánh giá, Tổ chuyên gia phát hiện nhà thầu tham dự thầu trên Hệ thống mạng đấu thầu quốc gia đính kèm tệp tin có thiết lập mật khẩu thì xử lý thế nào?",
-          "options": [
-            "Yêu cầu nhà thầu nộp lại tệp tin không có thiết lập mật khẩu trên Hệ thống mạng đấu thầu quốc gia để xem xét, đánh giá (A)",
-            "Yêu cầu nhà thầu cung cấp mật khẩu để xem xét, đánh giá (B)",
-            "Tệp tin này không được xem xét, đánh giá (C)",
-            "Phương án A và B đều đúng"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Tệp tin đăng tải trên Hệ thống mạng đấu thầu quốc gia phải đọc được, không lỗi/hỏng, không nhiễm virus và không đặt mật khẩu làm cản trở truy cập. Nếu hồ sơ bị khóa, lỗi hoặc không mở được thì bên mời thầu không có cơ sở đánh giá khách quan."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 14,
-          "question": "Gói thầu hàng hóa có giá gói thầu 02 tỷ đồng thực hiện chào giá trực tuyến theo quy trình rút gọn, trường hợp chủ đầu tư đăng tải thông báo mời thầu vào 11h00 ngày Thứ 2 (08/9/2025), thời điểm nào sau đây là thời điểm kết thúc chào giá trực tuyến sớm nhất?",
-          "options": [
-            "11h00 ngày thứ 6 (12/9/2025)",
-            "08h00 ngày thứ 3 (16/9/2025)",
-            "11h00 ngày thứ 3 (16/9/2025)",
-            "08h00 ngày thứ 4 (17/9/2025)"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Chào giá trực tuyến đặt trọng tâm vào cạnh tranh giá trên Hệ thống theo thời điểm và lượt chào. Phương án “08h00 ngày thứ 4 (17/9/2025)” đúng vì phản ánh đúng nghĩa vụ/thời hạn/quy tắc vận hành của nhà thầu trong quy trình này."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 15,
-          "question": "Gói thầu hàng hóa có giá gói thầu 01 tỷ đồng thực hiện chào giá trực tuyến theo quy trình rút gọn, trường hợp chủ đầu tư đăng tải thông báo mời thầu vào 11h00 ngày Thứ 2 (08/9/2025), thời điểm nào sau đây là thời điểm kết thúc chào giá trực tuyến sớm nhất?",
-          "options": [
-            "08h00 ngày thứ 6 (12/9/2025)",
-            "08h00 ngày thứ bẩy (13/9/2025)",
-            "11h00 ngày thứ 6 (12/9/2025)",
-            "08h00 ngày thứ 2 (15/9/2025)"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Chào giá trực tuyến đặt trọng tâm vào cạnh tranh giá trên Hệ thống theo thời điểm và lượt chào. Phương án “08h00 ngày thứ 2 (15/9/2025)” đúng vì phản ánh đúng nghĩa vụ/thời hạn/quy tắc vận hành của nhà thầu trong quy trình này."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 27,
-          "question": "Chủ đầu tư phải gửi thông báo mời tham gia chào giá trực tuyến theo quy trình thông thường đến các nhà thầu đáp ứng yêu cầu kỹ thuật trong thời hạn tối thiểu bao lâu trước thời điểm bắt đầu chào giá?",
-          "options": [
-            "24 giờ",
-            "03 ngày làm việc",
-            "05 ngày",
-            "05 ngày làm việc"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Chào giá trực tuyến đặt trọng tâm vào cạnh tranh giá trên Hệ thống theo thời điểm và lượt chào. Phương án “03 ngày làm việc” đúng vì phản ánh đúng nghĩa vụ/thời hạn/quy tắc vận hành của nhà thầu trong quy trình này."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
           "number": 33,
-          "question": "Đối với đấu thầu qua mạng, trường hợp file đính kèm trong E-HSMT không thể mở hoặc không đọc được thì chủ đầu tư phải thực hiện hành động nào sau đây?",
+          "question": "Doanh nghiệp nhà nước A thực hiện dự án đầu tư có tổng mức đầu tư 1000 tỷ đồng, trong đó vốn từ ngân sách nhà nước là 100 tỷ đồng, vốn tự có của doanh nghiệp là 900 tỷ đồng. Việc lựa chọn nhà thầu của dự án này có phải tuân thủ theo quy định của Luật Đấu thầu?",
           "options": [
-            "Đăng tải và phát hành lại toàn bộ E-HSMT",
-            "Sửa đổi E-HSMT và không phải phát hành lại toàn bộ E-HSMT",
-            "Đề nghị Trung tâm Đấu thầu qua mạng quốc gia sửa đổi E-HSMT trong trường hợp chủ đầu tư không sửa đổi được E-HSMT",
-            "Các phương án trên đều đúng"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Tệp tin đăng tải trên Hệ thống mạng đấu thầu quốc gia phải đọc được, không lỗi/hỏng, không nhiễm virus và không đặt mật khẩu làm cản trở truy cập. Nếu hồ sơ bị khóa, lỗi hoặc không mở được thì bên mời thầu không có cơ sở đánh giá khách quan."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (6.1-MSTT-YT)-N",
-          "number": 6,
-          "question": "Đối với các gói thầu mua sắm tập trung, trách nhiệm cung cấp thông tin về kết quả thực hiện hợp đồng của nhà thầu do ai thực hiện?",
-          "options": [
-            "Đơn vị có nhu cầu mua sắm",
-            "Bên mời thầu",
-            "Đơn vị tư vấn được thuê làm bên mời thầu",
-            "Không phải đăng tải thông tin"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Mua sắm tập trung gom nhu cầu của nhiều đơn vị để lựa chọn nhà thầu chung, sau đó phân bổ/ký hợp đồng theo thỏa thuận khung hoặc danh sách trúng thầu. Phương án “Đơn vị có nhu cầu mua sắm” đúng vì bám đúng vai trò của đơn vị mua sắm tập trung và cách thực hiện sau lựa chọn."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (6.1-MSTT-YT)-N",
-          "number": 8,
-          "question": "Trách nhiệm trong mua sắm tập trung",
-          "options": [
-            "Đơn vị mua sắm tập trung thực hiện trách nhiệm của người có thẩm quyền theo quy định của Luật Đấu thầu",
-            "Đơn vị mua sắm tập trung thực hiện trách nhiệm của chủ đầu tư quy định của Luật Đấu thầu",
-            "Đơn vị mua sắm tập trung thực hiện trách nhiệm của bên mời thầu quy định của Luật Đấu thầu",
-            "Đơn vị mua sắm tập trung thực hiện trách nhiệm của tổ chuyên gia theo quy định của Luật Đấu thầu"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Mua sắm tập trung gom nhu cầu của nhiều đơn vị để lựa chọn nhà thầu chung, sau đó phân bổ/ký hợp đồng theo thỏa thuận khung hoặc danh sách trúng thầu. Phương án “Đơn vị mua sắm tập trung thực hiện trách nhiệm của chủ đầu tư quy định của Luật Đấu thầu” đúng vì bám đúng vai trò của đơn vị mua sắm tập trung và cách thực hiện sau lựa chọn."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (7.1 - HĐ)-N",
-          "number": 11,
-          "question": "Trường hợp nào sau đây chủ đầu tư được tự quyết định sửa đổi hợp đồng mà không cần người có thẩm quyền cho phép?",
-          "options": [
-            "Sửa đổi hợp đồng làm vượt giá gói thầu đã duyệt và vượt tổng mức đầu tư của dự án",
-            "Sửa đổi hợp đồng làm thay đổi thời gian thực hiện hợp đồng nhưng không làm vượt thời gian thực hiện dự án hoặc vượt giá gói thầu (bao gồm dự phòng) được duyệt nhưng không làm vượt tổng mức đầu tư",
-            "Sửa đổi hợp đồng làm thay đổi thời gian thực hiện hợp đồng và vượt thời gian thực hiện dự án",
-            "Sửa đổi hợp đồng làm thay đổi thiết kế cơ sở dẫn đến phải điều chỉnh chủ trương đầu tư"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Sửa đổi/điều chỉnh hợp đồng chỉ được thực hiện trong phạm vi pháp luật và điều kiện hợp đồng cho phép, không được làm thay đổi bản chất gói thầu hoặc phá vỡ kết quả lựa chọn nhà thầu. Điểm cần nhớ là mọi điều chỉnh phải có căn cứ, thẩm quyền và không hợp thức hóa sai lệch sau đấu thầu."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (7.1 - HĐ)-N",
-          "number": 18,
-          "question": "Chủ đầu tư A và nhà thầu B đã ký kết hợp đồng cung cấp 11000 đơn vị hàng hóa, loại hợp đồng theo đơn giá cố định. Trong quá trình thực hiện hợp đồng, nhu cầu sử dụng thực tế mà nhà thầu phải cung cấp cho chủ đầu tư chỉ là 10500 đơn vị hàng hóa. Hãy lựa chọn phương án đúng về sửa đổi hợp đồng trong trường hợp này?",
-          "options": [
-            "Chủ đầu tư A và nhà thầu B bắt buộc phải thực hiện thủ tục sửa đổi hợp đồng, phải ký kết văn bản sửa đổi hợp đồng (A)",
-            "Chủ đầu tư A và nhà thầu B không cần thực hiện thủ tục sửa đổi hợp đồng, không phải ký kết văn bản sửa đổi hợp đồng (B)",
-            "Chủ đầu tư A và nhà thầu B bắt buộc phải thực hiện thủ tục ký phụ lục hợp đồng để điều chỉnh khối lượng (C)",
-            "Phương án A và C đều đúng Color Blind Test Take this quiz to find out. Shopswell Quizzes"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Sửa đổi/điều chỉnh hợp đồng chỉ được thực hiện trong phạm vi pháp luật và điều kiện hợp đồng cho phép, không được làm thay đổi bản chất gói thầu hoặc phá vỡ kết quả lựa chọn nhà thầu. Điểm cần nhớ là mọi điều chỉnh phải có căn cứ, thẩm quyền và không hợp thức hóa sai lệch sau đấu thầu."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
-          "number": 2,
-          "question": "Đối với gói thầu tổ chức đấu thầu rộng rãi qua mạng, trường hợp tại thời điểm đóng thầu mà không có nhà thầu nộp E-HSDT thì chủ đầu tư quyết định theo phương án nào sau đây?",
-          "options": [
-            "Huỷ E-TBMT để mời thầu lại (A)",
-            "Chuyển sang hình thức đấu thầu rộng rãi không qua mạng (B)",
-            "Cho phép gia hạn thời điểm đóng thầu tối thiểu 05 ngày làm việc đối với gói thầu xây lắp, hỗn hợp có giá gói thầu không quá 20 tỷ đồng, gói thầu mua sắm hàng hoá, dịch vụ phi tư vấn có giá không quá 10 tỷ đồng (C)",
-            "Phương án A và C đều đúng"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Câu này yêu cầu nhận diện một nhóm nhận định cùng đúng/sai, không chỉ một ý đơn lẻ. Phương án “Phương án A và C đều đúng” được chọn vì các ý còn lại khi ghép lại phản ánh đầy đủ hơn quy định trong chủ đề “Chủ thể, trách nhiệm, quản lý nhà nước”. Khi ôn, nên đọc từng mệnh đề rồi kiểm tra xem chúng có cùng thuộc một điều kiện/quy trình hay không."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
-          "number": 4,
-          "question": "Trường hợp hồ sơ dự thầu có giá dự thầu sau sửa lỗi, hiệu chỉnh sai lệch, trừ đi giá trị giảm giá (nếu có) thấp khác thường thì chủ đầu tư có thể quy định giá trị bảo đảm thực hiện hợp đồng tối đa là bao nhiêu để đề phòng rủi ro?",
-          "options": [
-            "30% giá hợp đồng",
-            "35% giá hợp đồng",
-            "40% giá hợp đồng",
-            "45% giá hợp đồng"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Bảo đảm thực hiện hợp đồng phát sinh sau khi có kết quả lựa chọn nhà thầu và trước/khi ký hợp đồng, nhằm bảo đảm nhà thầu thực hiện đúng nghĩa vụ đã cam kết. Cần phân biệt với bảo đảm dự thầu là nghĩa vụ ở giai đoạn dự thầu."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
-          "number": 5,
-          "question": "Đối với gói thầu chia phần, chủ đầu tư có thể phê duyệt kết quả lựa chọn nhà thầu cho từng phần hay không?",
-          "options": [
-            "Không thể",
-            "Có thể nhưng phải bảo đảm điều kiện giá đề nghị trúng thầu không vượt giá gói thầu",
-            "Có thể nhưng phải bảo đảm tỷ lệ tiết kiệm tối thiểu 5%",
-            "Có thể nhưng phải bảo đảm điều kiện giá đề nghị trúng thầu không vượt giá của phần đó trong giá gói thầu"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Phương án “Có thể nhưng phải bảo đảm điều kiện giá đề nghị trúng thầu không vượt giá của phần đó trong giá gói thầu” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Chủ thể, trách nhiệm, quản lý nhà nước”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
-          "number": 6,
-          "question": "Đối với gói thầu chia phần, trường hợp một phần của gói thầu không có nhà thầu tham dự thầu thì chủ đầu tư xử lý thế nào?",
-          "options": [
-            "Tách phần đó ra thành gói thầu riêng biệt để tổ chức lựa chọn nhà thầu theo quy định (A)",
-            "Hủy thầu (B)",
-            "Đàm phán với nhà thầu trúng thầu của phần khác để thực hiện (C)",
-            "Phương án B và C đều đúng"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Phương án “Tách phần đó ra thành gói thầu riêng biệt để tổ chức lựa chọn nhà thầu theo quy định” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Chủ thể, trách nhiệm, quản lý nhà nước”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
-          "number": 10,
-          "question": "Trường hợp nhà thầu có nhân sự (ký kết hợp đồng lao động với nhà thầu tại thời điểm nhân sự thực hiện hành vi vi phạm) bị cơ quan điều tra kết luận có hành vi vi phạm quy định về đấu thầu gây hậu quả nghiêm trọng theo quy định pháp luật về hình sự nhằm mục đích cho nhà thầu trúng thầu nhưng nhân sự của nhà thầu chưa bị Tòa án kết án hoặc nhà thầu chưa bị người có thẩm quyền ra quyết định cấm tham gia hoạt động đấu thầu thì tại thời điểm này nhà thầu có được tham dự thầu hay không?",
-          "options": [
-            "Nhà thầu không được tham dự thầu",
-            "Hồ sơ dự thầu, hồ sơ đề xuất của nhà thầu sẽ được mở nhưng không được xem xét, đánh giá",
-            "Hồ sơ dự thầu, hồ sơ đề xuất của nhà thầu không được mở thầu và trả lại theo nguyên trạng",
-            "Nhà thầu vẫn được tiếp tục tham dự thầu"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Cấm tham gia hoạt động đấu thầu là chế tài áp dụng khi nhà thầu hoặc cá nhân có hành vi vi phạm nghiêm trọng. Khi làm câu hỏi loại này, phải xác định đúng hành vi trước rồi mới chọn thời hạn: gian lận thường nặng hơn cản trở, còn vi phạm quy trình/tư vấn sai vai trò có mức xử lý riêng."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
-          "number": 11,
-          "question": "Trường hợp nào là một trong những điều kiện để chủ đầu tư chấp thuận đề xuất của nhà thầu trong quá trình thực hiện hợp đồng về việc thay đổi các hàng hóa có phiên bản sản xuất, năm sản xuất mới hơn so với hàng hóa ghi trong hợp đồng?",
-          "options": [
-            "Hàng hóa thay thế có tính năng kỹ thuật, cấu hình, thông số và các yêu cầu kỹ thuật khác tương đương hoặc tốt hơn hàng hóa ghi trong hợp đồng nhưng bắt buộc phải cùng hãng sản xuất và xuất xứ",
-            "Hàng hóa thay thế có tính năng kỹ thuật, cấu hình, thông số và các yêu cầu kỹ thuật khác tương đương hoặc tốt hơn hàng hóa ghi trong hợp đồng, phải cùng hãng sản xuất nhưng không bắt buộc cùng xuất xứ",
-            "Hàng hóa thay thế có tính năng kỹ thuật, cấu hình, thông số và các yêu cầu kỹ thuật khác tương đương hoặc tốt hơn hàng hóa ghi trong hợp đồng, phải cùng xuất xứ nhưng không bắt buộc cùng hãng sản xuất",
-            "Hàng hóa thay thế có tính năng kỹ thuật, cấu hình, thông số và các yêu cầu kỹ thuật khác tương đương hoặc tốt hơn hàng hóa ghi trong hợp đồng nhưng không bắt buộc cùng hãng sản xuất và cùng xuất xứ"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Phương án “Hàng hóa thay thế có tính năng kỹ thuật, cấu hình, thông số và các yêu cầu kỹ thuật khác tương đương hoặc tốt hơn hàng hóa ghi trong hợp đồng nhưng bắt buộc phải cùng hãng sản xuất và xuất xứ” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Chủ thể, trách nhiệm, quản lý nhà nước”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
-          "number": 12,
-          "question": "Trường hợp gói thầu có tính chất đặc thù và áp dụng hình thức chỉ định thầu hoặc lựa chọn nhà thầu trong trường hợp đặc biệt, nhà thầu nước ngoài có yêu cầu ràng buộc chỉ ký hợp đồng khi không phải đăng ký trên Hệ thống mạng đấu thầu quốc gia thì chủ đầu tư xử lý như thế nào?",
-          "options": [
-            "Không cần yêu cầu nhà thầu nước ngoài đăng ký khi đăng tải kết quả lựa chọn nhà thầu",
-            "Yêu cầu nhà thầu nước ngoài đăng ký khi đăng tải kết quả lựa chọn nhà thầu",
-            "Nhà thầu không được chấp nhận và bị loại",
-            "Hủy thầu"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Đấu thầu quốc tế chỉ đặt ra khi gói thầu thuộc trường hợp cho phép/mở cửa cho nhà thầu nước ngoài hoặc thuộc cam kết hiệp định. Nhà thầu nước ngoài không mặc nhiên được tham dự mọi gói thầu; phải xét phạm vi điều chỉnh và điều kiện cụ thể của gói thầu."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
-          "number": 14,
-          "question": "Đối với gói thầu tổ chức lựa chọn nhà thầu qua mạng, trường hợp trong quá trình đánh giá E-HSDT mà chưa có kết quả lựa chọn nhà thầu, nhà thầu có tên trong biên bản mở thầu bị khóa tài khoản theo quy định của pháp luật về đấu thầu thì chủ đầu tư xử lý như thế nào?",
-          "options": [
-            "Yêu cầu nhà thầu thực hiện các thủ tục để mở khóa tài khoản làm cơ sở xem xét, đánh giá E-HSDT của nhà",
-            "Tiếp tục xem xét, đánh giá E-HSDT của nhà thầu",
-            "Không tiếp tục xem xét, đánh giá E-HSDT của nhà thầu",
-            "Tiếp tục xem xét, đánh giá E-HSDT của nhà thầu và yêu cầu nhà thầu thực hiện các thủ tục để mở khóa tài khoản trước khi phê duyệt kết quả lựa chọn nhà thầu"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Khóa tài khoản là chế tài trên Hệ thống mạng đấu thầu quốc gia khi chủ thể thao tác sai vai trò hoặc không thực hiện nghĩa vụ điện tử sau khi tham gia. Vì tình huống trong đề khớp hành vi bị khóa nên chọn “Không tiếp tục xem xét, đánh giá E-HSDT của nhà thầu”."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
-          "number": 15,
-          "question": "Đối với gói thầu xây lắp, dịch vụ phi tư vấn, dịch vụ tư vấn áp dụng đấu thầu trước quy định tại Điều 42 của Luật Đấu thầu, trường hợp dự án được phê duyệt có các nội dung dẫn đến tăng giá gói thầu (hoặc tăng dự toán nếu dự toán được phê duyệt sau khi phê duyệt kế hoạch lựa chọn nhà thầu) từ 30% trở lên hoặc thay đổi tiêu chuẩn đánh giá quan trọng về kỹ thuật hoặc thay đổi cấp công trình quy định trong hồ sơ mời thầu đã phát hành thì chủ đầu tư xử lý như thế nào?",
-          "options": [
-            "Tiếp tục đánh giá hồ sơ dự thầu trong trường hợp đã mở thầu",
-            "Được sửa đổi và phát hành bổ sung hồ sơ mời thầu trong trường hợp chưa mở thầu",
-            "Được sửa đổi, bổ sung khối lượng công việc, hoàn thiện để ký kết hợp đồng với nhà thầu",
-            "Hủy thầu"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Dịch vụ tư vấn là công việc thiên về chuyên môn trí tuệ như lập quy hoạch, khảo sát, thiết kế, giám sát, thẩm định hoặc tư vấn quản lý. Phương án “Hủy thầu” thuộc nhóm tạo sản phẩm tư vấn/chuyên môn, nên được xếp là gói thầu cung cấp dịch vụ tư vấn."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
-          "number": 16,
-          "question": "Trường hợp nhà thầu trúng thầu không tiến hành hoàn thiện, ký kết hợp đồng hoặc tại thời điểm ký kết hợp đồng, nhà thầu trúng thầu không đáp ứng yêu cầu về năng lực kỹ thuật, tài chính quy định tại khoản 2 Điều 66 của Luật Đấu thầu thì chủ đầu tư xử lý như thế nào trong trường hợp này?",
-          "options": [
-            "Hủy quyết định phê duyệt kết quả lựa chọn nhà thầu trúng thầu",
-            "Hủy thầu",
-            "Không công nhận kết quả lựa chọn nhà thầu",
-            "Đình chỉ cuộc thầu"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Điều kiện xét duyệt trúng thầu phụ thuộc phương pháp đánh giá đã chọn. Nếu phương pháp dựa trên kỹ thuật/giá cố định thì trọng tâm là điểm kỹ thuật; nếu giá thấp nhất hoặc giá đánh giá thì trọng tâm là giá sau sửa lỗi, hiệu chỉnh và quy đổi. Phương án “Hủy quyết định phê duyệt kết quả lựa chọn nhà thầu trúng thầu” đúng với phương pháp được nêu trong đề."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
-          "number": 19,
-          "question": "Gói thầu EC có giá dự thầu sau sửa lỗi, hiệu chỉnh sai lệch, trừ đi giá trị giảm giá bằng 85% giá gói thầu thì chủ đầu tư có thể quy định giá trị bảo đảm thực hiện hợp đồng ở mức 15% hay không?",
-          "options": [
-            "Không được quy định",
-            "Có thể quy định",
-            "Chủ đầu tư quyết định để ngừa rủi ro cho quá trình thực hiện",
-            "Có thể quy định nhưng phải được người có thẩm quyền chấp thuận"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Bảo đảm thực hiện hợp đồng phát sinh sau khi có kết quả lựa chọn nhà thầu và trước/khi ký hợp đồng, nhằm bảo đảm nhà thầu thực hiện đúng nghĩa vụ đã cam kết. Cần phân biệt với bảo đảm dự thầu là nghĩa vụ ở giai đoạn dự thầu."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
-          "number": 21,
-          "question": "Đối với gói thầu hỗn hợp, có yêu cầu đặc thù về kỹ thuật chỉ có một số nhà thầu đáp ứng yêu cầu của gói thầu áp dụng bước thương thảo hợp đồng, trường hợp nhà thầu xếp hạng thứ nhất (danh sách xếp hạng có 03 nhà thầu) không tiến hành thương thảo, không ký biên bản thương thảo, thương thảo không thành công thì chủ đầu tư thực hiện bước tiếp theo như thế nào?",
-          "options": [
-            "Mời nhà thầu xếp hạng tiếp theo vào thương thảo hợp đồng",
-            "Hủy thầu",
-            "Cho phép các nhà thầu còn lại chào lại giá dự thầu",
-            "Mời nhà thầu xếp hạng tiếp theo vào hoàn thiện hợp đồng"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Phương án “Mời nhà thầu xếp hạng tiếp theo vào thương thảo hợp đồng” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Chủ thể, trách nhiệm, quản lý nhà nước”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
-          "number": 25,
-          "question": "Chủ đầu tư yêu cầu gia hạn hiệu lực hồ sơ dự thầu, bảo đảm dự thầu trong trường hợp nào sau đây?",
-          "options": [
-            "Trước khi hết hạn hiệu lực hồ sơ dự thầu trong trường hợp cần gia hạn để tiếp tục đánh giá hồ sơ dự thầu (A)",
-            "Trường hợp hồ sơ dự thầu của nhà thầu xếp hạng tiếp theo hết hiệu lực thì Chủ đầu tư phải yêu cầu nhà thầu gia hạn hiệu lực của hồ sơ dự thầu, bảo đảm dự thầu trước khi thương thảo hợp đồng (B)",
-            "Trước khi có kết quả lựa chọn nhà thầu (C)",
-            "Phương án A và B đều đúng"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Bảo đảm dự thầu là cam kết tài chính để ràng buộc nhà thầu với hồ sơ đã nộp. Nếu nhà thầu rút hồ sơ, từ chối thương thảo/ký hợp đồng hoặc vi phạm nghĩa vụ sau khi được lựa chọn thì có thể bị xử lý bảo đảm dự thầu theo quy định."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
-          "number": 27,
-          "question": "Đối với gói thầu mua sắm hàng hóa có giá gói thầu 15 tỷ đồng thực hiện đấu thầu rộng rãi qua mạng, trường hợp tại thời điểm đóng thầu không có nhà thầu tham dự thầu, chủ đầu tư quyết định xử lý tình huống theo cách gia hạn thời điểm đóng thầu thì thời gian gia hạn tối thiểu là bao nhiêu ngày?",
-          "options": [
-            "10 ngày",
-            "05 ngày làm việc",
-            "05 ngày",
-            "03 ngày làm việc"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Gia hạn thời điểm đóng thầu trên Hệ thống thuộc trách nhiệm/thẩm quyền thao tác của chủ đầu tư theo quy trình qua mạng. Việc gia hạn phải được công khai trên Hệ thống để toàn bộ nhà thầu biết cùng thời điểm."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
-          "number": 29,
-          "question": "Trường hợp các nhà thầu chào hàng hóa có cùng ký mã hiệu (nếu có), hãng sản xuất, năm sản xuất, xuất xứ Việt Nam nhưng có nhà thầu kê khai, có nhà thầu không kê khai hàng hóa này thuộc đối tượng ưu đãi thì chủ đầu tư xử lý thế nào?",
-          "options": [
-            "Không tính ưu đãi của tất cả các nhà thầu tham dự",
-            "Quyết định cho các nhà thầu không kê khai được làm rõ để có cơ sở đánh giá ưu đãi",
-            "Chỉ xét ưu đãi cho các nhà thầu đã kê khai",
-            "Tính ưu đãi cho tất cả nhà nhà thầu tham dự mà không cần làm rõ với nhà thầu không kê khai"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Ưu đãi trong đấu thầu không phải là cộng điểm tùy ý; chỉ áp dụng cho đối tượng và cách tính được quy định như hàng hóa trong nước, nhà thầu trong nước hoặc nhóm được hưởng ưu đãi. Khi làm bài, cần xác định trước gói thầu có thuộc diện ưu đãi hay không rồi mới tính đến cách xếp hạng."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
-          "number": 30,
-          "question": "Gói thầu xây lắp A được phê duyệt KHLCNT với thời gian thực hiện gói thầu là 120 ngày. Trong quá trình thực hiện Hợp đồng, do có phát sinh dẫn tới thời gian thực hiện gói thầu bị kéo dài thành 180 ngày. Trong trường hợp này, chủ đầu tư xử lý như thế nào?",
-          "options": [
-            "Báo cáo người có thẩm quyền trước khi điều chỉnh thời gian thực hiện gói thầu trong kế hoạch lựa chọn nhà thầu đã được phê duyệt",
-            "Chủ đầu tư thực hiện điều chỉnh thời gian thực hiện gói thầu trong kế hoạch lựa chọn nhà thầu đã được phê duyệt mà không cần báo cáo người có thẩm quyền",
-            "Chủ đầu tư không cần điều chỉnh kế hoạch lựa chọn nhà thầu",
-            "Các phương án trên đều sai"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Phương án “Chủ đầu tư không cần điều chỉnh kế hoạch lựa chọn nhà thầu” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Chủ thể, trách nhiệm, quản lý nhà nước”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
-          "number": 31,
-          "question": "Đối với gói thầu tổ chức lựa chọn nhà thầu qua mạng, trong quá trình đánh giá E-HSDT, Chủ đầu tư nhận thấy nhà thầu có tên trong biên bản mở thầu đang bị khóa tài khoản theo quy định của pháp luật về đấu thầu, E-HSDT của nhà thầu bị đánh giá như thế nào?",
-          "options": [
-            "E-HSDT của nhà thầu được tiếp tục xem xét, đánh giá mà không cần phải mở khóa tài khoản trước khi ký hợp đồng",
-            "E-HSDT của nhà thầu được tiếp tục xem xét, đánh giá nhưng chỉ được đề nghị trúng thầu khi thực hiện mở khóa tài khoản trước khi ký hợp đồng",
-            "E-HSDT của nhà thầu không được tiếp tục xem xét, đánh giá",
-            "Nhà thầu bị cấm tham gia hoạt động đấu thầu do có hành vi gian lận Color Blind Test Take this quiz to find out. Shopswell Quizzes"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Khóa tài khoản là chế tài trên Hệ thống mạng đấu thầu quốc gia khi chủ thể thao tác sai vai trò hoặc không thực hiện nghĩa vụ điện tử sau khi tham gia. Vì tình huống trong đề khớp hành vi bị khóa nên chọn “E-HSDT của nhà thầu không được tiếp tục xem xét, đánh giá”."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.2 - QLNN - Kiến nghị)-N",
-          "number": 2,
-          "question": "Trung tâm X là đơn vị sự nghiệp công lập tự chủ chi thường xuyên thuộc tỉnh A tổ chức lựa chọn nhà thầu đối với gói thầu mua sắm hàng hóa sử dụng nguồn thu hợp pháp (không sử dụng ngân sách nhà nước), trường hợp nhà thầu có kiến nghị về hồ sơ mời thầu gửi cả người có thẩm quyền và chủ đầu tư của gói thầu thì việc giải quyết kiến nghị được thực hiện theo quy trình nào?",
-          "options": [
-            "Trong thời hạn 07 ngày làm việc kể từ ngày nhận được đơn kiến nghị của nhà thầu, chủ đầu tư phải có văn bản giải quyết kiến nghị gửi đến nhà thầu, cơ quan, tổ chức và đăng tải trên Hệ thống mạng đấu thầu quốc gia (A)",
-            "Người có thẩm quyền phải có văn bản giải quyết kiến nghị gửi đến nhà thầu, cơ quan, tổ chức trong thời hạn 07 ngày làm việc kể từ ngày nhận được đơn kiến nghị của nhà thầu và gửi đến chủ đầu tư để đăng tải trên Hệ thống mạng đấu thầu quốc gia (B)",
-            "Thực hiện theo quy trình về giải quyết kiến nghị do người đứng đầu Trung tâm X ban hành trong đơn vị mình (C)",
+            "Không phải thực hiện theo quy định của Luật Đấu thầu vì vốn ngân sách nhà nước thấp hơn 30% tổng mức đầu tư",
+            "Doanh nghiệp nhà nước A được tự quyết định việc lựa chọn nhà thầu trên cơ sở bảo đảm công bằng, minh bạch, hiệu quả và trách nhiệm giải trình",
+            "Bắt buộc phải thực hiện theo Luật Đấu thầu",
             "Phương án A và B đều đúng"
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Mua thuốc, thiết bị y tế, hóa chất, vật tư xét nghiệm có quy định riêng vì liên quan đến tính sẵn có, tính chuyên dụng, đăng ký lưu hành và an toàn sử dụng. Khi đề nhắc nhóm hàng y tế, cần ưu tiên quy định chuyên ngành trong Luật/Nghị định thay vì áp máy móc như hàng hóa thông thường."
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Bắt buộc phải thực hiện theo Luật Đấu thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.2 - QLNN - Kiến nghị)-N",
-          "number": 4,
-          "question": "Đơn vị nào có trách nhiệm tiếp nhận và quản lý chi phí do nhà thầu có kiến nghị nộp?",
+          "source": "Chuyen_de_01_Quy_dinh_chung_va_pham_vi_ap_dung.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 34,
+          "question": "Công ty B do Doanh nghiệp nhà nước A nắm giữ 100% vốn điều lệ, Công ty B thực hiện dự án có tổng mức đầu tư 500 tỷ đồng, trong đó vốn từ ngân sách nhà nước là 100 tỷ đồng, 400 tỷ đồng là vốn tự có của Công ty B. Hỏi việc lựa chọn nhà thầu của dự án này có phải thực hiện theo quy định của Luật Đấu thầu hay không?",
           "options": [
-            "Người có thẩm quyền",
-            "Chủ đầu tư",
-            "Bộ phận thường trực giúp việc cho Chủ tịch Hội đồng giải quyết kiến nghị",
-            "Tổ chuyên gia"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Chi phí giải quyết kiến nghị được nộp cho bộ phận thường trực giúp việc cho Chủ tịch Hội đồng giải quyết kiến nghị. Khoản chi phí này chỉ được hoàn trả trong các trường hợp quy định; nếu kiến nghị không được kết luận là đúng hoặc nhà thầu rút kiến nghị không thuộc diện hoàn trả thì không được nhận lại."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.2 - QLNN - Kiến nghị)-N",
-          "number": 6,
-          "question": "Đối với việc giải quyết kiến nghị về các vấn đề trước khi có thông báo kết quả lựa chọn nhà thầu, cá nhân, đơn vị nào sau đây có trách nhiệm giải quyết kiến nghị?",
-          "options": [
-            "Chủ đầu tư, người có thẩm quyền",
-            "Chủ đầu tư, Hội đồng giải quyết kiến nghị",
-            "Người có thẩm quyền, Hội đồng giải quyết kiến nghị",
-            "Chủ đầu tư, tổ chuyên gia"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Kiến nghị là cơ chế để nhà thầu yêu cầu xem xét lại vấn đề trong lựa chọn nhà thầu trước khi đi sang khiếu nại/khởi kiện. Phương án “Chủ đầu tư, người có thẩm quyền” đúng vì khớp đúng chủ thể, thời hạn hoặc quyền hạn trong quy trình giải quyết kiến nghị."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.2 - QLNN - Kiến nghị)-N",
-          "number": 7,
-          "question": "Đối với việc giải quyết kiến nghị về kết quả lựa chọn nhà thầu, cá nhân, đơn vị nào sau đây có trách nhiệm giải quyết kiến nghị?",
-          "options": [
-            "Chủ đầu tư, người có thẩm quyền",
-            "Chủ đầu tư, Hội đồng giải quyết kiến nghị",
-            "Người có thẩm quyền, Hội đồng giải quyết kiến nghị",
-            "Chủ đầu tư, tổ chuyên gia"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Kiến nghị là cơ chế để nhà thầu yêu cầu xem xét lại vấn đề trong lựa chọn nhà thầu trước khi đi sang khiếu nại/khởi kiện. Phương án “Chủ đầu tư, Hội đồng giải quyết kiến nghị” đúng vì khớp đúng chủ thể, thời hạn hoặc quyền hạn trong quy trình giải quyết kiến nghị."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.2 - QLNN - Kiến nghị)-N",
-          "number": 9,
-          "question": "Đơn vị sự nghiệp công lập (tự chủ chi thường xuyên và chi đầu tư) thuộc tỉnh B tổ chức đấu thầu cho dự án sử dụng vốn ngân sách nhà nước thì Giám đốc Sở Tài chính Tỉnh B có trách nhiệm thành lập Hội đồng giải quyết kiến nghị cho gói thầu có kiến nghị tại Dự án này hay không?",
-          "options": [
-            "Có trách nhiệm thành lập",
-            "Không có trách nhiệm thành lập",
-            "Thành lập khi chủ tịch UBND tỉnh yêu cầu",
-            "Thành lập khi Giám đốc doanh nghiệp A đề nghị"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Mua thuốc, thiết bị y tế, hóa chất, vật tư xét nghiệm có quy định riêng vì liên quan đến tính sẵn có, tính chuyên dụng, đăng ký lưu hành và an toàn sử dụng. Khi đề nhắc nhóm hàng y tế, cần ưu tiên quy định chuyên ngành trong Luật/Nghị định thay vì áp máy móc như hàng hóa thông thường."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.2 - QLNN - Kiến nghị)-N",
-          "number": 15,
-          "question": "Đối với kiến nghị về các vấn đề trước khi có thông báo kết quả lựa chọn nhà thầu, trường hợp nhà thầu gửi đơn kiến nghị đồng thời đến người có thẩm quyền và chủ đầu tư thì chủ thể nào có trách nhiệm giải quyết kiến nghị?",
-          "options": [
-            "Người có thẩm quyền",
-            "Chủ đầu tư",
-            "Bộ phận thường trực",
-            "Hội đồng giải quyết kiến nghị"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Kiến nghị là cơ chế để nhà thầu yêu cầu xem xét lại vấn đề trong lựa chọn nhà thầu trước khi đi sang khiếu nại/khởi kiện. Phương án “Chủ đầu tư” đúng vì khớp đúng chủ thể, thời hạn hoặc quyền hạn trong quy trình giải quyết kiến nghị."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.2 - QLNN - Kiến nghị)-N",
-          "number": 16,
-          "question": "Đối với kiến nghị về kết quả lựa chọn nhà thầu, trường hợp nhà thầu gửi đơn kiến nghị đồng thời đến bộ phận thường trực và chủ đầu tư thì chủ thể nào có trách nhiệm giải quyết kiến nghị?",
-          "options": [
-            "Người có thẩm quyền",
-            "Chủ đầu tư",
-            "Bộ phận thường trực",
-            "Hội đồng giải quyết kiến nghị"
+            "Không phải thực hiện theo quy định của Luật Đấu thầu vì vốn ngân sách nhà nước thấp hơn 30% tổng mức đầu tư",
+            "Không phải thực hiện theo quy định của Luật Đấu thầu nhưng phải thực hiện theo quy chế mua sắm của Doanh nghiệp nhà nước A",
+            "Công ty B được tư quyết định việc lựa chọn nhà thầu trên cơ sở bảo đảm công bằng, minh bạch, hiệu quả và trách nhiệm giải trình",
+            "Bắt buộc phải thực hiện theo Luật Đấu thầu"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Kiến nghị là cơ chế để nhà thầu yêu cầu xem xét lại vấn đề trong lựa chọn nhà thầu trước khi đi sang khiếu nại/khởi kiện. Phương án “Hội đồng giải quyết kiến nghị” đúng vì khớp đúng chủ thể, thời hạn hoặc quyền hạn trong quy trình giải quyết kiến nghị."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.2 - QLNN - Kiến nghị)-N",
-          "number": 19,
-          "question": "Nhà thầu có trách nhiệm nộp chi phí giải quyết kiến nghị trong thời hạn bao lâu kể từ ngày nhận được thông báo của bộ phận thường trực?",
-          "options": [
-            "03 ngày làm việc",
-            "02 ngày làm việc",
-            "04 ngày làm việc",
-            "05 ngày làm việc"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Chi phí giải quyết kiến nghị được nộp cho bộ phận thường trực giúp việc cho Chủ tịch Hội đồng giải quyết kiến nghị. Khoản chi phí này chỉ được hoàn trả trong các trường hợp quy định; nếu kiến nghị không được kết luận là đúng hoặc nhà thầu rút kiến nghị không thuộc diện hoàn trả thì không được nhận lại."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 5,
-          "question": "Gói thầu phi tư vấn có giá gói thầu 2 tỷ đồng thực hiện đấu thầu rộng rãi qua mạng đóng thầu ngày 11/11/2025 (Thứ3), Chủ đầu tư tiếp nhận nội dung yêu cầu làm rõ của nhà thầu ngày 04/11/2025. Chủ đầu tư phải trả lời yêu cầu làm rõ E-HSMT trên Hệ thống chậm nhất ngày nào dưới đây để đảm bảo không phải gia hạn thời điểm đóng thầu?",
-          "options": [
-            "Thứ tư ngày 05/11/2025",
-            "Thứ năm ngày 06/11/2025",
-            "Thứ sáu ngày 07/11/2025",
-            "Thứ7 ngày 08/11/2025"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Yêu cầu làm rõ E-HSMT phải được chủ đầu tư trả lời trên Hệ thống mạng đấu thầu quốc gia để mọi nhà thầu đều tiếp cận cùng một thông tin. Trả lời riêng ngoài Hệ thống có thể tạo bất bình đẳng và rủi ro khiếu kiện."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 10,
-          "question": "Trường hợp gặp sự cố dẫn đến Hệ thống mạng đấu thầu quốc gia không thể vận hành và việc khắc phục sự cố dự kiến diễn ra trong thời gian dài, cơ quan nào có trách nhiệm thông báo về cách thức lựa chọn nhà thầu?",
-          "options": [
-            "Bộ Tài chính",
-            "Cục Quản lý đấu thầu",
-            "Trung tâm Đấu thầu qua mạng quốc gia",
-            "Tất cả phương án trên đều đúng"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Khi Hệ thống mạng đấu thầu quốc gia gặp sự cố, các gói có thời điểm đóng thầu hoặc kết thúc chào giá nằm trong khoảng sự cố sẽ được gia hạn tự động đến sau khi khắc phục để bảo đảm nhà thầu không mất quyền dự thầu vì lỗi kỹ thuật của Hệ thống. Cách nhớ mốc trong ngân hàng câu hỏi: sau khi hoàn thành khắc phục sự cố 02 giờ."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 15,
-          "question": "Đối với gói thầu áp dụng theo phương thức một giai đoạn một túi hồ sơ, căn cứ vào E-HSDT của các nhà thầu đã nộp trên Hệ thống và phương pháp đánh giá E-HSDT quy định trong E-HSMT, tổ chuyên gia được chọn quy trình 02 để đánh giá E-HSDT trong trường hợp nào sau đây?",
-          "options": [
-            "Gói thầu mua sắm hàng hóa, dịch vụ phi tư vấn, máy đặt, máy mượn theo phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp “giá thấp nhất” và các nhà thầu, E-HSDT đều không có bất kỳ ưu đãi nào",
-            "Gói thầu mua sắm hàng hóa, dịch vụ tư vấn theo phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp “giá thấp nhất” và các nhà thầu, E-HSDT đều không có bất kỳ ưu đãi nào",
-            "Gói thầu xây lắp theo phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp “giá thấp nhất”",
-            "Cả 3 phương án đều sai"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Phương thức một giai đoạn một túi hồ sơ phù hợp khi yêu cầu kỹ thuật đã rõ và có thể đánh giá trong cùng một bộ hồ sơ. Cách nhớ: nhà thầu nộp một lần, trong một túi hồ sơ gồm đề xuất kỹ thuật và tài chính theo yêu cầu."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 16,
-          "question": "Khi xây dựng hồ sơ yêu cầu đối với hình thức chỉ định thầu, chủ đầu tư quy định nhà thầu chuẩn bị 01 bản gốc và tối đa bao nhiêu bản chụp hồ sơ đề xuất?",
-          "options": [
-            "01 bản chụp",
-            "02 bản chụp",
-            "03 bản chụp",
-            "04 bản chụp"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Phương án “03 bản chụp” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Chủ thể, trách nhiệm, quản lý nhà nước”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 19,
-          "question": "Khi đánh giá E-HSDT đối với gói thầu mua sắm hàng hóa, trường hợp có sự sai khác giữa thông tin kê khai về về ký mã hiệu, nhãn hiệu, xuất xứ, hãng sản xuất trong bảng đề xuất về hàng hóa của nhà thầu (Mẫu số 10B chương IV) so với tài liệu đính kèm thì Tổ chuyên gia đánh giá như thế nào?",
-          "options": [
-            "Đánh giá theo thông tin trong tài liệu đính kèm trong trường hợp sau khi làm rõ E-HSDT thông tin trong tài liệu đính kèm là chính xác",
-            "Đánh giá theo thông tin trong Mẫu số 10B nhà thầu kê khai, trừ trường hợp ký mã hiệu (nếu có), nhãn hiệu, hãng sản xuất kê khai tại Mẫu số 10B không tồn tại trên thị trường.",
-            "Loại nhà thầu E-HSDT của nhà thầu do có sự sai khác giữa thông tin kê khai và tài liệu đính kèm.",
-            "Phương án A và B đều đúng"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Khi đánh giá E-HSDT hàng hóa qua mạng, thông tin trong biểu mẫu kê khai trên Hệ thống là căn cứ chính để đánh giá. Nếu bảng đề xuất hàng hóa thiếu hoặc sai thông tin quan trọng, hồ sơ có thể không được xem xét vì bên mời thầu không đủ dữ liệu xác định sự đáp ứng."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 20,
-          "question": "Đối với đấu thầu qua mạng, khi tham dự gói thầu mua sắm hàng hóa, trong bảng đề xuất về hàng hóa (Mẫu số 10B chương IV), nhà thầu A chào '“theo catalog đính kèm” thay vì kê khai thông tin theo Mẫu số 10B. Tổ chuyên gia đánh giá nội dung này trong E-HSDT của nhà thầu như thế nào là phù hợp?",
-          "options": [
-            "Tổ chuyên gia đánh giá nội dung này theo Catalog nhà thầu A đính kèm. Nội dung này được tiếp tục đánh giá khi Catalog không tham chiếu đến nhiều hơn 01 ký mã hiệu, nhãn hiệu, hãng sản xuất...cho một loại hàng hóa",
-            "Báo cáo chủ đầu tư yêu cầu nhà thầu A làm rõ nội dung này nếu Catalog tham chiếu đến nhiều hơn 01 ký mã hiệu, nhãn hiệu, hãng sản xuất...cho một loại hàng hóa để làm cơ sở đánh giá",
-            "E-HSDT của nhà thầu A không được xem xét, đánh giá",
-            "Phương án A và B đều đúng"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Khi đánh giá E-HSDT hàng hóa qua mạng, thông tin trong biểu mẫu kê khai trên Hệ thống là căn cứ chính để đánh giá. Nếu bảng đề xuất hàng hóa thiếu hoặc sai thông tin quan trọng, hồ sơ có thể không được xem xét vì bên mời thầu không đủ dữ liệu xác định sự đáp ứng."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 21,
-          "question": "Đối với đấu thầu qua mạng, khi tham dự gói thầu mua sắm hàng hóa, trong bảng đề xuất về hàng hóa (Mẫu số 10B chương IV), nhà thầu A chào ''không có'' đối với nội dung ký, mã hiệu. Tuy nhiên, trong quá trình đánh giá, Tổ chuyên gia phát hiện hãng sản xuất có ký, mã hiệu của hàng hóa này. Tổ chuyên gia đánh giá như thế nào trong tình huống này?",
-          "options": [
-            "Báo cáo chủ đầu tư yêu cầu nhà thầu A làm rõ nội dung này trên Hệ thống",
-            "E-HSDT không được xem xét, đánh giá",
-            "Tiếp tục xem xét, đánh giá nếu tài liệu đính kèm của nhà thầu đầy đủ thông tin",
-            "Cả 3 phương án đều sai"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Khi đánh giá E-HSDT hàng hóa qua mạng, thông tin trong biểu mẫu kê khai trên Hệ thống là căn cứ chính để đánh giá. Nếu bảng đề xuất hàng hóa thiếu hoặc sai thông tin quan trọng, hồ sơ có thể không được xem xét vì bên mời thầu không đủ dữ liệu xác định sự đáp ứng."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 22,
-          "question": "Trường hợp gói thầu đủ điều kiện áp dụng hình thức chỉ định thầu theo quy định tại khoản 1 Điều 78 của Nghị định số 214/2025/NĐ-CP nhưng chủ đầu tư quyết định áp dụng hình thức đấu thầu rộng rãi để lựa chọn nhà thầu thì thời gian chuẩn bị hồ sơ dự thầu là?",
-          "options": [
-            "Tối thiểu là 18 ngày kể từ ngày đầu tiên hồ sơ mời thầu được phát hành đến ngày có thời điểm đóng thầu",
-            "Tối thiểu là 09 ngày làm việc kể từ ngày đầu tiên hồ sơ mời thầu được phát hành đến ngày có thời điểm đóng",
-            "Tối thiểu là 09 ngày kể từ ngày đầu tiên hồ sơ mời thầu được phát hành đến ngày có thời điểm đóng thầu",
-            "Tối thiểu là 18 ngày làm việc kể từ ngày đầu tiên hồ sơ mời thầu được phát hành đến ngày có thời điểm đóng"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Khi doanh nghiệp nhà nước không sử dụng vốn ngân sách nhà nước và gói thầu không thuộc phạm vi bắt buộc của Luật Đấu thầu, doanh nghiệp có thể tự quyết định việc lựa chọn nhà thầu trên cơ sở bảo đảm công khai, minh bạch, hiệu quả và trách nhiệm giải trình."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 29,
-          "question": "Ban Quản lý dự án đầu tư xây dựng tỉnh tổ chức đấu thầu rộng rãi qua mạng đối với gói thầu xây lắp . Nhà thầu A được xếp hạng nhất tại gói thầu này, tuy nhiên, do trong E-HSDT, nhà thầu A đề xuất 01 nhân sự chủ chốt đã huy động cho hợp đồng khác có thời gian làm việc trùng với thời gian thực hiện gói thầu này. Trong trường hợp này, tổ chuyên gia đánh giá về nhân sự chủ chốt của nhà thầu A như thế nào?",
-          "options": [
-            "Nhà thầu A bị loại và không được xem xét trúng thầu",
-            "Chủ đầu tư cho phép nhà thầu bổ sung, thay thế tối đa hai lần. Trường hợp nhà thầu không có nhân sự thay thế đáp ứng yêu cầu của E-HSMT thì nhà thầu A bị loại và bị đánh giá về uy tín khi tham dự thầu",
-            "Tiếp tục đánh giá theo cam kết của nhà thầu trong đơn dự thầu và xét duyệt trúng thầu đối với nhà thầu A",
-            "Nhà thầu A bị loại và bị đánh giá là gian lận trong kê khai về nhân sự chủ chốt"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Nhân sự chủ chốt chỉ nên đặt ra khi tính chất gói thầu thật sự cần nhân sự có chuyên môn đặc thù. Nếu gói thầu đơn giản mà yêu cầu nhân sự quá cao thì tiêu chí đó có nguy cơ làm hạn chế cạnh tranh."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 32,
-          "question": "Nội dung nào sau đây không thuộc trách nhiệm của chủ đầu tư?",
-          "options": [
-            "Lập báo cáo đánh giá hồ sơ dự thầu",
-            "Thương thảo hợp đồng",
-            "Phê duyệt hồ sơ mời thầu",
-            "Yêu cầu nhà thầu làm rõ hồ sơ dự thầu"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Mua thuốc, thiết bị y tế, hóa chất, vật tư xét nghiệm có quy định riêng vì liên quan đến tính sẵn có, tính chuyên dụng, đăng ký lưu hành và an toàn sử dụng. Khi đề nhắc nhóm hàng y tế, cần ưu tiên quy định chuyên ngành trong Luật/Nghị định thay vì áp máy móc như hàng hóa thông thường."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 36,
-          "question": "Nhà thầu không thực hiện gia hạn hiệu lực hồ sơ dự thầu theo đề nghị của chủ đầu tư thì xử lý như thế nào?",
-          "options": [
-            "Không được hoàn trả giá trị bảo đảm dự thầu (A)",
-            "Bị đánh giá về uy tín trong tham dự thầu và đăng tải trên hệ thống mạng đấu thầu quốc gia (B)",
-            "Được hoàn trả bảo đảm dự thầu cho nhà thầu (C)",
-            "Phương án A và B đều đúng"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Phương án “Được hoàn trả bảo đảm dự thầu cho nhà thầu” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Chủ thể, trách nhiệm, quản lý nhà nước”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 37,
-          "question": "Chủ đầu tư dự kiến lựa chọn gói thầu xây lắp theo hình thức chỉ định thầu theo quy trình thông thường. Nhà thầu dự kiến được mời nhận hồ sơ yêu cầu phải?",
-          "options": [
-            "Được đánh giá về năng lực và kinh nghiệm",
-            "Hạch toán tài chính độc lập",
-            "Độc lập về pháp lý và độc lập về tài chính với chủ đầu tư",
-            "Các phương án trên đều đúng"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Phương án “Hạch toán tài chính độc lập” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Chủ thể, trách nhiệm, quản lý nhà nước”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 40,
-          "question": "Chủ đầu tư A đang lập E HSMT cho gói thầu dịch vụ tư vấn, tiêu chuẩn đánh giá về kỹ thuật sử dụng phương pháp kết hợp giữa kỹ thuật và giá (thang điểm 100), điểm yêu cầu tối thiểu về kỹ thuật là 70 điểm, trong đó quy định điểm tối đa đối với từng nội dung như sau: - Kinh nghiệm và năng lực của nhà thầu: 5 điểm - Uy tín của nhà thầu: 5 điểm - Giải pháp và phương pháp luận: 30 điểm - Nhân sự chủ chốt: 60 Quy định nào sau đây về mức điểm yêu cầu tối thiểu về kỹ thuật đối với từng nội dung là phù hợp?",
-          "options": [
-            "Kinh nghiệm và năng lực của nhà thầu: 3 điểm; uy tín của nhà thầu: 3 điểm; giải pháp và phương pháp luận: 18 điểm; nhân sự chủ chốt: 36 điểm",
-            "Kinh nghiệm và năng lực của nhà thầu: 3.5 điểm; uy tín của nhà thầu: 3,5 điểm; giải pháp và phương pháp luận: 21 điểm; nhân sự chủ chốt: 42 điểm",
-            "Kinh nghiệm và năng lực của nhà thầu: 3 điểm; uy tín của nhà thầu: 0 điểm; giải pháp và phương pháp luận: 18 điểm; nhân sự chủ chốt: 36 điểm",
-            "Kinh nghiệm và năng lực của nhà thầu: 3.5 điểm; uy tín của nhà thầu: 0 điểm; giải pháp và phương pháp luận: 21 điểm; nhân sự chủ chốt: 42 điểm"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Dịch vụ tư vấn là công việc thiên về chuyên môn trí tuệ như lập quy hoạch, khảo sát, thiết kế, giám sát, thẩm định hoặc tư vấn quản lý. Phương án “Kinh nghiệm và năng lực của nhà thầu: 3.5 điểm; uy tín của nhà thầu: 3,5 điểm; giải pháp và phương pháp luận: 21 điểm; nhân sự chủ chốt: 42 điểm” thuộc nhóm tạo sản phẩm tư vấn/chuyên môn, nên được xếp là gói thầu cung cấp dịch vụ tư vấn."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Bắt buộc phải thực hiện theo Luật Đấu thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         }
       ]
     },
     {
-      "title": "Kế hoạch, HSMT và quy trình lựa chọn nhà thầu",
+      "title": "Phân loại gói thầu và hình thức lựa chọn nhà thầu",
       "theory": [
         {
-          "heading": "1. Quy trình lựa chọn nhà thầu: học theo dòng chảy 6 bước",
+          "heading": "Nguồn pháp lý tham khảo",
           "points": [
-            "Bước 1 - Lập và phê duyệt kế hoạch lựa chọn nhà thầu: xác định tên gói, giá gói thầu, nguồn vốn, hình thức, phương thức, loại hợp đồng, thời gian tổ chức và thời gian thực hiện.",
-            "Bước 2 - Chuẩn bị hồ sơ: lập HSMT/HSYC/E-HSMT, tiêu chuẩn đánh giá, yêu cầu kỹ thuật, điều kiện hợp đồng, biểu mẫu dự thầu.",
-            "Bước 3 - Tổ chức lựa chọn: đăng tải thông báo, phát hành hồ sơ, làm rõ/sửa đổi hồ sơ nếu cần, tiếp nhận HSDT/E-HSDT.",
-            "Bước 4 - Mở thầu và đánh giá: kiểm tra tư cách hợp lệ, năng lực kinh nghiệm, kỹ thuật, tài chính; sửa lỗi, hiệu chỉnh sai lệch, xếp hạng.",
-            "Bước 5 - Trình, thẩm định, phê duyệt kết quả lựa chọn nhà thầu.",
-            "Bước 6 - Hoàn thiện, ký kết và thực hiện hợp đồng; đăng tải thông tin hợp đồng, theo dõi chất lượng hàng hóa/dịch vụ."
+            "Luật Đấu thầu số 22/2023/QH15: https://vanban.chinhphu.vn/?classid=1&docid=208419&orggroupid=1&pageid=27160",
+            "Luật số 57/2024/QH15: https://vanban.chinhphu.vn/?classid=1&docid=212485&orggroupid=1&pageid=27160",
+            "Luật số 90/2025/QH15: https://vanban.chinhphu.vn/?docid=214558&orggroupid=1&pageid=27160",
+            "Nghị định số 214/2025/NĐ-CP: https://vanban.chinhphu.vn/?classid=1&docid=214821&pageid=27160&typegroupid=4",
+            "Thông tư số 79/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214844&pageid=27160",
+            "Thông tư số 80/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214968&pageid=27160"
           ],
-          "note": "Khi gặp câu hỏi dài, hãy hỏi: nó đang ở bước nào trong 6 bước này?"
+          "note": "Các nguồn này được ghi trong database chuyên đề để người học đối chiếu khi cần."
         },
         {
-          "heading": "2. Kế hoạch lựa chọn nhà thầu: vì sao giá gói thầu rất hay được hỏi?",
+          "heading": "1. Mục tiêu của chuyên đề",
           "points": [
-            "Giá gói thầu là nội dung trung tâm của kế hoạch vì quyết định hình thức lựa chọn, phương thức, hạn mức chỉ định thầu/chào hàng cạnh tranh, loại hợp đồng và nguồn vốn.",
-            "Kế hoạch phải đăng tải trên Hệ thống mạng đấu thầu quốc gia chậm nhất 05 ngày làm việc kể từ ngày ký ban hành.",
-            "Với gói thầu đã thanh lý hợp đồng, khi lập tờ trình kế hoạch, giá trị cần bám vào giá trị thanh lý hợp đồng để phản ánh số liệu thực tế, không dùng máy móc giá dự toán ban đầu.",
-            "Thời gian phê duyệt HSMT và kết quả lựa chọn nhà thầu do chủ đầu tư quyết định trên cơ sở bảo đảm tiến độ dự án/gói thầu; đây không phải mốc cố định giống 05 ngày đăng tải kế hoạch."
+            "Sau khi biết một trường hợp thuộc phạm vi đấu thầu, bước tiếp theo là nhận diện loại gói thầu và hình thức lựa chọn nhà thầu phù hợp. Đây là phần dễ nhầm vì nhiều phương án nghe gần giống nhau nhưng điều kiện áp dụng khác nhau."
           ]
         },
         {
-          "heading": "3. Hình thức lựa chọn nhà thầu: nhớ bằng bản chất cạnh tranh",
+          "heading": "2. Phân loại gói thầu",
           "points": [
-            "Đấu thầu rộng rãi không quy định hạn mức áp dụng; đây là hình thức cạnh tranh rộng nhất, dùng được khi chủ đầu tư muốn mở tối đa cơ hội cho nhà thầu.",
-            "Chỉ định thầu là ngoại lệ, chỉ dùng khi thuộc trường hợp được phép và đáp ứng điều kiện. Theo Nghị định 214/2025/NĐ-CP, nhóm câu hỏi hay kiểm tra hạn mức: 500 triệu đồng với gói thuộc dự toán mua sắm không hình thành dự án; 800 triệu đồng với dịch vụ tư vấn thuộc dự án; 02 tỷ đồng với phi tư vấn, hàng hóa, xây lắp, hỗn hợp thuộc dự án.",
-            "Chào hàng cạnh tranh dùng cho hàng hóa/dịch vụ thông dụng, đơn giản, sẵn có, yêu cầu kỹ thuật rõ; ngân hàng câu hỏi hay gắn mốc không quá 10 tỷ đồng.",
-            "Mua sắm trực tiếp chỉ áp dụng với gói thầu hàng hóa tương tự dựa trên hợp đồng đã ký trước đó và không được lạm dụng nhiều lần để tránh cạnh tranh.",
-            "Đấu thầu qua mạng không phải một hình thức lựa chọn nhà thầu độc lập; nó là cách thức tổ chức trên Hệ thống. Hình thức vẫn là đấu thầu rộng rãi, chào hàng cạnh tranh, chỉ định thầu..."
-          ],
-          "note": "Mẹo nhớ hạn mức chỉ định thầu: không hình thành dự án = 500 triệu; tư vấn thuộc dự án = 800 triệu; hàng hóa/xây lắp/phi tư vấn/hỗn hợp thuộc dự án = 2 tỷ."
-        },
-        {
-          "heading": "4. HSMT/E-HSMT: tiêu chí phải đủ rõ, không làm hạn chế cạnh tranh",
-          "points": [
-            "HSMT phải nêu rõ yêu cầu kỹ thuật, tiêu chuẩn đánh giá, điều kiện hợp đồng, biểu mẫu, bảo đảm dự thầu, cách làm rõ, cách đánh giá. Nhà thầu chỉ có thể chuẩn bị hồ sơ tốt nếu HSMT đủ thông tin.",
-            "Không được đưa tiêu chí làm hạn chế cạnh tranh như yêu cầu nhãn hiệu cụ thể không có “hoặc tương đương”, yêu cầu giấy phép bán hàng khi không cần thiết, yêu cầu hợp đồng tương tự quá hẹp so với bản chất gói thầu.",
-            "Giấy phép bán hàng/ủy quyền chỉ nên yêu cầu khi hàng hóa đặc thù cần bảo đảm nguồn gốc, bảo hành, bảo trì, dịch vụ sau bán hàng. Với hàng thông dụng, yêu cầu này có thể bị coi là gây hạn chế cạnh tranh.",
-            "Khi HSMT có sai sót, chủ đầu tư phải sửa đổi và đăng tải công khai trên Hệ thống, không chỉ trả lời riêng cho một nhà thầu."
+            "Gói thầu tư vấn là các công việc mang tính chuyên môn trí tuệ như khảo sát, lập báo cáo, thiết kế, dự toán, tư vấn đấu thầu, thẩm tra, thẩm định, giám sát, quản lý dự án, kiểm toán. Gói thầu phi tư vấn là dịch vụ không thuộc tư vấn như logistics, bảo hiểm, quảng cáo, in ấn, vệ sinh, truyền thông, sửa chữa, bảo trì, nghiệm thu chạy thử.",
+            "Gói thầu hàng hóa gồm máy móc, thiết bị, vật tư, thuốc, hóa chất, vật tư xét nghiệm, thiết bị y tế và phần mềm thương mại. Gói thầu xây lắp là thi công, xây dựng, lắp đặt công trình. Gói hỗn hợp là gói kết hợp từ hai loại công việc trở lên."
           ]
         },
         {
-          "heading": "5. Đấu thầu trước và mua sắm nhỏ",
+          "heading": "3. Hình thức lựa chọn nhà thầu",
           "points": [
-            "Đấu thầu trước là thực hiện trước một số thủ tục lựa chọn nhà thầu để rút ngắn tiến độ, nhưng không có nghĩa được ký hợp đồng hoặc triển khai khi chưa đủ căn cứ phê duyệt, bố trí vốn theo quy định.",
-            "Nội dung mua sắm có giá không quá 50 triệu đồng thường được thực hiện theo thủ tục đơn giản hơn, nhưng vẫn cần chứng từ, hóa đơn, phê duyệt phù hợp và trách nhiệm của người quyết định mua.",
-            "Khi câu hỏi đưa tình huống “đã đủ điều kiện chỉ định thầu/chào hàng cạnh tranh nhưng vẫn đấu thầu rộng rãi”, đáp án thường cho phép vì đấu thầu rộng rãi là hình thức cạnh tranh hơn, không bị giới hạn bởi hạn mức."
+            "Đấu thầu rộng rãi là hình thức có tính cạnh tranh cao và không đặt hạn mức giá trị như một điều kiện áp dụng chung. Đấu thầu hạn chế dùng khi gói thầu có yêu cầu cao về kỹ thuật hoặc kỹ thuật đặc thù mà chỉ một số nhà thầu đáp ứng. Chào hàng cạnh tranh thường áp dụng với hàng hóa, dịch vụ thông dụng, sẵn có trên thị trường, đặc tính kỹ thuật được tiêu chuẩn hóa.",
+            "Chỉ định thầu, mua sắm trực tiếp, tự thực hiện, đặt hàng hoặc giao nhiệm vụ là các hình thức có điều kiện riêng. Khi làm bài, không chọn các hình thức này chỉ vì thấy nhanh hoặc tiện; phải kiểm tra đúng điều kiện pháp luật."
+          ]
+        },
+        {
+          "heading": "Bẫy thường gặp",
+          "points": [
+            "Nhầm kiểm toán là phi tư vấn.",
+            "Nhầm phần mềm thương mại là dịch vụ tư vấn.",
+            "Chọn chỉ định thầu chỉ vì thấy tình huống cần nhanh."
           ]
         }
       ],
       "questions": [
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (2.1-KHLCNT) - Kế hoạch Lựa chọn nhà thầu",
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
           "number": 1,
+          "question": "Theo quy định pháp luật về đấu thầu, gói thầu nào được xếp vào gói thầu cung cấp dịch vụ tư vấn?",
+          "options": [
+            "Thiết kế và cung cấp hệ thống xử lý nước thải",
+            "Gói thầu lập nhiệm vụ quy hoạch vùng",
+            "Gói thầu quảng cáo trên nền tảng xã hội và phát sóng trên VTV",
+            "Gói thầu mua phần mềm kế toán MISA"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Gói thầu lập nhiệm vụ quy hoạch vùng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 2,
+          "question": "Gói thầu nào là gói thầu cung cấp dịch vụ phi tư vấn?",
+          "options": [
+            "Gói thầu in sổ công tác của tỉnh A",
+            "Gói thầu thuê kiểm toán dự án",
+            "Gói thầu mua phần mềm kế toán hỗ trợ doanh nghiệp khởi nghiệp sáng tạo, doanh nghiệp nhỏ do phụ nữ làm chủ",
+            "Gói thầu xây dựng trụ sở làm việc của tỉnh A."
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Gói thầu in sổ công tác của tỉnh A. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 3,
+          "question": "Theo quy định pháp luật về đấu thầu, đấu thầu là gì?",
+          "options": [
+            "Là quá trình lựa chọn nhà thầu để ký kết, thực hiện hợp đồng cung cấp dịch vụ tư vấn, dịch vụ phi tư vấn, mua sắm hàng hóa, xây lắp trên cơ sở bảo đảm cạnh tranh, công bằng, minh bạch, hiệu quả kinh tế và trách nhiệm giải trình (A)",
+            "Là quá trình lựa chọn nhà đầu tư để ký kết, thực hiện hợp đồng dự án đầu tư kinh doanh trên cơ sở bảo đảm cạnh tranh, công bằng, minh bạch, hiệu quả kinh tế và trách nhiệm giải trình (B)",
+            "Là quá trình lựa chọn đơn vị để thực hiện hợp đồng thông qua các quy trình, thủ tục do pháp luật đấu thầu quy định. (C)",
+            "Phương án A và B đều đúng"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Phương án A và B đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "CĐ 2.1 - Kế hoạch lựa chọn nhà thầu",
+          "number": 4,
           "question": "Chọn phương án đúng về hạn mức đối với đấu thầu rộng rãi?",
           "options": [
             "Không quy định hạn mức áp dụng",
@@ -2166,12 +636,12 @@ window.STUDY_DATA = {
             "Trên 20 tỷ đồng đối với xây lắp, hàng hoá; trên 10 tỷ đồng đối với gói thầu dịch vụ tư vấn, phi tư vấn"
           ],
           "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Đấu thầu rộng rãi là hình thức lựa chọn nhà thầu có tính cạnh tranh cao nhất và pháp luật không đặt một “trần hạn mức” riêng để mới được áp dụng. Vì vậy câu hỏi về hạn mức của đấu thầu rộng rãi phải hiểu là không quy định hạn mức áp dụng."
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Không quy định hạn mức áp dụng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (2.1-KHLCNT) - Kế hoạch Lựa chọn nhà thầu",
-          "number": 2,
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "CĐ 2.1 - Kế hoạch lựa chọn nhà thầu",
+          "number": 5,
           "question": "Gói thầu nào sau đây thuộc trường hợp được áp dụng chào hàng cạnh tranh?",
           "options": [
             "Tất cả gói thầu hàng hoá có giá không quá 10 tỷ đồng",
@@ -2180,12 +650,12 @@ window.STUDY_DATA = {
             "Gói thầu xây lắp công trình đơn giản đã có dự toán được phê duyệt có giá không quá 15 tỷ đồng"
           ],
           "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Chào hàng cạnh tranh áp dụng cho gói thầu thông dụng, đơn giản, sẵn có trên thị trường trong hạn mức phù hợp; ngân hàng câu hỏi đang kiểm tra mốc không quá 10 tỷ đồng. Vì gói thầu trong đề thuộc nhóm phi tư vấn/hàng hóa thông dụng nên có thể chào hàng cạnh tranh thay vì bắt buộc đấu thầu rộng rãi."
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Gói thầu dịch vụ phi tư vấn thông dụng, đơn giản có giá không quá 10 tỷ đồng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (2.1-KHLCNT) - Kế hoạch Lựa chọn nhà thầu",
-          "number": 3,
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "CĐ 2.1 - Kế hoạch lựa chọn nhà thầu",
+          "number": 6,
           "question": "Đối với gói thầu mua sắm hàng hóa thông dụng, sẵn có trên thị trường có giá gói thầu 05 tỷ đồng thì kế hoạch lựa chọn nhà thầu phê duyệt áp dụng hình thức lựa chọn nhà thầu nào sau đây?",
           "options": [
             "Chỉ được áp dụng hình thức chào hàng cạnh tranh",
@@ -2194,12 +664,12 @@ window.STUDY_DATA = {
             "Được áp dụng hình thức chỉ định thầu hoặc chào hàng cạnh tranh hoặc đấu thầu rộng rãi"
           ],
           "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Phương án “Được áp dụng hình thức chào hàng cạnh tranh hoặc đấu thầu rộng rãi” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Được áp dụng hình thức chào hàng cạnh tranh hoặc đấu thầu rộng rãi. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (2.1-KHLCNT) - Kế hoạch Lựa chọn nhà thầu",
-          "number": 4,
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "CĐ 2.1 - Kế hoạch lựa chọn nhà thầu",
+          "number": 7,
           "question": "Hạn mức chỉ định thầu đối với gói thầu không hình thành dự án thuộc dự toán mua sắm thường xuyên là:",
           "options": [
             "500 triệu đồng",
@@ -2208,12 +678,12 @@ window.STUDY_DATA = {
             "300 triệu đồng"
           ],
           "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Hạn mức chỉ định thầu đối với gói thầu thuộc dự toán mua sắm không hình thành dự án là không quá 500 triệu đồng, theo khoản 4 Điều 78 Nghị định 214/2025/NĐ-CP. Vì đề nêu đúng trường hợp “không hình thành dự án” nên phải chọn mức 500 triệu đồng, không dùng mức 800 triệu hay 02 tỷ vốn áp dụng cho nhóm gói thầu thuộc dự án."
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: 500 triệu đồng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (2.1-KHLCNT) - Kế hoạch Lựa chọn nhà thầu",
-          "number": 5,
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "CĐ 2.1 - Kế hoạch lựa chọn nhà thầu",
+          "number": 8,
           "question": "Hạn mức chỉ định thầu đối với gói thầu mua sắm hàng hóa thuộc dự án đầu tư là:",
           "options": [
             "800 triệu đồng",
@@ -2222,12 +692,12 @@ window.STUDY_DATA = {
             "02 tỷ đồng"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Gói thầu mua sắm hàng hóa, xây lắp, phi tư vấn hoặc hỗn hợp thuộc dự án được chỉ định thầu trong hạn mức không quá 02 tỷ đồng, theo khoản 4 Điều 78 Nghị định 214/2025/NĐ-CP. Điểm mấu chốt là đề hỏi gói thầu thuộc dự án, nên khác với trường hợp dự toán mua sắm không hình thành dự án chỉ 500 triệu đồng."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: 02 tỷ đồng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (2.1-KHLCNT) - Kế hoạch Lựa chọn nhà thầu",
-          "number": 6,
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "CĐ 2.1 - Kế hoạch lựa chọn nhà thầu",
+          "number": 9,
           "question": "Gói thầu lựa chọn tư vấn là tổ chức có giá gói thầu là 500 triệu đồng áp dụng hình thức lựa chọn nhà thầu nào?",
           "options": [
             "Chỉ được áp dụng hình thức chỉ định thầu",
@@ -2236,12 +706,12 @@ window.STUDY_DATA = {
             "Được áp dụng hình thức chỉ định thầu hoặc đấu thầu rộng rãi hoặc chào hàng cạnh tranh"
           ],
           "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Gói thầu dịch vụ tư vấn thuộc dự án có hạn mức chỉ định thầu không quá 800 triệu đồng. Gói trong đề là tư vấn 500 triệu đồng nên nằm trong hạn mức chỉ định thầu; tuy vậy đấu thầu rộng rãi vẫn là hình thức có thể áp dụng khi chủ đầu tư muốn cạnh tranh rộng hơn."
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Được áp dụng hình thức chỉ định thầu hoặc đấu thầu rộng rãi. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (2.1-KHLCNT) - Kế hoạch Lựa chọn nhà thầu",
-          "number": 7,
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "CĐ 2.1 - Kế hoạch lựa chọn nhà thầu",
+          "number": 10,
           "question": "Chọn phương án đúng về loại gói thầu đối với hình thức mua sắm trực tiếp?",
           "options": [
             "Chỉ gói thầu hàng hoá",
@@ -2250,12 +720,12 @@ window.STUDY_DATA = {
             "Gói thầu hàng hóa và phi tư vấn"
           ],
           "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Mua sắm trực tiếp chỉ dùng cho gói thầu hàng hóa. Logic của hình thức này là mua bổ sung hàng hóa tương tự với hợp đồng đã thực hiện trước đó, nên không mở rộng sang tư vấn, xây lắp hoặc các dịch vụ không cùng bản chất."
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Chỉ gói thầu hàng hoá. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (2.1-KHLCNT) - Kế hoạch Lựa chọn nhà thầu",
-          "number": 8,
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "CĐ 2.1 - Kế hoạch lựa chọn nhà thầu",
+          "number": 11,
           "question": "Đâu không phải là điều kiện để áp dụng mua sắm trực tiếp?",
           "options": [
             "Nhà thầu đã trúng thầu thông qua đấu thầu rộng rãi, đấu thầu hạn chế và đã ký hợp đồng gói thầu thực hiện gói thầu trước đó",
@@ -2264,12 +734,12 @@ window.STUDY_DATA = {
             "Chủ đầu tư được áp dụng mua sắm trực tiếp nhiều lần đối với các loại hàng hóa thuộc gói thầu"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Mua sắm trực tiếp chỉ được áp dụng khi đáp ứng đồng thời các điều kiện về hàng hóa tương tự, cùng dự án/dự toán hoặc nhu cầu mua sắm, thời hạn và đơn giá không vượt hợp đồng trước. Nhận định “được áp dụng nhiều lần đối với cùng một mặt hàng” là điểm sai vì dễ làm mất cạnh tranh."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Chủ đầu tư được áp dụng mua sắm trực tiếp nhiều lần đối với các loại hàng hóa thuộc gói thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (2.1-KHLCNT) - Kế hoạch Lựa chọn nhà thầu",
-          "number": 9,
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "CĐ 2.1 - Kế hoạch lựa chọn nhà thầu",
+          "number": 12,
           "question": "Hãy chọn phương án đúng về hình thức đặt hàng?",
           "options": [
             "Là một trong các hình thức lựa chọn nhà thầu",
@@ -2278,12 +748,12 @@ window.STUDY_DATA = {
             "Đặt hàng chỉ áp dụng đối với nguồn chi thường xuyên ngân sách nhà nước, không được áp dụng đối với nguồn vốn khác"
           ],
           "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Trong mua sắm trực tuyến, yêu cầu đặt hàng được gửi qua Hệ thống đến nhà thầu đã trúng thầu/đã có hàng hóa trên danh mục. Nhà thầu phải xác nhận trong thời hạn quy định; ngân hàng câu hỏi kiểm tra mốc 03 ngày làm việc cho bước phản hồi yêu cầu đặt hàng."
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Là một trong các hình thức lựa chọn nhà thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (2.1-KHLCNT) - Kế hoạch Lựa chọn nhà thầu",
-          "number": 10,
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "CĐ 2.1 - Kế hoạch lựa chọn nhà thầu",
+          "number": 13,
           "question": "Phương án nào không phải là một trong các hình thức lựa chọn nhà thầu được phê duyệt trong kế hoạch lựa chọn nhà thầu?",
           "options": [
             "Đấu thầu rộng rãi",
@@ -2292,82 +762,12 @@ window.STUDY_DATA = {
             "Đấu thầu qua mạng"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: “Đấu thầu qua mạng” không phải là một hình thức lựa chọn nhà thầu độc lập trong kế hoạch lựa chọn nhà thầu; nó là cách thức tổ chức thực hiện trên Hệ thống. Hình thức là đấu thầu rộng rãi, chào hàng cạnh tranh, chỉ định thầu, mua sắm trực tiếp… còn “qua mạng” chỉ nói cuộc thầu được thực hiện điện tử."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Đấu thầu qua mạng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (2.1-KHLCNT) - Kế hoạch Lựa chọn nhà thầu",
-          "number": 11,
-          "question": "Kế hoạch lựa chọn nhà thầu bắt buộc phải đăng tải ở đâu?",
-          "options": [
-            "Hệ thống mạng đấu thầu quốc gia (A)",
-            "Hệ thống mạng đấu thầu quốc gia, Báo Tài chính-Đầu tư (B)",
-            "Cổng Thông tin điện tử của Bộ, ngành (C)",
-            "Phương án A và B đều đúng"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Kế hoạch lựa chọn nhà thầu phải được đăng tải trên Hệ thống mạng đấu thầu quốc gia để bảo đảm công khai, minh bạch và tạo căn cứ cho nhà thầu theo dõi cơ hội tham dự. Không đăng tải ở kênh riêng của chủ đầu tư thay cho Hệ thống."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (2.1-KHLCNT) - Kế hoạch Lựa chọn nhà thầu",
-          "number": 12,
-          "question": "Chậm nhất là bao nhiêu ngày thì kế hoạch lựa chọn nhà thầu phải được đăng tải trên Hệ thống mạng đấu thầu quốc gia?",
-          "options": [
-            "05 ngày làm việc kể từ ngày kế hoạch lựa chọn nhà thầu được ký ban hành",
-            "07 ngày kể từ ngày kế hoạch lựa chọn nhà thầu được ký ban hành",
-            "07 ngày làm việc kể từ ngày kế hoạch lựa chọn nhà thầu được ký ban hành",
-            "10 ngày kể từ ngày kế hoạch lựa chọn nhà thầu được ký ban hành"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Mốc cần nhớ ở câu này là “05 ngày làm việc kể từ ngày kế hoạch lựa chọn nhà thầu được ký ban hành”. Đây là câu hỏi kiểm tra con số/thời hạn cụ thể trong chủ đề “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, vì vậy cách làm là xác định đúng thủ tục hoặc loại gói thầu trước, sau đó mới gắn với mốc tương ứng."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (2.1-KHLCNT) - Kế hoạch Lựa chọn nhà thầu",
-          "number": 13,
-          "question": "Kế hoạch lựa chọn nhà thầu bao gồm nội dung nào sau đây?",
-          "options": [
-            "Giá gói thầu",
-            "Thời gian thực hiện hợp đồng",
-            "Giám sát hoạt động đấu thầu",
-            "Cả 3 phương án trên đều đúng"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Giá gói thầu là nội dung bắt buộc trong kế hoạch lựa chọn nhà thầu vì nó là căn cứ chọn hình thức, phương thức, loại hợp đồng, thời gian và nguồn vốn. Nếu thiếu giá gói thầu thì kế hoạch không đủ cơ sở để triển khai lựa chọn nhà thầu."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (2.1-KHLCNT) - Kế hoạch Lựa chọn nhà thầu",
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "CĐ 2.1 - Kế hoạch lựa chọn nhà thầu",
           "number": 14,
-          "question": "Đối với các gói thầu đã thanh lý hợp đồng, khi lập Tờ trình Kế hoạch lựa chọn nhà thầu, giá trị phần công việc đã thực hiện của các gói thầu này được tính như thế nào?",
-          "options": [
-            "Giá gói thầu",
-            "Giá trị thanh lý hợp đồng",
-            "Giá hợp đồng",
-            "Tất cả phương án đều đúng"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Phương án “Giá trị thanh lý hợp đồng” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (2.1-KHLCNT) - Kế hoạch Lựa chọn nhà thầu",
-          "number": 15,
-          "question": "Hãy chọn phương án đúng về đấu thầu trước?",
-          "options": [
-            "Đấu thầu trước là việc thực hiện trước một số thủ tục trước khi dự án được phê duyệt đầu tư nhằm mục đích đẩy nhanh tiến độ thực hiện dự án, trừ gói thầu cần thực hiện trước khi phê duyệt dự án",
-            "Đấu thầu trước là việc thực hiện các gói thầu thuộc giai đoạn chuẩn bị đầu tư",
-            "Đấu thầu trước là việc lựa chọn nhà thầu không cần phê duyệt kế hoạch lựa chọn nhà thầu để đẩy nhanh tiến độ thực hiện",
-            "Đấu thầu trước là việc thực hiện trước một số thủ tục trước khi dự án, dự toán mua sắm được phê duyệt nhằm mục đích đẩy nhanh tiến độ thực hiện dự án, trừ gói thầu cần thực hiện trước khi phê duyệt dự án"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Đấu thầu trước là việc thực hiện trước một số thủ tục lựa chọn nhà thầu trước khi dự án hoặc dự toán được phê duyệt đầy đủ theo điều kiện luật định. Mục tiêu là rút ngắn tiến độ, nhưng vẫn không được ký hợp đồng khi chưa đủ căn cứ bố trí vốn/phê duyệt theo quy định."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (2.1-KHLCNT) - Kế hoạch Lựa chọn nhà thầu",
-          "number": 16,
           "question": "Đối với nội dung mua sắm có giá không quá 50 triệu đồng thì được thực hiện như thế nào?",
           "options": [
             "Không phải lập kế hoạch lựa chọn nhà thầu nhưng phải thực hiện mua sắm trên cơ sở tiết kiệm, hiệu quả, bảo đảm đầy đủ hoá đơn, chứng từ (A)",
@@ -2376,12 +776,12 @@ window.STUDY_DATA = {
             "Phương án A và C đúng"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Nội dung mua sắm có giá không quá 50 triệu đồng được thực hiện theo thủ tục đơn giản hơn, nhưng vẫn phải bảo đảm tiết kiệm, hiệu quả, có hóa đơn/chứng từ và trách nhiệm của người quyết định mua sắm. Vì vậy đáp án kết hợp các yêu cầu quản lý và chứng từ là phù hợp."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Phương án A và C đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (2.1-KHLCNT) - Kế hoạch Lựa chọn nhà thầu",
-          "number": 17,
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "CĐ 2.1 - Kế hoạch lựa chọn nhà thầu",
+          "number": 15,
           "question": "Phương thức lựa chọn nhà thầu nào sau đây áp dụng cho đấu thầu qua mạng?",
           "options": [
             "01 giai đoạn, 01 túi hồ sơ",
@@ -2390,40 +790,12 @@ window.STUDY_DATA = {
             "Các phương án trên đều đúng"
           ],
           "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Đấu thầu qua mạng trong ngân hàng câu hỏi này gắn với phương thức 01 giai đoạn, 01 túi hồ sơ. Nghĩa là nhà thầu nộp một bộ E-HSDT trên Hệ thống, trong đó có cả nội dung kỹ thuật và tài chính, phù hợp với quy trình điện tử hóa thông thường."
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: 01 giai đoạn, 01 túi hồ sơ. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (2.1-KHLCNT) - Kế hoạch Lựa chọn nhà thầu",
-          "number": 18,
-          "question": "Đàm phán giá được áp dụng trong trường hợp nào sau đây?",
-          "options": [
-            "Mua vật tư tiêu hao",
-            "Mua thuốc, thiết bị y tế, vật tư xét nghiệm chỉ có 01 hoặc 02 hãng sản xuất",
-            "Mua hàng hóa chỉ có 01 hãng sản xuất",
-            "Mua hàng hóa chỉ có 01 hoặc 02 hãng sản xuất"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Đàm phán giá được dùng trong các trường hợp đặc thù như mua thuốc, thiết bị y tế, vật tư xét nghiệm chỉ có 01 hoặc 02 hãng sản xuất. Khi thị trường có rất ít nguồn cung, cạnh tranh thông thường không đủ hiệu quả, nên cơ chế phù hợp là đàm phán để xác lập mức giá mua."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (2.1-KHLCNT) - Kế hoạch Lựa chọn nhà thầu",
-          "number": 19,
-          "question": "Lựa chọn phương án phù hợp nhất đối với nội dung đền bù giải phóng mặt bằng khi lập kế hoạch lựa chọn nhà thầu?",
-          "options": [
-            "Tất cả nội dung công việc có liên quan đến giải phóng mặt bằng thuộc phần công việc không áp dụng một trong các hình thức lựa chọn nhà thầu (A)",
-            "Đối với các công việc mà Hội đồng đền bù giải phóng mặt bằng tự làm (ví dụ: tổ chức họp với người sử dụng đất, chủ sở hữu tài sản; trình duyệt, công khai phương án bồi thường, bàn giao chi phí bồi thường...) thì thuộc phần không áp dụng một trong các hình thức lựa chọn nhà thầu (B)",
-            "Đối với phần việc phải hình thành gói thầu thuê tư vấn để thực hiện nhằm phục vụ công việc giải phóng mặt bằng thì thuộc phần công việc thuộc kế hoạch lựa chọn nhà thầu (C)",
-            "Phương án B và C đều đúng"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Giá gói thầu là nội dung bắt buộc trong kế hoạch lựa chọn nhà thầu vì nó là căn cứ chọn hình thức, phương thức, loại hợp đồng, thời gian và nguồn vốn. Nếu thiếu giá gói thầu thì kế hoạch không đủ cơ sở để triển khai lựa chọn nhà thầu."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (2.1-KHLCNT) - Kế hoạch Lựa chọn nhà thầu",
-          "number": 20,
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "CĐ 2.1 - Kế hoạch lựa chọn nhà thầu",
+          "number": 16,
           "question": "Mua sắm trực tuyến được áp dụng đối với hàng hoá, dịch vụ của gói thầu thuộc dự toán mua sắm với giá gói thầu có hạn mức tối đa là bao nhiêu?",
           "options": [
             "100 triệu đồng",
@@ -2432,12 +804,12 @@ window.STUDY_DATA = {
             "01 tỷ đồng"
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Mua sắm trực tuyến áp dụng cho hàng hóa, dịch vụ thuộc dự toán mua sắm trong hạn mức theo tài liệu ôn tập; câu này đang kiểm tra nhóm gói thầu thuộc dự toán mua sắm có giá không quá 500 triệu đồng. Cách nhớ: mua sắm trực tuyến dùng cho nhu cầu chuẩn hóa, có sẵn trên Hệ thống, không phải mọi gói thầu phức tạp."
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: 500 triệu đồng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (2.1-KHLCNT) - Kế hoạch Lựa chọn nhà thầu",
-          "number": 21,
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "CĐ 2.1 - Kế hoạch lựa chọn nhà thầu",
+          "number": 17,
           "question": "Chào giá trực tuyến theo quy trình thông thường áp dụng đối với gói thầu nào sau đây?",
           "options": [
             "Dịch vụ phi tư vấn thông dụng, đơn giản",
@@ -2446,12 +818,12 @@ window.STUDY_DATA = {
             "Hỗn hợp"
           ],
           "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Chào giá trực tuyến đặt trọng tâm vào cạnh tranh giá trên Hệ thống theo thời điểm và lượt chào. Phương án “Dịch vụ phi tư vấn thông dụng, đơn giản” đúng vì phản ánh đúng nghĩa vụ/thời hạn/quy tắc vận hành của nhà thầu trong quy trình này."
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Dịch vụ phi tư vấn thông dụng, đơn giản. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (2.1-KHLCNT) - Kế hoạch Lựa chọn nhà thầu",
-          "number": 22,
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "CĐ 2.1 - Kế hoạch lựa chọn nhà thầu",
+          "number": 18,
           "question": "Nhận định nào sau đây là đúng?",
           "options": [
             "Việc áp dụng mua sắm trực tuyến không cần phê duyệt trong kế hoạch lựa chọn nhà thầu và được áp dụng đối với hàng hóa, dịch vụ tư vấn của gói thầu thuộc dự toán mua sắm có giá gói thầu không quá 500 triệu đồng",
@@ -2460,12 +832,12 @@ window.STUDY_DATA = {
             "Các phương án trên đều sai"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Câu này yêu cầu nhận diện một nhóm nhận định cùng đúng/sai, không chỉ một ý đơn lẻ. Phương án “Các phương án trên đều sai” được chọn vì các ý còn lại khi ghép lại phản ánh đầy đủ hơn quy định trong chủ đề “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”. Khi ôn, nên đọc từng mệnh đề rồi kiểm tra xem chúng có cùng thuộc một điều kiện/quy trình hay không."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Các phương án trên đều sai. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (2.1-KHLCNT) - Kế hoạch Lựa chọn nhà thầu",
-          "number": 23,
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "CĐ 2.1 - Kế hoạch lựa chọn nhà thầu",
+          "number": 19,
           "question": "Đối với dự toán mua sắm, hạn mức áp dụng chào giá trực tuyến theo quy trình thông thường đối với gói thầu mua sắm hàng hóa là?",
           "options": [
             "Có giá gói thầu không quá 500 triệu đồng",
@@ -2474,40 +846,12 @@ window.STUDY_DATA = {
             "Không có quy định về hạn mức áp dụng"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Chào giá trực tuyến đặt trọng tâm vào cạnh tranh giá trên Hệ thống theo thời điểm và lượt chào. Phương án “Không có quy định về hạn mức áp dụng” đúng vì phản ánh đúng nghĩa vụ/thời hạn/quy tắc vận hành của nhà thầu trong quy trình này."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Không có quy định về hạn mức áp dụng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (2.1-KHLCNT) - Kế hoạch Lựa chọn nhà thầu",
-          "number": 24,
-          "question": "Mua sắm trực tuyến có cần được phê duyệt trong kế hoạch lựa chọn nhà thầu không?",
-          "options": [
-            "Không phải phê duyệt trong kế hoạch lựa chọn nhà thầu",
-            "Phải được phê duyệt trong kế hoạch lựa chọn nhà thầu",
-            "Chỉ phải phê duyệt trong kế hoạch lựa chọn nhà thầu khi giá gói thầu lớn hơn 500 triệu đồng",
-            "Chỉ phải phê duyệt trong kế hoạch lựa chọn nhà thầu đối với các gói thầu thuộc dự án đầu tư"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Mua sắm trực tuyến vẫn là một cách lựa chọn/mua sắm phải được phê duyệt trong kế hoạch lựa chọn nhà thầu. Không thể vì thao tác trên Hệ thống mà bỏ qua bước kế hoạch, vì kế hoạch là căn cứ xác định nhu cầu, giá gói thầu, nguồn vốn và hình thức thực hiện."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (2.1-KHLCNT) - Kế hoạch Lựa chọn nhà thầu",
-          "number": 25,
-          "question": "Chọn phương án đúng về thời gian áp dụng mua sắm trực tuyến đối với các hạng mục trong danh mục hàng hóa, dịch vụ mua sắm tập trung?",
-          "options": [
-            "Thời gian áp dụng là thời gian thực hiện hợp đồng trong trường hợp không ký thỏa thuận khung nhưng không quá 24 tháng kể từ ngày hợp đồng có hiệu lực hoặc thời gian có hiệu lực của thỏa thuận khung",
-            "Thời gian áp dụng là 24 tháng kể từ ngày kết quả lựa chọn nhà thầu được đăng tải trên Hệ thống mạng đấu thầu quốc gia trong trường hợp hợp đồng, thỏa thuận khung chưa được công khai",
-            "Thời gian áp dụng là 24 tháng kể từ ngày kết quả lựa chọn nhà thầu được đăng tải trên Hệ thống mạng đấu thầu quốc gia",
-            "Phương án A và B đều đúng"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Mua sắm tập trung gom nhu cầu của nhiều đơn vị để lựa chọn nhà thầu chung, sau đó phân bổ/ký hợp đồng theo thỏa thuận khung hoặc danh sách trúng thầu. Phương án “Phương án A và B đều đúng” đúng vì bám đúng vai trò của đơn vị mua sắm tập trung và cách thực hiện sau lựa chọn."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (2.1-KHLCNT) - Kế hoạch Lựa chọn nhà thầu",
-          "number": 26,
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "CĐ 2.1 - Kế hoạch lựa chọn nhà thầu",
+          "number": 20,
           "question": "Mua sắm trực tuyến được áp dụng đối với gói thầu nào sau đây?",
           "options": [
             "Gói thầu mua sắm hàng hóa, dịch vụ thuộc dự toán mua sắm có giá gói thầu không quá 500 triệu đồng; gói thầu mua sắm hàng hóa, dịch vụ thuộc dự án có giá gói thầu không quá 01 tỷ đồng (A)",
@@ -2516,166 +860,12 @@ window.STUDY_DATA = {
             "Phương án B và C đều đúng"
           ],
           "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Mua sắm trực tuyến áp dụng cho hàng hóa, dịch vụ thuộc dự toán mua sắm trong hạn mức theo tài liệu ôn tập; câu này đang kiểm tra nhóm gói thầu thuộc dự toán mua sắm có giá không quá 500 triệu đồng. Cách nhớ: mua sắm trực tuyến dùng cho nhu cầu chuẩn hóa, có sẵn trên Hệ thống, không phải mọi gói thầu phức tạp."
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Gói thầu mua sắm hàng hóa, dịch vụ thuộc dự toán mua sắm có giá gói thầu không quá 500 triệu đồng; gói thầu mua sắm hàng hóa, dịch vụ thuộc dự án có giá gói thầu không quá 01 tỷ đồng (A). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 1,
-          "question": "Một trong các căn cứ lập hồ sơ mời thầu là?",
-          "options": [
-            "Báo giá của nhà thầu",
-            "Quyết định mua sắm được phê duyệt",
-            "Kế hoạch lựa chọn nhà thầu được duyệt",
-            "Phương án B và C đều đúng"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Kế hoạch lựa chọn nhà thầu được duyệt là căn cứ trực tiếp để lập HSMT/E-HSMT vì trong đó đã xác định gói thầu, giá, nguồn vốn, hình thức, phương thức, thời gian và loại hợp đồng. HSMT không được lập tách rời hoặc trái với kế hoạch đã phê duyệt."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 2,
-          "question": "Nội dung nào sau đây không thuộc hồ sơ mời thầu?",
-          "options": [
-            "Chỉ dẫn nhà thầu, tùy chọn mua thêm",
-            "Bảng dữ liệu đấu thầu",
-            "Phạm vi cung cấp, yêu cầu về kỹ thuật",
-            "Biên bản hoàn thiện hợp đồng"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Mua thuốc, thiết bị y tế, hóa chất, vật tư xét nghiệm có quy định riêng vì liên quan đến tính sẵn có, tính chuyên dụng, đăng ký lưu hành và an toàn sử dụng. Khi đề nhắc nhóm hàng y tế, cần ưu tiên quy định chuyên ngành trong Luật/Nghị định thay vì áp máy móc như hàng hóa thông thường."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 3,
-          "question": "Trường hợp nào hồ sơ mời thầu được đưa ra yêu cầu về giấy phép bán hàng?",
-          "options": [
-            "Hàng hóa thông thường, có sẵn trên thị trường",
-            "Hàng hóa nhập khẩu",
-            "Hàng hóa đặc thù, phức tạp cần gắn với trách nhiệm của nhà sản xuất",
-            "Hàng hóa có giá trị lớn"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Giấy phép bán hàng/ủy quyền chỉ nên yêu cầu khi hàng hóa có tính đặc thù cần bảo đảm nguồn gốc, dịch vụ sau bán hàng hoặc quyền phân phối. Nếu yêu cầu tràn lan sẽ làm hạn chế cạnh tranh, vì nhiều nhà thầu vẫn có thể cung cấp hàng hóa hợp lệ mà không phải là đại lý độc quyền."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 4,
-          "question": "Thời gian phê duyệt hồ sơ mời thầu được quy định như thế nào?",
-          "options": [
-            "Do chủ đầu tư quyết định trên cơ sở bảo đảm tiến độ của dự án, gói thầu",
-            "Tối đa là 05 ngày làm việc kể từ ngày tổ chuyên gia trình dự thảo hồ sơ mời thầu trong trường hợp không thẩm định hồ sơ mời thầu",
-            "Tối đa là 05 ngày làm việc kể từ ngày tổ thẩm định gửi báo cáo thẩm định hồ sơ mời thầu",
-            "Phương án B và C đều đúng"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Thời gian phê duyệt HSMT do chủ đầu tư quyết định trên cơ sở bảo đảm tiến độ dự án/gói thầu. Luật không đặt một con số cứng cho mọi trường hợp vì mỗi gói có quy mô và mức độ phức tạp khác nhau."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 5,
-          "question": "Đối với đấu thầu qua mạng, việc trả lời yêu cầu làm rõ E-HSMT được thực hiện theo phương án nào?",
-          "options": [
-            "Do tổ chuyên gia thực hiện bằng văn bản",
-            "Do tổ chuyên gia thực hiện trên Hệ thống mạng đấu thầu quốc gia",
-            "Do tư vấn đấu thầu thực hiện bằng tài khoản của đơn vị tư vấn",
-            "Do Chủ đầu tư thực hiện trên Hệ thống mạng đấu thầu quốc gia"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Yêu cầu làm rõ E-HSMT phải được chủ đầu tư trả lời trên Hệ thống mạng đấu thầu quốc gia để mọi nhà thầu đều tiếp cận cùng một thông tin. Trả lời riêng ngoài Hệ thống có thể tạo bất bình đẳng và rủi ro khiếu kiện."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 6,
-          "question": "Nhà thầu không phải đính kèm thư bảo lãnh (hoặc giấy chứng nhận bảo hiểm bảo lãnh) mà chỉ phải cam kết trong đơn dự thầu khi?",
-          "options": [
-            "E-HSMT yêu cầu giá trị bảo đảm dự thầu là 40 triệu đồng",
-            "E-HSMT yêu cầu giá trị bảo đảm dự thầu là 50 triệu đồng",
-            "E-HSMT yêu cầu giá trị bảo đảm dự thầu là 60 triệu đồng",
-            "E-HSMT yêu cầu giá trị bảo đảm dự thầu là 100 triệu đồng"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Trong đấu thầu qua mạng, thư bảo lãnh dự thầu/bảo hiểm bảo lãnh có thể kê khai hoặc sử dụng bản điện tử theo yêu cầu E-HSMT. Bản gốc chỉ phải xuất trình khi được mời đối chiếu tài liệu, nhằm vừa giảm giấy tờ khi nộp E-HSDT vừa bảo đảm kiểm tra được tính xác thực."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 7,
-          "question": "Khi tham dự thầu đấu thầu qua mạng, nhà thầu có được ủy quyền cho Giám đốc chi nhánh tham dự thầu hay không?",
-          "options": [
-            "Được ủy quyền bằng giấy ủy quyền",
-            "Không được ủy quyền",
-            "Được ủy quyền không cần giấy ủy quyền nhưng nhà thầu phải tạo tài khoản nghiệp vụ cho giám đốc chi nhánh",
-            "Các phương án trên đều sai"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Phương án “Không được ủy quyền” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 8,
-          "question": "Đối với đấu thầu qua mạng, nhà thầu liên danh nộp bảo đảm dự thầu theo thể thức nào sau đây?",
-          "options": [
-            "Từng thành viên liên danh có thể sử dụng thể thức bảo lãnh dự thầu khác nhau",
-            "Các thành viên liên danh bắt buộc phải sử dụng cùng thể thức bảo lãnh dự thầu điện tử",
-            "Các thành viên liên danh phải sử dụng cùng thể thức: bảo lãnh dự thầu điện tử hoặc bảo lãnh dự thầu bằng giấy",
-            "Các thành viên liên danh bắt buộc phải sử dụng cùng thể thức bảo lãnh dự thầu bằng giấy"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Với nhà thầu liên danh, trách nhiệm và năng lực được xem xét theo phần việc mà từng thành viên đảm nhận và theo cam kết liên danh. Nếu một thành viên vi phạm hoặc không còn năng lực, hệ quả pháp lý thường gắn với thành viên đó và phần việc liên quan, đồng thời phải bảo đảm liên danh còn khả năng thực hiện hợp đồng."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 11,
-          "question": "Đối với đấu thầu qua mạng, quy định nào về việc mở thầu và công khai biên bản mở thầu trên Hệ thống mạng đấu thầu quốc gia là đúng?",
-          "options": [
-            "Hệ thống tự động mở thầu và công khai biên bản mở thầu trong thời hạn không quá 02 giờ kể từ thời điểm đóng thầu.",
-            "Chủ đầu tư phải mở thầu và công khai biên bản mở thầu trên Hệ thống trong thời hạn không quá 04 giờ kể từ thời điểm đóng thầu.",
-            "Tổ chuyên gia phải mở thầu và công khai biên bản mở thầu trên Hệ thống trong thời hạn không quá 02 giờ kể từ thời điểm đóng thầu.",
-            "Chủ đầu tư phải mở thầu và công khai biên bản mở thầu trên Hệ thống trong thời hạn không quá 02 giờ kể từ thời điểm đóng thầu."
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Mốc cần nhớ ở câu này là “Chủ đầu tư phải mở thầu và công khai biên bản mở thầu trên Hệ thống trong thời hạn không quá 02 giờ kể từ thời điểm đóng thầu.”. Đây là câu hỏi kiểm tra con số/thời hạn cụ thể trong chủ đề “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, vì vậy cách làm là xác định đúng thủ tục hoặc loại gói thầu trước, sau đó mới gắn với mốc tương ứng."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 12,
-          "question": "Đối với đấu thầu không qua mạng, quy định về việc công khai biên bản mở thầu trên Hệ thống nào sau đây là đúng?",
-          "options": [
-            "Được đăng tải trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 24 giờ kể từ thời điểm mở thầu",
-            "Được đăng tải trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 02 giờ kể từ thời điểm mở thầu",
-            "Được đăng tải trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 04 giờ kể từ thời điểm mở thầu",
-            "Được đăng tải trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 03 ngày làm việc kể từ thời điểm mở thầu"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Biên bản mở thầu phải được đăng tải kịp thời trên Hệ thống, mốc ôn tập là trong 24 giờ kể từ thời điểm mở thầu. Mục đích là để các bên cùng thấy thông tin mở thầu và hạn chế thay đổi sau khi đã mở hồ sơ."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 13,
-          "question": "Đối với đấu thầu qua mạng, sau thời điểm đóng thầu, nhận định nào sau đây là đúng?",
-          "options": [
-            "Nhà thầu có thể thay đổi nội dung E-HSDT nếu phát hiện sai sót",
-            "Nhà thầu có thể tự làm rõ E-HSDT trên Hệ thống",
-            "Nhà thầu không được rút E-HSDT trên Hệ thống",
-            "Chủ đầu tư không được phép mở thầu khi chỉ có 01 nhà thầu tham dự"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Phương án “Nhà thầu không được rút E-HSDT trên Hệ thống” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 14,
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 21,
           "question": "Đối với gói thầu mua sắm hàng hóa, xây lắp, phi tư vấn, phương pháp để đánh giá về năng lực và kinh nghiệm là?",
           "options": [
             "Sử dụng tiêu chí đạt, không đạt",
@@ -2684,236 +874,12 @@ window.STUDY_DATA = {
             "Phương pháp dựa trên kỹ thuật"
           ],
           "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Phương án “Sử dụng tiêu chí đạt, không đạt” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Sử dụng tiêu chí đạt, không đạt. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 15,
-          "question": "Tiêu chuẩn đánh giá năng lực kinh nghiệm đối với gói thầu mua sắm hàng hóa bao gồm?",
-          "options": [
-            "Doanh thu bình quân 3 năm gần nhất",
-            "Giấy phép bán hàng của nhà sản xuất",
-            "Số năm thành lập của doanh nghiệp",
-            "Năng lực quản lý của doanh nghiệp"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Hàng hóa trong đấu thầu được hiểu rộng, gồm máy móc, thiết bị, nguyên liệu, nhiên liệu, vật liệu, vật tư, phụ tùng, hàng tiêu dùng, thuốc, hóa chất, vật tư xét nghiệm, thiết bị y tế và sản phẩm liên quan. Nếu các phương án đều nằm trong phạm vi đó thì chọn đáp án tổng hợp."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 16,
-          "question": "Nội dung nào là tiêu chuẩn đánh giá về năng lực và kinh nghiệm không bắt buộc đối với gói thầu mua sắm hàng hóa?",
-          "options": [
-            "Kinh nghiệm thực hiện hợp đồng cung cấp hàng hóa tương tự",
-            "Giá trị tài sản ròng của nhà thầu",
-            "Doanh thu của nhà thầu",
-            "Việc thực hiện nghĩa vụ kê khai thuế, nộp thuế"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Kinh nghiệm hợp đồng tương tự là tiêu chí quan trọng nhưng không phải lúc nào cũng bắt buộc với mọi gói mua sắm hàng hóa, nhất là hàng hóa thông dụng/sẵn có. Vì vậy nếu đề hỏi tiêu chuẩn không bắt buộc, cần chọn phương án về kinh nghiệm tương tự khi tài liệu cho phép không áp tiêu chí này."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 17,
-          "question": "Nội dung nào là tiêu chuẩn đánh giá đánh giá về năng lực và kinh nghiệm bắt buộc đối với gói thầu xây lắp tổ chức đấu thầu rộng rãi không qua mạng?",
-          "options": [
-            "Có bản gốc hồ sơ dự thầu",
-            "Có tên trong danh sách ngắn",
-            "Năng lực tài chính",
-            "Có bảo đảm dự thầu hợp lệ"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Trong đánh giá năng lực, kinh nghiệm, năng lực tài chính là tiêu chí bắt buộc vì nhà thầu phải chứng minh đủ sức tài chính để triển khai gói thầu. Kinh nghiệm hợp đồng tương tự có thể được thiết kế tùy loại gói, nhưng năng lực tài chính là nền để bảo đảm khả năng thực hiện."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 18,
-          "question": "Tiêu chuẩn đánh giá về kỹ thuật được yêu cầu về nhãn hiệu theo nhóm nhãn hiệu cho nguyên nhiên vật liệu, vật tư và các yếu tố đầu vào đối với trường hợp nào?",
-          "options": [
-            "Nội dung công việc xây lắp thuộc gói thầu xây lắp, gói thầu EC",
-            "Nội dung công việc xây lắp thuộc gói thầu EPC",
-            "Nội dung công việc xây lắp thuộc gói thầu EPC và gói thầu PC",
-            "Nội dung công việc xây lắp thuộc gói thầu xây lắp và gói thầu PC"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Phương án “Nội dung công việc xây lắp thuộc gói thầu xây lắp, gói thầu EC” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 19,
-          "question": "Nội dung nào không phải là tiêu chuẩn đánh giá về kỹ thuật của gói thầu tư vấn?",
-          "options": [
-            "Giải pháp phương pháp luận",
-            "Uy tín của nhà thầu thông qua việc tham dự thầu, kết quả thực hiện hợp đồng của nhà thầu",
-            "Đã thực hiện nghĩa vụ kê khai thuế và nộp thuế",
-            "Kinh nghiệm và năng lực nhà thầu"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Đề đang hỏi phương án không đúng/không thuộc nhóm quy định, nên đáp án là “Đã thực hiện nghĩa vụ kê khai thuế và nộp thuế”. Lý do là nội dung này lệch với chủ đề “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”: hoặc không phải đúng loại hình thức/thủ tục, hoặc không đúng chủ thể, thời hạn, điều kiện mà quy định yêu cầu."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 20,
-          "question": "Khi đánh giá về năng lực kinh nghiệm đối với gói thầu mua sắm hàng hóa, nhà thầu được đánh giá là đạt khi?",
-          "options": [
-            "Nhà thầu được đánh giá đạt tất tiêu chuẩn đánh giá về năng lực và kinh nghiệm trong hồ sơ mời thầu",
-            "Nhà thầu đáp ứng một trong các tiêu chuẩn đánh giá về năng lực và kinh nghiệm trong hồ sơ mời thầu",
-            "Nhà thầu đáp ứng hai phần ba các tiêu chuẩn đánh giá về năng lực và kinh nghiệm trong hồ sơ mời thầu",
-            "Nhà thầu đáp ứng các tiêu chuẩn đánh giá về năng lực và kinh nghiệm quan trọng trong hồ sơ mời thầu"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Phương án “Nhà thầu được đánh giá đạt tất tiêu chuẩn đánh giá về năng lực và kinh nghiệm trong hồ sơ mời thầu” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 21,
-          "question": "Bản gốc thư bảo lãnh dự thầu, giấy chứng nhận bảo hiểm bảo lãnh trong đấu thầu qua mạng được nộp như thế nào?",
-          "options": [
-            "Gửi qua email đến Tổ trưởng Tổ chuyên gia",
-            "Gửi cho Chủ đầu tư khi nhà thầu được mời vào đối chiếu tài liệu",
-            "Gửi bản gốc đến địa chỉ bên mời thầu theo quy định trong E-HSMT",
-            "Gửi cho Đơn vị tư vấn đấu thầu đánh giá E-HSDT"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Trong đấu thầu qua mạng, thư bảo lãnh dự thầu/bảo hiểm bảo lãnh có thể kê khai hoặc sử dụng bản điện tử theo yêu cầu E-HSMT. Bản gốc chỉ phải xuất trình khi được mời đối chiếu tài liệu, nhằm vừa giảm giấy tờ khi nộp E-HSDT vừa bảo đảm kiểm tra được tính xác thực."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
           "number": 22,
-          "question": "Đối với đấu thầu qua mạng, nội dung nào sau đây do Hệ thống tự động đánh giá?",
-          "options": [
-            "Bảo đảm dự thầu",
-            "Thoả thuận liên danh đối với nhà thầu liên danh",
-            "Doanh thu bình quân 3 năm gần nhất của nhà thầu",
-            "Các đáp án trên đều đúng"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Mốc cần nhớ ở câu này là “Doanh thu bình quân 3 năm gần nhất của nhà thầu”. Đây là câu hỏi kiểm tra con số/thời hạn cụ thể trong chủ đề “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, vì vậy cách làm là xác định đúng thủ tục hoặc loại gói thầu trước, sau đó mới gắn với mốc tương ứng."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 23,
-          "question": "Đối với đấu thầu qua mạng, nội dung đánh giá kết quả hoạt động tài chính nào sau đây là đúng?",
-          "options": [
-            "Đối với số liệu về kết quả hoạt động tài chính từ 2021 trở đi, Hệ thống đánh giá căn cứ thông tin được trích xuất hoặc thông tin do nhà thầu cập nhật",
-            "Đối với số liệu về kết quả hoạt động tài chính trước năm 2021, hệ thống đánh giá căn cứ thông tin do nhà thầu kê khai",
-            "Đối với nhà thầu là hộ kinh doanh, không đánh giá tiêu chí kết quả hoạt động tài chính",
-            "Tất cả phương án trên đều đúng"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Câu này yêu cầu nhận diện một nhóm nhận định cùng đúng/sai, không chỉ một ý đơn lẻ. Phương án “Tất cả phương án trên đều đúng” được chọn vì các ý còn lại khi ghép lại phản ánh đầy đủ hơn quy định trong chủ đề “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”. Khi ôn, nên đọc từng mệnh đề rồi kiểm tra xem chúng có cùng thuộc một điều kiện/quy trình hay không."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 26,
-          "question": "Đối với gói thầu chia thành 2 phần (phần 1: mua sắm máy tính; phần 2: mua sắm bàn ghế cho cán bộ công chức), áp dụng phương pháp giá thấp nhất. Máy tính và bàn ghế là hàng hóa thuộc danh mục do Chính phủ, Thủ tướng Chính phủ quy định tiêu chuẩn, định mức, việc xét duyệt trúng thầu trong trường hợp này được thực hiện như thế nào?",
-          "options": [
-            "Giá đề nghị trúng thầu của từng hàng hóa đảm bảo không vượt mức giá của từng hàng hóa đó theo tiêu chuẩn, định mức do cấp có thẩm quyền ban hành và tổng giá đề nghị trúng thầu của gói thầu là thấp nhất, không vượt giá gói thầu được duyệt",
-            "Tổng giá đề nghị trúng thầu của gói thầu là thấp nhất và không vượt giá gói thầu được duyệt mà không so sánh với ước tính chi phí của từng phần, không cần so sánh với tiêu chuẩn, định mức từng mặt hàng",
-            "Giá từng phần thấp nhất, tổng giá đề nghị trúng thầu không vượt giá gói thầu được duyệt, không cần so sánh với tiêu chuẩn, định mức từng mặt hàng",
-            "Tất cả phương án trên đều sai"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Mua thuốc, thiết bị y tế, hóa chất, vật tư xét nghiệm có quy định riêng vì liên quan đến tính sẵn có, tính chuyên dụng, đăng ký lưu hành và an toàn sử dụng. Khi đề nhắc nhóm hàng y tế, cần ưu tiên quy định chuyên ngành trong Luật/Nghị định thay vì áp máy móc như hàng hóa thông thường."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 27,
-          "question": "Đối với gói thầu xây lắp áp dụng đấu thầu rộng rãi qua mạng, trường hợp E-HSMT quy định nhà thầu phải cung cấp đầy đủ các tài liệu: giấy đăng ký thiết bị, hợp đồng, hóa đơn mua hàng, giấy đăng kiểm, kiểm định theo quy định của pháp luật để chứng minh khả năng huy động thiết bị thi công chủ yếu thì nhà thầu phải cung cấp những tài liệu nào?",
-          "options": [
-            "Phải cung cấp đầy đủ theo yêu cầu của E-HSMT gồm: giấy đăng ký thiết bị, hợp đồng, hóa đơn mua hàng, giấy đăng kiểm, kiểm định theo quy định của pháp luật",
-            "Chỉ cần cung cấp một trong các tài liệu: giấy đăng ký thiết bị, hợp đồng, hóa đơn mua hàng, giấy đăng kiểm, kiểm định theo quy định của pháp luật",
-            "Phải bắt buộc cung cấp giấy đăng ký thiết bị kèm theo giấy đăng kiểm, kiểm định theo quy định của pháp luật",
-            "Phải bắt buộc cung cấp hợp đồng, hóa đơn mua hàng"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Phương án “Chỉ cần cung cấp một trong các tài liệu: giấy đăng ký thiết bị, hợp đồng, hóa đơn mua hàng, giấy đăng kiểm, kiểm định theo quy định của pháp luật” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 28,
-          "question": "Danh sách xếp hạng nhà thầu có bắt buộc phải thẩm định trước khi phê duyệt hay không?",
-          "options": [
-            "Phải thẩm định trong trường hợp có hơn 01 nhà thầu trong danh sách xếp hạng (A)",
-            "Không phải thẩm định (B)",
-            "Do người có thẩm quyền quyết định (C)",
-            "Phương án A và C đều đúng"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Phương án “Không phải thẩm định” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 29,
-          "question": "Đối với gói thầu xây lắp, trường hợp công ty mẹ tham dự thầu và huy động công ty con tham gia thực hiện gói thầu thì việc đánh giá kinh nghiệm thực hiện hợp đồng tương tự được thực hiện như thế nào?",
-          "options": [
-            "Đánh giá kinh nghiệm thực hiện hợp đồng tương tự của công ty mẹ, không đánh giá kinh nghiệm của công ty con",
-            "Đánh giá kinh nghiệm thực hiện hợp đồng tương tự căn cứ vào giá trị, khối lượng công việc do công ty mẹ, công ty con đảm nhiệm trong gói thầu",
-            "Đánh giá kinh nghiệm thực hiện hợp đồng tương tự của công ty con, không đánh giá kinh nghiệm của công ty mẹ, không phân biệt khối lượng công việc do công ty mẹ, công ty con đảm nhiệm trong gói thầu",
-            "Đánh giá theo tổng kinh nghiệm thực hiện hợp đồng tương tự của công ty mẹ và công ty con, không phân biệt khối lượng công việc do công ty mẹ, công ty con đảm nhiệm trong gói thầu"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Hợp đồng tương tự dùng để chứng minh nhà thầu đã từng thực hiện công việc có bản chất, quy mô và mức độ phức tạp gần với gói thầu đang xét. Nếu hợp đồng kê khai không đạt, nhà thầu chỉ có thể được làm rõ/bổ sung trong phạm vi quy định, không được biến một kinh nghiệm không tương tự thành tương tự."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 31,
-          "question": "Đối với đấu thầu qua mạng, chức năng trả lời làm rõ E-HSDT trên Hệ thống mạng đấu thầu quốc gia được thực hiện bao nhiêu lần đối với mỗi yêu cầu làm rõ?",
-          "options": [
-            "01 lần",
-            "02 lần",
-            "03 lần",
-            "Không giới hạn số lần"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Làm rõ E-HSDT là để giải thích nội dung đã nộp, không phải cho phép nhà thầu thay đổi bản chất hồ sơ. Chủ đầu tư phải dành thời gian tối thiểu theo quy định để nhà thầu phản hồi; trong ngân hàng câu hỏi, mốc cần nhớ là tối thiểu 03 ngày làm việc."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 32,
-          "question": "Khi đánh giá E-HSDT gói thầu xây lắp đấu thầu rộng rãi qua mạng, trường hợp có sự không thống nhất giữa thông tin về hợp đồng tương tự kê khai trên webform và file tài liệu chứng minh các thông tin về hợp đồng đó thì xử lý như nào?",
-          "options": [
-            "Đánh giá nhà thầu không đạt yêu cầu về hợp đồng tương tự",
-            "Yêu cầu nhà thầu làm rõ E-HSDT trên Hệ thống mạng đấu thầu quốc gia",
-            "Yêu cầu nhà thầu gửi bổ sung hợp đồng tương tự bằng bản giấy để đánh giá",
-            "Các phương án trên đều sai"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Hợp đồng tương tự dùng để chứng minh nhà thầu đã từng thực hiện công việc có bản chất, quy mô và mức độ phức tạp gần với gói thầu đang xét. Nếu hợp đồng kê khai không đạt, nhà thầu chỉ có thể được làm rõ/bổ sung trong phạm vi quy định, không được biến một kinh nghiệm không tương tự thành tương tự."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 33,
-          "question": "Thời gian phê duyệt kết quả lựa chọn nhà thầu được quy định như thế nào?",
-          "options": [
-            "Tối đa là 03 ngày làm việc kể từ ngày tổ chuyên gia trình báo cáo đánh giá hồ sơ dự thầu",
-            "Tối đa là 05 ngày làm việc kể từ ngày tổ chuyên gia trình báo cáo đánh giá hồ sơ dự thầu",
-            "Tối đa là 05 ngày làm việc kể từ ngày tổ thẩm định trình báo cáo thẩm định kết quả lựa chọn nhà thầu",
-            "Do chủ đầu tư quyết định trên cơ sở bảo đảm tiến độ của dự án, gói thầu và phù hợp với thời gian tổ chức lựa chọn nhà thầu trong kế hoạch lựa chọn nhà thầu được phê duyệt"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Phương án “Do chủ đầu tư quyết định trên cơ sở bảo đảm tiến độ của dự án, gói thầu và phù hợp với thời gian tổ chức lựa chọn nhà thầu trong kế hoạch lựa chọn nhà thầu được phê duyệt” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 34,
           "question": "Việc phải ký kết hợp đồng điện tử trên Hệ thống mạng đấu thầu quốc gia được áp dụng đối với gói thầu nào sau đây?",
           "options": [
             "Gói thầu áp dụng đấu thầu rộng rãi, đấu thầu hạn chế, chào hàng cạnh tranh, chào giá trực tuyến, mua sắm trực tuyến mà việc thanh toán hợp đồng được thực hiện qua Kho bạc nhà nước",
@@ -2922,12 +888,12 @@ window.STUDY_DATA = {
             "Tất cả các gói thầu áp dụng đấu thầu qua mạng và không qua mạng"
           ],
           "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Phương án “Gói thầu áp dụng đấu thầu rộng rãi, đấu thầu hạn chế, chào hàng cạnh tranh, chào giá trực tuyến, mua sắm trực tuyến mà việc thanh toán hợp đồng được thực hiện qua Kho bạc nhà nước” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Gói thầu áp dụng đấu thầu rộng rãi, đấu thầu hạn chế, chào hàng cạnh tranh, chào giá trực tuyến, mua sắm trực tuyến mà việc thanh toán hợp đồng được thực hiện qua Kho bạc nhà nước. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 36,
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 23,
           "question": "Nhận định nào sau đây là đúng?",
           "options": [
             "Gói thầu xây lắp, hàng hóa và dịch vụ phi tư vấn áp dụng hình thức chào hàng cạnh tranh và sử dụng phương pháp dựa trên kỹ thuật để đánh giá về tài chính và có giá đề nghị trúng thầu vượt giá gói thầu được phép thương thảo về chi phí",
@@ -2936,558 +902,12 @@ window.STUDY_DATA = {
             "Không được phép thương thảo về chi phí đối với tất cả các gói thầu, trừ trường hợp nhà thầu tự nguyện giảm giá."
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Phương án “Gói thầu dịch vụ tư vấn áp dụng hình thức đấu thầu rộng rãi được phép thương thảo về chi phí trong quá trình thương thảo hợp đồng” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Gói thầu dịch vụ tư vấn áp dụng hình thức đấu thầu rộng rãi được phép thương thảo về chi phí trong quá trình thương thảo hợp đồng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 37,
-          "question": "Phương án nào sau đây được xác định là một bước trong quá trình lựa chọn nhà thầu theo quy trình chỉ định thầu thông thường được pháp luật về đấu thầu quy định?",
-          "options": [
-            "Xác định tối thiểu 03 nhà thầu có đủ năng lực, kinh nghiệm để mời nhận hồ sơ yêu cầu (A)",
-            "Chuẩn bị và gửi dự thảo hợp đồng cho tối thiểu 03 nhà thầu có đủ năng lực, kinh nghiệm để đàm phán hợp đồng (B)",
-            "Đánh giá hồ sơ đề xuất và thương thảo về các đề xuất của nhà thầu (C)",
-            "Phương án A và C đều đúng"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Phương án “Đánh giá hồ sơ đề xuất và thương thảo về các đề xuất của nhà thầu” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 38,
-          "question": "Quy trình, thủ tục lựa chọn nhà thầu đối với chỉ định thầu theo quy trình rút gọn bao gồm các bước nào sau đây?",
-          "options": [
-            "Chuẩn bị và gửi dự thảo hợp đồng cho nhà thầu; thương thảo, hoàn thiện hợp đồng; trình, phê duyệt và công khai kết quả lựa chọn nhà thầu; ký kết hợp đồng",
-            "Chuẩn bị và gửi dự thảo hợp đồng cho nhà thầu; thương thảo hợp đồng; trình, phê duyệt kết quả lựa chọn nhà thầu; ký kết và quản lý thực hiện hợp đồng",
-            "Chuẩn bị và gửi dự thảo hợp đồng cho nhà thầu; hoàn thiện hợp đồng, phê duyệt và công khai kết quả lựa chọn nhà thầu; ký kết và quản lý thực hiện hợp đồng",
-            "Lập, phê duyệt hồ sơ yêu cầu; xác định nhà thầu dự kiến được mời nhận hồ sơ yêu cầu; đánh giá hồ sơ đề xuất và thương thảo về các đề xuất của nhà thầu; phê duyệt và công khai kết quả lựa chọn nhà thầu; hoàn thiện, ký kết và quản lý thực hiện hợp đồng"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Phương án “Chuẩn bị và gửi dự thảo hợp đồng cho nhà thầu; hoàn thiện hợp đồng, phê duyệt và công khai kết quả lựa chọn nhà thầu; ký kết và quản lý thực hiện hợp đồng” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 39,
-          "question": "Trong gói thầu dịch vụ tư vấn, thông tin về uy tín của nhà thầu được sử dụng để?",
-          "options": [
-            "Đánh giá về năng lực, kinh nghiệm",
-            "Đánh giá tư cách hợp lệ của nhà thầu",
-            "Đánh giá về kỹ thuật",
-            "Loại nhà thầu đã bị đánh giá về uy tín"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Dịch vụ tư vấn là công việc thiên về chuyên môn trí tuệ như lập quy hoạch, khảo sát, thiết kế, giám sát, thẩm định hoặc tư vấn quản lý. Phương án “Đánh giá về kỹ thuật” thuộc nhóm tạo sản phẩm tư vấn/chuyên môn, nên được xếp là gói thầu cung cấp dịch vụ tư vấn."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 40,
-          "question": "Khi thương thảo hợp đồng đối với gói thầu tư vấn áp dụng đấu thầu rộng rãi qua mạng, trường hợp nào nhà thầu được phép thay đổi nhân sự đã đề xuất trong E-HSDT?",
-          "options": [
-            "Không được thay đổi nhân sự đã đề xuất trong E-HSDT trong mọi trường hợp (A)",
-            "Được thay đổi nhân sự đã đề xuất trong E-HSDT 01 lần trong trường hợp nhân sự không đáp ứng yêu cầu hoặc không chứng minh được khả năng huy động (B)",
-            "Được thay đổi nhân sự đã đề xuất trong E-HSDT trong trường hợp do thời gian đánh giá E-HSDT kéo dài hơn so với dự kiến trong kế hoạch lựa chọn nhà thầu hoặc vì lý do bất khả kháng mà các vị trí nhân sự chủ chốt do nhà thầu đã đề xuất không thể tham gia thực hiện hợp đồng (C)",
-            "Phương án B và C đều đúng"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Phương án “Được thay đổi nhân sự đã đề xuất trong E-HSDT trong trường hợp do thời gian đánh giá E-HSDT kéo dài hơn so với dự kiến trong kế hoạch lựa chọn nhà thầu hoặc vì lý do bất khả kháng mà các vị trí nhân sự chủ chốt do nhà thầu đã đề xuất không thể tham gia thực hiện hợp đồng” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 42,
-          "question": "Đối với gói thầu tư vấn tổ chức đấu thầu rộng rãi qua mạng, sử dụng thang điểm 1.000 để xây dựng tiêu chuẩn đánh giá về kỹ thuật, E-HSMT quy định số điểm đối với tiêu chí đánh giá về uy tín của nhà thầu thông qua việc tham dự thầu, kết quả thực hiện hợp đồng của nhà thầu là bao nhiêu?",
-          "options": [
-            "150 điểm",
-            "100 điểm",
-            "50 điểm",
-            "Từ 0 đến 49 điểm"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Phương án “50 điểm” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 43,
-          "question": "Đối với gói thầu thuê hệ thống máy chủ áp dụng đấu thầu rộng rãi qua mạng, thời gian thực hiện gói thầu là 5 năm (có tính chất công việc lặp lại theo chu kỳ qua các năm), giá gói thầu là 5 tỷ đồng, quy mô hợp đồng tương tự tối thiểu được quy định trong E-HSMT là bao nhiêu thì phù hợp quy định?",
-          "options": [
-            "2,5 tỷ đồng",
-            "2 tỷ đồng",
-            "1,5 tỷ đồng",
-            "300 triệu đồng"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Hợp đồng tương tự dùng để chứng minh nhà thầu đã từng thực hiện công việc có bản chất, quy mô và mức độ phức tạp gần với gói thầu đang xét. Nếu hợp đồng kê khai không đạt, nhà thầu chỉ có thể được làm rõ/bổ sung trong phạm vi quy định, không được biến một kinh nghiệm không tương tự thành tương tự."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 45,
-          "question": "Đối với với gói thầu hàng hóa áp dụng đấu thầu rộng rãi không qua mạng, trường hợp nào sau đây thư bảo lãnh hoặc giấy chứng nhận bảo hiểm bảo lãnh dự thầu bị đánh giá là không hợp lệ?",
-          "options": [
-            "Thời gian có hiệu lực dài hơn so với yêu cầu của hồ sơ mời thầu",
-            "Có giá trị cao hơn so với yêu cầu của hồ sơ mời thầu",
-            "Ký trước khi phát hành hồ sơ mời thầu",
-            "Tất cả phương án trên đều đúng"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Trong đấu thầu qua mạng, thư bảo lãnh dự thầu/bảo hiểm bảo lãnh có thể kê khai hoặc sử dụng bản điện tử theo yêu cầu E-HSMT. Bản gốc chỉ phải xuất trình khi được mời đối chiếu tài liệu, nhằm vừa giảm giấy tờ khi nộp E-HSDT vừa bảo đảm kiểm tra được tính xác thực."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 46,
-          "question": "Trường hợp hồ sơ mời thầu có quy định về xuất xứ theo nhóm nước, vùng lãnh thổ mà không bao gồm xuất xứ Việt Nam, nhà thầu chào hàng hóa có xuất xứ Việt Nam sẽ bị đánh giá như thế nào?",
-          "options": [
-            "Hàng hóa của nhà thầu không được xem xét, đánh giá",
-            "Hàng hóa của nhà thầu vẫn được xem xét, đánh giá",
-            "Yêu cầu nhà thầu bổ sung hàng hóa theo đúng xuất xứ thuộc nhóm nước, vùng lãnh thổ theo yêu cầu hồ sơ mời thầu nhưng phải cùng ký mã hiệu, nhãn hiệu với hàng hóa nhà thầu đã đề xuất trong hồ sơ dự thầu",
-            "Yêu cầu nhà thầu bổ sung hàng hóa theo đúng xuất xứ thuộc nhóm nước, vùng lãnh thổ theo yêu cầu hồ sơ mời thầu, không phải đáp ứng cùng ký mã hiệu, nhãn hiệu với hàng hóa nhà thầu đã đề xuất trong hồ sơ dự thầu"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Hàng hóa trong đấu thầu được hiểu rộng, gồm máy móc, thiết bị, nguyên liệu, nhiên liệu, vật liệu, vật tư, phụ tùng, hàng tiêu dùng, thuốc, hóa chất, vật tư xét nghiệm, thiết bị y tế và sản phẩm liên quan. Nếu các phương án đều nằm trong phạm vi đó thì chọn đáp án tổng hợp."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 47,
-          "question": "Gói thầu xây lắp tổ chức đấu thầu qua mạng có thời điểm đóng thầu là ngày 20/3/2025, năm tài chính của nhà thầu là 01/01 – 31/12, nhà thầu là công ty cổ phần được thành lập vào năm 2018 và E-HSMT yêu cầu nhà thầu nộp báo cáo tài chính của 03 năm gần nhất thì nhà thầu phải nộp báo cáo tài chính của các năm nào sau đây?",
-          "options": [
-            "2020, 2021, 2022",
-            "2021, 2022, 2023",
-            "2021, 2022, 2024",
-            "2019, 2020, 2021"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Phương án “2021, 2022, 2023” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 48,
-          "question": "Đối với công trình đang xét là công trình xây dựng có loại kết cấu dạng nhà cấp II với giá trị công trình là 60 tỷ đồng, E-HSMT có yêu cầu về kinh nghiệm thực hiện hợp đồng xây lắp tương tự, trường hợp nào sau đây được đánh giá là một công trình xây lắp tương tự?",
-          "options": [
-            "Nhà thầu có 2 công trình xây dựng có loại kết cấu dạng nhà cấp III với giá trị đã hoàn thành toàn bộ lần lượt là 30 tỷ đồng, 50 tỷ đồng",
-            "Nhà thầu có 2 công trình xây dựng có loại kết cấu dạng nhà cấp III với giá trị đã hoàn thành toàn bộ lần lượt là 30 tỷ đồng, 20 tỷ đồng",
-            "Nhà thầu có 3 công trình xây dựng có loại kết cấu dạng nhà cấp III với giá trị đã hoàn thành toàn bộ lần lượt là 30 tỷ đồng, 20 tỷ đồng, 10 tỷ đồng",
-            "Nhà thầu có 1 công trình xây dựng có loại kết cấu dạng nhà cấp III với giá trị đã hoàn thành toàn bộ là 60 tỷ đồng"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Mốc cần nhớ ở câu này là “Nhà thầu có 2 công trình xây dựng có loại kết cấu dạng nhà cấp III với giá trị đã hoàn thành toàn bộ lần lượt là 30 tỷ đồng, 50 tỷ đồng”. Đây là câu hỏi kiểm tra con số/thời hạn cụ thể trong chủ đề “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, vì vậy cách làm là xác định đúng thủ tục hoặc loại gói thầu trước, sau đó mới gắn với mốc tương ứng."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 49,
-          "question": "Gói thầu mua sắm 20 máy điều hòa, tổ chức đấu thầu rộng rãi qua mạng, một giai đoạn một túi hồ sơ, trường hợp E-HSMT có quy định về kinh nghiệm thực hiện hợp đồng tương tự thì tính chất tương tự được quy định như thế nào?",
-          "options": [
-            "Quy định hàng hóa thuộc cùng lĩnh vực tổng quát với máy điều hòa (thiết bị điện...)",
-            "Chỉ quy định hàng hóa có cùng mã Chương, mã Nhóm (tương ứng với 4 số đầu tiên của bộ mã) trong Hệ thống mã HS với mã HS của máy điều hòa",
-            "Được quy định hàng hóa thuộc cùng chủng loại hoặc hàng hóa có cùng mã Chương, mã Nhóm (tương ứng với 4 số đầu tiên của bộ mã) trong Hệ thống mã HS với mã HS của máy điều hòa",
-            "Tất cả đáp án trên đều đúng"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Hợp đồng tương tự dùng để chứng minh nhà thầu đã từng thực hiện công việc có bản chất, quy mô và mức độ phức tạp gần với gói thầu đang xét. Nếu hợp đồng kê khai không đạt, nhà thầu chỉ có thể được làm rõ/bổ sung trong phạm vi quy định, không được biến một kinh nghiệm không tương tự thành tương tự."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 50,
-          "question": "Tiêu chuẩn đánh giá về kỹ thuật gói thầu dịch vụ phi tư vấn không bao gồm nội dung nào sau đây?",
-          "options": [
-            "Nhà thầu bị đánh giá về uy tín trong việc tham dự thầu",
-            "Bảo đảm điều kiện vệ sinh môi trường và các điều kiện khác như phòng cháy, chữa cháy, an toàn lao động.",
-            "Mức độ đáp ứng các yêu cầu về bảo hành, bảo trì (nếu có);",
-            "Tất cả đáp án trên đều sai"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Dịch vụ phi tư vấn là dịch vụ không tạo sản phẩm tư vấn chuyên môn, ví dụ in ấn, vệ sinh, vận chuyển, bảo trì, tổ chức sự kiện theo yêu cầu sẵn có. Vì “Nhà thầu bị đánh giá về uy tín trong việc tham dự thầu” là công việc thực hiện dịch vụ thông dụng nên thuộc nhóm phi tư vấn."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 53,
-          "question": "Nhận định nào sau đây là đúng về tiêu chuẩn đánh giá E-HSDT gói thầu dịch vụ tư vấn tổ chức đấu thầu rộng rãi qua mạng?",
-          "options": [
-            "Có thể không quy định về tiêu chuẩn kinh nghiệm và năng lực trong tiêu chuẩn đánh giá về kỹ thuật",
-            "Không được quy định mức điểm tối thiểu về kinh nghiệm và năng lực trong tiêu chuẩn đánh giá về kỹ thuật",
-            "Không được quy định uy tín của nhà thầu thông qua việc tham dự thầu trong tiêu chuẩn đánh giá về kỹ thuật",
-            "Hợp đồng tương tự được xác định trên cơ sở tương tự cả về tính chất và quy mô (giá trị hợp đồng)"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Dịch vụ tư vấn là công việc thiên về chuyên môn trí tuệ như lập quy hoạch, khảo sát, thiết kế, giám sát, thẩm định hoặc tư vấn quản lý. Phương án “Có thể không quy định về tiêu chuẩn kinh nghiệm và năng lực trong tiêu chuẩn đánh giá về kỹ thuật” thuộc nhóm tạo sản phẩm tư vấn/chuyên môn, nên được xếp là gói thầu cung cấp dịch vụ tư vấn."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 54,
-          "question": "Gói thầu cung cấp dịch vụ giặt là thực hiện đấu thầu qua mạng, E-HSMT có quy định cho phép sử dụng nhà thầu phụ tối đa 20% trên giá dự thầu của nhà thầu. Nhà thầu liên danh A-B, trong đó nhà thầu Công ty A đảm nhận 30% giá trị công việc, Công ty B đảm nhận 70% giá trị công việc. Việc sử dụng nhà thầu phụ đối với từng thành viên liên danh được thực hiện như thế nào?",
-          "options": [
-            "Công ty A được sử dụng nhà thầu phụ tối đa 20% trên 30% giá trị công việc mà công ty A đảm nhận, Công ty B được sử dụng nhà thầu phụ tối đa 20% trên 70% giá trị công việc mà công ty B đảm nhận",
-            "Công ty A được sử dụng nhà thầu phụ tối đa 20% trên tổng giá trị (100%) công việc và Công ty B được sử dụng nhà thầu phụ tối đa 20% trên tổng giá trị (100%) công việc mà Công ty A và Công ty B đảm nhận",
-            "Thực hiện theo thỏa thuận giữa Công ty A và Công ty B, Công ty A hoặc Công ty B được sử dụng nhà thầu phụ tối đa 20% trên tổng giá trị (100%) công việc nhưng phải bảo đảm tổng khối lượng công việc của nhà thầu phụ của liên danh A-B tối đa 20% trên tổng giá trị (100%) công việc mà Công ty A và Công ty B đảm nhận",
-            "Tất cả đáp án trên đều đúng"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Với nhà thầu liên danh, trách nhiệm và năng lực được xem xét theo phần việc mà từng thành viên đảm nhận và theo cam kết liên danh. Nếu một thành viên vi phạm hoặc không còn năng lực, hệ quả pháp lý thường gắn với thành viên đó và phần việc liên quan, đồng thời phải bảo đảm liên danh còn khả năng thực hiện hợp đồng."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 55,
-          "question": "Đối với gói thầu xây dựng \"Trường trung học phổ thông A\", bao gồm tổ hợp các công trình: + Nhà A1 (Nhà học): Cao 10 tầng, tổng diện tích sàn 8.000 m2, có giá trị theo dự toán được duyệt là (2X) VND. Nhà A1 là công trình kết cấu dạng nhà cấp II theo quy định của Thông tư số 06/2021/TT-BXD. + Nhà A2 (Nhà học): Cao 6 tầng, tổng diện tích sàn 1.000 m2, có giá trị theo dự toán được duyệt là (Y) VND. Nhà A2 là công trình kết cấu dạng nhà cấp III theo quy định của Thông tư số 06/2021/TT-BXD. + Hàng rào bảo vệ: Cao 3m + Nhà bảo vệ: Cao 1 tầng, diện tích sàn 12 m2. Kinh nghiệm thi công công trình tương tự được quy định trong hồ sơ mời thầu như thế nào là phù hợp?",
-          "options": [
-            "Nhà thầu đã hoàn thành công trình xây dựng nhà, kết cấu dạng nhà cấp II, có giá trị tối thiểu là 50% x (2X) VND",
-            "Nhà thầu đã hoàn thành công trình xây dựng nhà, kết cấu dạng nhà cấp II, có giá trị tối thiểu là 50% x (2X) VND, trong đó phải bao gồm hạng mục hàng rào bảo vệ, nhà bảo vệ",
-            "Nhà thầu đã hoàn thành công trình xây dựng nhà, kết cấu dạng nhà cấp III, có giá trị tối thiểu là 50% x (2X) VND",
-            "Nhà thầu đã hoàn thành công trình xây dựng nhà, kết cấu dạng nhà cấp III, có giá trị tối thiểu là 50% x (2X) VND, trong đó phải bao gồm hạng mục hàng rào bảo vệ, nhà bảo vệ"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Mốc cần nhớ ở câu này là “Nhà thầu đã hoàn thành công trình xây dựng nhà, kết cấu dạng nhà cấp II, có giá trị tối thiểu là 50% x (2X) VND”. Đây là câu hỏi kiểm tra con số/thời hạn cụ thể trong chủ đề “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, vì vậy cách làm là xác định đúng thủ tục hoặc loại gói thầu trước, sau đó mới gắn với mốc tương ứng."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 56,
-          "question": "Gói thầu đang xét là gói thầu giặt cho bệnh viện công lập (có tính chất công việc lặp lại theo chu kỳ qua các năm), có thời gian thực hiện gói thầu trong 3 năm với giá gói thầu là 12 tỷ đồng. Nhà thầu nào được xác định đáp ứng yêu cầu về giá trị hợp đồng tương tự khi tham dự gói thầu này?",
-          "options": [
-            "Nhà thầu A có 01 hợp đồng giặt là X cho bệnh viện công lập có thời gian thực hiện gói thầu là 48 tháng (đang trong quá trình thực hiện, chưa hoàn thành, chưa được thanh lý), nhưng tính đến thời điểm tham dự thầu, nhà thầu A đã thực hiện được 24 tháng, trong đó giá trị công việc đã được nghiệm thu 12 tháng đầu là 1,2 tỷ đồng; (A)",
-            "Nhà thầu B cung cấp 02 hợp đồng, trong đó có hợp đồng giặt X cho khách sạn tư nhân, thời gian thực hiện hợp đồng trong 06 tháng với giá trị là 300 triệu đồng; Hợp đồng giặt là Y cho bệnh viện công lập, thời gian thực hiện hợp đồng trong 24 tháng với giá trị là 3 tỷ đồng, trong đó giá trị công việc đã được nghiệm thu 12 tháng đầu là 1 tỷ đồng. (B)",
-            "Nhà thầu A và B đều đáp ứng",
-            "Nhà thầu A và B đều không đáp ứng"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Hợp đồng tương tự dùng để chứng minh nhà thầu đã từng thực hiện công việc có bản chất, quy mô và mức độ phức tạp gần với gói thầu đang xét. Nếu hợp đồng kê khai không đạt, nhà thầu chỉ có thể được làm rõ/bổ sung trong phạm vi quy định, không được biến một kinh nghiệm không tương tự thành tương tự."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 57,
-          "question": "Trường hợp E-HSMT gói thầu xây lắp yêu cầu về cam kết cung cấp tín dụng, nhà thầu được chứng minh bằng cách nào?",
-          "options": [
-            "Bằng số dư tài khoản hoặc tiền gửi tiết kiệm từ ngân hàng",
-            "Bằng cam kết cung cấp tín dụng của ngân hàng",
-            "Bằng xác nhận số dư hạn mức tín dụng khả dụng từ ngân hàng",
-            "Tất cả các phương án trên đều đúng"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Câu này yêu cầu nhận diện một nhóm nhận định cùng đúng/sai, không chỉ một ý đơn lẻ. Phương án “Tất cả các phương án trên đều đúng” được chọn vì các ý còn lại khi ghép lại phản ánh đầy đủ hơn quy định trong chủ đề “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”. Khi ôn, nên đọc từng mệnh đề rồi kiểm tra xem chúng có cùng thuộc một điều kiện/quy trình hay không."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 58,
-          "question": "Đối với gói thầu áp dụng một giai đoạn một túi hồ sơ, trường hợp nào được thực hiện bước thương thảo hợp đồng?",
-          "options": [
-            "Gói thầu hỗn hợp",
-            "Gói thầu mua sắm hàng hóa áp dụng đấu thầu quốc tế",
-            "Gói thầu áp dụng đấu thầu hạn chế do có yêu cầu đặc thù về kỹ thuật mà chỉ có một hoặc một số nhà thầu đáp ứng yêu cầu của gói thầu",
-            "Tất cả phương án trên đều đúng"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Câu này yêu cầu nhận diện một nhóm nhận định cùng đúng/sai, không chỉ một ý đơn lẻ. Phương án “Tất cả phương án trên đều đúng” được chọn vì các ý còn lại khi ghép lại phản ánh đầy đủ hơn quy định trong chủ đề “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”. Khi ôn, nên đọc từng mệnh đề rồi kiểm tra xem chúng có cùng thuộc một điều kiện/quy trình hay không."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.1 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu",
-          "number": 59,
-          "question": "Việc đánh giá nhà thầu đang trong thời gian bị cấm tham dự thầu thuộc nội dung đánh giá về?",
-          "options": [
-            "Kỹ thuật",
-            "Tài chính",
-            "Tư cách hợp lệ",
-            "Năng lực, kinh nghiệm"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Mua thuốc, thiết bị y tế, hóa chất, vật tư xét nghiệm có quy định riêng vì liên quan đến tính sẵn có, tính chuyên dụng, đăng ký lưu hành và an toàn sử dụng. Khi đề nhắc nhóm hàng y tế, cần ưu tiên quy định chuyên ngành trong Luật/Nghị định thay vì áp máy móc như hàng hóa thông thường."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 1,
-          "question": "Gói thầu mua sắm hàng hóa có: - Thời điểm đóng thầu theo E-TBMT là: 8h00 ngày 25/9/2025 - Hiệu lực của bảo đảm dự thầu theo yêu cầu của E-HSMT là: 90 ngày - Do lỗi hệ thống nên Hệ thống tự động gia hạn thời điểm đóng thầu mới là: 11h ngày 26/9/2025 - Nhà thầu A đã nộp E-HSDT trước thời điểm Hệ thống xảy ra sự cố với hiệu lực của bảo đảm dự thầu là 90 ngày kể từ ngày 25/9/2025; Nhà thầu B nộp E-HSDT sau thời điểm Hệ thống xảy ra sự cố và trước thời điểm đóng thầu mới với hiệu lực của bảo đảm dự thầu là 90 ngày kể từ ngày 26/9/2025 Bảo đảm dự thầu của nhà thầu A và nhà thầu B được đánh giá như thế nào?",
-          "options": [
-            "Bảo đảm dự thầu của nhà thầu A được đánh giá là không hợp lệ; Bảo đảm dự thầu của nhà thầu B được đánh giá là hợp lệ",
-            "Bảo đảm dự thầu của nhà thầu A và nhà thầu B đều được đánh giá là hợp lệ",
-            "Bảo đảm dự thầu của nhà thầu A được đánh giá là hợp lệ; Bảo đảm dự thầu của nhà thầu B được đánh giá là không hợp lệ",
-            "Bảo đảm dự thầu của nhà thầu A và nhà thầu B được đánh giá là không hợp lệ"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Bảo đảm dự thầu là cam kết tài chính để ràng buộc nhà thầu với hồ sơ đã nộp. Nếu nhà thầu rút hồ sơ, từ chối thương thảo/ký hợp đồng hoặc vi phạm nghĩa vụ sau khi được lựa chọn thì có thể bị xử lý bảo đảm dự thầu theo quy định."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 3,
-          "question": "Gói thầu mua sắm hàng hóa có khối lượng, số lượng công việc căn cứ nhu cầu theo các năm và thời gian thực hiện gói thầu là 02 năm thì E-HSMT quy định về giá trị của hợp đồng tương tự như thế nào?",
-          "options": [
-            "Có giá trị bằng 50% giá gói thầu",
-            "Có giá trị bằng 70% giá gói thầu",
-            "Có giá trị bằng 50% giá trị theo chu kỳ 01 năm của gói thầu",
-            "Có giá trị tối thiểu bằng 50% giá gói thầu"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Hợp đồng tương tự dùng để chứng minh nhà thầu đã từng thực hiện công việc có bản chất, quy mô và mức độ phức tạp gần với gói thầu đang xét. Nếu hợp đồng kê khai không đạt, nhà thầu chỉ có thể được làm rõ/bổ sung trong phạm vi quy định, không được biến một kinh nghiệm không tương tự thành tương tự."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 4,
-          "question": "Gói thầu dịch vụ phi tư vấn chia thành nhiều phần thì việc đánh giá về doanh thu đối với nhà thầu tham dự nhiều phần được thực hiện như thế nào?",
-          "options": [
-            "Việc đánh giá về doanh thu căn cứ trên tổng giá trị doanh thu bình quân yêu cầu đối với các phần mà nhà thầu tham dự",
-            "Việc đánh giá về doanh thu căn cứ trên từng phần mà nhà thầu tham dự, nhà thầu không phải đáp ứng tổng doanh thu đối với các phần mà nhà thầu tham dự",
-            "Việc đánh giá về doanh thu căn cứ trên phần có giá trị lớn nhất trong tổng số các phần nhà thầu tham dự",
-            "Các phương án trên đều sai"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Dịch vụ phi tư vấn là dịch vụ không tạo sản phẩm tư vấn chuyên môn, ví dụ in ấn, vệ sinh, vận chuyển, bảo trì, tổ chức sự kiện theo yêu cầu sẵn có. Vì “Việc đánh giá về doanh thu căn cứ trên tổng giá trị doanh thu bình quân yêu cầu đối với các phần mà nhà thầu tham dự” là công việc thực hiện dịch vụ thông dụng nên thuộc nhóm phi tư vấn."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 5,
-          "question": "Gói thầu mua sắm hàng hóa chia thành nhiều phần thì việc đánh giá về quy mô hợp đồng tương tự đối với nhà thầu tham dự nhiều phần được thực hiện như thế nào?",
-          "options": [
-            "Việc đánh giá về quy mô hợp đồng tương tự căn cứ trên tổng quy mô hợp đồng tương tự đối với các phần mà nhà thầu tham dự",
-            "Việc đánh giá về quy mô hợp đồng tương tự tương ứng với từng phần mà nhà thầu tham dự, nhà thầu không phải đáp ứng tổng quy mô hợp đồng tương tự đối với các phần mà nhà thầu tham dự",
-            "Việc đánh giá về quy mô hợp đồng tương tự căn cứ trên phần có giá trị nhỏ nhất trong tổng số các phần mà nhà thầu tham dự",
-            "Các phương án trên đều sai"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Hợp đồng tương tự dùng để chứng minh nhà thầu đã từng thực hiện công việc có bản chất, quy mô và mức độ phức tạp gần với gói thầu đang xét. Nếu hợp đồng kê khai không đạt, nhà thầu chỉ có thể được làm rõ/bổ sung trong phạm vi quy định, không được biến một kinh nghiệm không tương tự thành tương tự."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 7,
-          "question": "Đối với gói thầu mua sắm hàng hóa áp dụng đấu thầu rộng rãi, trong hồ sơ dự thầu nhà thầu không đề xuất cụ thể ký mã hiệu, nhãn hiệu, xuất xứ, hãng sản xuất thì xử lý như thế nào?",
-          "options": [
-            "Chủ đầu tư yêu cầu nhà thầu làm rõ các thông tin này để làm cơ sở đánh giá trên cơ sở không được thay đổi giá dự thầu",
-            "Tổ chuyên gia căn cứ theo cataloge, đề xuất kỹ thuật kèm theo để làm cơ sở đánh giá",
-            "Hồ sơ dự thầu của nhà thầu không được xem xét, đánh giá",
-            "Tiếp tục đánh giá hồ sơ dự thầu, trường hợp nhà thầu trúng thầu thì yêu cầu nhà thầu bổ sung, làm rõ các thông tin này"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Phương án “Hồ sơ dự thầu của nhà thầu không được xem xét, đánh giá” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 8,
-          "question": "Hồ sơ mời thầu của gói thầu xây lắp có quy định cho phép sử dụng nhà thầu phụ, trường hợp nhà thầu đề xuất sử dụng thầu phụ thì việc đánh giá năng lực kinh nghiệm của nhà thầu phụ được thực hiện như thế nào?",
-          "options": [
-            "Đánh giá năng lực, kinh nghiệm của nhà thầu phụ căn cứ theo phần công việc nhà thầu phụ đảm nhận, nhà thầu tham dự thầu không phải đáp ứng về năng lực, kinh nghiệm đối với phần công việc mà nhà thầu phụ đảm nhận",
-            "Không đánh giá năng lực, kinh nghiệm của nhà thầu phụ, nhà thầu tham dự thầu vẫn phải đáp ứng về năng lực, kinh nghiệm đối với phần công việc mà nhà thầu phụ đảm nhận",
-            "Do chủ đầu tư quyết định có đánh giá hoặc không đánh giá năng lực, kinh nghiệm nhà thầu phụ",
-            "Đánh giá năng lực, kinh nghiệm của nhà thầu phụ căn cứ theo phần công việc nhà thầu phụ đảm nhận, nhà thầu tham dự thầu cũng phải đáp ứng về năng lực, kinh nghiệm đối với phần công việc mà nhà thầu phụ đảm nhận"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Phương án “Không đánh giá năng lực, kinh nghiệm của nhà thầu phụ, nhà thầu tham dự thầu vẫn phải đáp ứng về năng lực, kinh nghiệm đối với phần công việc mà nhà thầu phụ đảm nhận” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 9,
-          "question": "Thời gian đánh giá hồ sơ dự thầu được quy định như thế nào?",
-          "options": [
-            "Tối đa không quá 45 ngày đối với đấu thầu trong nước và không quá 60 ngày đối với đấu thầu quốc tế",
-            "Tối đa không quá 30 ngày đối với đấu thầu trong nước và không quá 60 ngày đối với đấu thầu quốc tế",
-            "Do người có thẩm quyền, chủ đầu tư có trách nhiệm quyết định",
-            "Do chủ đầu tư quyết định trên cơ sở bảo đảm tiến độ của dự án, gói thầu"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Phương án “Do chủ đầu tư quyết định trên cơ sở bảo đảm tiến độ của dự án, gói thầu” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 10,
-          "question": "Khi đánh giá E-HSDT gói thầu xây lắp đấu thầu rộng rãi qua mạng, trường hợp có sự không thống nhất giữa thông tin về hợp đồng tương tự kê khai trên webform và file tài liệu chứng minh các thông tin về hợp đồng đó thì phương án nào sau đây là đúng?",
-          "options": [
-            "Đánh giá nhà thầu không đạt yêu cầu về hợp đồng tương tự (A)",
-            "Yêu cầu nhà thầu làm rõ E-HSDT trên Hệ thống mạng đấu thầu quốc gia (B)",
-            "Yêu cầu nhà thầu gửi bổ sung hợp đồng tương tự bằng bản giấy để đánh giá (C)",
-            "Phương án B và C đều đúng"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Hợp đồng tương tự dùng để chứng minh nhà thầu đã từng thực hiện công việc có bản chất, quy mô và mức độ phức tạp gần với gói thầu đang xét. Nếu hợp đồng kê khai không đạt, nhà thầu chỉ có thể được làm rõ/bổ sung trong phạm vi quy định, không được biến một kinh nghiệm không tương tự thành tương tự."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 11,
-          "question": "Nhận định nào sau đây là đúng?",
-          "options": [
-            "Trong vòng 05 ngày làm việc, kể từ ngày nhận được yêu cầu của chủ đầu tư, nếu nhà thầu từ chối hoặc không nộp bản gốc thư bảo lãnh dự thầu, giấy chứng nhận bảo hiểm bảo lãnh (đối với trường hợp sử dụng bảo lãnh dự thầu bằng văn bản giấy) theo yêu cầu của chủ đầu tư thì nhà thầu sẽ bị xử lý theo đúng cam kết của nhà thầu trong đơn dự thầu",
-            "Trong vòng 05 ngày làm việc, kể từ ngày nhận được yêu cầu của bên mời thầu, nếu nhà thầu từ chối hoặc không nộp bản gốc thư bảo lãnh dự thầu, giấy chứng nhận bảo hiểm bảo lãnh (đối với trường hợp sử dụng bảo lãnh dự thầu bằng văn bản giấy) theo yêu cầu của bên mời thầu thì nhà thầu sẽ bị xử lý theo đúng cam kết của nhà thầu trong đơn dự thầu",
-            "Trong vòng 05 ngày làm việc, kể từ ngày nhận được yêu cầu của tổ chuyên gia, nếu nhà thầu từ chối hoặc không nộp bản gốc thư bảo lãnh dự thầu, giấy chứng nhận bảo hiểm bảo lãnh (đối với trường hợp sử dụng bảo lãnh dự thầu bằng văn bản giấy) theo yêu cầu của tổ chuyên gia thì nhà thầu sẽ bị xử lý theo đúng cam kết của nhà thầu trong đơn dự thầu",
-            "Trong vòng 05 ngày làm việc, kể từ ngày nhận được yêu cầu của tư vấn đấu thầu, nếu nhà thầu từ chối hoặc không nộp bản gốc thư bảo lãnh dự thầu, giấy chứng nhận bảo hiểm bảo lãnh (đối với trường hợp sử dụng bảo lãnh dự thầu bằng văn bản giấy) theo yêu cầu của tư vấn đấu thầu thì nhà thầu sẽ bị xử lý theo đúng cam kết của nhà thầu trong đơn dự thầu"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Mốc cần nhớ ở câu này là “Trong vòng 05 ngày làm việc, kể từ ngày nhận được yêu cầu của chủ đầu tư, nếu nhà thầu từ chối hoặc không nộp bản gốc thư bảo lãnh dự thầu, giấy chứng nhận bảo hiểm bảo lãnh (đối với trường hợp sử dụng bảo lãnh dự thầu bằng văn bản giấy) theo yêu cầu của chủ đầu tư thì nhà thầu sẽ bị xử lý theo đúng cam kết của nhà thầu trong đơn dự thầu”. Đây là câu hỏi kiểm tra con số/thời hạn cụ thể trong chủ đề “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, vì vậy cách làm là xác định đúng thủ tục hoặc loại gói thầu trước, sau đó mới gắn với mốc tương ứng."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 12,
-          "question": "Đối với đấu thầu rộng rãi qua mạng, trường hợp gói thầu có giá trị bảo đảm dự thầu nhỏ hơn 50 triệu đồng, thời gian có hiệu lực của thư bảo lãnh dự thầu hoặc giấy chứng nhận bảo hiểm bảo lãnh được quy định tại đâu?",
-          "options": [
-            "Trong E-HSMT",
-            "Trong thông báo mời đối chiếu tài liệu",
-            "Trong thông báo mời thương thảo hợp đồng",
-            "Các phương án trên đều sai"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Bảo đảm dự thầu là cam kết tài chính để ràng buộc nhà thầu với hồ sơ đã nộp. Nếu nhà thầu rút hồ sơ, từ chối thương thảo/ký hợp đồng hoặc vi phạm nghĩa vụ sau khi được lựa chọn thì có thể bị xử lý bảo đảm dự thầu theo quy định."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 13,
-          "question": "Đối với đấu thầu rộng rãi qua mạng, trường hợp gói thầu có giá trị bảo đảm dự thầu nhỏ hơn 50 triệu đồng, nhà thầu thực hiện nộp thư bảo lãnh dự thầu hoặc giấy chứng nhận bảo hiểm bảo lãnh thì thời gian có hiệu lực của thư bảo lãnh dự thầu hoặc giấy chứng nhận bảo hiểm bảo lãnh được tính từ ngày nào?",
-          "options": [
-            "Ngày có thời điểm đóng thầu",
-            "Ngày phê duyệt kết quả lựa chọn nhà thầu",
-            "Ngày thực hiện đối chiếu tài liệu",
-            "Các phương án trên đều sai"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Bảo đảm dự thầu là cam kết tài chính để ràng buộc nhà thầu với hồ sơ đã nộp. Nếu nhà thầu rút hồ sơ, từ chối thương thảo/ký hợp đồng hoặc vi phạm nghĩa vụ sau khi được lựa chọn thì có thể bị xử lý bảo đảm dự thầu theo quy định."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 14,
-          "question": "Đối với đấu thầu qua mạng, thành phần nào sau đây không được coi là một phần của E-HSMST, E-HSMT và nhà thầu không phải đáp ứng các yêu cầu này?",
-          "options": [
-            "Bảng dữ liệu được số hóa dưới dạng webform trên Hệ thống mạng đấu thầu quốc gia (A)",
-            "Tiêu chuẩn đánh giá về tính hợp lệ được đính kèm trên Hệ thống mạng đấu thầu quốc gia (B)",
-            "Yêu cầu về năng lực, kinh nghiệm được đính kèm trên Hệ thống mạng đấu thầu quốc gia (C)",
-            "Phương án B và C đều đúng"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Câu này yêu cầu nhận diện một nhóm nhận định cùng đúng/sai, không chỉ một ý đơn lẻ. Phương án “Phương án B và C đều đúng” được chọn vì các ý còn lại khi ghép lại phản ánh đầy đủ hơn quy định trong chủ đề “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”. Khi ôn, nên đọc từng mệnh đề rồi kiểm tra xem chúng có cùng thuộc một điều kiện/quy trình hay không."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 15,
-          "question": "Đối với đấu thầu không qua mạng, việc phê duyệt và phát hành hồ sơ mời thầu được thực hiện theo phương án nào sau đây?",
-          "options": [
-            "Phê duyệt và phát hành hồ sơ mời thầu trên Hệ thống mạng đấu thầu quốc gia",
-            "Phê duyệt trên Hệ thống mạng đấu thầu quốc gia và phát hành hồ sơ mời thầu bản giấy",
-            "Phê duyệt và phát hành hồ sơ mời thầu bản giấy",
-            "Các phương án trên đều đúng"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Phương án “Phê duyệt và phát hành hồ sơ mời thầu trên Hệ thống mạng đấu thầu quốc gia” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 16,
-          "question": "Đối với đấu thầu qua mạng, trường hợp nhà thầu rút E-HSDT sau thời điểm đóng thầu và trong thời gian có hiệu lực của E-HSDT thì nhà thầu bị xử lý theo phương án nào sau đây?",
-          "options": [
-            "Không được hoàn trả bảo đảm dự thầu",
-            "Bị đánh giá là không đảm bảo uy tín khi tham dự thầu",
-            "Không được tiếp tục đánh giá E-HSDT",
-            "Các phương án trên đều đúng"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Sau thời điểm đóng thầu, nhà thầu không được rút E-HSDT trên Hệ thống vì hồ sơ đã được khóa để bảo đảm cạnh tranh công bằng. Nếu cho rút sau đóng thầu thì nhà thầu có thể né trách nhiệm khi biết diễn biến cuộc thầu."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 18,
-          "question": "Đối với đấu thầu qua mạng, trường hợp E-HSMT có yêu cầu cung cấp hàng mẫu, nhà thầu có thể nộp bổ sung hàng mẫu theo phương án nào sau đây?",
-          "options": [
-            "Trong thời hạn 03 ngày làm việc sau thời điểm đóng thầu",
-            "Trong thời hạn 03 ngày làm việc sau thời điểm mở thầu",
-            "Trong thời hạn 05 ngày làm việc sau thời điểm đóng thầu",
-            "Trong thời hạn 05 ngày làm việc sau thời điểm mở thầu"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Hàng mẫu chỉ được yêu cầu/nộp theo đúng E-HSMT và thời hạn quy định. Trường hợp E-HSMT cho phép bổ sung hàng mẫu sau đóng thầu trong thời hạn cụ thể, việc bổ sung không được làm thay đổi nội dung cơ bản của E-HSDT mà chỉ phục vụ kiểm chứng kỹ thuật."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 19,
-          "question": "Trường hợp nhà thầu bị đánh giá về uy tín khi thực hiện hành vi: được lựa chọn trúng thầu nhưng không tiến hành hoặc từ chối tiến hành hoàn thiện hợp đồng hoặc không ký kết hợp đồng thì khi tham gia gói thầu khác, nhà thầu sẽ bị bất lợi như thế nào?",
-          "options": [
-            "Đối với gói thầu hàng hóa, xây lắp, phi tư vấn, hỗn hợp, nhà thầu bị đánh giá về uy tín phải nộp gấp 3 lần bảo đảm dự thầu trong vòng 03 năm kể từ lần cuối cùng thực hiện hành vi (A)",
-            "Đối với gói thầu tư vấn, thông tin uy tín này sẽ được sử dụng để đánh giá về kỹ thuật (B)",
-            "Bị đưa vào xem xét, đánh giá về kỹ thuật trong quá trình lựa chọn nhà thầu đối với gói thầu xây lắp, phi tư vấn, hàng hóa, hỗn hợp (C)",
-            "Đáp án B và C đều đúng"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Điều kiện xét duyệt trúng thầu phụ thuộc phương pháp đánh giá đã chọn. Nếu phương pháp dựa trên kỹ thuật/giá cố định thì trọng tâm là điểm kỹ thuật; nếu giá thấp nhất hoặc giá đánh giá thì trọng tâm là giá sau sửa lỗi, hiệu chỉnh và quy đổi. Phương án “Đối với gói thầu tư vấn, thông tin uy tín này sẽ được sử dụng để đánh giá về kỹ thuật” đúng với phương pháp được nêu trong đề."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 20,
-          "question": "Nội dung nào không phù hợp với quy định về nhà thầu phụ đối với gói thầu mua sắm hàng hóa?",
-          "options": [
-            "Chủ đầu tư phải ghi tỷ lệ % giá trị dành cho nhà thầu phụ trong E-BDL làm cơ sở để nhà thầu lập E-HSDT",
-            "Năng lực và kinh nghiệm của nhà thầu phụ sẽ không được xem xét khi đánh giá E-HSDT của nhà thầu",
-            "Nhà thầu được ký kết hợp đồng với các nhà thầu phụ trong danh sách các nhà thầu phụ nêu trong E-HSDT",
-            "Nhà thầu được ký kết hợp đồng với các nhà thầu phụ được chủ đầu tư chấp thuận để tham gia thực hiện cung cấp dịch vụ liên quan"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Mốc cần nhớ ở câu này là “Chủ đầu tư phải ghi tỷ lệ % giá trị dành cho nhà thầu phụ trong E-BDL làm cơ sở để nhà thầu lập E-HSDT”. Đây là câu hỏi kiểm tra con số/thời hạn cụ thể trong chủ đề “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, vì vậy cách làm là xác định đúng thủ tục hoặc loại gói thầu trước, sau đó mới gắn với mốc tương ứng."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 22,
-          "question": "Đối với gói thầu mua sắm hàng hóa áp dụng hình thức chào hàng cạnh tranh, trường hợp hồ sơ mời thầu không yêu cầu về năng lực kinh nghiệm thì việc đánh giá được thực hiện như thế nào?",
-          "options": [
-            "Không phải đánh giá về năng lực kinh nghiệm nhưng nhà thầu phải cam kết đáp ứng năng lực kinh nghiệm trong đơn dự thầu (A)",
-            "Trường hợp nhà thầu đính kèm tài liệu về năng lực kinh nghiệm thì chủ đầu tư bắt buộc phải đánh giá về năng lực kinh nghiệm của nhà thầu (B)",
-            "Bắt buộc phải đánh giá năng lực kinh nghiệm nhà thầu (C)",
-            "Phương án A và B đều đúng"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Nội dung cần nhớ là chào hàng cạnh tranh dùng cho gói thầu thông dụng, yêu cầu rõ, dễ so sánh về giá và kỹ thuật. Đề đang hỏi đúng điều kiện/hệ quả của hình thức này nên chọn “Không phải đánh giá về năng lực kinh nghiệm nhưng nhà thầu phải cam kết đáp ứng năng lực kinh nghiệm trong đơn dự thầu”."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 23,
-          "question": "Đối với gói thầu xây lắp tổ chức đấu thầu rộng rãi, hồ sơ mời thầu có bắt buộc quy định việc đánh giá đối với yêu cầu về nguồn lực tài chính phải bằng cam kết tín dụng không?",
-          "options": [
-            "Bắt buộc quy định trong hồ sơ mời thầu do đây là tiêu chí chứng minh nguồn lực tài chính",
-            "Không bắt buộc quy định, hồ sơ mời thầu có thể đưa ra yêu cầu về cam kết cung cấp tín dụng hoặc không yêu cầu về cam kết cung cấp tín dụng",
-            "Bắt buộc quy định trong hồ sơ mời thầu đối với gói thầu xây lắp áp dụng phương thức một giai đoạn hai túi hồ sơ",
-            "Bắt buộc quy định trong hồ sơ mời thầu đối với gói thầu có giá trên 20 tỷ đồng"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Nguồn lực tài chính chứng minh nhà thầu có khả năng bảo đảm dòng tiền để triển khai gói thầu. Khi đề hỏi về nguồn lực tài chính, cần nhìn vào tài sản có tính thanh khoản, hạn mức tín dụng hoặc cam kết tín dụng hợp lệ, không nhầm với doanh thu hay kinh nghiệm thực hiện hợp đồng."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
           "number": 24,
-          "question": "Kinh nghiệm thực hiện hợp đồng xây lắp tương tự gói thầu chỉ bao gồm 01 công trình độc lập được xét trên cơ sở nào sau đây?",
-          "options": [
-            "Xét theo công trình nhà thầu đã hoàn thành toàn bộ hoặc hoàn thành phần lớn có loại kết cấu, cấp công trình và đáp ứng quy mô theo yêu cầu của hồ sơ mời thầu",
-            "Chỉ xét theo công trình nhà thầu đã hoàn thành toàn bộ, đã được nghiệm thu, cùng loại công trình và đáp ứng quy mô theo yêu cầu của hồ sơ mời thầu",
-            "Xét theo các hạng mục công việc có tính chất tương tự nhà thầu đã hoàn thành phần lớn",
-            "Tất cả phương án trên đều đúng"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Phương án “Xét theo công trình nhà thầu đã hoàn thành toàn bộ hoặc hoàn thành phần lớn có loại kết cấu, cấp công trình và đáp ứng quy mô theo yêu cầu của hồ sơ mời thầu” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 25,
           "question": "Đối với gói thầu mua sắm hàng hóa tổ chức đấu thầu rộng rãi qua mạng, kinh nghiệm thực hiện hợp đồng cung cấp hàng hóa tương tự được xét trên cơ sở nào sau đây?",
           "options": [
             "Hàng hóa có cùng chủng loại với gói thầu đang xét (A)",
@@ -3496,870 +916,12 @@ window.STUDY_DATA = {
             "Cả 2 phương án B và C đều đúng"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Câu này yêu cầu nhận diện một nhóm nhận định cùng đúng/sai, không chỉ một ý đơn lẻ. Phương án “Cả 2 phương án B và C đều đúng” được chọn vì các ý còn lại khi ghép lại phản ánh đầy đủ hơn quy định trong chủ đề “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”. Khi ôn, nên đọc từng mệnh đề rồi kiểm tra xem chúng có cùng thuộc một điều kiện/quy trình hay không."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Cả 2 phương án B và C đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 26,
-          "question": "Quy trình, thủ tục lựa chọn nhà thầu đối với chào hàng cạnh tranh không bao gồm bước sau đây:",
-          "options": [
-            "Phê duyệt kết quả lựa chọn nhà thầu",
-            "Công khai kết quả lựa chọn nhà thầu",
-            "Thẩm định kết quả lựa chọn nhà thầu",
-            "Hoàn thiện, ký kết và quản lý thực hiện hợp đồng"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Nội dung cần nhớ là chào hàng cạnh tranh dùng cho gói thầu thông dụng, yêu cầu rõ, dễ so sánh về giá và kỹ thuật. Đề đang hỏi đúng điều kiện/hệ quả của hình thức này nên chọn “Thẩm định kết quả lựa chọn nhà thầu”."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 27,
-          "question": "Đối với đấu thầu qua mạng, nhà thầu đính kèm bản scan thư giảm giá khi tham dự thầu trên Hệ thống mạng đấu thầu quốc gia thì việc đánh giá tệp tin đính kèm này được thực hiện theo phương án nào sau đây?",
-          "options": [
-            "Không được xem xét, đánh giá",
-            "Được xem xét, đánh giá căn cứ tệp tin đính kèm",
-            "Được làm rõ trong trường hợp có sự sai khác thông tin về giảm giá giữa tệp tin đính kèm này và thông tin kê khai trong đơn dự thầu",
-            "Được bổ sung trong trường hợp có sự sai khác thông tin về giảm giá giữa tệp tin đính kèm này và thông tin kê khai trong đơn dự thầu"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Tệp tin đăng tải trên Hệ thống mạng đấu thầu quốc gia phải đọc được, không lỗi/hỏng, không nhiễm virus và không đặt mật khẩu làm cản trở truy cập. Nếu hồ sơ bị khóa, lỗi hoặc không mở được thì bên mời thầu không có cơ sở đánh giá khách quan."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 28,
-          "question": "Hợp đồng nào được phép sử dụng để chứng minh hợp đồng tương tự khi tham dự gói thầu cung cấp thuốc có sử dụng ngân sách nhà nước của Bệnh viện?",
-          "options": [
-            "Hợp đồng thuốc đã cung cấp thuốc cho cơ sở khám chữa bệnh tư nhân (A)",
-            "Hợp đồng thuốc đã cung cấp thuốc cho các cơ sở kinh doanh thuốc (B)",
-            "Phương án A và B đều đúng (C)",
-            "Phương án A và B đều sai"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Hợp đồng tương tự dùng để chứng minh nhà thầu đã từng thực hiện công việc có bản chất, quy mô và mức độ phức tạp gần với gói thầu đang xét. Nếu hợp đồng kê khai không đạt, nhà thầu chỉ có thể được làm rõ/bổ sung trong phạm vi quy định, không được biến một kinh nghiệm không tương tự thành tương tự."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 29,
-          "question": "Quy trình, thủ tục lựa chọn nhà thầu đối với mua sắm trực tiếp không bao gồm bước nào sau đây?",
-          "options": [
-            "Thẩm định hồ sơ yêu cầu",
-            "Đánh giá hồ sơ đề xuất và thương thảo về các đề xuất của nhà thầu",
-            "Phát hành hồ sơ yêu cầu",
-            "Phê duyệt và công khai kết quả mua sắm trực tiếp"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Mấu chốt của mua sắm trực tiếp là mua hàng hóa tương tự dựa trên kết quả/hợp đồng trước đó, không phải một hình thức dùng tự do cho mọi nhu cầu. Vì điều kiện trong đề khớp với nguyên tắc này nên chọn “Thẩm định hồ sơ yêu cầu”."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 30,
-          "question": "Công việc nào sau đây phải thực hiện trên Hệ thống mạng đấu thầu quốc gia?",
-          "options": [
-            "Lập E-HSMT",
-            "Trình phê duyệt E-HSMT, phê duyệt E-HSMT",
-            "Phê duyệt kết quả lựa chọn nhà thầu",
-            "Tất cả các phương án trên đều đúng"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Câu này yêu cầu nhận diện một nhóm nhận định cùng đúng/sai, không chỉ một ý đơn lẻ. Phương án “Tất cả các phương án trên đều đúng” được chọn vì các ý còn lại khi ghép lại phản ánh đầy đủ hơn quy định trong chủ đề “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”. Khi ôn, nên đọc từng mệnh đề rồi kiểm tra xem chúng có cùng thuộc một điều kiện/quy trình hay không."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 31,
-          "question": "Nội dung nào sau đây nếu đưa vào E-HSMT gói thầu mua sắm hàng hóa có thể bị đánh giá là hạn chế cạnh tranh?",
-          "options": [
-            "Yêu cầu nhà thầu cung cấp tài liệu chứng minh hợp đồng tương tự",
-            "Yêu cầu nhà thầu phải là chủ sở hữu thiết bị chào thầu",
-            "Yêu cầu nhà thầu có năng lực tài chính lành mạnh",
-            "Yêu cầu nhà thầu phải hoàn thành nghĩa vụ thuế"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Phương án “Yêu cầu nhà thầu phải là chủ sở hữu thiết bị chào thầu” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 32,
-          "question": "Gói thầu mua sắm máy điều hòa không khí của Sở Tài chính tỉnh X được tổ chức đấu thầu tập trung có được nêu xuất xứ hàng hóa không?",
-          "options": [
-            "Được nêu xuất xứ cụ thể của một nước bất kỳ",
-            "Được nêu xuất xứ theo nhóm nước, vùng lãnh thổ",
-            "Được nêu xuất xứ cụ thể của một nước bất kỳ nhưng phải kèm theo cụm từ \"hoặc tương đương\"",
-            "Không được nêu xuất xứ theo nhóm nước, vùng lãnh thổ"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Phương án “Được nêu xuất xứ theo nhóm nước, vùng lãnh thổ” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 33,
-          "question": "Việc đánh giá về nhân sự chủ chốt và thiết bị chủ yếu đối với gói thầu xây lắp tổ chức đấu thầu rộng rãi được thực hiện như thế nào?",
-          "options": [
-            "Đánh giá tất cả các nhà thầu tham dự thầu",
-            "Đánh giá đối với nhà thầu xếp thứ nhất",
-            "Đánh giá đối với tất cả các nhà thầu được đánh giá đạt về kỹ thuật",
-            "Không đánh giá về nhân sự chủ chốt và thiết bị chủ yếu"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Nhân sự chủ chốt chỉ nên đặt ra khi tính chất gói thầu thật sự cần nhân sự có chuyên môn đặc thù. Nếu gói thầu đơn giản mà yêu cầu nhân sự quá cao thì tiêu chí đó có nguy cơ làm hạn chế cạnh tranh."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 34,
-          "question": "Quy trình 02 trong đánh giá E-HSDT được áp dụng đối với gói thầu nào sau đây?",
-          "options": [
-            "Gói thầu mua sắm hàng hóa áp dụng phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp \"giá thấp nhất\" và các nhà thầu, E-HSDT đều không có bất kỳ ưu đãi nào",
-            "Gói thầu dịch vụ phi tư vấn áp dụng phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp \"giá đánh giá\" và các nhà thầu, E-HSDT chào ưu đãi như nhau",
-            "Gói thầu xây lắp áp dụng phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp \"giá thấp nhất\" và các nhà thầu, E-HSDT đều không có bất kỳ ưu đãi nào",
-            "Gói thầu máy đặt, máy mượn áp dụng phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp \"giá thấp nhất\" và các nhà thầu, E-HSDT chào ưu đãi như nhau"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Phương án “Gói thầu mua sắm hàng hóa áp dụng phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp \"giá thấp nhất\" và các nhà thầu, E-HSDT đều không có bất kỳ ưu đãi nào” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 36,
-          "question": "Đối với đấu thầu không qua mạng, biên bản mở thầu bắt buộc phải có chữ ký của các chủ thể nào sau đây?",
-          "options": [
-            "Chủ đầu tư, tổ chuyên gia và các nhà thầu tham dự lễ mở thầu",
-            "Chủ đầu tư, tổ chuyên gia và các nhà thầu tham dự thầu",
-            "Chủ đầu tư và các nhà thầu tham dự lễ mở thầu",
-            "Các phương án trên đều đúng"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Phương án “Chủ đầu tư và các nhà thầu tham dự lễ mở thầu” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 37,
-          "question": "Đối với đấu thầu rộng rãi không qua mạng, nếu sau khi đóng thầu, nhà thầu tự phát hiện hồ sơ dự thầu thiếu tài liệu chứng minh năng lực, kinh nghiệm thì nhà thầu nên làm gì?",
-          "options": [
-            "Trường hợp chủ đầu tư có yêu cầu bổ sung, làm rõ nhà thầu mới được bổ sung tài liệu chứng minh năng lực, kinh nghiệm",
-            "Được phép gửi tài liệu đến chủ đầu tư để làm rõ về năng lực, kinh nghiệm",
-            "Không được bổ sung tài liệu chứng minh năng lực, kinh nghiệm còn thiếu",
-            "Rút hồ sơ dự thầu để nộp lại"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Phương án “Được phép gửi tài liệu đến chủ đầu tư để làm rõ về năng lực, kinh nghiệm” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 38,
-          "question": "Trường hợp nào nhà thầu được quyền từ chối hoàn thiện hợp đồng mà không bị đánh giá về uy tín khi tham dự thầu, không bị tịch thu bảo đảm dự thầu?",
-          "options": [
-            "Nhà thầu được quyền từ chối hoàn thiện hợp đồng trong mọi trường hợp (A)",
-            "Khi chủ đầu tư đưa ra các yêu cầu khi hoàn thiện hợp đồng không phù hợp với nội dung hồ sơ mời thầu, hồ sơ dự thầu (B)",
-            "Khi nhà thầu đề nghị điều chỉnh đơn giá hạng mục mà nhà thầu đã chào theo yêu cầu của hồ sơ mời thầu nhưng chủ đầu tư không chấp nhận (C)",
-            "Phương án B và C đều đúng"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Bảo đảm dự thầu là cam kết tài chính để ràng buộc nhà thầu với hồ sơ đã nộp. Nếu nhà thầu rút hồ sơ, từ chối thương thảo/ký hợp đồng hoặc vi phạm nghĩa vụ sau khi được lựa chọn thì có thể bị xử lý bảo đảm dự thầu theo quy định."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 39,
-          "question": "Đối với đấu thầu không qua mạng, trường hợp hồ sơ dự thầu của nhà thầu có sai lệch thiếu sau khi hiệu chỉnh sai lệch vẫn được xếp hạng thứ nhất và hồ sơ dự thầu của nhà thầu này không có đơn giá của phần sai lệch thiếu, đơn giá nào sẽ được ưu tiên áp dụng đầu tiên để đề nghị trúng thầu?",
-          "options": [
-            "Đơn giá trong dự toán gói thầu",
-            "Đơn giá tương ứng có giá trị thấp nhất trong các hồ sơ dự thầu khác vượt qua bước đánh giá về kỹ thuật",
-            "Đơn giá hình thành giá gói thầu",
-            "Đơn giá tương ứng có giá trị cao nhất trong các hồ sơ dự thầu khác vượt qua bước đánh giá về kỹ thuật"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Điều kiện xét duyệt trúng thầu phụ thuộc phương pháp đánh giá đã chọn. Nếu phương pháp dựa trên kỹ thuật/giá cố định thì trọng tâm là điểm kỹ thuật; nếu giá thấp nhất hoặc giá đánh giá thì trọng tâm là giá sau sửa lỗi, hiệu chỉnh và quy đổi. Phương án “Đơn giá tương ứng có giá trị thấp nhất trong các hồ sơ dự thầu khác vượt qua bước đánh giá về kỹ thuật” đúng với phương pháp được nêu trong đề."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 40,
-          "question": "Đối với gói thầu bảo hiểm, nhà thầu tham dự thầu có được xuất trình giấy chứng nhận bảo hiểm bảo lãnh do chính mình phát hành không?",
-          "options": [
-            "Được dùng giấy chứng nhận bảo hiểm bảo lãnh do chính mình phát hành nếu nhà thầu là doanh nghiệp bảo hiểm uy tín",
-            "Không được dùng giấy chứng nhận bảo hiểm bảo lãnh do chính mình phát hành nếu giá trị bảo lãnh từ 50 triệu đồng trở lên, được dùng nếu giá trị bảo lãnh nhỏ hơn 50 triệu đồng",
-            "Chỉ được dùng giấy chứng nhận bảo hiểm bảo lãnh do chính mình phát hành nếu giá trị bảo lãnh nhỏ hơn 50 triệu đồng",
-            "Tất cả phương án đều sai"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Câu này yêu cầu nhận diện một nhóm nhận định cùng đúng/sai, không chỉ một ý đơn lẻ. Phương án “Tất cả phương án đều sai” được chọn vì các ý còn lại khi ghép lại phản ánh đầy đủ hơn quy định trong chủ đề “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”. Khi ôn, nên đọc từng mệnh đề rồi kiểm tra xem chúng có cùng thuộc một điều kiện/quy trình hay không."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 41,
-          "question": "Nội dung nào là nội dung đánh giá tính hợp lệ của hồ sơ dự thầu?",
-          "options": [
-            "Nhân sự chủ chốt",
-            "Hiệu lực của hồ sơ dự thầu",
-            "Năng lực tài chính",
-            "Việc thực hiện nghĩa vụ kê khai thuế, nộp thuế"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Phương án “Hiệu lực của hồ sơ dự thầu” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 42,
-          "question": "Nội dung nào không phải là tiêu chuẩn đánh giá về tính hợp lệ của hồ sơ dự thầu gói thầu tư vấn?",
-          "options": [
-            "Hiệu lực của hồ sơ đề xuất về kỹ thuật đáp ứng yêu cầu theo quy định trong hồ sơ mời thầu",
-            "Có bản gốc hồ sơ đề xuất về kỹ thuật",
-            "Bảo đảm dự thầu hợp lệ",
-            "Đã thực hiện nghĩa vụ kê khai thuế và nộp thuế"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Đề đang hỏi phương án không đúng/không thuộc nhóm quy định, nên đáp án là “Bảo đảm dự thầu hợp lệ”. Lý do là nội dung này lệch với chủ đề “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”: hoặc không phải đúng loại hình thức/thủ tục, hoặc không đúng chủ thể, thời hạn, điều kiện mà quy định yêu cầu."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (3.2 – Quy trình LCNT) - Quy trình Lựa chọn nhà thầu (Phần 2)",
-          "number": 43,
-          "question": "Bảo đảm cạnh tranh trong đấu thầu thuộc nội dung đánh giá về?",
-          "options": [
-            "Tư cách hợp lệ",
-            "Năng lực, kinh nghiệm",
-            "Kỹ thuật",
-            "Tài chính"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Bảo đảm cạnh tranh nhằm tránh tình trạng một bên vừa có khả năng chi phối, vừa tham gia cạnh tranh trong cùng gói thầu. Quan hệ sở hữu, quản lý hoặc quan hệ gia đình gần như anh em ruột trong các vị trí có ảnh hưởng có thể làm phát sinh xung đột lợi ích, nên phải xem xét theo quy định về độc lập và cạnh tranh."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 4,
-          "question": "Theo quy định tại Thông tư số 79/2025/TT BTC, quy định về thời điểm bắt đầu và kết thúc chào giá trực tuyến theo quy trình rút gọn?",
-          "options": [
-            "Thời điểm bắt đầu và kết thúc phải trong giờ hành chính.",
-            "Thời điểm bắt đầu không bắt buộc trong giờ hành chính nhưng kết thúc phải trong giờ hành chính.",
-            "Thời điểm bắt đầu và kết thúc không bắt buộc trong giờ hành chính.",
-            "Tất cả phương án trên đều sai"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Chào giá trực tuyến đặt trọng tâm vào cạnh tranh giá trên Hệ thống theo thời điểm và lượt chào. Phương án “Thời điểm bắt đầu và kết thúc phải trong giờ hành chính.” đúng vì phản ánh đúng nghĩa vụ/thời hạn/quy tắc vận hành của nhà thầu trong quy trình này."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 12,
-          "question": "Đối với gói thầu áp dụng chào giá trực tuyến theo quy trình thông thường, trường hợp nhà thầu được mời tham gia chào giá trực tuyến nhưng nhà thầu từ chối tham gia thì xử lý thế nào?",
-          "options": [
-            "Đề xuất về tài chính của nhà thầu sẽ bị đánh giá là không đạt (A)",
-            "Nhà thầu sẽ bị loại và bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong vòng 06 tháng (B)",
-            "Hồ sơ dự thầu của nhà thầu sẽ tiếp tục được đánh giá về tài chính căn cứ theo hồ sơ dự thầu đã nộp trước thời điểm đóng thầu (C)",
-            "Phương án A và B đều đúng"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Chào giá trực tuyến đặt trọng tâm vào cạnh tranh giá trên Hệ thống theo thời điểm và lượt chào. Phương án “Hồ sơ dự thầu của nhà thầu sẽ tiếp tục được đánh giá về tài chính căn cứ theo hồ sơ dự thầu đã nộp trước thời điểm đóng thầu” đúng vì phản ánh đúng nghĩa vụ/thời hạn/quy tắc vận hành của nhà thầu trong quy trình này."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 21,
-          "question": "Việc xét duyệt trúng thầu đối với gói thầu áp dụng hình thức chào giá trực tuyến theo quy trình rút gọn thực hiện như thế nào?",
-          "options": [
-            "Căn cứ vào giá dự thầu trong đơn dự thầu của nhà thầu",
-            "Căn cứ vào giá gói thầu trong kế hoạch lựa chọn nhà thầu được phê duyệt",
-            "Căn cứ vào giá dự thầu tại thời điểm kết thúc chào giá trực tuyến của nhà thầu xếp thứ nhất",
-            "Các phương án trên đều sai"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Chào giá trực tuyến đặt trọng tâm vào cạnh tranh giá trên Hệ thống theo thời điểm và lượt chào. Phương án “Căn cứ vào giá dự thầu tại thời điểm kết thúc chào giá trực tuyến của nhà thầu xếp thứ nhất” đúng vì phản ánh đúng nghĩa vụ/thời hạn/quy tắc vận hành của nhà thầu trong quy trình này."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 22,
-          "question": "Chào giá trực tuyến theo quy trình thông thường được thực hiện ở bước nào trong quá trình lựa chọn nhà thầu?",
-          "options": [
-            "Bước chuẩn bị lựa chọn nhà thầu",
-            "Bước đánh giá về tài chính",
-            "Bước thương thảo hợp đồng",
-            "Bước đánh giá hồ sơ đề xuất kỹ thuật"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Chào giá trực tuyến đặt trọng tâm vào cạnh tranh giá trên Hệ thống theo thời điểm và lượt chào. Phương án “Bước đánh giá về tài chính” đúng vì phản ánh đúng nghĩa vụ/thời hạn/quy tắc vận hành của nhà thầu trong quy trình này."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (7.1 - HĐ)-N",
-          "number": 6,
-          "question": "Trường hợp nào sau đây các bên không phải thỏa thuận trong hợp đồng về quy trình, thủ tục sửa đổi hợp đồng?",
-          "options": [
-            "Khi có sự thay đổi về chính sách, pháp luật làm ảnh hưởng trực tiếp đến việc thực hiện hợp đồng",
-            "Khi có sự kiện bất khả kháng",
-            "Khi thay đổi phương thức vận chuyển, địa điểm giao hàng, dịch vụ liên quan đối với gói thầu mua sắm hàng hóa",
-            "Tăng, giảm thời gian đối với hợp đồng theo thời gian; tăng, giảm chi phí trực tiếp thực hiện đối với hợp đồng chi phí cộng phí; tăng, giảm giá trị cơ sở để tính phần trăm chi phí đối với hợp đồng theo tỷ lệ phần trăm; tăng, giảm mức giảm trừ thanh toán, mức tăng giá trị thanh toán đối với hợp đồng theo kết quả đầu ra"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Sửa đổi/điều chỉnh hợp đồng chỉ được thực hiện trong phạm vi pháp luật và điều kiện hợp đồng cho phép, không được làm thay đổi bản chất gói thầu hoặc phá vỡ kết quả lựa chọn nhà thầu. Điểm cần nhớ là mọi điều chỉnh phải có căn cứ, thẩm quyền và không hợp thức hóa sai lệch sau đấu thầu."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
-          "number": 3,
-          "question": "Trường hợp hồ sơ mời thầu cho phép nhà thầu đề xuất biện pháp thi công khác với biện pháp thi công nêu trong hồ sơ mời thầu thì phần sai khác giữa khối lượng công việc theo biện pháp thi công nêu trong hồ sơ mời thầu và khối lượng công việc theo biện pháp thi công do nhà thầu đề xuất được xem xét thế nào?",
-          "options": [
-            "Bị hiệu chỉnh sai lệch, phần sai khác được tính là sai lệch thừa",
-            "Không bị hiệu chỉnh sai lệch, phần sai khác không được tính là sai lệch thừa",
-            "Bị hiệu chỉnh sai lệch, phần sai khác được tính là sai lệch thiếu",
-            "Không bị hiệu chỉnh sai lệch, phần sai khác không bị tính là sai lệch thiếu"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Đề đang hỏi phương án không đúng/không thuộc nhóm quy định, nên đáp án là “Không bị hiệu chỉnh sai lệch, phần sai khác không bị tính là sai lệch thiếu”. Lý do là nội dung này lệch với chủ đề “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”: hoặc không phải đúng loại hình thức/thủ tục, hoặc không đúng chủ thể, thời hạn, điều kiện mà quy định yêu cầu."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.2 - QLNN - Kiến nghị)-N",
-          "number": 1,
-          "question": "Thông tư số 80/2025/TT-BTC quy định chi tiết mẫu hồ sơ yêu cầu, báo cáo đánh giá, báo cáo thẩm định, kiểm tra, báo cáo tình hình thực hiện hoạt động đấu thầu có hiệu lực từ thời điểm nào?",
-          "options": [
-            "Ngày 08/8/2025",
-            "Ngày 04/8/2025",
-            "Ngày 01/8/2025",
-            "Ngày 01/7/2025"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Đình chỉ cuộc thầu hoặc đình chỉ hoạt động của nhà thầu là biện pháp ngăn hậu quả tiếp tục xảy ra khi có dấu hiệu vi phạm nghiêm trọng. Cần phân biệt đình chỉ tạm thời với cấm tham gia đấu thầu là chế tài có thời hạn."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.2 - QLNN - Kiến nghị)-N",
-          "number": 17,
-          "question": "Đối với kiến nghị về quá trình tổ chức lựa chọn nhà thầu (không phải kiến nghị về nội dung hồ sơ mời thầu), đơn kiến nghị phải là của chủ thể nào?",
-          "options": [
-            "Cá nhân quan tâm đến gói thầu (A)",
-            "Nhà thầu tham dự thầu (B)",
-            "Cơ quan, tổ chức quan tâm đến gói thầu (C)",
-            "Phương án B và C đều đúng"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Kiến nghị là cơ chế để nhà thầu yêu cầu xem xét lại vấn đề trong lựa chọn nhà thầu trước khi đi sang khiếu nại/khởi kiện. Phương án “Nhà thầu tham dự thầu” đúng vì khớp đúng chủ thể, thời hạn hoặc quyền hạn trong quy trình giải quyết kiến nghị."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 15,
-          "question": "Theo quy định tại Thông tư số 21/2022/TT-BKHĐT, hồ sơ mời thầu gói thầu dịch vụ phi tư vấn không được đưa ra yêu cầu nào sau đây:",
-          "options": [
-            "Yêu cầu về năng lực",
-            "Yêu cầu về kinh nghiệm",
-            "Yêu cầu nhà thầu phải có kinh nghiệm cung cấp dịch vụ trong lãnh thổ của một quốc gia cụ thể",
-            "Yêu cầu về chất lượng dịch vụ"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Dịch vụ phi tư vấn là dịch vụ không tạo sản phẩm tư vấn chuyên môn, ví dụ in ấn, vệ sinh, vận chuyển, bảo trì, tổ chức sự kiện theo yêu cầu sẵn có. Vì “Yêu cầu nhà thầu phải có kinh nghiệm cung cấp dịch vụ trong lãnh thổ của một quốc gia cụ thể” là công việc thực hiện dịch vụ thông dụng nên thuộc nhóm phi tư vấn."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 4,
-          "question": "Việc đánh giá E-HSDT gói thầu mua sắm hàng hóa theo quy trình 02 được thực hiện theo trình tự nào sau đây?",
-          "options": [
-            "Đánh giá E-HSDT của tất cả nhà thầu tham dự thầu về: tính hợp lệ của E-HSDT; năng lực và kinh nghiệm; kỹ thuật. Trường hợp nhà thầu không đáp ứng bước trước thì không tiếp tục đánh giá bước tiếp theo",
-            "Đánh giá E-HSDT của nhà thầu xếp hạng thứ nhất về: tính hợp lệ của E-HSDT; năng lực và kinh nghiệm; kỹ thuật. Trường hợp nhà thầu xếp hạng thứ nhất không đáp ứng thì đánh giá đối với nhà thầu xếp hạng tiếp theo",
-            "Đánh giá E-HSDT của nhà thầu xếp hạng thứ nhất về: tính hợp lệ của E-HSDT; kỹ thuật; tài chính; năng lực và kinh nghiệm. Trường hợp nhà thầu xếp hạng thứ nhất không đáp ứng thì đánh giá đối với nhà thầu xếp hạng tiếp theo",
-            "Đánh giá E-HSDT của tất cả nhà thầu tham dự thầu về: tính hợp lệ của E-HSDT; kỹ thuật; tài chính; năng lực và kinh nghiệm. Trường hợp nhà thầu không đáp ứng bước trước thì không tiếp tục đánh giá bước tiếp theo"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Phương án “Đánh giá E-HSDT của nhà thầu xếp hạng thứ nhất về: tính hợp lệ của E-HSDT; năng lực và kinh nghiệm; kỹ thuật. Trường hợp nhà thầu xếp hạng thứ nhất không đáp ứng thì đánh giá đối với nhà thầu xếp hạng tiếp theo” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 14,
-          "question": "Nhận định nào sau đây là không phù hợp đối với gói thầu mua sắm hàng hoá áp dụng chào giá trực tuyến theo quy trình rút gọn?",
-          "options": [
-            "Chủ đầu tư được nêu yêu cầu cụ thể về xuất xứ, ký mã hiệu, nhãn hiệu, hãng sản xuất, thông số kỹ thuật của hàng hóa và các yêu cầu khác (nếu có) như: lắp đặt, đào tạo, bảo hành…",
-            "Chủ đầu tư cần nghiên cứu để đưa ra khoảng thời gian phù hợp giữa ngày giao hàng sớm nhất và ngày giao hàng muộn nhất",
-            "Nhà thầu sẽ không đề xuất ngày giao hàng cụ thể mà chỉ cam kết tuân thủ theo yêu cầu của chủ đầu tư tại E- TBMT",
-            "Trong quá trình chào giá, mức giá do các nhà thầu chào và tên nhà thầu được công khai trên Hệ thống mạng đấu thầu quốc gia"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Chào giá trực tuyến đặt trọng tâm vào cạnh tranh giá trên Hệ thống theo thời điểm và lượt chào. Phương án “Trong quá trình chào giá, mức giá do các nhà thầu chào và tên nhà thầu được công khai trên Hệ thống mạng đấu thầu quốc gia” đúng vì phản ánh đúng nghĩa vụ/thời hạn/quy tắc vận hành của nhà thầu trong quy trình này."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 17,
-          "question": "Trong chào giá trực tuyến theo quy trình rút gọn gói thầu hàng hóa, phát biểu nào sau đây không đúng?",
-          "options": [
-            "Đối với lần chào giá đầu tiên nhà thầu nhập các trọng số là đơn giá của hàng hóa nhà thầu dự kiến xác định sẽ",
-            "Nhà thầu không được thay đổi trọng số của từng hạng mục hàng hóa trong quá trình chào giá",
-            "Nhà thầu cần nghiên cứu công thức tính thành tiền và đơn giá dự thầu từ các trọng số để đề xuất các trọng số cho phù hợp",
-            "Nhà thầu phải điền các trọng số về đơn giá (N1, N2,...) của từng hạng mục"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Đây là phương án không đúng trong tình huống chào giá trực tuyến. Điểm sai không nằm ở việc nhà thầu có thể bị xử lý, mà ở cách diễn đạt điều kiện/mốc xử lý trong phương án “Nhà thầu không được thay đổi trọng số của từng hạng mục hàng hóa trong quá trình chào giá”; với quy trình rút gọn, nghĩa vụ chính của nhà thầu là xác nhận chấp thuận trao hợp đồng trên Hệ thống và chế tài phải bám đúng trình tự điện tử được quy định."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 18,
-          "question": "Trong chào giá trực tuyến theo quy trình rút gọn, khi nhập trọng số trong lần chào giá đầu tiên, nhà thầu cần làm gì?",
-          "options": [
-            "Nhập ngẫu nhiên các giá trị trọng số",
-            "Nhập trọng số bằng giá trị khối lượng từng hạng mục",
-            "Nhập trọng số là đơn giá dự kiến chào cho từng hạng mục ầ ố ố",
-            "Không cần nhập trọng số, hệ thống sẽ tự động tính"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Chào giá trực tuyến đặt trọng tâm vào cạnh tranh giá trên Hệ thống theo thời điểm và lượt chào. Phương án “Nhập trọng số là đơn giá dự kiến chào cho từng hạng mục ầ ố ố” đúng vì phản ánh đúng nghĩa vụ/thời hạn/quy tắc vận hành của nhà thầu trong quy trình này."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 26,
-          "question": "Quy định nào dưới đây không đúng về kế hoạch lựa chọn nhà thầu?",
-          "options": [
-            "Kế hoạch lựa chọn nhà thầu được lập cho toàn bộ dự án, dự toán mua sắm. Trường hợp chưa đủ điều kiện lập kế hoạch lựa chọn nhà thầu cho toàn bộ dự án, dự toán mua sắm thì lập kế hoạch lựa chọn nhà thầu cho một hoặc một số gói thầu để thực hiện trước",
-            "Kế hoạch lựa chọn nhà thầu có thể được lập đồng thời với quá trình lập dự án, dự toán mua sắm hoặc trước khi có quyết định phê duyệt dự án đối với gói thầu cần thực hiện trước khi có quyết định phê duyệt dự án",
-            "Trường hợp gói thầu có thời gian thực hiện dài hơn 01 năm, giá gói thầu trong kế hoạch lựa chọn nhà thầu được ghi rõ theo chu kỳ 01 năm hoặc trên cơ sở toàn bộ thời gian thực hiện gói thầu",
-            "Kế hoạch lựa chọn nhà thầu phải ghi rõ số lượng gói thầu và nội dung của từng gói thầu"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Giá gói thầu là nội dung bắt buộc trong kế hoạch lựa chọn nhà thầu vì nó là căn cứ chọn hình thức, phương thức, loại hợp đồng, thời gian và nguồn vốn. Nếu thiếu giá gói thầu thì kế hoạch không đủ cơ sở để triển khai lựa chọn nhà thầu."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 33,
-          "question": "Nhà thầu tư vấn lập hồ sơ mời thầu gói thầu xây lắp được phép tham dự thầu gói thầu nào?",
-          "options": [
-            "Tư vấn đánh giá hồ sơ dự thầu gói thầu xây lắp mà mình đã lập hồ sơ mời thầu",
-            "Tư vấn thẩm định kết quả lựa chọn nhà thầu gói thầu xây lắp mà mình đã lập hồ sơ mời thầu",
-            "Tư vấn giám sát thi công gói thầu xây lắp mà mình đã lập hồ sơ mời thầu",
-            "Tất cả các phương án trên đều đúng"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Câu này yêu cầu nhận diện một nhóm nhận định cùng đúng/sai, không chỉ một ý đơn lẻ. Phương án “Tất cả các phương án trên đều đúng” được chọn vì các ý còn lại khi ghép lại phản ánh đầy đủ hơn quy định trong chủ đề “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”. Khi ôn, nên đọc từng mệnh đề rồi kiểm tra xem chúng có cùng thuộc một điều kiện/quy trình hay không."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 41,
-          "question": "Giá gói thầu được cập nhật trong thời hạn bao nhiêu ngày trước ngày mở thầu nếu cần thiết?",
-          "options": [
-            "28 ngày",
-            "18 ngày",
-            "7 ngày",
-            "7 ngày làm việc"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Mốc cần nhớ ở câu này là “28 ngày”. Đây là câu hỏi kiểm tra con số/thời hạn cụ thể trong chủ đề “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, vì vậy cách làm là xác định đúng thủ tục hoặc loại gói thầu trước, sau đó mới gắn với mốc tương ứng."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 42,
-          "question": "Hồ sơ mời sơ tuyển được phát hành như thế nào, thời gian chuẩn bị hồ sơ dự sơ tuyển tối thiểu là bao nhiêu ngày?",
-          "options": [
-            "Phát hành miễn phí trên Hệ thống mạng đấu thầu quốc gia, thời gian chuẩn bị tối thiểu là 7 ngày làm việc",
-            "Phát hành trên Hệ thống mạng đấu thầu quốc gia với giá 110.000 đồng/hồ sơ, thời gian chuẩn bị tối thiểu là 9 ngày làm việc",
-            "Phát hành miễn phí trên Hệ thống mạng đấu thầu quốc gia, thời gian chuẩn bị tối thiểu là 9 ngày làm việc",
-            "Phát hành miễn phí trên Hệ thống mạng đấu thầu quốc gia, thời gian chuẩn bị tối thiểu là 9 ngày"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Mốc cần nhớ ở câu này là “Phát hành miễn phí trên Hệ thống mạng đấu thầu quốc gia, thời gian chuẩn bị tối thiểu là 9 ngày”. Đây là câu hỏi kiểm tra con số/thời hạn cụ thể trong chủ đề “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, vì vậy cách làm là xác định đúng thủ tục hoặc loại gói thầu trước, sau đó mới gắn với mốc tương ứng."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 43,
-          "question": "Chào giá trực tuyến theo quy trình rút gọn được áp dụng trong trường hợp nào?",
-          "options": [
-            "Gói thầu mua sắm hàng hóa phải mua của hãng sản xuất cụ thể để bảo đảm tính tương thích về công nghệ, bản quyền với các trang thiết bị, máy móc, phần mềm, dịch vụ sẵn có có giá gói thầu là 20 tỷ đồng",
-            "Gói thầu cung cấp dịch vụ phi tư vấn phải mua của hãng sản xuất cụ thể để bảo đảm tính tương thích về công nghệ, bản quyền với các trang thiết bị, máy móc, phần mềm, dịch vụ sẵn có có giá gói thầu là 10 tỷ đồng",
-            "Gói thầu mua sắm hàng hóa có giá gói thầu không quá 05 tỷ đồng đối với dự án",
-            "Tất cả các phương án trên đều đúng"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Chào giá trực tuyến đặt trọng tâm vào cạnh tranh giá trên Hệ thống theo thời điểm và lượt chào. Phương án “Tất cả các phương án trên đều đúng” đúng vì phản ánh đúng nghĩa vụ/thời hạn/quy tắc vận hành của nhà thầu trong quy trình này."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 45,
-          "question": "Một trong các nguyên tắc lập kế hoạch lựa chọn nhà thầu theo quy định tại Nghị định số 95/2020/NĐ- CP là?",
-          "options": [
-            "Không ghi rõ số lượng gói thầu",
-            "Không được chia nhỏ gói thầu để tránh áp dụng Nghị định này",
-            "Phải ghi toàn bộ phương thức lựa chọn nhà thầu là đấu thầu qua mạng",
-            "Ghi thời gian bắt đầu tổ chức lựa chọn nhà thầu là ngày cụ thể trong năm"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Phương án “Không được chia nhỏ gói thầu để tránh áp dụng Nghị định này” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Kế hoạch, HSMT và quy trình lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        }
-      ]
-    },
-    {
-      "title": "Tư cách hợp lệ, năng lực kinh nghiệm, bảo đảm cạnh tranh",
-      "theory": [
-        {
-          "heading": "1. Tư cách hợp lệ: điều kiện để được bước vào cuộc thầu",
-          "points": [
-            "Nhà thầu tổ chức phải có đăng ký thành lập/hoạt động hợp pháp, hạch toán tài chính độc lập nếu pháp luật yêu cầu, không đang giải thể, phá sản, không bị cấm tham gia đấu thầu.",
-            "Trong đấu thầu qua mạng, thông tin đăng ký trên Hệ thống, tình trạng tài khoản và các dữ liệu kê khai cũng ảnh hưởng đến việc đánh giá tư cách hợp lệ.",
-            "Nếu nhà thầu hoặc nhân sự thuộc trường hợp bị tòa án kết án/cấm liên quan đến hành vi đấu thầu theo quy định, Hệ thống hoặc bên mời thầu có thể đánh giá không đáp ứng tư cách hợp lệ."
-          ]
-        },
-        {
-          "heading": "2. Năng lực, kinh nghiệm: không chỉ là “đã từng làm”",
-          "points": [
-            "Năng lực tài chính chứng minh nhà thầu có đủ dòng tiền để thực hiện gói thầu: doanh thu, báo cáo tài chính, nguồn lực tài chính, số dư, hạn mức tín dụng hoặc cam kết tín dụng hợp lệ.",
-            "Hợp đồng tương tự phải tương tự về bản chất công việc, quy mô, cấp công trình/nhóm hàng, giá trị, thời điểm hoàn thành và vai trò của nhà thầu. Không phải cứ có hợp đồng giá trị lớn là tương tự.",
-            "Với gói hàng hóa thông dụng, tiêu chí kinh nghiệm hợp đồng tương tự có thể không phải lúc nào cũng bắt buộc; nhưng năng lực tài chính thường là tiêu chí nền tảng cần kiểm tra.",
-            "Nhân sự chủ chốt và thiết bị chỉ nên yêu cầu khi gói thầu có đặc thù cần thiết. Nếu yêu cầu quá mức so với gói thầu, tiêu chí có thể bị coi là hạn chế cạnh tranh."
-          ],
-          "note": "Mẹo nhớ: tài chính trả lời câu hỏi “có đủ sức làm không”; hợp đồng tương tự trả lời “đã từng làm việc giống vậy chưa”."
-        },
-        {
-          "heading": "3. Bảo đảm cạnh tranh và xung đột lợi ích",
-          "points": [
-            "Nhà thầu phải độc lập với chủ đầu tư, bên mời thầu và các tư vấn tham gia lập/thẩm định HSMT, đánh giá hồ sơ hoặc các công việc có thể ảnh hưởng đến kết quả lựa chọn.",
-            "Quan hệ sở hữu, chi phối, quản lý hoặc quan hệ gia đình gần trong vị trí có ảnh hưởng có thể tạo xung đột lợi ích. Câu hỏi hay đưa tình huống anh em ruột, công ty mẹ - con, cùng người quản lý để kiểm tra nguyên tắc độc lập.",
-            "Bảo đảm cạnh tranh không nhằm loại nhà thầu một cách hình thức; mục tiêu là bảo vệ sự công bằng, tránh bên có lợi thế thông tin hoặc quyền chi phối tham gia như một đối thủ bình thường."
-          ]
-        },
-        {
-          "heading": "4. Liên danh, tách pháp nhân và kế thừa năng lực",
-          "points": [
-            "Liên danh được đánh giá theo thỏa thuận liên danh và phần việc mỗi thành viên đảm nhận. Thành viên nào làm phần việc nào thì phải có năng lực tương ứng phần việc đó.",
-            "Nếu một thành viên liên danh vi phạm hợp đồng hoặc không còn năng lực, cần xem xét phạm vi vi phạm, ảnh hưởng đến toàn bộ liên danh và khả năng thay thế/bổ sung theo quy định.",
-            "Trường hợp xí nghiệp, đơn vị phụ thuộc được tách ra khỏi pháp nhân, việc kế thừa năng lực kinh nghiệm chỉ được xem xét khi có căn cứ pháp lý về chuyển giao/kế thừa, không tự động nhận toàn bộ kinh nghiệm nếu không có hồ sơ chứng minh."
-          ]
-        }
-      ],
-      "questions": [
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (6.1-MSTT-YT)-N",
-          "number": 13,
-          "question": "Phương án nào xác định quy mô của hợp đồng tương tự đối với gói thầu áp dụng mua sắm tập trung là phù hợp?",
-          "options": [
-            "Trong mọi trường hợp có thể điều chỉnh giảm yêu cầu về quy mô của hợp đồng tương tự xuống còn Y/1,5 (Y thông thường khoảng 50% giá trị của gói thầu đang xét)",
-            "Trường hợp mua sắm tập trung hoặc mua sắm hàng hóa có số lượng, khối lượng mời thầu lớn thì có thể điều chỉnh giảm yêu cầu về quy mô của hợp đồng tương tự xuống còn Y/1,25 (Y thông thường khoảng 50% giá trị của gói thầu đang xét) và/hoặc chia gói thầu thành các phần (lô) để tăng tính cạnh tranh cho gói thầu",
-            "Trường hợp mua sắm tập trung hoặc mua sắm hàng hóa có số lượng, khối lượng mời thầu lớn thì có thể điều chỉnh giảm yêu cầu về quy mô của hợp đồng tương tự xuống còn Y/1,5 (Y thông thường khoảng 50% giá trị của gói thầu đang xét) và/hoặc chia gói thầu thành các phần (lô) để tăng tính cạnh tranh cho gói thầu",
-            "Trường hợp mua sắm tập trung hoặc mua sắm hàng hóa có số lượng, khối lượng mời thầu lớn, chủ đầu tư báo cáo người có thẩm quyền để điều chỉnh giảm yêu cầu về quy mô của hợp đồng tương tự xuống còn Y/1,25 (Y thông thường khoảng 50% giá trị của gói thầu đang xét) và/hoặc chia gói thầu thành các phần (lô) để tăng tính cạnh tranh cho gói thầu"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Hợp đồng tương tự dùng để chứng minh nhà thầu đã từng thực hiện công việc có bản chất, quy mô và mức độ phức tạp gần với gói thầu đang xét. Nếu hợp đồng kê khai không đạt, nhà thầu chỉ có thể được làm rõ/bổ sung trong phạm vi quy định, không được biến một kinh nghiệm không tương tự thành tương tự."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (6.1-MSTT-YT)-N",
-          "number": 16,
-          "question": "Trường hợp đơn vị được giao nhiệm vụ mua sắm tập trung không đủ năng lực, kinh nghiệm tổ chức lựa chọn nhà thầu thì thực hiện như thế nào?",
-          "options": [
-            "Vẫn thực hiện nhiệm vụ được giao, tổ chuyên gia không cần phải đáp ứng yêu cầu về năng lực, kinh nghiệm (A)",
-            "Phải thực hiện theo nhiệm vụ được giao, không được đi thuê đơn vị tư vấn để thực hiện việc lựa chọn nhà thầu (B)",
-            "Được phép thuê đơn vị tư vấn đấu thầu có kinh nghiệm để thực hiện việc lựa chọn nhà thầu (C)",
-            "Phương án A và C đều đúng"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Mua sắm tập trung gom nhu cầu của nhiều đơn vị để lựa chọn nhà thầu chung, sau đó phân bổ/ký hợp đồng theo thỏa thuận khung hoặc danh sách trúng thầu. Phương án “Được phép thuê đơn vị tư vấn đấu thầu có kinh nghiệm để thực hiện việc lựa chọn nhà thầu” đúng vì bám đúng vai trò của đơn vị mua sắm tập trung và cách thực hiện sau lựa chọn."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
-          "number": 7,
-          "question": "Trường hợp một hoặc một số thành viên liên danh vi phạm hợp đồng, không còn năng lực để tiếp tục thực hiện hợp đồng, làm ảnh hưởng nghiêm trọng đến tiến độ, chất lượng, hiệu quả của gói thầu thì việc đánh giá uy tín của nhà thầu trong việc thực hiện hợp đồng được xử lý như nào?",
-          "options": [
-            "Nhà thầu liên danh vi phạm hợp đồng bị coi là không hoàn thành hợp đồng và bị chủ đầu tư đăng tải thông tin nhà thầu liên danh vi phạm hợp đồng trên Hệ thống mạng đấu thầu quốc gia",
-            "Chỉ một hoặc một số thành viên liên danh vi phạm hợp đồng bị coi là không hoàn thành hợp đồng và bị chủ đầu tư đăng tải thông tin thành viên liên danh vi phạm hợp đồng trên Hệ thống mạng đấu thầu quốc gia",
-            "Chỉ một hoặc một số thành viên liên danh vi phạm hợp đồng bị coi là không hoàn thành hợp đồng và bị bên mời thầu đăng tải thông tin thành viên liên danh vi phạm hợp đồng trên Hệ thống mạng đấu thầu quốc gia",
-            "Nhà thầu liên danh vi phạm hợp đồng bị coi là không hoàn thành hợp đồng và bị bên mời thầu đăng tải thông tin nhà thầu liên danh vi phạm hợp đồng trên Hệ thống mạng đấu thầu quốc gia"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Với nhà thầu liên danh, trách nhiệm và năng lực được xem xét theo phần việc mà từng thành viên đảm nhận và theo cam kết liên danh. Nếu một thành viên vi phạm hoặc không còn năng lực, hệ quả pháp lý thường gắn với thành viên đó và phần việc liên quan, đồng thời phải bảo đảm liên danh còn khả năng thực hiện hợp đồng."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
-          "number": 24,
-          "question": "Trường hợp xí nghiệp được tách ra khỏi pháp nhân theo quy định của pháp luật về dân sự thì nhà thầu tiếp nhận có được kế thừa năng lực, kinh nghiệm của xí nghiệp hay không?",
-          "options": [
-            "Không được kế thừa năng lực, kinh nghiệm của xí nghiệp",
-            "Được kế thừa năng lực, kinh nghiệm của xí nghiệp",
-            "Chỉ được kế thừa về kinh nghiệm của xí nghiệp",
-            "Chỉ được kế thừa về năng lực của xí nghiệp"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Phương án “Được kế thừa năng lực, kinh nghiệm của xí nghiệp” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Tư cách hợp lệ, năng lực kinh nghiệm, bảo đảm cạnh tranh”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
-          "number": 28,
-          "question": "Trong quá trình thực hiện hợp đồng của nhà thầu liên danh A-B, nhà thầu B không còn năng lực để tiếp tục thực hiện hợp đồng, làm ảnh hưởng nghiêm trọng đến tiến độ, chất lượng, hiệu quả của gói thầu. Trong trường hợp này, bảo đảm thực hiện hợp đồng của nhà thầu xử lý như thế nào?",
-          "options": [
-            "Không tịch thu giá trị bảo đảm thực hiện hợp đồng của nhà thầu A-B (A)",
-            "Tịch thu giá trị bảo đảm thực hiện hợp đồng của tất cả thành viên liên danh trong trường hợp phần công việc còn lại của các thành viên liên danh vi phạm hợp đồng được tách thành gói thầu riêng để lựa chọn nhà thầu (B)",
-            "Chỉ tịch thu giá trị bảo đảm thực hiện hợp đồng của nhà thầu B nếu nhà thầu A có đủ năng lực, kinh nghiệm đảm nhận phần công việc còn lại của nhà thầu B (C)",
-            "Phương án B và C đều đúng"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Với nhà thầu liên danh, trách nhiệm và năng lực được xem xét theo phần việc mà từng thành viên đảm nhận và theo cam kết liên danh. Nếu một thành viên vi phạm hoặc không còn năng lực, hệ quả pháp lý thường gắn với thành viên đó và phần việc liên quan, đồng thời phải bảo đảm liên danh còn khả năng thực hiện hợp đồng."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 2,
-          "question": "Đối với gói thầu đã áp dụng sơ tuyển, trường hợp năng lực và kinh nghiệm của nhà thầu vượt qua bước sơ tuyển khi nộp E-HSDT có sự thay đổi so với khi tham dự sơ tuyển, thì nhà thầu cần phải?",
-          "options": [
-            "Cập nhật lại năng lực và kinh nghiệm của mình khi tham dự thầu",
-            "Chỉ phải đính kèm hồ sơ năng lực và kinh nghiệm của mình khi tham dự thầu",
-            "Không phải cập nhật năng lực và kinh nghiệm của mình khi tham dự thầu nhưng phải đính kèm hồ sơ năng lực",
-            "Phương án A và C đều đúng"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Phương án “Cập nhật lại năng lực và kinh nghiệm của mình khi tham dự thầu” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Tư cách hợp lệ, năng lực kinh nghiệm, bảo đảm cạnh tranh”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 30,
-          "question": "Tại Mục 2.1 Chương III E-HSMT gói thầu xây lắp quy định nội dung sau: Trong thời gian từ 01/01/2022 đến thời điểm đóng thầu (năm 2025), nhà thầu đã hoàn thành toàn bộ hoặc hoàn thành phần lớn 01 công trình cấp II, có giá trị là 10 tỷ đồng với tư cách là nhà thầu chính (độc lập hoặc thành viên liên danh), nhà thầu quản lý hoặc nhà thầu phụ. Trường hợp nào sau đây nhà thầu được đánh giá là không đáp ứng yêu cầu về kinh nghiệm thực hiện hợp đồng tương tự?",
-          "options": [
-            "Nhà thầu đã hoàn thành toàn bộ 02 công trình cấp III có giá trị lần lượt là 9 tỷ đồng và 11 tỷ đồng; các hợp đồng được ký kết năm 2022, hoàn thành năm 2025 (trước thời điểm đóng thầu)",
-            "Nhà thầu đã hoàn thành toàn bộ 01 công trình cấp II có giá trị là 10 tỷ đồng, hợp đồng được ký kết năm 2018, hoàn thành năm 2022",
-            "Nhà thầu đã hoàn thành toàn bộ 01 công trình cấp II có giá trị là 10 tỷ đồng, hợp đồng được ký kết năm 2022, hoàn thành năm 2025 (trước thời điểm đóng thầu)",
-            "Tất cả phương án trên đều đáp ứng yêu cầu về kinh nghiệm thực hiện hợp đồng tương tự"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Hợp đồng tương tự dùng để chứng minh nhà thầu đã từng thực hiện công việc có bản chất, quy mô và mức độ phức tạp gần với gói thầu đang xét. Nếu hợp đồng kê khai không đạt, nhà thầu chỉ có thể được làm rõ/bổ sung trong phạm vi quy định, không được biến một kinh nghiệm không tương tự thành tương tự."
-        }
-      ]
-    },
-    {
-      "title": "Ưu đãi, đấu thầu quốc tế và hiệp định",
-      "theory": [
-        {
-          "heading": "1. Ưu đãi: không phải cộng điểm tùy ý",
-          "points": [
-            "Ưu đãi chỉ áp dụng cho đối tượng được pháp luật quy định: hàng hóa có xuất xứ Việt Nam, nhà thầu trong nước, doanh nghiệp nhỏ và vừa, doanh nghiệp do phụ nữ làm chủ, doanh nghiệp sử dụng nhiều lao động đặc thù, sản phẩm/dịch vụ thân thiện môi trường theo điều kiện cụ thể.",
-            "Ưu đãi chỉ xét sau khi nhà thầu đã đáp ứng tư cách, năng lực, kỹ thuật. Nhà thầu không đạt kỹ thuật không thể nhờ ưu đãi mà thành đạt.",
-            "Khi bài hỏi xếp hạng có ưu đãi, phải đi theo thứ tự: sửa lỗi/hiệu chỉnh sai lệch/giảm giá, xác định đối tượng ưu đãi, áp dụng cách tính ưu đãi, rồi mới xếp hạng."
-          ]
-        },
-        {
-          "heading": "2. Đấu thầu quốc tế: không phải cứ nhà thầu nước ngoài muốn là được",
-          "points": [
-            "Đấu thầu quốc tế là cuộc thầu cho phép nhà thầu trong nước và nước ngoài tham dự. Việc mở cho nhà thầu nước ngoài phụ thuộc phạm vi gói thầu, cam kết quốc tế, nguồn vốn và điều kiện trong hồ sơ mời thầu.",
-            "Nhà thầu nước ngoài thường phải đáp ứng yêu cầu về tư cách, năng lực, đăng ký, liên danh/nhà thầu phụ trong nước nếu HSMT yêu cầu, và nghĩa vụ pháp luật Việt Nam khi trúng thầu.",
-            "Khi gói thầu thuộc phạm vi hiệp định mua sắm chính phủ, phải kiểm tra đối tượng mua sắm, ngưỡng giá, cơ quan mua sắm, hàng hóa/dịch vụ được mở cửa và ngoại lệ của hiệp định."
-          ]
-        },
-        {
-          "heading": "3. Các hiệp định hay hỏi: CPTPP, EVFTA, UKVFTA, RCEP",
-          "points": [
-            "Ngân hàng câu hỏi nhấn mạnh Việt Nam mở cửa thị trường mua sắm chính phủ trong CPTPP, EVFTA và UKVFTA.",
-            "CPTPP có 11 nước ký kết ban đầu. Đây là câu hỏi ghi nhớ số lượng thành viên, không phải câu hỏi về điều kiện gói thầu.",
-            "EVFTA có hiệu lực với Việt Nam từ ngày 01/8/2020; mốc này hay bị hỏi riêng.",
-            "RCEP thường xuất hiện như phương án gây nhiễu trong nhóm câu hỏi về quy định chỉ định thầu/mua sắm chính phủ theo hiệp định."
-          ],
-          "note": "Mẹo nhớ: CPTPP = 11; EVFTA = 01/8/2020; RCEP thường là đáp án “không thuộc nhóm đang hỏi”."
-        }
-      ],
-      "questions": [
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 1,
-          "question": "Hiện nay, Việt Nam đã mở cửa thị trường mua sắm chính phủ (đấu thầu) trong những hiệp định nào?",
-          "options": [
-            "Chỉ Hiệp định Đối tác Toàn diện và Tiến bộ Xuyên Thái Bình Dương (CPTPP)",
-            "Hiệp định CPTPP và Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh Châu Âu (EVFTA)",
-            "Hiệp định CPTPP, Hiệp định EVFTA và Hiệp định Thương mại Tự do giữa Việt Nam và Liên hiệp Vương quốc Anh và Bắc Ailen (UKVFTA)",
-            "Tất cả các hiệp định mà Việt Nam là thành viên"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Nhóm câu hỏi này kiểm tra cam kết mua sắm chính phủ trong các hiệp định thương mại mà Việt Nam mở cửa thị trường. Phương án “Hiệp định CPTPP, Hiệp định EVFTA và Hiệp định Thương mại Tự do giữa Việt Nam và Liên hiệp Vương quốc Anh và Bắc Ailen (UKVFTA)” đúng vì khớp phạm vi/khái niệm hiệp định được nêu trong đề, không áp dụng đại trà cho mọi gói thầu trong nước."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 2,
-          "question": "Số lượng các nước thành viên Hiệp định Đối tác Toàn diện và Tiến bộ Xuyên Thái Bình Dương (CPTPP) ký kết hiệp định ban đầu là bao nhiêu nước?",
-          "options": [
-            "8 nước",
-            "9 nước",
-            "11 nước",
-            "12 nước"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: CPTPP được ký bởi 11 nước thành viên ban đầu. Đây là câu hỏi ghi nhớ về phạm vi cam kết quốc tế, khác với câu hỏi về nội dung mở cửa thị trường mua sắm chính phủ."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 3,
-          "question": "Trong các hiệp định dưới đây, hiệp định nào không có quy định về các trường hợp chỉ định thầu?",
-          "options": [
-            "Hiệp định Đối tác Toàn diện và Tiến bộ Xuyên Thái Bình Dương (CPTPP)",
-            "Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh Châu Âu (EVFTA)",
-            "Hiệp định EVFTA và Hiệp định Thương mại Tự do giữa Việt Nam và Liên hiệp Vương quốc Anh và Bắc Ailen (UKVFTA)",
-            "Hiệp định Đối tác Kinh tế Toàn diện Khu vực (RCEP)"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Nhóm câu hỏi này kiểm tra cam kết mua sắm chính phủ trong các hiệp định thương mại mà Việt Nam mở cửa thị trường. Phương án “Hiệp định Đối tác Kinh tế Toàn diện Khu vực (RCEP)” đúng vì khớp phạm vi/khái niệm hiệp định được nêu trong đề, không áp dụng đại trà cho mọi gói thầu trong nước."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 5,
-          "question": "Theo các hiệp định mà Việt Nam có mở cửa thị trường mua sắm chính phủ (đấu thầu), nhà thầu nước ài đượ th i đấ thầ t i Việt N t t ườ hợ à ? ngoài được tham gia đấu thầu tại Việt Nam trong trường hợp nào?",
-          "options": [
-            "Tất cả các gói thầu",
-            "Chỉ gói thầu ODA",
-            "Gói thầu thuộc phạm vi điều chỉnh của hiệp định",
-            "Gói thầu có giá trị lớn, phức tạp"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Nhóm câu hỏi này kiểm tra cam kết mua sắm chính phủ trong các hiệp định thương mại mà Việt Nam mở cửa thị trường. Phương án “Gói thầu thuộc phạm vi điều chỉnh của hiệp định” đúng vì khớp phạm vi/khái niệm hiệp định được nêu trong đề, không áp dụng đại trà cho mọi gói thầu trong nước."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 6,
-          "question": "Theo quy định tại Nghị định số 95/2020/NĐ-CP, đấu thầu nội khối là?",
-          "options": [
-            "Đấu thầu mà chỉ có nhà thầu nội khối được tham dự",
-            "Đấu thầu cho các dự án trong khối CPTPP",
-            "Đấu thầu giữa các nước thành viên EVFTA, UKVFTA",
-            "Đấu thầu trong nước"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Phương án “Đấu thầu mà chỉ có nhà thầu nội khối được tham dự” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Ưu đãi, đấu thầu quốc tế và hiệp định”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 7,
-          "question": "Theo quy định tại Nghị định số 09/2022/NĐ-CP, cơ quan mua sắm phải tổ chức đấu thầu nội khối, trừ trường hợp nào?",
-          "options": [
-            "Không có nhà thầu trong nước tham gia",
-            "Giá gói thầu quá lớn",
-            "Người có thẩm quyền xét thấy cần tổ chức đấu thầu quốc tế để mang lại hiệu quả cao hơn cho dự án, gói thầu",
-            "Hàng hóa thuộc gói thầu quá phức tạp mà nhà thầu trong nước không đáp ứng được"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Phương án “Người có thẩm quyền xét thấy cần tổ chức đấu thầu quốc tế để mang lại hiệu quả cao hơn cho dự án, gói thầu” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Ưu đãi, đấu thầu quốc tế và hiệp định”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 8,
-          "question": "Theo Thông tư số 21/2022/TT-BKHĐT, khi nào được đưa ra yêu cầu về nhân sự chủ chốt trong gói thầu dịch vụ phi tư vấn?",
-          "options": [
-            "Trong mọi trường hợp",
-            "Khi giá gói thầu lớn",
-            "Chỉ khi dịch vụ có yếu tố đặc thù, phức tạp cần thiết phải có nhân sự có hiểu biết, nhiều kinh nghiệm đảm nhận",
-            "Khi có yêu cầu của nhà thầu"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Dịch vụ phi tư vấn là dịch vụ không tạo sản phẩm tư vấn chuyên môn, ví dụ in ấn, vệ sinh, vận chuyển, bảo trì, tổ chức sự kiện theo yêu cầu sẵn có. Vì “Chỉ khi dịch vụ có yếu tố đặc thù, phức tạp cần thiết phải có nhân sự có hiểu biết, nhiều kinh nghiệm đảm nhận” là công việc thực hiện dịch vụ thông dụng nên thuộc nhóm phi tư vấn."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 9,
-          "question": "Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh Châu Âu (EVFTA) có hiệu lực từ ngày nào?",
-          "options": [
-            "01/7/2020",
-            "01/8/2020",
-            "01/9/2020",
-            "01/10/2020"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: EVFTA có hiệu lực với Việt Nam từ ngày 01/8/2020. Khi gặp câu hỏi về hiệp định, cần tách mốc hiệu lực của EVFTA với CPTPP và UKVFTA để tránh nhầm ngày."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 11,
-          "question": "Việc đấu thầu thuốc theo quy định của Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh Châu Âu (EVFTA) được Chính phủ giao cơ quan, tổ chức nào hướng dẫn?",
-          "options": [
-            "Bộ Tư pháp",
-            "Bộ Y tế",
-            "Bộ Tài chính",
-            "Bộ Công Thương"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Nhóm câu hỏi này kiểm tra cam kết mua sắm chính phủ trong các hiệp định thương mại mà Việt Nam mở cửa thị trường. Phương án “Bộ Y tế” đúng vì khớp phạm vi/khái niệm hiệp định được nêu trong đề, không áp dụng đại trà cho mọi gói thầu trong nước."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 12,
-          "question": "Việt Nam chính thức trở thành thành viên của Hiệp định mua sắm chính phủ của WTO (GPA) từ năm nào?",
-          "options": [
-            "2018",
-            "2019",
-            "2020",
-            "Việt Nam chưa phải là thành viên của GPA"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Nhóm câu hỏi này kiểm tra cam kết mua sắm chính phủ trong các hiệp định thương mại mà Việt Nam mở cửa thị trường. Phương án “Việt Nam chưa phải là thành viên của GPA” đúng vì khớp phạm vi/khái niệm hiệp định được nêu trong đề, không áp dụng đại trà cho mọi gói thầu trong nước."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 13,
-          "question": "Theo quy định tại Nghị định số 95/2020/NĐ-CP (được sửa đổi, bổ sung tại Nghị định số 09/2022/NĐ- CP, Nghị định số 17/2025/NĐ-CP), khái niệm Nước thành viên không bao gồm:",
-          "options": [
-            "Nước thành viên Hiệp định Đối tác Toàn diện và Tiến bộ Xuyên Thái Bình Dương (CPTPP)",
-            "Nước thành viên EU",
-            "Vương quốc Anh và Bắc Ai-len",
-            "Các nước ASEAN chưa gia nhập Hiệp định CPTPP"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Phương án “Các nước ASEAN chưa gia nhập Hiệp định CPTPP” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Ưu đãi, đấu thầu quốc tế và hiệp định”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 16,
-          "question": "Trong Hiệp định Đối tác Toàn diện và Tiến bộ Xuyên Thái Bình Dương (CPTPP), việc áp dụng biện pháp ưu đãi trong nước:",
-          "options": [
-            "Được phép áp dụng vĩnh viễn",
-            "Không bao giờ được phép áp dụng",
-            "Được phép áp dụng trong thời gian chuyển tiếp",
-            "Tùy quy mô, tính chất từng gói thầu"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Nhóm câu hỏi này kiểm tra cam kết mua sắm chính phủ trong các hiệp định thương mại mà Việt Nam mở cửa thị trường. Phương án “Được phép áp dụng trong thời gian chuyển tiếp” đúng vì khớp phạm vi/khái niệm hiệp định được nêu trong đề, không áp dụng đại trà cho mọi gói thầu trong nước."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 18,
-          "question": "Hiệp định Đối tác Toàn diện và Tiến bộ Xuyên Thái Bình Dương (CPTPP) có cho phép áp dụng đấu thầu qua mạng không?",
-          "options": [
-            "Không cho phép",
-            "Bắt buộc phải áp dụng",
-            "Khuyến khích áp dụng",
-            "Tùy quy mô, tính chất từng gói thầu Color Blind Test Take this quiz to find out. Shopswell Quizzes 50-4-N"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Nhóm câu hỏi này kiểm tra cam kết mua sắm chính phủ trong các hiệp định thương mại mà Việt Nam mở cửa thị trường. Phương án “Khuyến khích áp dụng” đúng vì khớp phạm vi/khái niệm hiệp định được nêu trong đề, không áp dụng đại trà cho mọi gói thầu trong nước."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 1,
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 25,
           "question": "Nhận định nào sau đây về việc sử dụng hợp đồng điện tử đối với gói thầu sử dụng vốn ngân sách nhà nước là đúng?",
           "options": [
             "Bắt buộc sử dụng hợp đồng điện tử đối với tất cả gói thầu tổ chức lựa chọn nhà thầu qua mạng và không qua mạng theo hình thức đấu thầu rộng rãi, đấu thầu hạn chế, chào hàng cạnh tranh, chào giá trực tuyến, mua sắm trực tuyến mà việc thanh toán hợp đồng được thực hiện qua Kho bạc nhà nước",
@@ -4368,138 +930,68 @@ window.STUDY_DATA = {
             "Bắt buộc sử dụng hợp đồng điện tử đối với tất cả gói thầu tổ chức lựa chọn nhà thầu trên Hệ thống mạng đấu thầu Quốc gia theo hình thức đấu thầu rộng rãi, đấu thầu hạn chế, chào hàng cạnh tranh, chào giá trực tuyến, mua sắm trực tuyến mà việc thanh toán hợp đồng được thực hiện qua Kho bạc nhà nước"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Câu này yêu cầu nhận diện một nhóm nhận định cùng đúng/sai, không chỉ một ý đơn lẻ. Phương án “Bắt buộc sử dụng hợp đồng điện tử đối với tất cả gói thầu tổ chức lựa chọn nhà thầu trên Hệ thống mạng đấu thầu Quốc gia theo hình thức đấu thầu rộng rãi, đấu thầu hạn chế, chào hàng cạnh tranh, chào giá trực tuyến, mua sắm trực tuyến mà việc thanh toán hợp đồng được thực hiện qua Kho bạc nhà nước” được chọn vì các ý còn lại khi ghép lại phản ánh đầy đủ hơn quy định trong chủ đề “Ưu đãi, đấu thầu quốc tế và hiệp định”. Khi ôn, nên đọc từng mệnh đề rồi kiểm tra xem chúng có cùng thuộc một điều kiện/quy trình hay không."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Bắt buộc sử dụng hợp đồng điện tử đối với tất cả gói thầu tổ chức lựa chọn nhà thầu trên Hệ thống mạng đấu thầu Quốc gia theo hình thức đấu thầu rộng rãi, đấu thầu hạn chế, chào hàng cạnh tranh, chào giá trực tuyến, mua sắm trực tuyến mà việc thanh toán hợp đồng được thực hiện qua Kho bạc nhà nước. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 3,
-          "question": "Đối với đấu thầu qua mạng, nội dung nào sau đây là đúng khi đánh giá E-HSDT?",
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 26,
+          "question": "Gói thầu phi tư vấn có giá gói thầu 2 tỷ đồng thực hiện đấu thầu rộng rãi qua mạng đóng thầu ngày 11/11/2025 (Thứ3), Chủ đầu tư tiếp nhận nội dung yêu cầu làm rõ của nhà thầu ngày 04/11/2025. Chủ đầu tư phải trả lời yêu cầu làm rõ E-HSMT trên Hệ thống chậm nhất ngày nào dưới đây để đảm bảo không phải gia hạn thời điểm đóng thầu?",
           "options": [
-            "Quy trình 02 áp dụng đối với gói thầu mua sắm hàng hóa, dịch vụ phi tư vấn, máy đặt, máy mượn theo phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp “giá thấp nhất” và các nhà thầu, E-HSDT đều không có bất kỳ ưu đãi nào",
-            "Hệ thống tự động xếp hạng nhà thầu theo giá dự thầu sau khi trừ đi giá trị giảm giá (nếu có) thấp nhất (không phải phê duyệt danh sách xếp hạng nhà thầu) đối với gói thầu áp dụng quy trình 02",
-            "Trường hợp có từ 02 nhà thầu trở lên cùng xếp thứ nhất thì không đánh giá theo quy trình 02 mà phải đánh giá theo quy trình 01",
-            "Cả 3 đáp án đều đúng"
+            "Thứ tư ngày 05/11/2025",
+            "Thứ năm ngày 06/11/2025",
+            "Thứ sáu ngày 07/11/2025",
+            "Thứ7 ngày 08/11/2025"
           ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Phương án “Cả 3 đáp án đều đúng” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Ưu đãi, đấu thầu quốc tế và hiệp định”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Thứ năm ngày 06/11/2025. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 6,
-          "question": "Sau khi có quyết định phê duyệt kết quả lựa chọn nhà thầu, nhận định nào sau đây không đúng?",
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 27,
+          "question": "Đối với gói thầu áp dụng theo phương thức một giai đoạn một túi hồ sơ, căn cứ vào E-HSDT của các nhà thầu đã nộp trên Hệ thống và phương pháp đánh giá E-HSDT quy định trong E-HSMT, tổ chuyên gia được chọn quy trình 02 để đánh giá E-HSDT trong trường hợp nào sau đây?",
           "options": [
-            "Chủ đầu tư đăng tải kết quả lựa chọn nhà thầu trên Hệ thống trong vòng 05 ngày làm việc kể từ ngày phê duyệt kết quả lựa chọn nhà thầu.",
-            "Nhà thầu gửi đề nghị trên Hệ thống hoặc gặp trực tiếp Chủ đầu tư yêu cầu giải thích lý do cụ thể nhà thầu không trúng thầu.",
-            "Chủ đầu tư có trách nhiệm trả lời yêu cầu giải thích lý do cụ thể nhà thầu không trúng thầu của nhà thầu trong thời hạn 02 ngày làm việc kể từ ngày nhận được yêu cầu của nhà thầu",
-            "Chủ đầu tư gửi văn bản thông báo kết quả lựa chọn nhà thầu cho các nhà thầu tham dự thầu trong thời hạn 03 ngày làm việc kể từ ngày phê duyệt kết quả lựa chọn nhà thầu"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Đề đang hỏi phương án không đúng/không thuộc nhóm quy định, nên đáp án là “Chủ đầu tư gửi văn bản thông báo kết quả lựa chọn nhà thầu cho các nhà thầu tham dự thầu trong thời hạn 03 ngày làm việc kể từ ngày phê duyệt kết quả lựa chọn nhà thầu”. Lý do là nội dung này lệch với chủ đề “Ưu đãi, đấu thầu quốc tế và hiệp định”: hoặc không phải đúng loại hình thức/thủ tục, hoặc không đúng chủ thể, thời hạn, điều kiện mà quy định yêu cầu."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 7,
-          "question": "Đối với đấu thầu qua mạng, nhận định nào sau đây về thông báo chấp thuận E-HSDT và trao hợp đồng là đúng?",
-          "options": [
-            "Chủ đầu tư gửi thông báo chấp thuận E-HSDT và trao hợp đồng (sau khi đăng tải kết quả lựa chọn nhà thầu) trên Hệ thống cho nhà thầu trúng thầu; thông báo bao gồm cả yêu cầu về biện pháp bảo đảm thực hiện hợp đồng, thời gian hoàn thiện, ký kết hợp đồng.",
-            "Thô bá hấ h ậ E HSDT à h đồ là ộ hầ ủ hồ h đồ Thông báo chấp thuận E-HSDT và trao hợp đồng là một phần của hồ sơ hợp đồng",
-            "Thời hạn nêu trong thông báo chấp thuận E-HSDT và trao hợp đồng được tính kể từ ngày Chủ đầu tư gửi thông báo chấp thuận cho nhà thầu trúng thầu trên Hệ thống.",
-            "Tất cả các phương án trên đều đúng"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Câu này yêu cầu nhận diện một nhóm nhận định cùng đúng/sai, không chỉ một ý đơn lẻ. Phương án “Tất cả các phương án trên đều đúng” được chọn vì các ý còn lại khi ghép lại phản ánh đầy đủ hơn quy định trong chủ đề “Ưu đãi, đấu thầu quốc tế và hiệp định”. Khi ôn, nên đọc từng mệnh đề rồi kiểm tra xem chúng có cùng thuộc một điều kiện/quy trình hay không."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 8,
-          "question": "Trong chào giá trực tuyến rút gọn, nhận định nào sau đây về giá trần là đúng?",
-          "options": [
-            "Đối với loại hợp đồng trọn gói, loại hợp đồng theo đơn giá cố định hoặc đơn giá điều chỉnh, giá trần là giá gói thầu trong kế hoạch lựa chọn nhà thầu được duyệt bao gồm phần chi phí dự phòng hoặc dự toán gói thầu bao gồm phần chi phí dự phòng trong trường hợp dự toán duyệt sau khi phê duyệt kế hoạch lựa chọn nhà thầu. (A)",
-            "Đối với loại hợp đồng trọn gói, giá trần là giá gói thầu trong kế hoạch lựa chọn nhà thầu được duyệt hoặc dự toán gói thầu trong trường hợp dự toán duyệt sau khi phê duyệt kế hoạch lựa chọn nhà thầu (B)",
-            "Đối với loại hợp đồng theo đơn giá cố định hoặc đơn giá điều chỉnh, giá trần là giá gói thầu trong kế hoạch lựa chọn nhà thầu được duyệt chưa bao gồm phần chi phí dự phòng hoặc dự toán gói thầu chưa bao gồm chi phí dự phòng của gói thầu trong trường hợp dự toán duyệt sau khi phê duyệt kế hoạch lựa chọn nhà thầu (C)",
-            "Cả phương án B và C đều đúng"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Chào giá trực tuyến đặt trọng tâm vào cạnh tranh giá trên Hệ thống theo thời điểm và lượt chào. Phương án “Cả phương án B và C đều đúng” đúng vì phản ánh đúng nghĩa vụ/thời hạn/quy tắc vận hành của nhà thầu trong quy trình này."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 9,
-          "question": "Trong chào giá trực tuyến rút gọn, bước giá được tính như thế nào?",
-          "options": [
-            "Giá trị trong khoảng từ 0,1% đến 0,3% giá trần",
-            "Giá trị trong khoảng từ 0,5% đến 0.8% giá trần",
-            "Giá trị trong khoảng từ 01% đến 02% giá trần",
-            "Giá trị trong khoảng từ 01% đến 03% giá trần"
+            "Gói thầu mua sắm hàng hóa, dịch vụ phi tư vấn, máy đặt, máy mượn theo phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp “giá thấp nhất” và các nhà thầu, E-HSDT đều không có bất kỳ ưu đãi nào",
+            "Gói thầu mua sắm hàng hóa, dịch vụ tư vấn theo phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp “giá thấp nhất” và các nhà thầu, E-HSDT đều không có bất kỳ ưu đãi nào",
+            "Gói thầu xây lắp theo phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp “giá thấp nhất”",
+            "Cả 3 phương án đều sai"
           ],
           "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Chào giá trực tuyến đặt trọng tâm vào cạnh tranh giá trên Hệ thống theo thời điểm và lượt chào. Phương án “Giá trị trong khoảng từ 0,1% đến 0,3% giá trần” đúng vì phản ánh đúng nghĩa vụ/thời hạn/quy tắc vận hành của nhà thầu trong quy trình này."
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Gói thầu mua sắm hàng hóa, dịch vụ phi tư vấn, máy đặt, máy mượn theo phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp “giá thấp nhất” và các nhà thầu, E-HSDT đều không có bất kỳ ưu đãi nào. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 11,
-          "question": "Trường hợp gặp sự cố dẫn đến Hệ thống mạng đấu thầu quốc gia không thể vận hành và việc khắc phục sự cố dự kiến diễn ra trong thời gian dài, Bộ Tài chính thông báo ở đâu?",
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 28,
+          "question": "Khi xây dựng hồ sơ yêu cầu đối với hình thức chỉ định thầu, chủ đầu tư quy định nhà thầu chuẩn bị 01 bản gốc và tối đa bao nhiêu bản chụp hồ sơ đề xuất?",
           "options": [
-            "Cổng thông tin điện tử của Chính phủ",
-            "Cổng thông tin điện tử của Bộ Tài chính",
-            "Hệ thống mạng đấu thầu quốc gia",
-            "Tất cả phương án trên đều đúng"
+            "01 bản chụp",
+            "02 bản chụp",
+            "03 bản chụp",
+            "04 bản chụp"
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Khi Hệ thống mạng đấu thầu quốc gia gặp sự cố, các gói có thời điểm đóng thầu hoặc kết thúc chào giá nằm trong khoảng sự cố sẽ được gia hạn tự động đến sau khi khắc phục để bảo đảm nhà thầu không mất quyền dự thầu vì lỗi kỹ thuật của Hệ thống. Cách nhớ mốc trong ngân hàng câu hỏi: sau khi hoàn thành khắc phục sự cố 02 giờ."
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: 03 bản chụp. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 12,
-          "question": "Đối với gói thầu mua sắm hàng hóa, trường hợp cần yêu cầu về hàng mẫu để đánh giá về kỹ thuật thì nhận định nào sau đây là đúng?",
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 29,
+          "question": "Trường hợp gói thầu đủ điều kiện áp dụng hình thức chỉ định thầu theo quy định tại khoản 1 Điều 78 của Nghị định số 214/2025/NĐ-CP nhưng chủ đầu tư quyết định áp dụng hình thức đấu thầu rộng rãi để lựa chọn nhà thầu thì thời gian chuẩn bị hồ sơ dự thầu là?",
           "options": [
-            "Nhà thầu có thể nộp bổ sung hàng mẫu trong thời hạn 05 ngày làm việc sau thời điểm đóng thầu (A)",
-            "Chủ đầu tư phải bảo đảm việc yêu cầu cung cấp hàng mẫu không dẫn đến làm tăng chi phí của gói thầu, hạn chế sự tham gia của nhà thầu hoặc nhằm tạo lợi thế cho một hoặc một số nhà thầu gây ra sự cạnh tranh không bình đẳng (B)",
-            "Phương án A và B đều sai (C)",
-            "Phương án A và B đều đúng"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Hàng mẫu chỉ được yêu cầu/nộp theo đúng E-HSMT và thời hạn quy định. Trường hợp E-HSMT cho phép bổ sung hàng mẫu sau đóng thầu trong thời hạn cụ thể, việc bổ sung không được làm thay đổi nội dung cơ bản của E-HSDT mà chỉ phục vụ kiểm chứng kỹ thuật."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 13,
-          "question": "Đối với gói thầu mua sắm hàng hóa, dịch vụ có giá trị dưới 500 triệu đồng áp dụng lựa chọn nhà thầu theo hình thức mua sắm trực tuyến, việc ký kết hợp đồng được thực hiện như thế nào?",
-          "options": [
-            "Bắt buộc ký hợp đồng điện tử trên Hệ thống mạng đấu thầu quốc gia",
-            "Không bắt buộc ký hợp đồng điện tử, chủ đầu tư quyết định hình thức ký kết",
-            "Ký hợp đồng điện tử trên Hệ thống khi việc thanh toán hợp đồng được thực hiện qua Kho bạc nhà nước",
-            "Không ký hợp đồng điện tử đối với gói thầu có giá trị nhỏ hơn 500 triệu đồng"
+            "Tối thiểu là 18 ngày kể từ ngày đầu tiên hồ sơ mời thầu được phát hành đến ngày có thời điểm đóng thầu",
+            "Tối thiểu là 09 ngày làm việc kể từ ngày đầu tiên hồ sơ mời thầu được phát hành đến ngày có thời điểm đóng",
+            "Tối thiểu là 09 ngày kể từ ngày đầu tiên hồ sơ mời thầu được phát hành đến ngày có thời điểm đóng thầu",
+            "Tối thiểu là 18 ngày làm việc kể từ ngày đầu tiên hồ sơ mời thầu được phát hành đến ngày có thời điểm đóng"
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Phương án “Ký hợp đồng điện tử trên Hệ thống khi việc thanh toán hợp đồng được thực hiện qua Kho bạc nhà nước” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Ưu đãi, đấu thầu quốc tế và hiệp định”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Tối thiểu là 09 ngày kể từ ngày đầu tiên hồ sơ mời thầu được phát hành đến ngày có thời điểm đóng thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 23,
-          "question": "Đối với đấu thầu không qua mạng, trường hợp nhà thầu có thư giảm giá, việc hiệu chỉnh sai lệch được thực hiện trên cơ sở nào?",
-          "options": [
-            "Giá dự thầu của nhà thầu sau khi trừ đi giá trị giảm giá",
-            "Giá đề nghị trúng thầu",
-            "Giá gói thầu",
-            "Giá dự thầu của nhà thầu chưa trừ đi giá trị giảm giá"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Đề đang hỏi phương án không đúng/không thuộc nhóm quy định, nên đáp án là “Giá dự thầu của nhà thầu chưa trừ đi giá trị giảm giá”. Lý do là nội dung này lệch với chủ đề “Ưu đãi, đấu thầu quốc tế và hiệp định”: hoặc không phải đúng loại hình thức/thủ tục, hoặc không đúng chủ thể, thời hạn, điều kiện mà quy định yêu cầu."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 24,
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 30,
           "question": "Đối với gói thầu mua sắm hàng hóa tổ chức đấu thầu rộng rãi qua mạng, trường hợp nhà thầu là liên danh thì nhà thầu chứng minh khả năng thực hiện nghĩa vụ bảo hành như thế nào?",
           "options": [
             "Từng thành viên liên danh phải cam kết có năng lực thực hiện nghĩa vụ bảo hành theo yêu cầu của E-HSMT và có hợp đồng nguyên tắc với đơn vị có đủ khả năng thực hiện nghĩa vụ bảo hành theo yêu cầu của E-HSMT",
@@ -4508,53 +1000,11 @@ window.STUDY_DATA = {
             "Nhà thầu liên danh có cam kết có năng lực tự thực hiện nghĩa vụ bảo hành theo yêu cầu của E-HSMT hoặc có hợp đồng nguyên tắc với đơn vị có đủ khả năng thực hiện nghĩa vụ bảo hành theo yêu cầu của E-HSMT"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Với nhà thầu liên danh, trách nhiệm và năng lực được xem xét theo phần việc mà từng thành viên đảm nhận và theo cam kết liên danh. Nếu một thành viên vi phạm hoặc không còn năng lực, hệ quả pháp lý thường gắn với thành viên đó và phần việc liên quan, đồng thời phải bảo đảm liên danh còn khả năng thực hiện hợp đồng."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Nhà thầu liên danh có cam kết có năng lực tự thực hiện nghĩa vụ bảo hành theo yêu cầu của E-HSMT hoặc có hợp đồng nguyên tắc với đơn vị có đủ khả năng thực hiện nghĩa vụ bảo hành theo yêu cầu của E-HSMT. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 25,
-          "question": "Nội dung nào là không phù hợp quy định đối với yêu cầu về nhân sự chủ chốt của gói thầu mua sắm hàng hóa?",
-          "options": [
-            "Không được yêu cầu về huy động nhân sự chủ chốt đối với phần công việc cung cấp hàng hóa",
-            "Chỉ được yêu cầu về huy động nhân sự chủ chốt đối với các dịch vụ liên quan có yếu tố đặc thù, phức tạp cần thiết phải có nhân sự có hiểu biết, nhiều kinh nghiệm đảm nhận.",
-            "Được yêu cầu về huy động nhân sự chủ chốt đối với phần công việc cung cấp hàng hóa mà hàng hóa đó có tính đặc thù cần sự khẳng định của nhà sản xuất nhà cung cấp để đảm bảo tính khả thi trong việc cung cấp tính đặc thù cần sự khẳng định của nhà sản xuất, nhà cung cấp để đảm bảo tính khả thi trong việc cung cấp",
-            "Không được nêu yêu cầu huy động về nhân sự chủ chốt đối với hàng hóa thông dụng, sẵn có trên thị trường, không đòi hỏi nhân sự thực hiện dịch vụ liên quan phải có trình độ cao"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Nhân sự chủ chốt chỉ nên đặt ra khi tính chất gói thầu thật sự cần nhân sự có chuyên môn đặc thù. Nếu gói thầu đơn giản mà yêu cầu nhân sự quá cao thì tiêu chí đó có nguy cơ làm hạn chế cạnh tranh."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 27,
-          "question": "Trường hợp Hệ thống chưa trích xuất tự động thông tin về nghĩa vụ nộp thuế của nhà thầu thì nhà thầu nộp tài liệu nào để chứng minh nghĩa vụ nộp thuế?",
-          "options": [
-            "Phải bao gồm Tờ khai thuế (thông báo nộp tiền của cơ quan thuế đối với hộ kinh doanh) và giấy nộp tiền có xác nhận của cơ quan thuế được in từ Hệ thống thuế điện tử (A)",
-            "Phải bao gồm Tờ khai thuế (thông báo nộp tiền của cơ quan thuế đối với hộ kinh doanh) và xác nhận của cơ quan thuế về việc thực hiện nghĩa vụ thuế (B)",
-            "Phải bao gồm Tờ khai thuế (thông báo nộp tiền của cơ quan thuế đối với hộ kinh doanh), giấy nộp tiền có xác nhận của cơ quan thuế được in từ Hệ thống thuế điện tử và xác nhận của cơ quan thuế về việc thực hiện nghĩa vụ thuế.(C)",
-            "Phương án A hoặc B đúng"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Câu này yêu cầu nhận diện một nhóm nhận định cùng đúng/sai, không chỉ một ý đơn lẻ. Phương án “Phương án A hoặc B đúng” được chọn vì các ý còn lại khi ghép lại phản ánh đầy đủ hơn quy định trong chủ đề “Ưu đãi, đấu thầu quốc tế và hiệp định”. Khi ôn, nên đọc từng mệnh đề rồi kiểm tra xem chúng có cùng thuộc một điều kiện/quy trình hay không."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 28,
-          "question": "Việc phê duyệt dự toán đối với phần công việc tùy chọn mua thêm được áp dụng tại thời điểm nào?",
-          "options": [
-            "Trước khi phê duyệt kế hoạch lựa chọn nhà thầu, chủ đầu tư phê duyệt dự toán đối với khối lượng mua thêm",
-            "Trước khi phê duyệt kế hoạch lựa chọn nhà thầu, chủ đầu tư trình cấp có thẩm quyền phê duyệt dự toán đối với khối lượng mua thêm",
-            "Trong quá trình thực hiện hợp đồng, trường hợp sử dụng khối lượng tùy chọn mua thêm, trước khi thực hiện chủ đầu tư phê duyệt dự toán cho khối lượng mua thêm",
-            "Không phải phê duyệt dự toán tùy chọn mua thêm"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Phương án “Trong quá trình thực hiện hợp đồng, trường hợp sử dụng khối lượng tùy chọn mua thêm, trước khi thực hiện chủ đầu tư phê duyệt dự toán cho khối lượng mua thêm” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Ưu đãi, đấu thầu quốc tế và hiệp định”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
           "number": 31,
           "question": "Nhà thầu đã thực hiện công tác lập hồ sơ thiết kế kỹ thuật cho dự án đầu tư xây dựng công trình được phép thực hiện công việc nào?",
           "options": [
@@ -4564,26 +1014,26 @@ window.STUDY_DATA = {
             "Tất cả các phương án trên đều đúng"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Câu này yêu cầu nhận diện một nhóm nhận định cùng đúng/sai, không chỉ một ý đơn lẻ. Phương án “Tất cả các phương án trên đều đúng” được chọn vì các ý còn lại khi ghép lại phản ánh đầy đủ hơn quy định trong chủ đề “Ưu đãi, đấu thầu quốc tế và hiệp định”. Khi ôn, nên đọc từng mệnh đề rồi kiểm tra xem chúng có cùng thuộc một điều kiện/quy trình hay không."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Tất cả các phương án trên đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 34,
-          "question": "Khi tham dự thầu gói thầu mua sắm hàng hóa, trong hồ sơ dự thầu của nhà thầu tuyên bố giá dự thầu không bao gồm thuế, phí, lệ phí thì được đánh giá như thế nào?",
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 32,
+          "question": "Nhà thầu tư vấn lập hồ sơ mời thầu gói thầu xây lắp được phép tham dự thầu gói thầu nào?",
           "options": [
-            "Hồ sơ dự thầu của nhà thầu không được tiếp tục xem xét, đánh giá",
-            "Hồ sơ dự thầu của nhà thầu được tiếp tục xem xét, đánh giá và giá dự thầu của nhà thầu được hiểu là đã bao gồm toàn bộ thuế, phí, lệ phí",
-            "Tiến hành hiệu chỉnh sai lệch về thuế, phí, lệ phí của nhà thầu theo quy định",
-            "Hồ sơ dự thầu của nhà thầu được tiếp tục xem xét, đánh giá và giá dự thầu của nhà thầu được hiểu là không bao gồm thuế, phí, lệ phí"
+            "Tư vấn đánh giá hồ sơ dự thầu gói thầu xây lắp mà mình đã lập hồ sơ mời thầu",
+            "Tư vấn thẩm định kết quả lựa chọn nhà thầu gói thầu xây lắp mà mình đã lập hồ sơ mời thầu",
+            "Tư vấn giám sát thi công gói thầu xây lắp mà mình đã lập hồ sơ mời thầu",
+            "Tất cả các phương án trên đều đúng"
           ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Hàng hóa trong đấu thầu được hiểu rộng, gồm máy móc, thiết bị, nguyên liệu, nhiên liệu, vật liệu, vật tư, phụ tùng, hàng tiêu dùng, thuốc, hóa chất, vật tư xét nghiệm, thiết bị y tế và sản phẩm liên quan. Nếu các phương án đều nằm trong phạm vi đó thì chọn đáp án tổng hợp."
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Tất cả các phương án trên đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 35,
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 33,
           "question": "Yêu cầu về nguồn lực tài chính được áp dụng đối với gói thầu nào?",
           "options": [
             "Tất cả các gói thầu",
@@ -4592,698 +1042,1470 @@ window.STUDY_DATA = {
             "Tất cả các phương án trên đều sai"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Nguồn lực tài chính chứng minh nhà thầu có khả năng bảo đảm dòng tiền để triển khai gói thầu. Khi đề hỏi về nguồn lực tài chính, cần nhìn vào tài sản có tính thanh khoản, hạn mức tín dụng hoặc cam kết tín dụng hợp lệ, không nhầm với doanh thu hay kinh nghiệm thực hiện hợp đồng."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Tất cả các phương án trên đều sai. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 38,
-          "question": "Doanh nghiệp nhà nước A thực hiện dự án đầu tư có tổng mức đầu tư 1000 tỷ đồng, trong đó vốn từ ngân sách nhà nước là 100 tỷ đồng, vốn tự có của doanh nghiệp là 900 tỷ đồng. Việc lựa chọn nhà thầu của dự án này có phải tuân thủ theo quy định của Luật Đấu thầu?",
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 34,
+          "question": "Chủ đầu tư dự kiến lựa chọn gói thầu xây lắp theo hình thức chỉ định thầu theo quy trình thông thường. Nhà thầu dự kiến được mời nhận hồ sơ yêu cầu phải?",
           "options": [
-            "Không phải thực hiện theo quy định của Luật Đấu thầu vì vốn ngân sách nhà nước thấp hơn 30% tổng mức đầu tư",
-            "Doanh nghiệp nhà nước A được tự quyết định việc lựa chọn nhà thầu trên cơ sở bảo đảm công bằng, minh bạch, hiệu quả và trách nhiệm giải trình",
-            "Bắt buộc phải thực hiện theo Luật Đấu thầu",
-            "Phương án A và B đều đúng"
+            "Được đánh giá về năng lực và kinh nghiệm",
+            "Hạch toán tài chính độc lập",
+            "Độc lập về pháp lý và độc lập về tài chính với chủ đầu tư",
+            "Các phương án trên đều đúng"
           ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Phương án “Bắt buộc phải thực hiện theo Luật Đấu thầu” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Ưu đãi, đấu thầu quốc tế và hiệp định”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Hạch toán tài chính độc lập. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (9.1 - Hợp tác quốc tế)-N",
-          "number": 39,
-          "question": "Công ty B do Doanh nghiệp nhà nước A nắm giữ 100% vốn điều lệ, Công ty B thực hiện dự án có tổng mức đầu tư 500 tỷ đồng, trong đó vốn từ ngân sách nhà nước là 100 tỷ đồng, 400 tỷ đồng là vốn tự có của Công ty B. Hỏi việc lựa chọn nhà thầu của dự án này có phải thực hiện theo quy định của Luật Đấu thầu hay không?",
+          "source": "Chuyen_de_02_Phan_loai_goi_thau_va_hinh_thuc_LCNT.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 35,
+          "question": "Chào giá trực tuyến theo quy trình rút gọn được áp dụng trong trường hợp nào?",
           "options": [
-            "Không phải thực hiện theo quy định của Luật Đấu thầu vì vốn ngân sách nhà nước thấp hơn 30% tổng mức đầu tư",
-            "Không phải thực hiện theo quy định của Luật Đấu thầu nhưng phải thực hiện theo quy chế mua sắm của Doanh nghiệp nhà nước A",
-            "Công ty B được tư quyết định việc lựa chọn nhà thầu trên cơ sở bảo đảm công bằng, minh bạch, hiệu quả và trách nhiệm giải trình",
-            "Bắt buộc phải thực hiện theo Luật Đấu thầu"
+            "Gói thầu mua sắm hàng hóa phải mua của hãng sản xuất cụ thể để bảo đảm tính tương thích về công nghệ, bản quyền với các trang thiết bị, máy móc, phần mềm, dịch vụ sẵn có có giá gói thầu là 20 tỷ đồng",
+            "Gói thầu cung cấp dịch vụ phi tư vấn phải mua của hãng sản xuất cụ thể để bảo đảm tính tương thích về công nghệ, bản quyền với các trang thiết bị, máy móc, phần mềm, dịch vụ sẵn có có giá gói thầu là 10 tỷ đồng",
+            "Gói thầu mua sắm hàng hóa có giá gói thầu không quá 05 tỷ đồng đối với dự án",
+            "Tất cả các phương án trên đều đúng"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Phương án “Bắt buộc phải thực hiện theo Luật Đấu thầu” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Ưu đãi, đấu thầu quốc tế và hiệp định”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Tất cả các phương án trên đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         }
       ]
     },
     {
-      "title": "Bảo đảm dự thầu, hợp đồng và xử lý hồ sơ",
+      "title": "Kế hoạch lựa chọn nhà thầu",
       "theory": [
         {
-          "heading": "1. Bảo đảm dự thầu và bảo đảm thực hiện hợp đồng: hai thời điểm khác nhau",
+          "heading": "Nguồn pháp lý tham khảo",
           "points": [
-            "Bảo đảm dự thầu ràng buộc nhà thầu trong giai đoạn tham dự: không rút hồ sơ trái quy định, không từ chối thương thảo/ký hợp đồng, không vi phạm nghĩa vụ sau khi được lựa chọn.",
-            "Bảo đảm thực hiện hợp đồng phát sinh ở giai đoạn sau khi có kết quả lựa chọn nhà thầu và trước hoặc khi ký hợp đồng, nhằm buộc nhà thầu thực hiện đúng hợp đồng.",
-            "Trong chào giá trực tuyến rút gọn, ngân hàng câu hỏi ghi nhớ là không yêu cầu bảo đảm dự thầu; đây là điểm khác với nhiều quy trình lựa chọn thông thường."
+            "Luật Đấu thầu số 22/2023/QH15: https://vanban.chinhphu.vn/?classid=1&docid=208419&orggroupid=1&pageid=27160",
+            "Luật số 57/2024/QH15: https://vanban.chinhphu.vn/?classid=1&docid=212485&orggroupid=1&pageid=27160",
+            "Luật số 90/2025/QH15: https://vanban.chinhphu.vn/?docid=214558&orggroupid=1&pageid=27160",
+            "Nghị định số 214/2025/NĐ-CP: https://vanban.chinhphu.vn/?classid=1&docid=214821&pageid=27160&typegroupid=4",
+            "Thông tư số 79/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214844&pageid=27160",
+            "Thông tư số 80/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214968&pageid=27160"
           ],
-          "note": "Mẹo nhớ: dự thầu = trước khi trúng; thực hiện hợp đồng = sau khi trúng."
+          "note": "Các nguồn này được ghi trong database chuyên đề để người học đối chiếu khi cần."
         },
         {
-          "heading": "2. Hồ sơ tài chính: đạt kỹ thuật rồi mới xét tiền",
+          "heading": "1. Vai trò của kế hoạch lựa chọn nhà thầu",
           "points": [
-            "Trong phương thức có tách kỹ thuật và tài chính, nhà thầu không vượt qua đánh giá kỹ thuật thì hồ sơ tài chính không được xem xét tiếp. Đây là nguyên tắc bảo vệ chất lượng tối thiểu trước khi so sánh giá.",
-            "Với đấu thầu không qua mạng, hồ sơ đề xuất tài chính của nhà thầu không đạt kỹ thuật phải được trả lại hoặc xử lý theo đúng mốc thời gian/quy trình. Việc giữ quá hạn có thể dẫn tới khiếu nại.",
-            "Khi hủy thầu hoặc kết thúc lựa chọn, hồ sơ liên quan vẫn phải lưu trữ theo quy định để phục vụ kiểm tra, thanh tra, kiểm toán, giải trình."
+            "Kế hoạch lựa chọn nhà thầu là bản định hướng chính thức cho việc tổ chức lựa chọn nhà thầu. Kế hoạch xác định gói thầu nào được lựa chọn, giá gói thầu, nguồn vốn, hình thức và phương thức lựa chọn, thời gian tổ chức, loại hợp đồng và thời gian thực hiện."
           ]
         },
         {
-          "heading": "3. Hồ sơ hợp đồng gồm những gì?",
+          "heading": "2. Nguyên tắc lập kế hoạch",
           "points": [
-            "Hồ sơ hợp đồng không chỉ là bản hợp đồng đã ký. Nó còn gồm phụ lục, biên bản hoàn thiện hợp đồng, quyết định phê duyệt kết quả lựa chọn nhà thầu, HSMT/E-HSMT, HSDT/E-HSDT, văn bản làm rõ và các tài liệu liên quan.",
-            "Khi câu hỏi có nhiều phương án đều là tài liệu hợp đồng, đáp án thường là “tất cả” vì hợp đồng đấu thầu là một bộ hồ sơ pháp lý đầy đủ, không phải một tờ giấy đơn lẻ.",
-            "Trong mua sắm tập trung, sau thỏa thuận khung vẫn có thể có hợp đồng/đơn hàng cụ thể giữa đơn vị có nhu cầu và nhà thầu."
+            "Kế hoạch phải được lập trên cơ sở dự án, dự toán mua sắm, quyết định mua sắm hoặc căn cứ pháp lý tương ứng. Việc chia gói thầu phải bảo đảm tính đồng bộ, hiệu quả, cạnh tranh và không được chia nhỏ gói thầu để né tránh hình thức lựa chọn nhà thầu phải áp dụng.",
+            "Giá gói thầu là căn cứ quan trọng để lựa chọn hình thức, đánh giá giá dự thầu và quản lý chi phí. Khi cần thiết, giá gói thầu có thể được cập nhật theo quy định trước thời điểm mở thầu."
           ]
         },
         {
-          "heading": "4. Hủy thầu, đình chỉ, không công nhận kết quả",
+          "heading": "3. Thẩm quyền và đăng tải",
           "points": [
-            "Hủy thầu làm chấm dứt quá trình lựa chọn nhà thầu trong các trường hợp luật định như tất cả hồ sơ không đáp ứng, thay đổi mục tiêu/phạm vi, hoặc phát hiện vi phạm nghiêm trọng ảnh hưởng kết quả.",
-            "Đình chỉ thường là biện pháp tạm dừng để ngăn hậu quả khi có dấu hiệu vi phạm hoặc tình huống cần xử lý trước khi tiếp tục.",
-            "Không công nhận kết quả lựa chọn nhà thầu là biện pháp xử lý khi kết quả được xác định không hợp lệ, có sai phạm hoặc không còn đủ căn cứ pháp lý."
+            "Kế hoạch tổng thể lựa chọn nhà thầu do người có thẩm quyền phê duyệt. Kế hoạch lựa chọn nhà thầu thông thường do chủ đầu tư phê duyệt, trừ trường hợp pháp luật quy định khác. Sau khi phê duyệt, các thông tin thuộc diện công khai phải được đăng tải trên Hệ thống mạng đấu thầu quốc gia theo thời hạn luật định."
+          ]
+        },
+        {
+          "heading": "Bẫy thường gặp",
+          "points": [
+            "Chia nhỏ gói thầu để tránh hình thức lựa chọn nhà thầu.",
+            "Nhầm giá hợp đồng với giá gói thầu.",
+            "Quên thẩm quyền phê duyệt kế hoạch tổng thể và KHLCNT."
           ]
         }
       ],
       "questions": [
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 8,
-          "question": "Gói thầu chào giá trực tuyến rút gọn, trường hợp nhà thầu từ chối hoặc không xác nhận về việc chấp thuận được trao hợp đồng trên Hệ thống mạng đấu thầu quốc gia thì nội dung nào sau đây không đúng?",
+          "source": "Chuyen_de_03_Ke_hoach_lua_chon_nha_thau.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 1,
+          "question": "Chi phí đăng tải quyết định phê duyệt kế hoạch lựa chọn nhà thầu và quyết định phê duyệt kết quả lựa chọn nhà thầu lên Hệ thống mạng đấu thầu quốc gia đối với gói thầu chỉ định thầu là bao nhiêu?",
           "options": [
-            "Công khai tên nhà thầu trên Hệ thống mạng đấu thầu quốc gia",
-            "Khoá tài khoản trong thời hạn 03 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của chủ đầu tư",
-            "Khóa chức năng chào giá trực tuyến trong thời hạn 06 tháng kể từ ngày chủ đầu tư công khai tên nhà thầu trên Hệ thống mạng đấu thầu quốc gia",
-            "Bị đá h iá ề tí t iệ th dự thầ Bị đánh giá về uy tín trong việc tham dự thầu"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Đây là phương án không đúng trong tình huống chào giá trực tuyến. Điểm sai không nằm ở việc nhà thầu có thể bị xử lý, mà ở cách diễn đạt điều kiện/mốc xử lý trong phương án “Khoá tài khoản trong thời hạn 03 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của chủ đầu tư”; với quy trình rút gọn, nghĩa vụ chính của nhà thầu là xác nhận chấp thuận trao hợp đồng trên Hệ thống và chế tài phải bám đúng trình tự điện tử được quy định."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 11,
-          "question": "Đối với chào giá trực tuyến rút gọn, giá trị bảo đảm dự thầu tối đa là giá trị nào sau đây?",
-          "options": [
-            "5% giá gói thầu",
-            "10% giá gói thầu",
-            "1-3% giá gói thầu",
-            "Không yêu cầu về bảo đảm dự thầu"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Chào giá trực tuyến rút gọn không yêu cầu bảo đảm dự thầu. Cơ chế này được thiết kế để rút ngắn thủ tục đối với gói thầu đủ điều kiện, nên không áp thêm bước bảo đảm dự thầu như các quy trình thông thường."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 18,
-          "question": "Nhà thầu phải thực hiện xác nhận về việc chấp thuận được trao hợp đồng trên Hệ thống mạng đấu thầu quốc gia đối với các hình thức lựa chọn nhà thầu qua mạng nào?",
-          "options": [
-            "Đấu thầu rộng rãi, chào hàng cạnh tranh, đấu thầu hạn chế.",
-            "Chào giá trực tuyến theo quy trình thông thường",
-            "Chào giá trực tuyến theo quy trình rút gọn",
-            "Các phương án trên đều đúng"
+            "000 đồng/1 gói thầu (đã bao gồm thuế giá trị gia tăng)",
+            "000 đồng/1 gói thầu (đã bao gồm thuế giá trị gia tăng)",
+            "Miễn phí",
+            "000 đồng/1 gói thầu (đã bao gồm thuế giá trị gia tăng)"
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Phương án “Chào giá trực tuyến theo quy trình rút gọn” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Bảo đảm dự thầu, hợp đồng và xử lý hồ sơ”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Miễn phí. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 35,
-          "question": "Đối với đấu thầu qua mạng, trường hợp nhà thầu sử dụng bảo lãnh dự thầu điện tử trên Hệ thống mạng đấu thầu quốc gia, phát biểu nào sau đây là đúng?",
+          "source": "Chuyen_de_03_Ke_hoach_lua_chon_nha_thau.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 2,
+          "question": "Thẩm quyền phê duyệt kế hoạch tổng thể lựa chọn nhà thầu thuộc chủ thể nào?",
           "options": [
-            "Giá trị bảo lãnh dự thầu luôn đáp ứng yêu cầu trong E-HSMT",
-            "Thời gian hiệu lực của bảo lãnh dự thầu luôn đáp ứng yêu cầu trong E-HSMT CĐ (5.1 - ĐTQM)-N CDa.nhĐ sốáic thư cợânu ghỏ tihụ hưởng bảo lãnh dự thầu luôn đáp ứng yêu cầu trong E-HSMT",
-            "Danh sách người thụ hưởng bảo lãnh dự thầu luôn đáp ứng yêu cầu trong E-HSMT",
+            "Người có thẩm quyền",
+            "Chủ đầu tư (trường hợp xác định được chủ đầu tư)",
+            "Người đứng đầu cơ quan được giao chuẩn bị dự án",
+            "Bên mời thầu"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Người có thẩm quyền. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_03_Ke_hoach_lua_chon_nha_thau.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 3,
+          "question": "Trường hợp nào sau đây việc phê duyệt kế hoạch lựa chọn nhà thầu thuộc trách nhiệm của chủ đầu tư?",
+          "options": [
+            "Chủ đầu tư không có trách nhiệm phê duyệt kế hoạch lựa chọn nhà thầu",
+            "Chủ đầu tư có trách nhiệm phê duyệt kế hoạch lựa chọn nhà thầu, trừ trường hợp chưa xác định được chủ đầu tư theo quy định của pháp luật",
+            "Trường hợp gói thầu được thực hiện trước khi có quyết định phê duyệt dự án và chưa xác định được chủ đầu tư",
+            "Chủ đầu tư chỉ được phê duyệt kế hoạch lựa chọn nhà thầu trong trường hợp được người có thẩm quyền ủy quyền"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Chủ đầu tư có trách nhiệm phê duyệt kế hoạch lựa chọn nhà thầu, trừ trường hợp chưa xác định được chủ đầu tư theo quy định của pháp luật. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_03_Ke_hoach_lua_chon_nha_thau.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 4,
+          "question": "Chọn phương án đúng đối với nhà thầu phụ đặc biệt?",
+          "options": [
+            "Đối với đấu thầu trong nước, khi tham gia gói thầu của dự án thuộc lĩnh vực khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số thì nhà thầu trong nước được sử dụng nhà thầu phụ đặc biệt là nhà thầu nước ngoài đối với phần công việc đặc thù mà nhà thầu trong nước chưa thực hiện được hoặc cần chuyển giao công nghệ (A)",
+            "Trong mọi trường hợp, đối với đấu thầu trong nước, nhà thầu không được phép sử dụng nhà thầu phụ đặc biệt là nhà thầu nước ngoài (B)",
+            "Giá trị công việc tối đa dành cho nhà thầu phụ trong hợp đồng phải bao gồm khối lượng công việc dành cho nhà thầu phụ đặc biệt (C)",
+            "Phương án A và C đều đúng"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Đối với đấu thầu trong nước, khi tham gia gói thầu của dự án thuộc lĩnh vực khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số thì nhà thầu trong nước được sử dụng nhà thầu phụ đặc biệt là nhà thầu nước ngoài đối với phần công việc đặc thù mà nhà thầu trong nước chưa thực hiện được hoặc cần chuyển giao công nghệ (A). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_03_Ke_hoach_lua_chon_nha_thau.md",
+          "originalTopic": "CĐ 2.1 - Kế hoạch lựa chọn nhà thầu",
+          "number": 5,
+          "question": "Kế hoạch lựa chọn nhà thầu bắt buộc phải đăng tải ở đâu?",
+          "options": [
+            "Hệ thống mạng đấu thầu quốc gia (A)",
+            "Hệ thống mạng đấu thầu quốc gia, Báo Tài chính-Đầu tư (B)",
+            "Cổng Thông tin điện tử của Bộ, ngành (C)",
+            "Phương án A và B đều đúng"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Hệ thống mạng đấu thầu quốc gia (A). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_03_Ke_hoach_lua_chon_nha_thau.md",
+          "originalTopic": "CĐ 2.1 - Kế hoạch lựa chọn nhà thầu",
+          "number": 6,
+          "question": "Chậm nhất là bao nhiêu ngày thì kế hoạch lựa chọn nhà thầu phải được đăng tải trên Hệ thống mạng đấu thầu quốc gia?",
+          "options": [
+            "05 ngày làm việc kể từ ngày kế hoạch lựa chọn nhà thầu được ký ban hành",
+            "07 ngày kể từ ngày kế hoạch lựa chọn nhà thầu được ký ban hành",
+            "07 ngày làm việc kể từ ngày kế hoạch lựa chọn nhà thầu được ký ban hành",
+            "10 ngày kể từ ngày kế hoạch lựa chọn nhà thầu được ký ban hành"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: 05 ngày làm việc kể từ ngày kế hoạch lựa chọn nhà thầu được ký ban hành. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_03_Ke_hoach_lua_chon_nha_thau.md",
+          "originalTopic": "CĐ 2.1 - Kế hoạch lựa chọn nhà thầu",
+          "number": 7,
+          "question": "Kế hoạch lựa chọn nhà thầu bao gồm nội dung nào sau đây?",
+          "options": [
+            "Giá gói thầu",
+            "Thời gian thực hiện hợp đồng",
+            "Giám sát hoạt động đấu thầu",
+            "Cả 3 phương án trên đều đúng"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Giá gói thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_03_Ke_hoach_lua_chon_nha_thau.md",
+          "originalTopic": "CĐ 2.1 - Kế hoạch lựa chọn nhà thầu",
+          "number": 8,
+          "question": "Đối với các gói thầu đã thanh lý hợp đồng, khi lập Tờ trình Kế hoạch lựa chọn nhà thầu, giá trị phần công việc đã thực hiện của các gói thầu này được tính như thế nào?",
+          "options": [
+            "Giá gói thầu",
+            "Giá trị thanh lý hợp đồng",
+            "Giá hợp đồng",
+            "Tất cả phương án đều đúng"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Giá trị thanh lý hợp đồng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_03_Ke_hoach_lua_chon_nha_thau.md",
+          "originalTopic": "CĐ 2.1 - Kế hoạch lựa chọn nhà thầu",
+          "number": 9,
+          "question": "Hãy chọn phương án đúng về đấu thầu trước?",
+          "options": [
+            "Đấu thầu trước là việc thực hiện trước một số thủ tục trước khi dự án được phê duyệt đầu tư nhằm mục đích đẩy nhanh tiến độ thực hiện dự án, trừ gói thầu cần thực hiện trước khi phê duyệt dự án",
+            "Đấu thầu trước là việc thực hiện các gói thầu thuộc giai đoạn chuẩn bị đầu tư",
+            "Đấu thầu trước là việc lựa chọn nhà thầu không cần phê duyệt kế hoạch lựa chọn nhà thầu để đẩy nhanh tiến độ thực hiện",
+            "Đấu thầu trước là việc thực hiện trước một số thủ tục trước khi dự án, dự toán mua sắm được phê duyệt nhằm mục đích đẩy nhanh tiến độ thực hiện dự án, trừ gói thầu cần thực hiện trước khi phê duyệt dự án"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Đấu thầu trước là việc thực hiện trước một số thủ tục trước khi dự án được phê duyệt đầu tư nhằm mục đích đẩy nhanh tiến độ thực hiện dự án, trừ gói thầu cần thực hiện trước khi phê duyệt dự án. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_03_Ke_hoach_lua_chon_nha_thau.md",
+          "originalTopic": "CĐ 2.1 - Kế hoạch lựa chọn nhà thầu",
+          "number": 10,
+          "question": "Lựa chọn phương án phù hợp nhất đối với nội dung đền bù giải phóng mặt bằng khi lập kế hoạch lựa chọn nhà thầu?",
+          "options": [
+            "Tất cả nội dung công việc có liên quan đến giải phóng mặt bằng thuộc phần công việc không áp dụng một trong các hình thức lựa chọn nhà thầu (A)",
+            "Đối với các công việc mà Hội đồng đền bù giải phóng mặt bằng tự làm (ví dụ: tổ chức họp với người sử dụng đất, chủ sở hữu tài sản; trình duyệt, công khai phương án bồi thường, bàn giao chi phí bồi thường...) thì thuộc phần không áp dụng một trong các hình thức lựa chọn nhà thầu (B)",
+            "Đối với phần việc phải hình thành gói thầu thuê tư vấn để thực hiện nhằm phục vụ công việc giải phóng mặt bằng thì thuộc phần công việc thuộc kế hoạch lựa chọn nhà thầu (C)",
+            "Phương án B và C đều đúng"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Phương án B và C đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_03_Ke_hoach_lua_chon_nha_thau.md",
+          "originalTopic": "CĐ 2.1 - Kế hoạch lựa chọn nhà thầu",
+          "number": 11,
+          "question": "Mua sắm trực tuyến có cần được phê duyệt trong kế hoạch lựa chọn nhà thầu không?",
+          "options": [
+            "Không phải phê duyệt trong kế hoạch lựa chọn nhà thầu",
+            "Phải được phê duyệt trong kế hoạch lựa chọn nhà thầu",
+            "Chỉ phải phê duyệt trong kế hoạch lựa chọn nhà thầu khi giá gói thầu lớn hơn 500 triệu đồng",
+            "Chỉ phải phê duyệt trong kế hoạch lựa chọn nhà thầu đối với các gói thầu thuộc dự án đầu tư"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Phải được phê duyệt trong kế hoạch lựa chọn nhà thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_03_Ke_hoach_lua_chon_nha_thau.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 12,
+          "question": "Trong chào giá trực tuyến rút gọn, nhận định nào sau đây về giá trần là đúng?",
+          "options": [
+            "Đối với loại hợp đồng trọn gói, loại hợp đồng theo đơn giá cố định hoặc đơn giá điều chỉnh, giá trần là giá gói thầu trong kế hoạch lựa chọn nhà thầu được duyệt bao gồm phần chi phí dự phòng hoặc dự toán gói thầu bao gồm phần chi phí dự phòng trong trường hợp dự toán duyệt sau khi phê duyệt kế hoạch lựa chọn nhà thầu. (A)",
+            "Đối với loại hợp đồng trọn gói, giá trần là giá gói thầu trong kế hoạch lựa chọn nhà thầu được duyệt hoặc dự toán gói thầu trong trường hợp dự toán duyệt sau khi phê duyệt kế hoạch lựa chọn nhà thầu (B)",
+            "Đối với loại hợp đồng theo đơn giá cố định hoặc đơn giá điều chỉnh, giá trần là giá gói thầu trong kế hoạch lựa chọn nhà thầu được duyệt chưa bao gồm phần chi phí dự phòng hoặc dự toán gói thầu chưa bao gồm chi phí dự phòng của gói thầu trong trường hợp dự toán duyệt sau khi phê duyệt kế hoạch lựa chọn nhà thầu (C)",
+            "Cả phương án B và C đều đúng"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Cả phương án B và C đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_03_Ke_hoach_lua_chon_nha_thau.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 13,
+          "question": "Nội dung nào là không phù hợp quy định đối với yêu cầu về nhân sự chủ chốt của gói thầu mua sắm hàng hóa?",
+          "options": [
+            "Không được yêu cầu về huy động nhân sự chủ chốt đối với phần công việc cung cấp hàng hóa",
+            "Chỉ được yêu cầu về huy động nhân sự chủ chốt đối với các dịch vụ liên quan có yếu tố đặc thù, phức tạp cần thiết phải có nhân sự có hiểu biết, nhiều kinh nghiệm đảm nhận.",
+            "Được yêu cầu về huy động nhân sự chủ chốt đối với phần công việc cung cấp hàng hóa mà hàng hóa đó có tính đặc thù cần sự khẳng định của nhà sản xuất nhà cung cấp để đảm bảo tính khả thi trong việc cung cấp tính đặc thù cần sự khẳng định của nhà sản xuất, nhà cung cấp để đảm bảo tính khả thi trong việc cung cấp",
+            "Không được nêu yêu cầu huy động về nhân sự chủ chốt đối với hàng hóa thông dụng, sẵn có trên thị trường, không đòi hỏi nhân sự thực hiện dịch vụ liên quan phải có trình độ cao"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Được yêu cầu về huy động nhân sự chủ chốt đối với phần công việc cung cấp hàng hóa mà hàng hóa đó có tính đặc thù cần sự khẳng định của nhà sản xuất nhà cung cấp để đảm bảo tính khả thi trong việc cung cấp tính đặc thù cần sự khẳng định của nhà sản xuất, nhà cung cấp để đảm bảo tính khả thi trong việc cung cấp. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_03_Ke_hoach_lua_chon_nha_thau.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 14,
+          "question": "Quy định nào dưới đây không đúng về kế hoạch lựa chọn nhà thầu?",
+          "options": [
+            "Kế hoạch lựa chọn nhà thầu được lập cho toàn bộ dự án, dự toán mua sắm. Trường hợp chưa đủ điều kiện lập kế hoạch lựa chọn nhà thầu cho toàn bộ dự án, dự toán mua sắm thì lập kế hoạch lựa chọn nhà thầu cho một hoặc một số gói thầu để thực hiện trước",
+            "Kế hoạch lựa chọn nhà thầu có thể được lập đồng thời với quá trình lập dự án, dự toán mua sắm hoặc trước khi có quyết định phê duyệt dự án đối với gói thầu cần thực hiện trước khi có quyết định phê duyệt dự án",
+            "Trường hợp gói thầu có thời gian thực hiện dài hơn 01 năm, giá gói thầu trong kế hoạch lựa chọn nhà thầu được ghi rõ theo chu kỳ 01 năm hoặc trên cơ sở toàn bộ thời gian thực hiện gói thầu",
+            "Kế hoạch lựa chọn nhà thầu phải ghi rõ số lượng gói thầu và nội dung của từng gói thầu"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Trường hợp gói thầu có thời gian thực hiện dài hơn 01 năm, giá gói thầu trong kế hoạch lựa chọn nhà thầu được ghi rõ theo chu kỳ 01 năm hoặc trên cơ sở toàn bộ thời gian thực hiện gói thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_03_Ke_hoach_lua_chon_nha_thau.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 15,
+          "question": "Việc phê duyệt dự toán đối với phần công việc tùy chọn mua thêm được áp dụng tại thời điểm nào?",
+          "options": [
+            "Trước khi phê duyệt kế hoạch lựa chọn nhà thầu, chủ đầu tư phê duyệt dự toán đối với khối lượng mua thêm",
+            "Trước khi phê duyệt kế hoạch lựa chọn nhà thầu, chủ đầu tư trình cấp có thẩm quyền phê duyệt dự toán đối với khối lượng mua thêm",
+            "Trong quá trình thực hiện hợp đồng, trường hợp sử dụng khối lượng tùy chọn mua thêm, trước khi thực hiện chủ đầu tư phê duyệt dự toán cho khối lượng mua thêm",
+            "Không phải phê duyệt dự toán tùy chọn mua thêm"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Trong quá trình thực hiện hợp đồng, trường hợp sử dụng khối lượng tùy chọn mua thêm, trước khi thực hiện chủ đầu tư phê duyệt dự toán cho khối lượng mua thêm. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_03_Ke_hoach_lua_chon_nha_thau.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 16,
+          "question": "Giá gói thầu được cập nhật trong thời hạn bao nhiêu ngày trước ngày mở thầu nếu cần thiết?",
+          "options": [
+            "28 ngày",
+            "18 ngày",
+            "7 ngày",
+            "7 ngày làm việc"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: 28 ngày. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_03_Ke_hoach_lua_chon_nha_thau.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 17,
+          "question": "Một trong các nguyên tắc lập kế hoạch lựa chọn nhà thầu theo quy định tại Nghị định số 95/2020/NĐ- CP là?",
+          "options": [
+            "Không ghi rõ số lượng gói thầu",
+            "Không được chia nhỏ gói thầu để tránh áp dụng Nghị định này",
+            "Phải ghi toàn bộ phương thức lựa chọn nhà thầu là đấu thầu qua mạng",
+            "Ghi thời gian bắt đầu tổ chức lựa chọn nhà thầu là ngày cụ thể trong năm"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Không được chia nhỏ gói thầu để tránh áp dụng Nghị định này. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        }
+      ]
+    },
+    {
+      "title": "Hồ sơ mời thầu và chuẩn bị lựa chọn nhà thầu",
+      "theory": [
+        {
+          "heading": "Nguồn pháp lý tham khảo",
+          "points": [
+            "Luật Đấu thầu số 22/2023/QH15: https://vanban.chinhphu.vn/?classid=1&docid=208419&orggroupid=1&pageid=27160",
+            "Luật số 57/2024/QH15: https://vanban.chinhphu.vn/?classid=1&docid=212485&orggroupid=1&pageid=27160",
+            "Luật số 90/2025/QH15: https://vanban.chinhphu.vn/?docid=214558&orggroupid=1&pageid=27160",
+            "Nghị định số 214/2025/NĐ-CP: https://vanban.chinhphu.vn/?classid=1&docid=214821&pageid=27160&typegroupid=4",
+            "Thông tư số 79/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214844&pageid=27160",
+            "Thông tư số 80/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214968&pageid=27160"
+          ],
+          "note": "Các nguồn này được ghi trong database chuyên đề để người học đối chiếu khi cần."
+        },
+        {
+          "heading": "1. Hồ sơ mời thầu là gì",
+          "points": [
+            "Hồ sơ mời thầu hoặc E-HSMT là bộ tài liệu để nhà thầu hiểu yêu cầu của gói thầu và chuẩn bị hồ sơ dự thầu. Nội dung hồ sơ phải rõ ràng, nhất quán, đủ căn cứ đánh giá và không được đưa yêu cầu làm hạn chế cạnh tranh trái quy định."
+          ]
+        },
+        {
+          "heading": "2. Yêu cầu kỹ thuật và xuất xứ",
+          "points": [
+            "Yêu cầu kỹ thuật phải mô tả nhu cầu thực tế của gói thầu, không được định hướng cho một nhà sản xuất hoặc một nhà thầu cụ thể nếu pháp luật không cho phép. Việc nêu nhãn hiệu, xuất xứ, mã hiệu, giấy phép bán hàng hoặc chứng chỉ phải được kiểm soát chặt vì đây là nhóm tiêu chí dễ làm hạn chế cạnh tranh."
+          ]
+        },
+        {
+          "heading": "3. Năng lực, kinh nghiệm và hợp đồng tương tự",
+          "points": [
+            "Tiêu chuẩn năng lực, kinh nghiệm phải phù hợp quy mô, tính chất gói thầu. Hợp đồng tương tự cần xét loại công việc, quy mô, mức độ hoàn thành, thời gian và vai trò của nhà thầu trong hợp đồng đó. Không nên đặt yêu cầu quá cao so với gói thầu vì có thể làm giảm cạnh tranh."
+          ]
+        },
+        {
+          "heading": "Bẫy thường gặp",
+          "points": [
+            "Đưa yêu cầu xuất xứ, nhãn hiệu hoặc giấy phép bán hàng quá hẹp.",
+            "Đặt hợp đồng tương tự vượt quá quy mô cần thiết.",
+            "Nhầm tiêu chuẩn kỹ thuật với tiêu chuẩn năng lực kinh nghiệm."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 1,
+          "question": "Nội dung nào không thuộc nội dung quản lý nhà nước đối với hoạt động đấu thầu?",
+          "options": [
+            "Quản lý hệ thống thông tin và cơ sở dữ liệu về đấu thầu trên phạm vi cả nước.",
+            "Lập hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu, hồ sơ yêu cầu.",
+            "Đào tạo, bồi dưỡng kiến thức, nghiệp vụ chuyên môn về đấu thầu.",
+            "Hợp tác quốc tế về đấu thầu"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Lập hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu, hồ sơ yêu cầu.. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 2,
+          "question": "Giá đề nghị trúng thầu là gì?",
+          "options": [
+            "Là giá dự thầu của nhà thầu ghi trong quyết định phê duyệt kết quả lựa chọn nhà thầu.",
+            "Là giá dự thầu của nhà thầu được đề nghị trúng thầu sau khi đã được sửa lỗi, hiệu chỉnh sai lệch theo yêu cầu của hồ sơ mời thầu, hồ sơ yêu cầu, trừ đi giá trị giảm giá (nếu có)",
+            "Là giá dự thầu của nhà thầu chưa tính sửa lỗi, hiệu chỉnh sai lệch và giá trị giảm giá (nếu có)",
+            "Là giá trị ghi trong hợp đồng giữa chủ đầu tư và nhà thầu"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Là giá dự thầu của nhà thầu được đề nghị trúng thầu sau khi đã được sửa lỗi, hiệu chỉnh sai lệch theo yêu cầu của hồ sơ mời thầu, hồ sơ yêu cầu, trừ đi giá trị giảm giá (nếu có). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 3,
+          "question": "Đối với đấu thầu quốc tế, hồ sơ mời thầu được phát hành như thế nào?",
+          "options": [
+            "HSMT được phát hành trên Hệ thống mạng đấu thầu quốc gia; Nhà thầu nộp tiền mua bản điện tử hồ sơ mời thầu khi nộp hồ sơ dự thầu (A)",
+            "HSMT được bán vào giờ hành chính từ thứ 2 tới thứ 6 tại địa chỉ do Chủ đầu tư quy định (B)",
+            "Phương án A và B đều đúng",
+            "Phương án A và B đều sai"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: HSMT được phát hành trên Hệ thống mạng đấu thầu quốc gia; Nhà thầu nộp tiền mua bản điện tử hồ sơ mời thầu khi nộp hồ sơ dự thầu (A). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 4,
+          "question": "Đối với gói thầu sử dụng vốn ngân sách nhà nước, tiền bán bản điện tử hồ sơ mời thầu, hồ sơ yêu cầu sẽ được xử lý như thế nào?",
+          "options": [
+            "Sử dụng theo quy chế tài chính của chủ đầu tư",
+            "Nộp vào ngân sách nhà nước theo quy định của Luật Ngân sách nhà nước",
+            "Sử dụng theo cơ chế khoán chi",
+            "Tất cả các đáp án trên đều sai"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Nộp vào ngân sách nhà nước theo quy định của Luật Ngân sách nhà nước. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 5,
+          "question": "Đình chỉ cuộc thầu được thực hiện trong thời gian nào?",
+          "options": [
+            "Từ ngày phát hành hồ sơ mời sơ tuyển, hồ sơ mời quan tâm, hồ sơ mời thầu, hồ sơ yêu cầu đến trước khi ký kết hợp đồng, thỏa thuận khung đối với mua sắm tập trung",
+            "Trong quá trình tổ chức lựa chọn nhà thầu cho đến trước khi phê duyệt kết quả lựa chọn nhà thầu",
+            "Sau khi phê duyệt kết quả lựa chọn nhà thầu đến khi ký kết hợp đồng, thỏa thuận khung đối với mua sắm tập trung",
+            "Trong quá trình thực hiện hợp đồng"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Trong quá trình tổ chức lựa chọn nhà thầu cho đến trước khi phê duyệt kết quả lựa chọn nhà thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 6,
+          "question": "Trường hợp thuê đơn vị tư vấn lập hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu, hồ sơ yêu cầu; đánh giá hồ sơ quan tâm, hồ sơ dự sơ tuyển, hồ sơ dự thầu, hồ sơ đề xuất, tổ chuyên gia được thành lập bởi?",
+          "options": [
+            "Người có thẩm quyền",
+            "Chủ đầu tư",
+            "Bên mời thầu",
+            "Đơn vị tư vấn được chủ đầu tư lựa chọn"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Đơn vị tư vấn được chủ đầu tư lựa chọn. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 7,
+          "question": "Hủy thầu được thực hiện trong thời gian nào?",
+          "options": [
+            "Từ ngày có thời điểm đóng thầu đến khi có kết quả lựa chọn nhà thầu",
+            "Từ ngày phát hành hồ sơ mời sơ tuyển, hồ sơ mời quan tâm, hồ sơ mời thầu, hồ sơ yêu cầu đến trước khi ký kết hợp đồng, thỏa thuận khung đối với mua sắm tập trung",
+            "Từ ngày có thời điểm đóng thầu đến khi ký kết hợp đồng, thỏa thuận khung đối với mua sắm tập trung",
+            "Từ ngày phát hành hồ sơ mời sơ tuyển, hồ sơ mời quan tâm, hồ sơ mời thầu, hồ sơ yêu cầu kể cả sau khi đã ký hợp đồng"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Từ ngày phát hành hồ sơ mời sơ tuyển, hồ sơ mời quan tâm, hồ sơ mời thầu, hồ sơ yêu cầu đến trước khi ký kết hợp đồng, thỏa thuận khung đối với mua sắm tập trung. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 8,
+          "question": "Trường hợp nào sau đây Công ty B khi tham dự gói thầu xây lắp X thuộc Dự án Y được kết luận là đáp ứng về bảo đảm cạnh tranh trong đấu thầu?",
+          "options": [
+            "Công ty B sử dụng nhà thầu phụ là công ty A, công ty A là nhà thầu tư vấn lập Chương V yêu cầu kỹ thuật cho E-HSMT của gói thầu xây lắp X",
+            "Công ty B tham dự gói thầu xây lắp X đồng thời là nhà thầu tư vấn lập Chương V yêu cầu kỹ thuật của E-HSMT của gói thầu xây lắp X.",
+            "Công ty B sử dụng nhà thầu phụ là công ty tư vấn C, công ty tư vấn C sở hữu 30% cổ phần của công ty A và công ty A là nhà thầu tư vấn thiết kế kỹ thuật cho dự án Y",
+            "Công ty A là nhà thầu tư vấn lập hồ sơ mời thầu gói thầu xây lắp X có sở hữu 30% vốn góp của Công ty B"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Công ty B sử dụng nhà thầu phụ là công ty tư vấn C, công ty tư vấn C sở hữu 30% cổ phần của công ty A và công ty A là nhà thầu tư vấn thiết kế kỹ thuật cho dự án Y. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 9,
+          "question": "Một trong các căn cứ lập hồ sơ mời thầu là?",
+          "options": [
+            "Báo giá của nhà thầu",
+            "Quyết định mua sắm được phê duyệt",
+            "Kế hoạch lựa chọn nhà thầu được duyệt",
+            "Phương án B và C đều đúng"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Kế hoạch lựa chọn nhà thầu được duyệt. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 10,
+          "question": "Nội dung nào sau đây không thuộc hồ sơ mời thầu?",
+          "options": [
+            "Chỉ dẫn nhà thầu, tùy chọn mua thêm",
+            "Bảng dữ liệu đấu thầu",
+            "Phạm vi cung cấp, yêu cầu về kỹ thuật",
+            "Biên bản hoàn thiện hợp đồng"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Biên bản hoàn thiện hợp đồng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 11,
+          "question": "Trường hợp nào hồ sơ mời thầu được đưa ra yêu cầu về giấy phép bán hàng?",
+          "options": [
+            "Hàng hóa thông thường, có sẵn trên thị trường",
+            "Hàng hóa nhập khẩu",
+            "Hàng hóa đặc thù, phức tạp cần gắn với trách nhiệm của nhà sản xuất",
+            "Hàng hóa có giá trị lớn"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Hàng hóa đặc thù, phức tạp cần gắn với trách nhiệm của nhà sản xuất. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 12,
+          "question": "Thời gian phê duyệt hồ sơ mời thầu được quy định như thế nào?",
+          "options": [
+            "Do chủ đầu tư quyết định trên cơ sở bảo đảm tiến độ của dự án, gói thầu",
+            "Tối đa là 05 ngày làm việc kể từ ngày tổ chuyên gia trình dự thảo hồ sơ mời thầu trong trường hợp không thẩm định hồ sơ mời thầu",
+            "Tối đa là 05 ngày làm việc kể từ ngày tổ thẩm định gửi báo cáo thẩm định hồ sơ mời thầu",
+            "Phương án B và C đều đúng"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Do chủ đầu tư quyết định trên cơ sở bảo đảm tiến độ của dự án, gói thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 13,
+          "question": "Nhà thầu không phải đính kèm thư bảo lãnh (hoặc giấy chứng nhận bảo hiểm bảo lãnh) mà chỉ phải cam kết trong đơn dự thầu khi?",
+          "options": [
+            "E-HSMT yêu cầu giá trị bảo đảm dự thầu là 40 triệu đồng",
+            "E-HSMT yêu cầu giá trị bảo đảm dự thầu là 50 triệu đồng",
+            "E-HSMT yêu cầu giá trị bảo đảm dự thầu là 60 triệu đồng",
+            "E-HSMT yêu cầu giá trị bảo đảm dự thầu là 100 triệu đồng"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: E-HSMT yêu cầu giá trị bảo đảm dự thầu là 40 triệu đồng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 14,
+          "question": "Khi chủ đầu tư sửa đổi E-HSMT, thay đổi thời điểm đóng thầu (nếu có) trên Hệ thống mạng đấu thầu quốc gia, nhận định nào sau đây đúng?",
+          "options": [
+            "Nhà thầu chịu trách nhiệm theo dõi thông tin trên Hệ thống mạng đấu thầu quốc gia để cập nhật thông tin về việc sửa đổi E-HSMT, thay đổi thời điểm đóng thầu (nếu có) để làm cơ sở chuẩn bị E-HSDT",
+            "Nhà thầu phải tự chịu trách nhiệm và chịu bất lợi trong quá trình tham dự thầu nếu không theo dõi, cập nhật thông tin sửa đổi E-HSMT, thời điểm đóng thầu trên Hệ thống mạng đấu thầu quốc gia trong quá trình tham dự thầu",
+            "Hệ thống mạng đấu thầu quốc gia tự động gửi email thông báo về việc sửa đổi E-HSMT, thay đổi thời điểm đóng thầu (nếu có) cho các nhà thầu quan tâm đến gói thầu",
             "Các phương án trên đều đúng"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Trong đấu thầu qua mạng, thư bảo lãnh dự thầu/bảo hiểm bảo lãnh có thể kê khai hoặc sử dụng bản điện tử theo yêu cầu E-HSMT. Bản gốc chỉ phải xuất trình khi được mời đối chiếu tài liệu, nhằm vừa giảm giấy tờ khi nộp E-HSDT vừa bảo đảm kiểm tra được tính xác thực."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Các phương án trên đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (6.1-MSTT-YT)-N",
-          "number": 2,
-          "question": "Trong mua sắm tập trung, hợp đồng điện tử có thể được ký kết giữa các đối tượng nào?",
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 15,
+          "question": "Trường hợp E-HSMT không đầy đủ thông tin (thiếu thiết kế, bản vẽ và các tài liệu khác) hoặc thông tin không rõ ràng, gây khó khăn cho nhà thầu trong việc chuẩn bị E-HSDT thì chủ đầu tư phải làm gì?",
           "options": [
-            "Đơn vị mua sắm tập trung và các nhà thầu trúng thầu (trong trường hợp không ký thỏa thuận khung) (A)",
-            "Đơn vị có nhu cầu mua sắm với các nhà thầu trúng thầu (trong trường hợp đơn vị mua sắm tập trung ký thỏa thuận khung với nhà thầu trúng thầu) (B)",
+            "Phải sửa đổi, bổ sung E-HSMT cho phù hợp và tiến hành đăng tải lại E-HSMT",
+            "Thực hiện bổ sung, hoàn thiện cho phù hợp và sửa đổi trên Hệ thống",
+            "Đính kèm thêm các thành phần còn thiếu của E-HSMT trên Hệ thống",
+            "Hủy thầu"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Phải sửa đổi, bổ sung E-HSMT cho phù hợp và tiến hành đăng tải lại E-HSMT. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 16,
+          "question": "Tiêu chuẩn đánh giá năng lực kinh nghiệm đối với gói thầu mua sắm hàng hóa bao gồm?",
+          "options": [
+            "Doanh thu bình quân 3 năm gần nhất",
+            "Giấy phép bán hàng của nhà sản xuất",
+            "Số năm thành lập của doanh nghiệp",
+            "Năng lực quản lý của doanh nghiệp"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Doanh thu bình quân 3 năm gần nhất. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 17,
+          "question": "Nội dung nào là tiêu chuẩn đánh giá về năng lực và kinh nghiệm không bắt buộc đối với gói thầu mua sắm hàng hóa?",
+          "options": [
+            "Kinh nghiệm thực hiện hợp đồng cung cấp hàng hóa tương tự",
+            "Giá trị tài sản ròng của nhà thầu",
+            "Doanh thu của nhà thầu",
+            "Việc thực hiện nghĩa vụ kê khai thuế, nộp thuế"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Kinh nghiệm thực hiện hợp đồng cung cấp hàng hóa tương tự. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 18,
+          "question": "Tiêu chuẩn đánh giá về kỹ thuật được yêu cầu về nhãn hiệu theo nhóm nhãn hiệu cho nguyên nhiên vật liệu, vật tư và các yếu tố đầu vào đối với trường hợp nào?",
+          "options": [
+            "Nội dung công việc xây lắp thuộc gói thầu xây lắp, gói thầu EC",
+            "Nội dung công việc xây lắp thuộc gói thầu EPC",
+            "Nội dung công việc xây lắp thuộc gói thầu EPC và gói thầu PC",
+            "Nội dung công việc xây lắp thuộc gói thầu xây lắp và gói thầu PC"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Nội dung công việc xây lắp thuộc gói thầu xây lắp, gói thầu EC. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 19,
+          "question": "Nội dung nào không phải là tiêu chuẩn đánh giá về kỹ thuật của gói thầu tư vấn?",
+          "options": [
+            "Giải pháp phương pháp luận",
+            "Uy tín của nhà thầu thông qua việc tham dự thầu, kết quả thực hiện hợp đồng của nhà thầu",
+            "Đã thực hiện nghĩa vụ kê khai thuế và nộp thuế",
+            "Kinh nghiệm và năng lực nhà thầu"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Đã thực hiện nghĩa vụ kê khai thuế và nộp thuế. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 20,
+          "question": "Khi đánh giá về năng lực kinh nghiệm đối với gói thầu mua sắm hàng hóa, nhà thầu được đánh giá là đạt khi?",
+          "options": [
+            "Nhà thầu được đánh giá đạt tất tiêu chuẩn đánh giá về năng lực và kinh nghiệm trong hồ sơ mời thầu",
+            "Nhà thầu đáp ứng một trong các tiêu chuẩn đánh giá về năng lực và kinh nghiệm trong hồ sơ mời thầu",
+            "Nhà thầu đáp ứng hai phần ba các tiêu chuẩn đánh giá về năng lực và kinh nghiệm trong hồ sơ mời thầu",
+            "Nhà thầu đáp ứng các tiêu chuẩn đánh giá về năng lực và kinh nghiệm quan trọng trong hồ sơ mời thầu"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Nhà thầu được đánh giá đạt tất tiêu chuẩn đánh giá về năng lực và kinh nghiệm trong hồ sơ mời thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 21,
+          "question": "Bản gốc thư bảo lãnh dự thầu, giấy chứng nhận bảo hiểm bảo lãnh trong đấu thầu qua mạng được nộp như thế nào?",
+          "options": [
+            "Gửi qua email đến Tổ trưởng Tổ chuyên gia",
+            "Gửi cho Chủ đầu tư khi nhà thầu được mời vào đối chiếu tài liệu",
+            "Gửi bản gốc đến địa chỉ bên mời thầu theo quy định trong E-HSMT",
+            "Gửi cho Đơn vị tư vấn đấu thầu đánh giá E-HSDT"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Gửi cho Chủ đầu tư khi nhà thầu được mời vào đối chiếu tài liệu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 22,
+          "question": "Đối với gói thầu đấu thầu qua mạng, trường hợp sửa đổi E-HSMT sau khi phát hành, chủ đầu tư phải đăng tải tài liệu nào sau đây trên Hệ thống?",
+          "options": [
+            "Quyết định sửa đổi kèm theo những nội dung sửa đổi E-HSMT (A)",
+            "E-HSMT đã được sửa đổi (B)",
+            "Báo cáo thẩm định E-HSMT sửa đổi (C)",
+            "Phương án A và B đều đúng"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Phương án A và B đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 23,
+          "question": "Đối với gói thầu xây lắp áp dụng đấu thầu rộng rãi qua mạng, trường hợp E-HSMT quy định nhà thầu phải cung cấp đầy đủ các tài liệu: giấy đăng ký thiết bị, hợp đồng, hóa đơn mua hàng, giấy đăng kiểm, kiểm định theo quy định của pháp luật để chứng minh khả năng huy động thiết bị thi công chủ yếu thì nhà thầu phải cung cấp những tài liệu nào?",
+          "options": [
+            "Phải cung cấp đầy đủ theo yêu cầu của E-HSMT gồm: giấy đăng ký thiết bị, hợp đồng, hóa đơn mua hàng, giấy đăng kiểm, kiểm định theo quy định của pháp luật",
+            "Chỉ cần cung cấp một trong các tài liệu: giấy đăng ký thiết bị, hợp đồng, hóa đơn mua hàng, giấy đăng kiểm, kiểm định theo quy định của pháp luật",
+            "Phải bắt buộc cung cấp giấy đăng ký thiết bị kèm theo giấy đăng kiểm, kiểm định theo quy định của pháp luật",
+            "Phải bắt buộc cung cấp hợp đồng, hóa đơn mua hàng"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Chỉ cần cung cấp một trong các tài liệu: giấy đăng ký thiết bị, hợp đồng, hóa đơn mua hàng, giấy đăng kiểm, kiểm định theo quy định của pháp luật. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 24,
+          "question": "Đối với gói thầu xây lắp, trường hợp công ty mẹ tham dự thầu và huy động công ty con tham gia thực hiện gói thầu thì việc đánh giá kinh nghiệm thực hiện hợp đồng tương tự được thực hiện như thế nào?",
+          "options": [
+            "Đánh giá kinh nghiệm thực hiện hợp đồng tương tự của công ty mẹ, không đánh giá kinh nghiệm của công ty con",
+            "Đánh giá kinh nghiệm thực hiện hợp đồng tương tự căn cứ vào giá trị, khối lượng công việc do công ty mẹ, công ty con đảm nhiệm trong gói thầu",
+            "Đánh giá kinh nghiệm thực hiện hợp đồng tương tự của công ty con, không đánh giá kinh nghiệm của công ty mẹ, không phân biệt khối lượng công việc do công ty mẹ, công ty con đảm nhiệm trong gói thầu",
+            "Đánh giá theo tổng kinh nghiệm thực hiện hợp đồng tương tự của công ty mẹ và công ty con, không phân biệt khối lượng công việc do công ty mẹ, công ty con đảm nhiệm trong gói thầu"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Đánh giá kinh nghiệm thực hiện hợp đồng tương tự căn cứ vào giá trị, khối lượng công việc do công ty mẹ, công ty con đảm nhiệm trong gói thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 25,
+          "question": "Đối với gói thầu xây lắp, áp dụng đấu thầu rộng rãi qua mạng, trường hợp hợp đồng tương tự mà nhà thầu cung cấp trong E-HSDT không đáp ứng theo yêu cầu của E-HSMT, chủ đầu tư xử lý như thế nào?",
+          "options": [
+            "Đánh giá nhà thầu không đáp ứng về năng lực, kinh nghiệm. Nhà thầu không được bổ sung, thay thế hợp đồng tương tự khác",
+            "Yêu cầu nhà thầu bổ sung, thay thế hợp đồng tương tự khác (được cập nhật từ hồ sơ năng lực của nhà thầu trên Hệ thống). Trường hợp nhà thầu không có hợp đồng đáp ứng yêu cầu của E-HSMT thì nhà thầu bị loại",
+            "Tiếp tục đánh giá E-HSDT của nhà thầu, trường hợp nhà thầu xếp thứ nhất, cho phép nhà thầu bổ sung, thay thế hợp đồng tương tự khác.",
+            "Đồng thời với việc yêu cầu nhà thầu bổ sung hợp đồng thay thế khác thì chủ đầu tư xem xét, điều chỉnh lại yêu cầu về hợp đồng tương tự trong hồ sơ mời thầu"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Yêu cầu nhà thầu bổ sung, thay thế hợp đồng tương tự khác (được cập nhật từ hồ sơ năng lực của nhà thầu trên Hệ thống). Trường hợp nhà thầu không có hợp đồng đáp ứng yêu cầu của E-HSMT thì nhà thầu bị loại. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 26,
+          "question": "Đối với gói thầu tư vấn tổ chức đấu thầu rộng rãi qua mạng, sử dụng thang điểm 1.000 để xây dựng tiêu chuẩn đánh giá về kỹ thuật, E-HSMT quy định số điểm đối với tiêu chí đánh giá về uy tín của nhà thầu thông qua việc tham dự thầu, kết quả thực hiện hợp đồng của nhà thầu là bao nhiêu?",
+          "options": [
+            "150 điểm",
+            "100 điểm",
+            "50 điểm",
+            "Từ 0 đến 49 điểm"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: 50 điểm. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 27,
+          "question": "Đối với gói thầu thuê hệ thống máy chủ áp dụng đấu thầu rộng rãi qua mạng, thời gian thực hiện gói thầu là 5 năm (có tính chất công việc lặp lại theo chu kỳ qua các năm), giá gói thầu là 5 tỷ đồng, quy mô hợp đồng tương tự tối thiểu được quy định trong E-HSMT là bao nhiêu thì phù hợp quy định?",
+          "options": [
+            "2,5 tỷ đồng",
+            "2 tỷ đồng",
+            "1,5 tỷ đồng",
+            "300 triệu đồng"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: 300 triệu đồng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 28,
+          "question": "Đối với đấu thầu quốc tế, hồ sơ mời thầu phải quy định sử dụng lao động trong nước trong trường hợp nào?",
+          "options": [
+            "Những vị trí công việc mà lao động trong nước đáp ứng được và có khả năng cung cấp (A)",
+            "Những vị trí công việc mà lao động trong nước không đáp ứng được nhưng cần tạo điều kiện để tiếp nhận công nghệ từ nước ngoài được chuyển giao (B)",
+            "Lao động phổ thông (C)",
+            "Phương án A và C đều đúng"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Phương án A và C đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 29,
+          "question": "Đối với với gói thầu hàng hóa áp dụng đấu thầu rộng rãi không qua mạng, trường hợp nào sau đây thư bảo lãnh hoặc giấy chứng nhận bảo hiểm bảo lãnh dự thầu bị đánh giá là không hợp lệ?",
+          "options": [
+            "Thời gian có hiệu lực dài hơn so với yêu cầu của hồ sơ mời thầu",
+            "Có giá trị cao hơn so với yêu cầu của hồ sơ mời thầu",
+            "Ký trước khi phát hành hồ sơ mời thầu",
+            "Tất cả phương án trên đều đúng"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Ký trước khi phát hành hồ sơ mời thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 30,
+          "question": "Trường hợp hồ sơ mời thầu có quy định về xuất xứ theo nhóm nước, vùng lãnh thổ mà không bao gồm xuất xứ Việt Nam, nhà thầu chào hàng hóa có xuất xứ Việt Nam sẽ bị đánh giá như thế nào?",
+          "options": [
+            "Hàng hóa của nhà thầu không được xem xét, đánh giá",
+            "Hàng hóa của nhà thầu vẫn được xem xét, đánh giá",
+            "Yêu cầu nhà thầu bổ sung hàng hóa theo đúng xuất xứ thuộc nhóm nước, vùng lãnh thổ theo yêu cầu hồ sơ mời thầu nhưng phải cùng ký mã hiệu, nhãn hiệu với hàng hóa nhà thầu đã đề xuất trong hồ sơ dự thầu",
+            "Yêu cầu nhà thầu bổ sung hàng hóa theo đúng xuất xứ thuộc nhóm nước, vùng lãnh thổ theo yêu cầu hồ sơ mời thầu, không phải đáp ứng cùng ký mã hiệu, nhãn hiệu với hàng hóa nhà thầu đã đề xuất trong hồ sơ dự thầu"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Hàng hóa của nhà thầu vẫn được xem xét, đánh giá. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 31,
+          "question": "Gói thầu xây lắp tổ chức đấu thầu qua mạng có thời điểm đóng thầu là ngày 20/3/2025, năm tài chính của nhà thầu là 01/01 – 31/12, nhà thầu là công ty cổ phần được thành lập vào năm 2018 và E-HSMT yêu cầu nhà thầu nộp báo cáo tài chính của 03 năm gần nhất thì nhà thầu phải nộp báo cáo tài chính của các năm nào sau đây?",
+          "options": [
+            "2020, 2021, 2022",
+            "2021, 2022, 2023",
+            "2021, 2022, 2024",
+            "2019, 2020, 2021"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: 2021, 2022, 2023. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 32,
+          "question": "Gói thầu mua sắm 20 máy điều hòa, tổ chức đấu thầu rộng rãi qua mạng, một giai đoạn một túi hồ sơ, trường hợp E-HSMT có quy định về kinh nghiệm thực hiện hợp đồng tương tự thì tính chất tương tự được quy định như thế nào?",
+          "options": [
+            "Quy định hàng hóa thuộc cùng lĩnh vực tổng quát với máy điều hòa (thiết bị điện...)",
+            "Chỉ quy định hàng hóa có cùng mã Chương, mã Nhóm (tương ứng với 4 số đầu tiên của bộ mã) trong Hệ thống mã HS với mã HS của máy điều hòa",
+            "Được quy định hàng hóa thuộc cùng chủng loại hoặc hàng hóa có cùng mã Chương, mã Nhóm (tương ứng với 4 số đầu tiên của bộ mã) trong Hệ thống mã HS với mã HS của máy điều hòa",
+            "Tất cả đáp án trên đều đúng"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Quy định hàng hóa thuộc cùng lĩnh vực tổng quát với máy điều hòa (thiết bị điện...). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 33,
+          "question": "Tiêu chuẩn đánh giá về kỹ thuật gói thầu dịch vụ phi tư vấn không bao gồm nội dung nào sau đây?",
+          "options": [
+            "Nhà thầu bị đánh giá về uy tín trong việc tham dự thầu",
+            "Bảo đảm điều kiện vệ sinh môi trường và các điều kiện khác như phòng cháy, chữa cháy, an toàn lao động.",
+            "Mức độ đáp ứng các yêu cầu về bảo hành, bảo trì (nếu có);",
+            "Tất cả đáp án trên đều sai"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Nhà thầu bị đánh giá về uy tín trong việc tham dự thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 34,
+          "question": "Gói thầu cung cấp dịch vụ vệ sinh tòa nhà do Sở Tài chính tỉnh X làm chủ đầu tư có giá gói thầu 01 tỷ đồng, thời gian thực hiện là 12 tháng, hợp đồng tương tự yêu cầu 30% giá gói thầu. Trường hợp nào sau đây nhà thầu được coi là đáp ứng về giá trị của hợp đồng tương tự?",
+          "options": [
+            "Nhà thầu cung cấp hợp đồng A (chưa hoàn thành, chưa được thanh lý) có giá trị công việc dịch vụ vệ sinh tòa nhà (đã được nghiệm thu) là 100 triệu đồng; hợp đồng B (chưa hoàn thành, chưa được thanh lý) có giá trị công việc dịch vụ vệ sinh tòa nhà (đã được nghiệm thu) là 250 triệu đồng",
+            "Nhà thầu cung cấp hợp đồng A (đã nghiệm thu, đã được thanh lý) có giá trị công việc dịch vụ vệ sinh tòa nhà là 300 triệu đồng",
+            "Nhà thầu cung cấp hợp đồng A (chưa hoàn thành, chưa được thanh lý) có giá trị công việc dịch vụ vệ sinh tòa nhà (chưa được nghiệm thu) là 100 triệu đồng; hợp đồng B (chưa hoàn thành, chưa được thanh lý) có giá trị công việc dịch vụ vệ sinh tòa nhà (đã được nghiệm thu) là 400 triệu đồng",
+            "Tất cả đáp án trên đều đúng"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Tất cả đáp án trên đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 35,
+          "question": "Gói thầu mua sắm trang thiết bị do Sở Tư pháp tỉnh X làm chủ đầu tư có giá gói thầu 03 tỷ đồng, thời gian thực hiện là 12 tháng, trong đó có 02 hạng mục: máy điều hòa (mã HS 8415) giá dự toán 01 tỷ đồng, máy tính xách tay (mã HS 8507) giá dự toán 02 tỷ đồng, hợp đồng tương tự yêu cầu 50% giá gói thầu. Trường hợp nào sau đây nhà thầu được coi là không đáp ứng về giá trị của hợp đồng tương tự?",
+          "options": [
+            "Nhà thầu cung cấp 02 hợp đồng, trong đó: 01 hợp đồng đã thực hiện việc cung cấp mã hàng hóa 8415 với giá trị 400 triệu đồng, 01 hợp đồng đã thực hiện việc cung cấp mã hàng hóa 8415 với giá trị 100 triệu đồng và mã hàng hóa 8507 với giá trị 01 tỷ đồng (A)",
+            "Nhà thầu cung cấp 01 hợp đồng có đầy đủ các mã hàng hóa 8415 và 8507 và tổng giá trị của mã hàng hóa 8415, 8507 trong hợp đồng đã hoàn thành với giá trị 1,6 tỷ đồng (B)",
+            "Nhà thầu cung cấp 02 hợp đồng, trong đó: 01 hợp đồng đã thực hiện việc cung cấp mã hàng hóa 8415 với giá trị 600 triệu đồng và 01 hợp đồng đã thực hiện việc cung cấp mã hàng hóa 8507 với giá trị 01 tỷ đồng (C)",
+            "Phương án A và B đều không đáp ứng về giá trị hợp đồng tương tự"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Nhà thầu cung cấp 02 hợp đồng, trong đó: 01 hợp đồng đã thực hiện việc cung cấp mã hàng hóa 8415 với giá trị 400 triệu đồng, 01 hợp đồng đã thực hiện việc cung cấp mã hàng hóa 8415 với giá trị 100 triệu đồng và mã hàng hóa 8507 với giá trị 01 tỷ đồng (A). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 36,
+          "question": "Nhận định nào sau đây là đúng về tiêu chuẩn đánh giá E-HSDT gói thầu dịch vụ tư vấn tổ chức đấu thầu rộng rãi qua mạng?",
+          "options": [
+            "Có thể không quy định về tiêu chuẩn kinh nghiệm và năng lực trong tiêu chuẩn đánh giá về kỹ thuật",
+            "Không được quy định mức điểm tối thiểu về kinh nghiệm và năng lực trong tiêu chuẩn đánh giá về kỹ thuật",
+            "Không được quy định uy tín của nhà thầu thông qua việc tham dự thầu trong tiêu chuẩn đánh giá về kỹ thuật",
+            "Hợp đồng tương tự được xác định trên cơ sở tương tự cả về tính chất và quy mô (giá trị hợp đồng)"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Có thể không quy định về tiêu chuẩn kinh nghiệm và năng lực trong tiêu chuẩn đánh giá về kỹ thuật. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 37,
+          "question": "Gói thầu cung cấp dịch vụ giặt là thực hiện đấu thầu qua mạng, E-HSMT có quy định cho phép sử dụng nhà thầu phụ tối đa 20% trên giá dự thầu của nhà thầu. Nhà thầu liên danh A-B, trong đó nhà thầu Công ty A đảm nhận 30% giá trị công việc, Công ty B đảm nhận 70% giá trị công việc. Việc sử dụng nhà thầu phụ đối với từng thành viên liên danh được thực hiện như thế nào?",
+          "options": [
+            "Công ty A được sử dụng nhà thầu phụ tối đa 20% trên 30% giá trị công việc mà công ty A đảm nhận, Công ty B được sử dụng nhà thầu phụ tối đa 20% trên 70% giá trị công việc mà công ty B đảm nhận",
+            "Công ty A được sử dụng nhà thầu phụ tối đa 20% trên tổng giá trị (100%) công việc và Công ty B được sử dụng nhà thầu phụ tối đa 20% trên tổng giá trị (100%) công việc mà Công ty A và Công ty B đảm nhận",
+            "Thực hiện theo thỏa thuận giữa Công ty A và Công ty B, Công ty A hoặc Công ty B được sử dụng nhà thầu phụ tối đa 20% trên tổng giá trị (100%) công việc nhưng phải bảo đảm tổng khối lượng công việc của nhà thầu phụ của liên danh A-B tối đa 20% trên tổng giá trị (100%) công việc mà Công ty A và Công ty B đảm nhận",
+            "Tất cả đáp án trên đều đúng"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Công ty A được sử dụng nhà thầu phụ tối đa 20% trên 30% giá trị công việc mà công ty A đảm nhận, Công ty B được sử dụng nhà thầu phụ tối đa 20% trên 70% giá trị công việc mà công ty B đảm nhận. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 38,
+          "question": "Đối với gói thầu xây dựng \"Trường trung học phổ thông A\", bao gồm tổ hợp các công trình: + Nhà A1 (Nhà học): Cao 10 tầng, tổng diện tích sàn 8.000 m2, có giá trị theo dự toán được duyệt là (2X) VND. Nhà A1 là công trình kết cấu dạng nhà cấp II theo quy định của Thông tư số 06/2021/TT-BXD. + Nhà A2 (Nhà học): Cao 6 tầng, tổng diện tích sàn 1.000 m2, có giá trị theo dự toán được duyệt là (Y) VND. Nhà A2 là công trình kết cấu dạng nhà cấp III theo quy định của Thông tư số 06/2021/TT-BXD. + Hàng rào bảo vệ: Cao 3m + Nhà bảo vệ: Cao 1 tầng, diện tích sàn 12 m2. Kinh nghiệm thi công công trình tương tự được quy định trong hồ sơ mời thầu như thế nào là phù hợp?",
+          "options": [
+            "Nhà thầu đã hoàn thành công trình xây dựng nhà, kết cấu dạng nhà cấp II, có giá trị tối thiểu là 50% x (2X) VND",
+            "Nhà thầu đã hoàn thành công trình xây dựng nhà, kết cấu dạng nhà cấp II, có giá trị tối thiểu là 50% x (2X) VND, trong đó phải bao gồm hạng mục hàng rào bảo vệ, nhà bảo vệ",
+            "Nhà thầu đã hoàn thành công trình xây dựng nhà, kết cấu dạng nhà cấp III, có giá trị tối thiểu là 50% x (2X) VND",
+            "Nhà thầu đã hoàn thành công trình xây dựng nhà, kết cấu dạng nhà cấp III, có giá trị tối thiểu là 50% x (2X) VND, trong đó phải bao gồm hạng mục hàng rào bảo vệ, nhà bảo vệ"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Nhà thầu đã hoàn thành công trình xây dựng nhà, kết cấu dạng nhà cấp II, có giá trị tối thiểu là 50% x (2X) VND. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 39,
+          "question": "Gói thầu đang xét là gói thầu giặt cho bệnh viện công lập (có tính chất công việc lặp lại theo chu kỳ qua các năm), có thời gian thực hiện gói thầu trong 3 năm với giá gói thầu là 12 tỷ đồng. Nhà thầu nào được xác định đáp ứng yêu cầu về giá trị hợp đồng tương tự khi tham dự gói thầu này?",
+          "options": [
+            "Nhà thầu A có 01 hợp đồng giặt là X cho bệnh viện công lập có thời gian thực hiện gói thầu là 48 tháng (đang trong quá trình thực hiện, chưa hoàn thành, chưa được thanh lý), nhưng tính đến thời điểm tham dự thầu, nhà thầu A đã thực hiện được 24 tháng, trong đó giá trị công việc đã được nghiệm thu 12 tháng đầu là 1,2 tỷ đồng; (A)",
+            "Nhà thầu B cung cấp 02 hợp đồng, trong đó có hợp đồng giặt X cho khách sạn tư nhân, thời gian thực hiện hợp đồng trong 06 tháng với giá trị là 300 triệu đồng; Hợp đồng giặt là Y cho bệnh viện công lập, thời gian thực hiện hợp đồng trong 24 tháng với giá trị là 3 tỷ đồng, trong đó giá trị công việc đã được nghiệm thu 12 tháng đầu là 1 tỷ đồng. (B)",
+            "Nhà thầu A và B đều đáp ứng",
+            "Nhà thầu A và B đều không đáp ứng"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Nhà thầu A và B đều đáp ứng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 40,
+          "question": "Trường hợp E-HSMT gói thầu xây lắp yêu cầu về cam kết cung cấp tín dụng, nhà thầu được chứng minh bằng cách nào?",
+          "options": [
+            "Bằng số dư tài khoản hoặc tiền gửi tiết kiệm từ ngân hàng",
+            "Bằng cam kết cung cấp tín dụng của ngân hàng",
+            "Bằng xác nhận số dư hạn mức tín dụng khả dụng từ ngân hàng",
+            "Tất cả các phương án trên đều đúng"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Tất cả các phương án trên đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 41,
+          "question": "Chủ đầu tư dự kiến mua sắm hàng hóa (không phải mua sắm tập trung hoặc mua sắm hàng hóa có số lượng, khối lượng mời thầu lớn) như sau: - Hàng hóa A có mã HS là 9035, giá trị dự toán là 4.000.000.000 đồng - Hàng hóa B có mã HS là 9035, giá trị dự toán là 6.000.000.000 E-HSMT yêu cầu về kinh nghiệm thực hiện hợp đồng cung cấp hàng hóa tương tự trong trường hợp nào sau đây là phù hợp?",
+          "options": [
+            "Cung cấp 01 hợp đồng có mã hàng hóa 9035 với giá trị tối thiểu 02 tỷ đồng",
+            "Cung cấp 01 hợp đồng có mã hàng hóa 9035 với giá trị tối thiểu 03 tỷ đồng",
+            "Cung cấp 01 hợp đồng có mã hàng hóa 9035 với giá trị tối thiểu 05 tỷ đồng",
+            "Cung cấp 01 hợp đồng có mã hàng hóa 9035 với giá trị tối thiểu 07 tỷ đồng"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Cung cấp 01 hợp đồng có mã hàng hóa 9035 với giá trị tối thiểu 03 tỷ đồng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 42,
+          "question": "Trường hợp sau khi có quyết định phê duyệt kết quả lựa chọn nhà thầu, nhà thầu không trúng thầu có yêu cầu giải thích về lý do cụ thể không trúng thầu, chủ đầu tư phải trả lời trong thời hạn bao lâu?",
+          "options": [
+            "02 ngày làm việc kể từ ngày được yêu cầu",
+            "03 ngày làm việc kể từ ngày được yêu cầu",
+            "05 ngày làm việc kể từ ngày được yêu cầu",
+            "07 ngày làm việc kể từ ngày được yêu cầu"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: 02 ngày làm việc kể từ ngày được yêu cầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 43,
+          "question": "Gói thầu mua sắm hàng hóa có khối lượng, số lượng công việc căn cứ nhu cầu theo các năm và thời gian thực hiện gói thầu là 02 năm thì E-HSMT quy định về giá trị của hợp đồng tương tự như thế nào?",
+          "options": [
+            "Có giá trị bằng 50% giá gói thầu",
+            "Có giá trị bằng 70% giá gói thầu",
+            "Có giá trị bằng 50% giá trị theo chu kỳ 01 năm của gói thầu",
+            "Có giá trị tối thiểu bằng 50% giá gói thầu"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Có giá trị bằng 50% giá trị theo chu kỳ 01 năm của gói thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 44,
+          "question": "Gói thầu mua sắm hàng hóa chia thành nhiều phần thì việc đánh giá về quy mô hợp đồng tương tự đối với nhà thầu tham dự nhiều phần được thực hiện như thế nào?",
+          "options": [
+            "Việc đánh giá về quy mô hợp đồng tương tự căn cứ trên tổng quy mô hợp đồng tương tự đối với các phần mà nhà thầu tham dự",
+            "Việc đánh giá về quy mô hợp đồng tương tự tương ứng với từng phần mà nhà thầu tham dự, nhà thầu không phải đáp ứng tổng quy mô hợp đồng tương tự đối với các phần mà nhà thầu tham dự",
+            "Việc đánh giá về quy mô hợp đồng tương tự căn cứ trên phần có giá trị nhỏ nhất trong tổng số các phần mà nhà thầu tham dự",
+            "Các phương án trên đều sai"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Việc đánh giá về quy mô hợp đồng tương tự tương ứng với từng phần mà nhà thầu tham dự, nhà thầu không phải đáp ứng tổng quy mô hợp đồng tương tự đối với các phần mà nhà thầu tham dự. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 45,
+          "question": "Trường hợp E-HSMT của gói thầu mua sắm hàng hóa có yêu cầu về cam kết, hợp đồng nguyên tắc bảo hành, bảo trì, duy tu, bảo dưỡng mà E-HSDT của nhà thầu không đính kèm các tài liệu này thì Chủ đầu tư xử lý như thế nào?",
+          "options": [
+            "Hồ sơ dự thầu của nhà thầu bị loại, không được xem xét, đánh giá",
+            "Chủ đầu tư yêu cầu nhà thầu làm rõ, bổ sung tài liệu trong một khoảng thời gian phù hợp nhưng không ít hơn 03 ngày làm việc để làm cơ sở đánh giá E-HSDT",
+            "Xin ý kiến người có thẩm quyền để xử lý tình huống trong đấu thầu trên cơ sở bảo đảm các mục tiêu của công tác đấu thầu",
+            "Tiếp tục đánh giá E-HSDT, trường hợp nhà thầu trúng thầu thì yêu cầu nhà thầu bổ sung, làm rõ tài liệu"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Chủ đầu tư yêu cầu nhà thầu làm rõ, bổ sung tài liệu trong một khoảng thời gian phù hợp nhưng không ít hơn 03 ngày làm việc để làm cơ sở đánh giá E-HSDT. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 46,
+          "question": "Hồ sơ mời thầu của gói thầu xây lắp có quy định cho phép sử dụng nhà thầu phụ, trường hợp nhà thầu đề xuất sử dụng thầu phụ thì việc đánh giá năng lực kinh nghiệm của nhà thầu phụ được thực hiện như thế nào?",
+          "options": [
+            "Đánh giá năng lực, kinh nghiệm của nhà thầu phụ căn cứ theo phần công việc nhà thầu phụ đảm nhận, nhà thầu tham dự thầu không phải đáp ứng về năng lực, kinh nghiệm đối với phần công việc mà nhà thầu phụ đảm nhận",
+            "Không đánh giá năng lực, kinh nghiệm của nhà thầu phụ, nhà thầu tham dự thầu vẫn phải đáp ứng về năng lực, kinh nghiệm đối với phần công việc mà nhà thầu phụ đảm nhận",
+            "Do chủ đầu tư quyết định có đánh giá hoặc không đánh giá năng lực, kinh nghiệm nhà thầu phụ",
+            "Đánh giá năng lực, kinh nghiệm của nhà thầu phụ căn cứ theo phần công việc nhà thầu phụ đảm nhận, nhà thầu tham dự thầu cũng phải đáp ứng về năng lực, kinh nghiệm đối với phần công việc mà nhà thầu phụ đảm nhận"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Không đánh giá năng lực, kinh nghiệm của nhà thầu phụ, nhà thầu tham dự thầu vẫn phải đáp ứng về năng lực, kinh nghiệm đối với phần công việc mà nhà thầu phụ đảm nhận. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 47,
+          "question": "Nhận định nào sau đây là đúng?",
+          "options": [
+            "Trong vòng 05 ngày làm việc, kể từ ngày nhận được yêu cầu của chủ đầu tư, nếu nhà thầu từ chối hoặc không nộp bản gốc thư bảo lãnh dự thầu, giấy chứng nhận bảo hiểm bảo lãnh (đối với trường hợp sử dụng bảo lãnh dự thầu bằng văn bản giấy) theo yêu cầu của chủ đầu tư thì nhà thầu sẽ bị xử lý theo đúng cam kết của nhà thầu trong đơn dự thầu",
+            "Trong vòng 05 ngày làm việc, kể từ ngày nhận được yêu cầu của bên mời thầu, nếu nhà thầu từ chối hoặc không nộp bản gốc thư bảo lãnh dự thầu, giấy chứng nhận bảo hiểm bảo lãnh (đối với trường hợp sử dụng bảo lãnh dự thầu bằng văn bản giấy) theo yêu cầu của bên mời thầu thì nhà thầu sẽ bị xử lý theo đúng cam kết của nhà thầu trong đơn dự thầu",
+            "Trong vòng 05 ngày làm việc, kể từ ngày nhận được yêu cầu của tổ chuyên gia, nếu nhà thầu từ chối hoặc không nộp bản gốc thư bảo lãnh dự thầu, giấy chứng nhận bảo hiểm bảo lãnh (đối với trường hợp sử dụng bảo lãnh dự thầu bằng văn bản giấy) theo yêu cầu của tổ chuyên gia thì nhà thầu sẽ bị xử lý theo đúng cam kết của nhà thầu trong đơn dự thầu",
+            "Trong vòng 05 ngày làm việc, kể từ ngày nhận được yêu cầu của tư vấn đấu thầu, nếu nhà thầu từ chối hoặc không nộp bản gốc thư bảo lãnh dự thầu, giấy chứng nhận bảo hiểm bảo lãnh (đối với trường hợp sử dụng bảo lãnh dự thầu bằng văn bản giấy) theo yêu cầu của tư vấn đấu thầu thì nhà thầu sẽ bị xử lý theo đúng cam kết của nhà thầu trong đơn dự thầu"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Trong vòng 05 ngày làm việc, kể từ ngày nhận được yêu cầu của chủ đầu tư, nếu nhà thầu từ chối hoặc không nộp bản gốc thư bảo lãnh dự thầu, giấy chứng nhận bảo hiểm bảo lãnh (đối với trường hợp sử dụng bảo lãnh dự thầu bằng văn bản giấy) theo yêu cầu của chủ đầu tư thì nhà thầu sẽ bị xử lý theo đúng cam kết của nhà thầu trong đơn dự thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 48,
+          "question": "Đối với đấu thầu qua mạng, thành phần nào sau đây không được coi là một phần của E-HSMST, E-HSMT và nhà thầu không phải đáp ứng các yêu cầu này?",
+          "options": [
+            "Bảng dữ liệu được số hóa dưới dạng webform trên Hệ thống mạng đấu thầu quốc gia (A)",
+            "Tiêu chuẩn đánh giá về tính hợp lệ được đính kèm trên Hệ thống mạng đấu thầu quốc gia (B)",
+            "Yêu cầu về năng lực, kinh nghiệm được đính kèm trên Hệ thống mạng đấu thầu quốc gia (C)",
+            "Phương án B và C đều đúng"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Phương án B và C đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 49,
+          "question": "Đối với đấu thầu không qua mạng, việc phê duyệt và phát hành hồ sơ mời thầu được thực hiện theo phương án nào sau đây?",
+          "options": [
+            "Phê duyệt và phát hành hồ sơ mời thầu trên Hệ thống mạng đấu thầu quốc gia",
+            "Phê duyệt trên Hệ thống mạng đấu thầu quốc gia và phát hành hồ sơ mời thầu bản giấy",
+            "Phê duyệt và phát hành hồ sơ mời thầu bản giấy",
+            "Các phương án trên đều đúng"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Phê duyệt và phát hành hồ sơ mời thầu trên Hệ thống mạng đấu thầu quốc gia. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 50,
+          "question": "Đối với đấu thầu qua mạng, trường hợp E-HSMT có yêu cầu cung cấp hàng mẫu, nhà thầu có thể nộp bổ sung hàng mẫu theo phương án nào sau đây?",
+          "options": [
+            "Trong thời hạn 03 ngày làm việc sau thời điểm đóng thầu",
+            "Trong thời hạn 03 ngày làm việc sau thời điểm mở thầu",
+            "Trong thời hạn 05 ngày làm việc sau thời điểm đóng thầu",
+            "Trong thời hạn 05 ngày làm việc sau thời điểm mở thầu"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Trong thời hạn 05 ngày làm việc sau thời điểm đóng thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 51,
+          "question": "Nhà thầu có được tham dự thầu với tư cách nhà thầu liên danh trong trường hợp phạm vi công việc của gói thầu mua sắm hàng hóa chỉ gồm 01 hạng mục là hệ thống máy chủ không?",
+          "options": [
+            "Được liên danh nếu nhà thầu phân chia công việc trong liên danh theo các công việc thuộc quá trình sản xuất hạng mục trong bảng giá dự thầu",
+            "Không được liên danh, nhà thầu chỉ được tham dự với tư cách độc lập do phạm vi công việc chỉ gồm 01 hạng mục",
+            "Được liên danh trong trường hợp 01 thành viên thực hiện toàn bộ hạng mục hệ thống máy chủ, thành viên còn lại thực hiện thu xếp tài chính cho gói thầu",
+            "Tùy thuộc vào quy định của hồ sơ mời thầu"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Được liên danh nếu nhà thầu phân chia công việc trong liên danh theo các công việc thuộc quá trình sản xuất hạng mục trong bảng giá dự thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 52,
+          "question": "Đối với gói thầu mua sắm hàng hóa áp dụng hình thức chào hàng cạnh tranh, trường hợp hồ sơ mời thầu không yêu cầu về năng lực kinh nghiệm thì việc đánh giá được thực hiện như thế nào?",
+          "options": [
+            "Không phải đánh giá về năng lực kinh nghiệm nhưng nhà thầu phải cam kết đáp ứng năng lực kinh nghiệm trong đơn dự thầu (A)",
+            "Trường hợp nhà thầu đính kèm tài liệu về năng lực kinh nghiệm thì chủ đầu tư bắt buộc phải đánh giá về năng lực kinh nghiệm của nhà thầu (B)",
+            "Bắt buộc phải đánh giá năng lực kinh nghiệm nhà thầu (C)",
+            "Phương án A và B đều đúng"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Không phải đánh giá về năng lực kinh nghiệm nhưng nhà thầu phải cam kết đáp ứng năng lực kinh nghiệm trong đơn dự thầu (A). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 53,
+          "question": "Hợp đồng nào được phép sử dụng để chứng minh hợp đồng tương tự khi tham dự gói thầu cung cấp thuốc có sử dụng ngân sách nhà nước của Bệnh viện?",
+          "options": [
+            "Hợp đồng thuốc đã cung cấp thuốc cho cơ sở khám chữa bệnh tư nhân (A)",
+            "Hợp đồng thuốc đã cung cấp thuốc cho các cơ sở kinh doanh thuốc (B)",
             "Phương án A và B đều đúng (C)",
             "Phương án A và B đều sai"
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Hợp đồng điện tử trong mua sắm tập trung có thể ký giữa đơn vị mua sắm tập trung với nhà thầu hoặc giữa đơn vị có nhu cầu mua sắm với nhà thầu tùy mô hình tổ chức mua sắm. Vì đề nêu cả hai khả năng nên phương án tổng hợp là đúng."
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Phương án A và B đều đúng (C). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (6.1-MSTT-YT)-N",
-          "number": 5,
-          "question": "Tại bước hoàn thiện, ký kết và thực hiện hợp đồng với nhà thầu đối với gói thầu mua sắm tập trung:",
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 54,
+          "question": "Công việc nào sau đây phải thực hiện trên Hệ thống mạng đấu thầu quốc gia?",
           "options": [
-            "Nhà thầu đã ký kết thỏa thuận khung phải thực hiện biện pháp bảo đảm thực hiện hợp đồng trước hoặc cùng thời điểm hợp đồng có hiệu lực cho đơn vị mua sắm tập trung",
-            "Nhà thầu đã ký kết thỏa thuận khung phải thực hiện biện pháp bảo đảm thực hiện hợp đồng trước hoặc cùng thời điểm hợp đồng có hiệu lực cho đơn vị có nhu cầu mua sắm",
-            "Nhà thầu đã ký kết thỏa thuận khung không phải thực hiện biện pháp bảo đảm thực hiện hợp đồng trước thời điểm hợp đồng có hiệu lực cho đơn vị có nhu cầu mua sắm",
-            "Nhà thầu đã ký kết thỏa thuận khung phải thực hiện biện pháp bảo đảm thực hiện hợp đồng sau thời điểm hợp đồng có hiệu lực cho đơn vị mua sắm tập trung"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Mua sắm tập trung gom nhu cầu của nhiều đơn vị để lựa chọn nhà thầu chung, sau đó phân bổ/ký hợp đồng theo thỏa thuận khung hoặc danh sách trúng thầu. Phương án “Nhà thầu đã ký kết thỏa thuận khung phải thực hiện biện pháp bảo đảm thực hiện hợp đồng trước hoặc cùng thời điểm hợp đồng có hiệu lực cho đơn vị có nhu cầu mua sắm” đúng vì bám đúng vai trò của đơn vị mua sắm tập trung và cách thực hiện sau lựa chọn."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (6.1-MSTT-YT)-N",
-          "number": 9,
-          "question": "Nhà thầu đã ký thỏa thuận khung và được đơn vị có nhu cầu mua sắm yêu cầu ký hợp đồng nhưng không ký hợp đồng, không thực hiện biện pháp bảo đảm thực hiện hợp đồng sẽ bị xử lý như thế nào?",
-          "options": [
-            "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 06 tháng kể từ ngày đơn vị có nhu cầu mua sắm công khai tên nhà thầu trên Hệ thống mạng đấu thầu quốc gia",
-            "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 06 tháng kể từ ngày đơn vị mua sắm tập trung công khai tên nhà thầu trên Hệ thống mạng đấu thầu quốc gia, trừ trường hợp bất khả kháng",
-            "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn trong thời hạn 03 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của đơn vị có nhu cầu mua sắm, trừ trường hợp bất khả kháng",
-            "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn trong thời hạn 06 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của đơn vị có nhu cầu mua sắm, trừ trường hợp bất khả kháng"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Bảo đảm thực hiện hợp đồng phát sinh sau khi có kết quả lựa chọn nhà thầu và trước/khi ký hợp đồng, nhằm bảo đảm nhà thầu thực hiện đúng nghĩa vụ đã cam kết. Cần phân biệt với bảo đảm dự thầu là nghĩa vụ ở giai đoạn dự thầu."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (7.1 - HĐ)-N",
-          "number": 1,
-          "question": "Hồ sơ hợp đồng bao gồm các tài liệu nào sau đây?",
-          "options": [
-            "Văn bản hợp đồng",
-            "Phụ lục hợp đồng gồm danh mục chi tiết về phạm vi công việc, biểu giá, tiến độ thực hiện (nếu có)",
-            "Quyết định phê duyệt kết quả lựa chọn nhà thầu",
-            "Tất cả các phương án trên."
+            "Lập E-HSMT",
+            "Trình phê duyệt E-HSMT, phê duyệt E-HSMT",
+            "Phê duyệt kết quả lựa chọn nhà thầu",
+            "Tất cả các phương án trên đều đúng"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Hồ sơ hợp đồng không chỉ có văn bản hợp đồng mà còn gồm phụ lục, quyết định phê duyệt kết quả, biên bản hoàn thiện hợp đồng, E-HSDT/HSDT và E-HSMT/HSMT cùng các tài liệu liên quan. Vì vậy phương án “tất cả” đúng khi liệt kê đủ các nhóm tài liệu cấu thành hợp đồng."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Tất cả các phương án trên đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (7.1 - HĐ)-N",
-          "number": 2,
-          "question": "Hợp đồng theo theo tỷ lệ phần trăm có thể được áp dụng đối với gói thầu nào sau đây?",
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 55,
+          "question": "Nội dung nào sau đây nếu đưa vào E-HSMT gói thầu mua sắm hàng hóa có thể bị đánh giá là hạn chế cạnh tranh?",
           "options": [
-            "Mua sắm thiết bị y tế",
-            "Xây dựng công trình",
-            "Bảo hiểm công trình mà giá trị hợp đồng được xác định chính xác trên cơ sở giá trị công trình thực tế được nghiệm thu",
-            "Tư vấn giám sát"
+            "Yêu cầu nhà thầu cung cấp tài liệu chứng minh hợp đồng tương tự",
+            "Yêu cầu nhà thầu phải là chủ sở hữu thiết bị chào thầu",
+            "Yêu cầu nhà thầu có năng lực tài chính lành mạnh",
+            "Yêu cầu nhà thầu phải hoàn thành nghĩa vụ thuế"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Yêu cầu nhà thầu phải là chủ sở hữu thiết bị chào thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 56,
+          "question": "Việc đánh giá về nhân sự chủ chốt và thiết bị chủ yếu đối với gói thầu xây lắp tổ chức đấu thầu rộng rãi được thực hiện như thế nào?",
+          "options": [
+            "Đánh giá tất cả các nhà thầu tham dự thầu",
+            "Đánh giá đối với nhà thầu xếp thứ nhất",
+            "Đánh giá đối với tất cả các nhà thầu được đánh giá đạt về kỹ thuật",
+            "Không đánh giá về nhân sự chủ chốt và thiết bị chủ yếu"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Đánh giá đối với nhà thầu xếp thứ nhất. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 57,
+          "question": "E-HSMT gói thầu mua sắm hàng hóa có yêu cầu cung cấp hàng mẫu, trong trường hợp này hàng mẫu được nhà thầu gửi đến chủ đầu tư theo cách thức nào sau đây là phù hợp?",
+          "options": [
+            "Nhà thầu có thể nộp bổ sung hàng mẫu trong thời hạn 05 ngày làm việc sau thời điểm đóng thầu",
+            "Nhà thầu phải nộp hàng mẫu ngay sau khi nộp thành công E-HSDT trên Hệ thống mạng đấu thầu quốc gia",
+            "Nhà thầu nộp hàng mẫu trong thời hạn 05 ngày sau khi nộp thành công E-HSDT trên Hệ thống mạng đấu thầu quốc gia",
+            "Các phương án trên đều sai."
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Nhà thầu có thể nộp bổ sung hàng mẫu trong thời hạn 05 ngày làm việc sau thời điểm đóng thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 58,
+          "question": "Đối với gói thầu bảo hiểm, nhà thầu tham dự thầu có được xuất trình giấy chứng nhận bảo hiểm bảo lãnh do chính mình phát hành không?",
+          "options": [
+            "Được dùng giấy chứng nhận bảo hiểm bảo lãnh do chính mình phát hành nếu nhà thầu là doanh nghiệp bảo hiểm uy tín",
+            "Không được dùng giấy chứng nhận bảo hiểm bảo lãnh do chính mình phát hành nếu giá trị bảo lãnh từ 50 triệu đồng trở lên, được dùng nếu giá trị bảo lãnh nhỏ hơn 50 triệu đồng",
+            "Chỉ được dùng giấy chứng nhận bảo hiểm bảo lãnh do chính mình phát hành nếu giá trị bảo lãnh nhỏ hơn 50 triệu đồng",
+            "Tất cả phương án đều sai"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Tất cả phương án đều sai. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 59,
+          "question": "Nội dung nào không phải là tiêu chuẩn đánh giá về tính hợp lệ của hồ sơ dự thầu gói thầu tư vấn?",
+          "options": [
+            "Hiệu lực của hồ sơ đề xuất về kỹ thuật đáp ứng yêu cầu theo quy định trong hồ sơ mời thầu",
+            "Có bản gốc hồ sơ đề xuất về kỹ thuật",
+            "Bảo đảm dự thầu hợp lệ",
+            "Đã thực hiện nghĩa vụ kê khai thuế và nộp thuế"
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Phương án “Bảo hiểm công trình mà giá trị hợp đồng được xác định chính xác trên cơ sở giá trị công trình thực tế được nghiệm thu” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Bảo đảm dự thầu, hợp đồng và xử lý hồ sơ”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Bảo đảm dự thầu hợp lệ. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (7.1 - HĐ)-N",
-          "number": 3,
-          "question": "Cơ sở để thanh toán hợp đồng cho nhà thầu là gì?",
+          "source": "Chuyen_de_04_Ho_so_moi_thau_va_chuan_bi_LCNT.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 60,
+          "question": "Chủ đầu tư A đang lập E HSMT cho gói thầu dịch vụ tư vấn, tiêu chuẩn đánh giá về kỹ thuật sử dụng phương pháp kết hợp giữa kỹ thuật và giá (thang điểm 100), điểm yêu cầu tối thiểu về kỹ thuật là 70 điểm, trong đó quy định điểm tối đa đối với từng nội dung như sau: - Kinh nghiệm và năng lực của nhà thầu: 5 điểm - Uy tín của nhà thầu: 5 điểm - Giải pháp và phương pháp luận: 30 điểm - Nhân sự chủ chốt: 60 Quy định nào sau đây về mức điểm yêu cầu tối thiểu về kỹ thuật đối với từng nội dung là phù hợp?",
           "options": [
-            "Giá hợp đồng và các điều khoản cụ thể về thanh toán được ghi trong hợp đồng (A)",
-            "Dự toán gói thầu và các điều khoản cụ thể về thanh toán được ghi trong hợp đồng (B)",
-            "Dự toán gói thầu (C)",
-            "Phương án A và C đều sai"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Phương án “Giá hợp đồng và các điều khoản cụ thể về thanh toán được ghi trong hợp đồng” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Bảo đảm dự thầu, hợp đồng và xử lý hồ sơ”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (7.1 - HĐ)-N",
-          "number": 4,
-          "question": "Nhà thầu không được hoàn trả bảo đảm thực hiện hợp đồng trong trường hợp nào?",
-          "options": [
-            "Từ chối thực hiện hợp đồng khi hợp đồng đã có hiệu lực",
-            "Thực hiện hợp đồng chậm tiến độ nhưng vẫn hoàn thành hợp đồng",
-            "Nhà thầu đề nghị điều chỉnh tiến độ do bất khả kháng",
-            "Nhà thầu đề xuất thay đổi nhà thầu phụ"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Bảo đảm thực hiện hợp đồng phát sinh sau khi có kết quả lựa chọn nhà thầu và trước/khi ký hợp đồng, nhằm bảo đảm nhà thầu thực hiện đúng nghĩa vụ đã cam kết. Cần phân biệt với bảo đảm dự thầu là nghĩa vụ ở giai đoạn dự thầu."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (7.1 - HĐ)-N",
-          "number": 5,
-          "question": "Trường hợp nào sau đây phải áp dụng bảo đảm thực hiện hợp đồng?",
-          "options": [
-            "Nhà thầu cung dịch vụ phi tư vấn",
-            "Nhà thầu thực hiện gói thầu có giá gói thầu thuộc hạn mức chỉ định thầu",
-            "Nhà thầu cung cấp dịch vụ tư vấn",
-            "Nhà thầu được lựa chọn theo hình thức tự thực hiện"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Bảo đảm thực hiện hợp đồng phát sinh sau khi có kết quả lựa chọn nhà thầu và trước/khi ký hợp đồng, nhằm bảo đảm nhà thầu thực hiện đúng nghĩa vụ đã cam kết. Cần phân biệt với bảo đảm dự thầu là nghĩa vụ ở giai đoạn dự thầu."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (7.1 - HĐ)-N",
-          "number": 7,
-          "question": "Khi sửa đổi hợp đồng làm thay đổi thời gian thực hiện nhưng không vượt thời gian thực hiện dự án, ai có quyền quyết định sửa đổi hợp đồng?",
-          "options": [
-            "Người có thẩm quyền",
-            "Chủ đầu tư",
-            "Cơ quan quản lý cấp trên của chủ đầu tư",
-            "Bên mời thầu"
+            "Kinh nghiệm và năng lực của nhà thầu: 3 điểm; uy tín của nhà thầu: 3 điểm; giải pháp và phương pháp luận: 18 điểm; nhân sự chủ chốt: 36 điểm",
+            "Kinh nghiệm và năng lực của nhà thầu: 3.5 điểm; uy tín của nhà thầu: 3,5 điểm; giải pháp và phương pháp luận: 21 điểm; nhân sự chủ chốt: 42 điểm",
+            "Kinh nghiệm và năng lực của nhà thầu: 3 điểm; uy tín của nhà thầu: 0 điểm; giải pháp và phương pháp luận: 18 điểm; nhân sự chủ chốt: 36 điểm",
+            "Kinh nghiệm và năng lực của nhà thầu: 3.5 điểm; uy tín của nhà thầu: 0 điểm; giải pháp và phương pháp luận: 21 điểm; nhân sự chủ chốt: 42 điểm"
           ],
           "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Sửa đổi/điều chỉnh hợp đồng chỉ được thực hiện trong phạm vi pháp luật và điều kiện hợp đồng cho phép, không được làm thay đổi bản chất gói thầu hoặc phá vỡ kết quả lựa chọn nhà thầu. Điểm cần nhớ là mọi điều chỉnh phải có căn cứ, thẩm quyền và không hợp thức hóa sai lệch sau đấu thầu."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (7.1 - HĐ)-N",
-          "number": 8,
-          "question": "Thời gian có hiệu lực của bảo đảm thực hiện hợp đồng được tính từ khi nào đến khi nào?",
-          "options": [
-            "Từ ngày ký hợp đồng đến ngày thanh toán cuối cùng",
-            "Từ ngày hợp đồng có hiệu lực đến ngày các bên hoàn thành nghĩa vụ hoặc chuyển sang thực hiện nghĩa vụ bảo hành đối với trường hợp có quy định về bảo hành",
-            "Từ ngày nộp hồ sơ dự thầu đến ngày hoàn thành nghĩa vụ theo hợp đồng",
-            "Từ ngày thông báo trúng thầu đến ngày hết thời hạn bảo hành"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Bảo đảm thực hiện hợp đồng phát sinh sau khi có kết quả lựa chọn nhà thầu và trước/khi ký hợp đồng, nhằm bảo đảm nhà thầu thực hiện đúng nghĩa vụ đã cam kết. Cần phân biệt với bảo đảm dự thầu là nghĩa vụ ở giai đoạn dự thầu."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (7.1 - HĐ)-N",
-          "number": 9,
-          "question": "Hợp đồng theo thời gian có thể áp dụng trong trường hợp nào?",
-          "options": [
-            "Trong tình trạng khẩn cấp",
-            "Sửa chữa bảo trì công trình máy móc thiết bị Sửa chữa, bảo trì công trình, máy móc, thiết bị",
-            "Dịch vụ tư vấn khi khó xác định được phạm vi và thời gian thực hiện dịch vụ",
-            "Tất cả phương án trên đều đúng"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Câu này yêu cầu nhận diện một nhóm nhận định cùng đúng/sai, không chỉ một ý đơn lẻ. Phương án “Tất cả phương án trên đều đúng” được chọn vì các ý còn lại khi ghép lại phản ánh đầy đủ hơn quy định trong chủ đề “Bảo đảm dự thầu, hợp đồng và xử lý hồ sơ”. Khi ôn, nên đọc từng mệnh đề rồi kiểm tra xem chúng có cùng thuộc một điều kiện/quy trình hay không."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (7.1 - HĐ)-N",
-          "number": 10,
-          "question": "Giá trị bảo đảm thực hiện hợp đồng được xác định dựa trên cơ sở nào?",
-          "options": [
-            "Giá gói thầu",
-            "Giá hợp đồng",
-            "Giá dự thầu của nhà thầu",
-            "Tổng mức đầu tư của dự án"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Bảo đảm thực hiện hợp đồng phát sinh sau khi có kết quả lựa chọn nhà thầu và trước/khi ký hợp đồng, nhằm bảo đảm nhà thầu thực hiện đúng nghĩa vụ đã cam kết. Cần phân biệt với bảo đảm dự thầu là nghĩa vụ ở giai đoạn dự thầu."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (7.1 - HĐ)-N",
-          "number": 12,
-          "question": "Các bên không phải ký kết văn bản sửa đổi hợp đồng khi thay đổi giá hợp đồng nếu đáp ứng đủ điều kiện nào sau đây?",
-          "options": [
-            "Không vượt giá gói thầu, nhưng có thể vượt thời gian thực hiện gói thầu ghi trong hợp đồng",
-            "Không vượt giá gói thầu, không vượt thời gian thực hiện gói thầu ghi trong hợp đồng và phương pháp, công thức, hạng mục và các nội dung cần thiết để điều chỉnh đã quy định trong hợp đồng",
-            "Không vượt thời gian thực hiện gói thầu ghi trong hợp đồng nhưng có thể vượt giá gói thầu",
-            "Khi thay đổi thời gian thực hiện hợp đồng nhưng không làm vượt thời gian thực hiện dự án hoặc vượt giá gói thầu (bao gồm dự phòng) được duyệt nhưng không làm vượt tổng mức đầu tư"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Sửa đổi/điều chỉnh hợp đồng chỉ được thực hiện trong phạm vi pháp luật và điều kiện hợp đồng cho phép, không được làm thay đổi bản chất gói thầu hoặc phá vỡ kết quả lựa chọn nhà thầu. Điểm cần nhớ là mọi điều chỉnh phải có căn cứ, thẩm quyền và không hợp thức hóa sai lệch sau đấu thầu."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (7.1 - HĐ)-N",
-          "number": 13,
-          "question": "Đâu là điểm khác biệt chính giữa hợp đồng theo đơn giá cố định và hợp đồng theo đơn giá điều chỉnh?",
-          "options": [
-            "Hợp đồng theo đơn giá cố định áp dụng cho gói thầu có thời gian thực hiện dài, hợp đồng theo đơn giá điều chỉnh áp dụng cho gói thầu có thời gian thực hiện ngắn",
-            "Đơn giá trong hợp đồng đơn giá cố định không thay đổi còn đơn giá trong hợp đồng đơn giá điều chỉnh có thể Đơn giá trong hợp đồng đơn giá cố định không thay đổi, còn đơn giá trong hợp đồng đơn giá điều chỉnh có thể",
-            "Hợp đồng theo đơn giá cố định không có chi phí dự phòng, còn hợp đồng theo đơn giá điều chỉnh có chi phí dự",
-            "Hợp đồng theo đơn giá cố định chỉ áp dụng cho gói thầu dịch vụ tư vấn, hợp đồng theo đơn giá điều chỉnh áp dụng cho gói thầu xây lắp"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Phương án “Đơn giá trong hợp đồng đơn giá cố định không thay đổi còn đơn giá trong hợp đồng đơn giá điều chỉnh có thể Đơn giá trong hợp đồng đơn giá cố định không thay đổi, còn đơn giá trong hợp đồng đơn giá điều chỉnh có thể” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Bảo đảm dự thầu, hợp đồng và xử lý hồ sơ”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (7.1 - HĐ)-N",
-          "number": 14,
-          "question": "So sánh hai tình huống sửa đổi hợp đồng: (1) Vượt giá gói thầu 10% nhưng không vượt tổng mức đầu tư; (2) Vượt giá gói thầu 2% và làm tổng mức đầu tư tăng 1%, thẩm quyền phê duyệt có gì khác nhau?",
-          "options": [
-            "Cả 2 tình huống đều do chủ đầu tư quyết định",
-            "Tình huống (1) do chủ đầu tư quyết định, tình huống (2) phải trình người có thẩm quyền xem xét, quyết định",
-            "Cả 2 tình huống đều do người có thẩm quyền quyết định",
-            "Tình huống (1) phải trình người có thẩm quyền cho phép, tình huống (2) do Chủ tịch Uỷ ban nhân dân tỉnh quyết định"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Sửa đổi/điều chỉnh hợp đồng chỉ được thực hiện trong phạm vi pháp luật và điều kiện hợp đồng cho phép, không được làm thay đổi bản chất gói thầu hoặc phá vỡ kết quả lựa chọn nhà thầu. Điểm cần nhớ là mọi điều chỉnh phải có căn cứ, thẩm quyền và không hợp thức hóa sai lệch sau đấu thầu."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (7.1 - HĐ)-N",
-          "number": 16,
-          "question": "Đối với nhà thầu liên danh, việc ký kết văn bản hợp đồng được thực hiện như thế nào?",
-          "options": [
-            "Các thành viên liên danh có thể ủy quyền cho thành viên đứng đầu liên danh ký, đóng dấu (nếu có)",
-            "Tất cả thành viên tham gia liên danh phải trực tiếp ký, đóng dấu (nếu có)",
-            "Các thành viên liên danh có thể ủy quyền cho bất kỳ thành viên nào trong liên danh ký, đóng dấu (nếu có)",
-            "Bất kỳ thành viên nào trong liên danh cũng có thể đại diện ký, đóng dấu (nếu có)"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Với nhà thầu liên danh, trách nhiệm và năng lực được xem xét theo phần việc mà từng thành viên đảm nhận và theo cam kết liên danh. Nếu một thành viên vi phạm hoặc không còn năng lực, hệ quả pháp lý thường gắn với thành viên đó và phần việc liên quan, đồng thời phải bảo đảm liên danh còn khả năng thực hiện hợp đồng."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (7.1 - HĐ)-N",
-          "number": 17,
-          "question": "Nhà thầu thực hiện gói thầu xây lắp theo hình thức lựa chọn nhà thầu nào thì không phải thực hiện bảo đảm thực hiện hợp đồng?",
-          "options": [
-            "Đấu thầu rộng rãi",
-            "Tự thực hiện",
-            "Đấu thầu hạn chế",
-            "Chào hàng cạnh tranh"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Bảo đảm thực hiện hợp đồng phát sinh sau khi có kết quả lựa chọn nhà thầu và trước/khi ký hợp đồng, nhằm bảo đảm nhà thầu thực hiện đúng nghĩa vụ đã cam kết. Cần phân biệt với bảo đảm dự thầu là nghĩa vụ ở giai đoạn dự thầu."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
-          "number": 8,
-          "question": "Trường hợp phải chấm dứt hợp đồng với nhà thầu vi phạm hợp đồng để thay thế nhà thầu mới thì phần công việc chưa thực hiện được áp dụng hình thức chỉ định thầu cho nhà thầu khác với giá trị được tính như nào?",
-          "options": [
-            "Bằng giá trị ghi trong hợp đồng trừ đi giá trị của phần công việc đã thực hiện, được nghiệm thu trước đó",
-            "Bằng giá trị ghi trong hợp đồng được cập nhật giá tại thời điểm áp dụng hình thức chỉ định thầu trừ đi giá trị của phần công việc đã thực hiện, được nghiệm thu trước đó",
-            "Bằng giá trị của phần công việc còn lại được cập nhật giá tại thời điểm áp dụng hình thức chỉ định thầu",
-            "Bằng giá trị ghi trong hợp đồng trừ đi giá trị của phần công việc đã thực hiện trước đó theo dự toán được duyệt"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Phương án “Bằng giá trị ghi trong hợp đồng trừ đi giá trị của phần công việc đã thực hiện, được nghiệm thu trước đó” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Bảo đảm dự thầu, hợp đồng và xử lý hồ sơ”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
-          "number": 9,
-          "question": "Đối với nhà thầu liên danh, trường hợp trong quá trình thực hiện hợp đồng cần đẩy nhanh tiến độ thực hiện so với hợp đồng đã ký (cần sửa đổi hợp đồng) thì cần thực hiện như thế nào?",
-          "options": [
-            "Các thành viên liên danh thỏa thuận, điều chỉnh về phạm vi công việc, tiến độ được rút ngắn và không phải thông báo cho chủ đầu tư",
-            "Các thành viên liên danh thỏa thuận, điều chỉnh về phạm vi công việc, tiến độ được rút ngắn và thông báo cho chủ đầu tư",
-            "Phải được người có thẩm quyền cho phép chủ đầu tư và nhà thầu thỏa thuận, điều chỉnh phạm vi công việc giữa các thành viên liên danh phù hợp với tiến độ hoặc tiến độ được rút ngắn",
-            "Chủ đầu tư và nhà thầu được thỏa thuận điều chỉnh phạm vi công việc giữa các thành viên liên danh phù hợp với tiến độ hoặc tiến độ được rút ngắn"
-          ],
-          "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Với nhà thầu liên danh, trách nhiệm và năng lực được xem xét theo phần việc mà từng thành viên đảm nhận và theo cam kết liên danh. Nếu một thành viên vi phạm hoặc không còn năng lực, hệ quả pháp lý thường gắn với thành viên đó và phần việc liên quan, đồng thời phải bảo đảm liên danh còn khả năng thực hiện hợp đồng."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
-          "number": 13,
-          "question": "Đối với trường hợp hủy thầu thì phải thực hiện giải pháp nào sau đây?",
-          "options": [
-            "Phải điều chỉnh thời gian bắt đầu tổ chức lựa chọn nhà thầu trong kế hoạch lựa chọn nhà thầu",
-            "Phải điều chỉnh thời gian thực hiện gói thầu trong kế hoạch lựa chọn nhà thầu",
-            "Không phải điều chỉnh thời gian bắt đầu tổ chức lựa chọn nhà thầu trong kế hoạch lựa chọn nhà thầu",
-            "Tất cả các đáp án trên đều không đúng."
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Hủy thầu là biện pháp làm chấm dứt quá trình lựa chọn nhà thầu trong các trường hợp luật định như hồ sơ không đáp ứng, thay đổi mục tiêu/phạm vi hoặc có vi phạm nghiêm trọng. Không hủy thầu chỉ vì chủ đầu tư muốn chọn lại khi chưa có căn cứ."
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Kinh nghiệm và năng lực của nhà thầu: 3.5 điểm; uy tín của nhà thầu: 3,5 điểm; giải pháp và phương pháp luận: 21 điểm; nhân sự chủ chốt: 42 điểm. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         }
       ]
     },
     {
-      "title": "Mua sắm tập trung, y tế, trực tiếp, trực tuyến",
+      "title": "Đấu thầu qua mạng và hệ thống mạng đấu thầu quốc gia",
       "theory": [
         {
-          "heading": "1. Mua sắm tập trung: gom nhu cầu để mua hiệu quả hơn",
+          "heading": "Nguồn pháp lý tham khảo",
           "points": [
-            "Mua sắm tập trung áp dụng khi nhiều đơn vị có cùng nhu cầu về hàng hóa/dịch vụ, giúp thống nhất tiêu chuẩn, giảm giá nhờ quy mô và giảm lặp lại thủ tục ở từng đơn vị.",
-            "Đơn vị mua sắm tập trung có thể thuộc bộ, cơ quan trung ương, địa phương hoặc doanh nghiệp. Nếu đơn vị mua sắm tập trung không đủ năng lực, có thể thuê tư vấn đấu thầu có kinh nghiệm để thực hiện lựa chọn nhà thầu.",
-            "Kết quả mua sắm tập trung thường dẫn tới thỏa thuận khung hoặc danh sách nhà thầu trúng thầu. Đơn vị có nhu cầu sẽ ký hợp đồng/đặt hàng theo kết quả đó."
-          ]
-        },
-        {
-          "heading": "2. Thỏa thuận khung, danh sách chính - dự bị, đơn hàng",
-          "points": [
-            "Thỏa thuận khung là văn bản xác lập điều kiện mua sắm với nhà thầu trúng thầu: mặt hàng, tiêu chuẩn, giá, thời hạn, nghĩa vụ cung ứng. Nó là nền cho các hợp đồng hoặc đơn hàng cụ thể.",
-            "Thời hạn thỏa thuận khung được ghi trong kế hoạch lựa chọn nhà thầu và hồ sơ mời thầu; ngân hàng câu hỏi đang ghi nhớ mốc không quá 36 tháng.",
-            "Với mua sắm tập trung theo khả năng cung cấp hoặc theo khối lượng mời thầu, có thể có danh sách chính và danh sách dự bị. Danh sách dự bị chỉ có ý nghĩa khi nhà thầu chính không đáp ứng nghĩa vụ theo quy định.",
-            "Khi đơn vị có nhu cầu gửi yêu cầu đặt hàng trong mua sắm trực tuyến, Hệ thống tự động gửi thông báo đến nhà thầu đã trúng thầu/đã có hàng hóa tương ứng; nhà thầu thường phải phản hồi trong 03 ngày làm việc theo ngân hàng câu hỏi."
-          ]
-        },
-        {
-          "heading": "3. Quy định về mua thuốc, hóa chất, vật tư xét nghiệm, thiết bị y tế của bệnh viện",
-          "points": [
-            "Nhóm y tế được quy định riêng vì liên quan trực tiếp đến tính liên tục khám chữa bệnh, chất lượng chuyên môn, an toàn người bệnh, đăng ký lưu hành, hạn dùng, bảo quản, tương thích thiết bị và thanh toán bảo hiểm y tế.",
-            "Bệnh viện/cơ sở khám chữa bệnh công lập khi mua thuốc, hóa chất, vật tư xét nghiệm, thiết bị y tế thường phải lập nhu cầu, kế hoạch lựa chọn nhà thầu, tiêu chuẩn kỹ thuật và tổ chức lựa chọn theo Luật Đấu thầu, Nghị định hướng dẫn và quy định chuyên ngành y tế.",
-            "Với hóa chất, vật tư xét nghiệm gắn với máy xét nghiệm, hồ sơ mời thầu có thể yêu cầu nhà thầu cung cấp trọn gói thiết bị, hóa chất, vật tư xét nghiệm và dịch vụ đi kèm. Khi đó đơn giá có thể tính theo từng dịch vụ kỹ thuật, bao gồm cả thiết bị, hóa chất, vật tư, bảo hành, bảo dưỡng, lắp đặt, đào tạo và chi phí liên quan.",
-            "Chủ đầu tư phải yêu cầu nhà thầu liệt kê đầy đủ hóa chất, vật tư xét nghiệm và vật tư đi kèm để thực hiện từng dịch vụ kỹ thuật; phải quan tâm thời hạn sử dụng, lưu kho, bảo quản, bảo đảm dịch vụ không bị gián đoạn.",
-            "Đối với thuốc, thiết bị y tế, vật tư xét nghiệm chỉ có 01 hoặc 02 hãng sản xuất, câu hỏi thường dẫn đến hình thức đàm phán giá. Logic là thị trường quá ít nguồn cung nên đấu thầu cạnh tranh thông thường không phản ánh đúng khả năng mua sắm."
+            "Luật Đấu thầu số 22/2023/QH15: https://vanban.chinhphu.vn/?classid=1&docid=208419&orggroupid=1&pageid=27160",
+            "Luật số 57/2024/QH15: https://vanban.chinhphu.vn/?classid=1&docid=212485&orggroupid=1&pageid=27160",
+            "Luật số 90/2025/QH15: https://vanban.chinhphu.vn/?docid=214558&orggroupid=1&pageid=27160",
+            "Nghị định số 214/2025/NĐ-CP: https://vanban.chinhphu.vn/?classid=1&docid=214821&pageid=27160&typegroupid=4",
+            "Thông tư số 79/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214844&pageid=27160",
+            "Thông tư số 80/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214968&pageid=27160"
           ],
-          "note": "Ví dụ nhớ nhanh: bệnh viện mua hóa chất xét nghiệm dùng cho máy xét nghiệm không chỉ mua “lọ hóa chất”, mà còn phải tính thiết bị, phần mềm, hiệu chuẩn, vật tư đi kèm, bảo hành/bảo dưỡng và khả năng cung ứng liên tục."
+          "note": "Các nguồn này được ghi trong database chuyên đề để người học đối chiếu khi cần."
         },
         {
-          "heading": "4. Mua sắm trực tiếp: chỉ dành cho hàng hóa tương tự",
+          "heading": "1. Bản chất của đấu thầu qua mạng",
           "points": [
-            "Mua sắm trực tiếp chỉ áp dụng với gói thầu hàng hóa. Điều kiện cốt lõi là trước đó đã có hợp đồng cung cấp hàng hóa tương tự thông qua đấu thầu rộng rãi/hạn chế và hợp đồng đó còn đáp ứng điều kiện về thời gian, đơn giá, chất lượng.",
-            "Không được hiểu mua sắm trực tiếp là cứ cần gấp thì mua thẳng. Nếu không có hợp đồng trước làm căn cứ hoặc hàng hóa không tương tự thì phải chọn hình thức khác.",
-            "Câu hỏi hay gài phương án “được áp dụng nhiều lần đối với cùng mặt hàng”; đây là dấu hiệu sai vì dễ biến ngoại lệ thành cách né cạnh tranh."
+            "Đấu thầu qua mạng là việc thực hiện các bước lựa chọn nhà thầu trên Hệ thống mạng đấu thầu quốc gia. Trong môi trường điện tử, dữ liệu kê khai, tệp tin đính kèm, thời điểm nộp hồ sơ, mở thầu, sửa đổi hồ sơ và chào giá đều có ý nghĩa pháp lý."
           ]
         },
         {
-          "heading": "5. Mua sắm trực tuyến và chào giá trực tuyến",
+          "heading": "2. Tài khoản, chứng thư số và tệp tin",
           "points": [
-            "Mua sắm trực tuyến áp dụng cho hàng hóa/dịch vụ đã chuẩn hóa, có thông tin trên Hệ thống và phải được phê duyệt trong kế hoạch lựa chọn nhà thầu. Nó không thay thế bước lập kế hoạch.",
-            "Chào giá trực tuyến rút gọn tập trung vào cạnh tranh giá trên Hệ thống; quy trình nhẹ hơn nên ngân hàng câu hỏi ghi nhớ các điểm: không yêu cầu bảo đảm dự thầu, không phải thẩm định kết quả lựa chọn nhà thầu, nhà thầu phải xác nhận chấp thuận trao hợp đồng.",
-            "Kể từ lượt chào giá thứ hai, giá chào không được thấp hơn 90% giá chào thấp nhất trước đó. Quy tắc này nhằm tránh giảm giá bất thường, phá cuộc chào giá hoặc chào giá không có khả năng thực hiện."
+            "Nhà thầu phải chịu trách nhiệm về tài khoản, chứng thư số, thông tin kê khai trên webform và tài liệu đính kèm. Tệp tin đăng tải phải mở được, đọc được, không lỗi, không nhiễm virus và không đặt mật khẩu gây cản trở đánh giá. Văn bản điện tử trên Hệ thống có giá trị theo pháp luật về giao dịch điện tử."
+          ]
+        },
+        {
+          "heading": "3. Sửa đổi, rút và nộp E-HSDT",
+          "points": [
+            "Trước thời điểm đóng thầu, nhà thầu có quyền rút, sửa đổi hoặc nộp lại E-HSDT theo chức năng của Hệ thống. Nếu E-HSMT được sửa đổi, nhà thầu phải theo dõi để điều chỉnh hồ sơ phù hợp. Sau thời điểm đóng thầu, việc sửa đổi nội dung dự thầu không được thực hiện trừ các trường hợp làm rõ theo quy định."
+          ]
+        },
+        {
+          "heading": "4. Sự cố Hệ thống và chào giá trực tuyến",
+          "points": [
+            "Khi Hệ thống gặp sự cố, việc gia hạn hoặc hướng dẫn cách thức lựa chọn nhà thầu được xử lý theo quy định của cơ quan quản lý Hệ thống. Chào giá trực tuyến có quy trình thông thường và rút gọn; thông tin công khai trong quá trình chào giá phải tuân thủ nguyên tắc bảo mật và cạnh tranh."
+          ]
+        },
+        {
+          "heading": "Bẫy thường gặp",
+          "points": [
+            "Tệp tin không mở được hoặc đặt mật khẩu vẫn tưởng hợp lệ.",
+            "Nhầm quyền sửa E-HSDT trước và sau thời điểm đóng thầu.",
+            "Không theo dõi E-HSMT sửa đổi trên Hệ thống."
           ]
         }
       ],
       "questions": [
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 24,
-          "question": "Khi có yêu cầu đặt hàng trong mua sắm trực tuyến, Hệ thống mạng đấu thầu quốc gia sẽ tự động gửi thông báo cho ai?",
-          "options": [
-            "Nhà thầu đã trúng thầu thông qua hình thức mua sắm tập trung hoặc không tập trung trên Hệ thống mạng đấu thầu quốc gia",
-            "Nhà hầ đã ú hầ ắ ậ ớ đó Nhà thầu đã trúng thầu trong mua sắm tập trung trước đó",
-            "Chủ đầu tư",
-            "Đơn vị mua sắm tập trung"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Trong mua sắm trực tuyến, yêu cầu đặt hàng được gửi qua Hệ thống đến nhà thầu đã trúng thầu/đã có hàng hóa trên danh mục. Nhà thầu phải xác nhận trong thời hạn quy định; ngân hàng câu hỏi kiểm tra mốc 03 ngày làm việc cho bước phản hồi yêu cầu đặt hàng."
-        },
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 25,
-          "question": "Sau khi nhận được yêu cầu đặt hàng qua hình thức mua sắm trực tuyến, nhà thầu có bao nhiêu thời gian để xác nhận hoặc từ chối đơn hàng?",
-          "options": [
-            "24 giờ",
-            "03 ngày làm việc",
-            "05 ngày",
-            "05 ngày làm việc"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Trong mua sắm trực tuyến, yêu cầu đặt hàng được gửi qua Hệ thống đến nhà thầu đã trúng thầu/đã có hàng hóa trên danh mục. Nhà thầu phải xác nhận trong thời hạn quy định; ngân hàng câu hỏi kiểm tra mốc 03 ngày làm việc cho bước phản hồi yêu cầu đặt hàng."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (6.1-MSTT-YT)-N",
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 2.1 - Kế hoạch lựa chọn nhà thầu",
           "number": 1,
-          "question": "Hình thức lựa chọn nhà thầu khi áp dụng mua sắm tập trung bảo hiểm tài sản cho các cơ quan thuộc tỉnh Y",
+          "question": "Chọn phương án đúng về thời gian áp dụng mua sắm trực tuyến đối với các hạng mục trong danh mục hàng hóa, dịch vụ mua sắm tập trung?",
           "options": [
-            "Đấu thầu rộng rãi.",
-            "Đấu thầu hạn chế.",
-            "Đàm phán giá.",
-            "Đấu thầu rộng rãi và đàm phán giá."
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Mua sắm tập trung gom nhu cầu của nhiều đơn vị để lựa chọn nhà thầu chung, sau đó phân bổ/ký hợp đồng theo thỏa thuận khung hoặc danh sách trúng thầu. Phương án “Đấu thầu rộng rãi.” đúng vì bám đúng vai trò của đơn vị mua sắm tập trung và cách thực hiện sau lựa chọn."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (6.1-MSTT-YT)-N",
-          "number": 3,
-          "question": "Đơn vị mua sắm tập trung:",
-          "options": [
-            "Thực hiện việc lựa chọn nhà thầu trên cơ sở nhiệm vụ được giao (A)",
-            "Thực hiện việc lựa chọn nhà thầu trên cơ sở hợp đồng ký với các đơn vị có nhu cầu (B)",
-            "Không được thực hiện việc lựa chọn nhà thầu (C)",
+            "Thời gian áp dụng là thời gian thực hiện hợp đồng trong trường hợp không ký thỏa thuận khung nhưng không quá 24 tháng kể từ ngày hợp đồng có hiệu lực hoặc thời gian có hiệu lực của thỏa thuận khung",
+            "Thời gian áp dụng là 24 tháng kể từ ngày kết quả lựa chọn nhà thầu được đăng tải trên Hệ thống mạng đấu thầu quốc gia trong trường hợp hợp đồng, thỏa thuận khung chưa được công khai",
+            "Thời gian áp dụng là 24 tháng kể từ ngày kết quả lựa chọn nhà thầu được đăng tải trên Hệ thống mạng đấu thầu quốc gia",
             "Phương án A và B đều đúng"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Mua sắm tập trung gom nhu cầu của nhiều đơn vị để lựa chọn nhà thầu chung, sau đó phân bổ/ký hợp đồng theo thỏa thuận khung hoặc danh sách trúng thầu. Phương án “Phương án A và B đều đúng” đúng vì bám đúng vai trò của đơn vị mua sắm tập trung và cách thực hiện sau lựa chọn."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Phương án A và B đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (6.1-MSTT-YT)-N",
-          "number": 4,
-          "question": "Thời hạn của thỏa thuận khung:",
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 2,
+          "question": "Đối với đấu thầu qua mạng, việc trả lời yêu cầu làm rõ E-HSMT được thực hiện theo phương án nào?",
           "options": [
-            "Thời hạn áp dụng thỏa thuận khung được quy định là 40 tháng (A)",
-            "Thời hạn áp dụng thỏa thuận khung được quy định trong kế hoạch lựa chọn nhà thầu nhưng không quá 36 tháng (B)",
-            "Thời hạn áp dụng thỏa thuận khung do người có thẩm quyền quyết định trong kế hoạch lựa chọn nhà thầu (C)",
+            "Do tổ chuyên gia thực hiện bằng văn bản",
+            "Do tổ chuyên gia thực hiện trên Hệ thống mạng đấu thầu quốc gia",
+            "Do tư vấn đấu thầu thực hiện bằng tài khoản của đơn vị tư vấn",
+            "Do Chủ đầu tư thực hiện trên Hệ thống mạng đấu thầu quốc gia"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Do Chủ đầu tư thực hiện trên Hệ thống mạng đấu thầu quốc gia. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 3,
+          "question": "Khi tham dự thầu đấu thầu qua mạng, nhà thầu có được ủy quyền cho Giám đốc chi nhánh tham dự thầu hay không?",
+          "options": [
+            "Được ủy quyền bằng giấy ủy quyền",
+            "Không được ủy quyền",
+            "Được ủy quyền không cần giấy ủy quyền nhưng nhà thầu phải tạo tài khoản nghiệp vụ cho giám đốc chi nhánh",
+            "Các phương án trên đều sai"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Không được ủy quyền. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 4,
+          "question": "Đối với đấu thầu qua mạng, nhà thầu liên danh nộp bảo đảm dự thầu theo thể thức nào sau đây?",
+          "options": [
+            "Từng thành viên liên danh có thể sử dụng thể thức bảo lãnh dự thầu khác nhau",
+            "Các thành viên liên danh bắt buộc phải sử dụng cùng thể thức bảo lãnh dự thầu điện tử",
+            "Các thành viên liên danh phải sử dụng cùng thể thức: bảo lãnh dự thầu điện tử hoặc bảo lãnh dự thầu bằng giấy",
+            "Các thành viên liên danh bắt buộc phải sử dụng cùng thể thức bảo lãnh dự thầu bằng giấy"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Các thành viên liên danh phải sử dụng cùng thể thức: bảo lãnh dự thầu điện tử hoặc bảo lãnh dự thầu bằng giấy. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 5,
+          "question": "Đối với đấu thầu qua mạng, quy định nào về việc mở thầu và công khai biên bản mở thầu trên Hệ thống mạng đấu thầu quốc gia là đúng?",
+          "options": [
+            "Hệ thống tự động mở thầu và công khai biên bản mở thầu trong thời hạn không quá 02 giờ kể từ thời điểm đóng thầu.",
+            "Chủ đầu tư phải mở thầu và công khai biên bản mở thầu trên Hệ thống trong thời hạn không quá 04 giờ kể từ thời điểm đóng thầu.",
+            "Tổ chuyên gia phải mở thầu và công khai biên bản mở thầu trên Hệ thống trong thời hạn không quá 02 giờ kể từ thời điểm đóng thầu.",
+            "Chủ đầu tư phải mở thầu và công khai biên bản mở thầu trên Hệ thống trong thời hạn không quá 02 giờ kể từ thời điểm đóng thầu."
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Chủ đầu tư phải mở thầu và công khai biên bản mở thầu trên Hệ thống trong thời hạn không quá 02 giờ kể từ thời điểm đóng thầu.. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 6,
+          "question": "Đối với đấu thầu không qua mạng, quy định về việc công khai biên bản mở thầu trên Hệ thống nào sau đây là đúng?",
+          "options": [
+            "Được đăng tải trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 24 giờ kể từ thời điểm mở thầu",
+            "Được đăng tải trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 02 giờ kể từ thời điểm mở thầu",
+            "Được đăng tải trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 04 giờ kể từ thời điểm mở thầu",
+            "Được đăng tải trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 03 ngày làm việc kể từ thời điểm mở thầu"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Được đăng tải trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 24 giờ kể từ thời điểm mở thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 7,
+          "question": "Đối với đấu thầu qua mạng, sau thời điểm đóng thầu, nhận định nào sau đây là đúng?",
+          "options": [
+            "Nhà thầu có thể thay đổi nội dung E-HSDT nếu phát hiện sai sót",
+            "Nhà thầu có thể tự làm rõ E-HSDT trên Hệ thống",
+            "Nhà thầu không được rút E-HSDT trên Hệ thống",
+            "Chủ đầu tư không được phép mở thầu khi chỉ có 01 nhà thầu tham dự"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Nhà thầu không được rút E-HSDT trên Hệ thống. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 8,
+          "question": "Đối với đấu thầu qua mạng, chức năng trả lời làm rõ E-HSDT trên Hệ thống mạng đấu thầu quốc gia được thực hiện bao nhiêu lần đối với mỗi yêu cầu làm rõ?",
+          "options": [
+            "01 lần",
+            "02 lần",
+            "03 lần",
+            "Không giới hạn số lần"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Không giới hạn số lần. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 9,
+          "question": "Khi đánh giá E-HSDT gói thầu xây lắp đấu thầu rộng rãi qua mạng, trường hợp có sự không thống nhất giữa thông tin về hợp đồng tương tự kê khai trên webform và file tài liệu chứng minh các thông tin về hợp đồng đó thì xử lý như nào?",
+          "options": [
+            "Đánh giá nhà thầu không đạt yêu cầu về hợp đồng tương tự",
+            "Yêu cầu nhà thầu làm rõ E-HSDT trên Hệ thống mạng đấu thầu quốc gia",
+            "Yêu cầu nhà thầu gửi bổ sung hợp đồng tương tự bằng bản giấy để đánh giá",
+            "Các phương án trên đều sai"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Yêu cầu nhà thầu làm rõ E-HSDT trên Hệ thống mạng đấu thầu quốc gia. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 10,
+          "question": "Đối với đấu thầu qua mạng, sau khi đánh giá E-HSDT, tổ trưởng tổ chuyên gia phải thực hiện nội dung gì sau đây trên Hệ thống mạng đấu thầu quốc gia?",
+          "options": [
+            "Đính kèm bản scan báo cáo đánh giá E-HSDT (có chữ ký của tất cả thành viên trong tổ chuyên gia)",
+            "Đính kèm bản scan báo cáo đánh giá E-HSDT (không cần có chữ ký của tất cả thành viên trong tổ chuyên gia)",
+            "Đính kèm bản scan báo cáo đánh giá E-HSDT (chỉ cần chữ ký của tổ trưởng tổ chuyên gia)",
+            "Tất cả các phương án đều sai"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Đính kèm bản scan báo cáo đánh giá E-HSDT (có chữ ký của tất cả thành viên trong tổ chuyên gia). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 11,
+          "question": "Khi đánh giá E-HSDT gói thầu xây lắp đấu thầu rộng rãi qua mạng, trường hợp có sự không thống nhất giữa thông tin về hợp đồng tương tự kê khai trên webform và file tài liệu chứng minh các thông tin về hợp đồng đó thì phương án nào sau đây là đúng?",
+          "options": [
+            "Đánh giá nhà thầu không đạt yêu cầu về hợp đồng tương tự (A)",
+            "Yêu cầu nhà thầu làm rõ E-HSDT trên Hệ thống mạng đấu thầu quốc gia (B)",
+            "Yêu cầu nhà thầu gửi bổ sung hợp đồng tương tự bằng bản giấy để đánh giá (C)",
             "Phương án B và C đều đúng"
           ],
           "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Thỏa thuận khung là văn bản xác lập điều kiện mua sắm với nhà thầu trúng thầu trong mua sắm tập trung, làm nền cho các hợp đồng/đơn hàng cụ thể về sau. Cần nhớ thỏa thuận khung không thay thế hoàn toàn hợp đồng thực hiện mua sắm của từng đơn vị."
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Yêu cầu nhà thầu làm rõ E-HSDT trên Hệ thống mạng đấu thầu quốc gia (B). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (6.1-MSTT-YT)-N",
-          "number": 7,
-          "question": "Áp dụng hình thức lựa chọn nhà thầu nào khi mua sắm tập trung đối với gói thầu điều hòa không khí thông dụng, sẵn có trên thị trường, có giá gói thầu là 03 tỷ đồng cho các cơ quan thuộc tỉnh X?",
-          "options": [
-            "Đấu thầu rộng rãi hoặc mua sắm trực tiếp",
-            "Đấu thầu rộng rãi hoặc chỉ định thầu theo hạn mức",
-            "Đấu thầu rộng rãi hoặc chào hàng cạnh tranh",
-            "Đấu thầu rộng rãi hoặc chỉ định thầu hoặc đám phán giá"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Mua sắm tập trung gom nhu cầu của nhiều đơn vị để lựa chọn nhà thầu chung, sau đó phân bổ/ký hợp đồng theo thỏa thuận khung hoặc danh sách trúng thầu. Phương án “Đấu thầu rộng rãi hoặc chào hàng cạnh tranh” đúng vì bám đúng vai trò của đơn vị mua sắm tập trung và cách thực hiện sau lựa chọn."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (6.1-MSTT-YT)-N",
-          "number": 10,
-          "question": "Đối với gói thầu mua sắm tập trung áp dụng lựa chọn nhà thầu căn cứ theo khả năng cung cấp và áp dụng phương pháp giá thấp nhất, việc lựa chọn danh sách nhà thầu trúng thầu được thực hiện như thế nào?",
-          "options": [
-            "Phải đảm bảo tổng số lượng hàng hóa mà các nhà thầu trúng thầu chào thầu tối thiểu bằng số lượng hàng hóa nêu trong hồ sơ mời thầu, đồng thời bảo đảm điểm tổng hợp của gói thầu cao nhất",
-            "Phải đảm bảo tổng số lượng hàng hóa mà các nhà thầu trúng thầu chào thầu bằng số lượng hàng hóa nêu trong hồ sơ mời thầu, đồng thời bảo đảm tổng giá đề nghị trúng thầu của gói thầu cao nhất",
-            "Phải đảm bảo tổng số lượng hàng hóa mà các nhà thầu trúng thầu chào thầu bằng số lượng hàng hóa nêu trong hồ sơ mời thầu, đồng thời bảo đảm tổng giá đề nghị trúng thầu của gói thầu thấp nhất",
-            "Phải đảm bảo tổng số lượng hàng hóa mà các nhà thầu trúng thầu chào thầu bằng số lượng hàng hóa nêu trong hồ sơ mời thầu, đồng thời bảo đảm tổng giá đánh giá của gói thầu là thấp nhất"
-          ],
-          "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Mua sắm tập trung gom nhu cầu của nhiều đơn vị để lựa chọn nhà thầu chung, sau đó phân bổ/ký hợp đồng theo thỏa thuận khung hoặc danh sách trúng thầu. Phương án “Phải đảm bảo tổng số lượng hàng hóa mà các nhà thầu trúng thầu chào thầu bằng số lượng hàng hóa nêu trong hồ sơ mời thầu, đồng thời bảo đảm tổng giá đề nghị trúng thầu của gói thầu thấp nhất” đúng vì bám đúng vai trò của đơn vị mua sắm tập trung và cách thực hiện sau lựa chọn."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (6.1-MSTT-YT)-N",
-          "number": 11,
-          "question": "Đối với gói thầu mua sắm tập trung áp dụng lựa chọn nhà thầu căn cứ khối lượng mời thầu, danh sách phê duyệt nhà thầu trúng thầu bao gồm:",
-          "options": [
-            "Danh sách chính (nhà thầu xếp thứ nhất) và danh sách dự bị (nhà thầu xếp thứ 2 trở đi)",
-            "Danh sách chính (nhà thầu xếp thứ nhất) và danh sách nhà thầu không đáp ứng yêu cầu của hồ sơ mời thầu",
-            "Danh sách các nhà thầu đáp ứng yêu cầu về năng lực và kinh nghiệm theo yêu cầu của hồ sơ mời thầu",
-            "Danh sách chính (nhà thầu xếp thứ nhất và nhà thầu xếp thứ 2) và danh sách dự bị (nhà thầu xếp thứ 3 trở đi)"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Mua sắm tập trung gom nhu cầu của nhiều đơn vị để lựa chọn nhà thầu chung, sau đó phân bổ/ký hợp đồng theo thỏa thuận khung hoặc danh sách trúng thầu. Phương án “Danh sách chính (nhà thầu xếp thứ nhất) và danh sách dự bị (nhà thầu xếp thứ 2 trở đi)” đúng vì bám đúng vai trò của đơn vị mua sắm tập trung và cách thực hiện sau lựa chọn."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (6.1-MSTT-YT)-N",
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
           "number": 12,
-          "question": "Đối với hàng hóa, dịch vụ không thuộc danh mục mua sắm tập trung do Chủ tịch UBND tỉnh X ban hành nhưng nhiều cơ quan, tổ chức, đơn vị trong tỉnh X có nhu cầu mua sắm hàng hóa, dịch vụ cùng loại thì thực hiện như thế nào?",
+          "question": "Đối với đấu thầu qua mạng, trường hợp nhà thầu rút E-HSDT sau thời điểm đóng thầu và trong thời gian có hiệu lực của E-HSDT thì nhà thầu bị xử lý theo phương án nào sau đây?",
           "options": [
-            "Từng cơ quan, tổ chức, đơn vị trong tỉnh X căn cứ vào thỏa thuận khung do UBND tỉnh X đã ký kết trước đó để ị ậ mua sắm tập trung đối với các hàng hóa, dịch vụ này",
-            "Có thể gộp thành một gói thầu để một trong các cơ quan, tổ chức, đơn vị mua sắm hoặc để đơn vị có chức năng mua sắm tập trung thực hiện việc mua sắm đối với các hàng hóa, dịch vụ này",
-            "Sở Tài chính thuộc tỉnh X có trách nhiệm thực hiện mua sắm tập trung đối với các hàng hóa, dịch vụ này",
-            "Các cơ quan, tổ chức, đơn vị báo cáo lên người có thẩm quyền để phê duyệt kế hoạch chọn nhà thầu theo hình thức mua sắm tập trung đối với các hàng hóa, dịch vụ này"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Mua sắm tập trung gom nhu cầu của nhiều đơn vị để lựa chọn nhà thầu chung, sau đó phân bổ/ký hợp đồng theo thỏa thuận khung hoặc danh sách trúng thầu. Phương án “Có thể gộp thành một gói thầu để một trong các cơ quan, tổ chức, đơn vị mua sắm hoặc để đơn vị có chức năng mua sắm tập trung thực hiện việc mua sắm đối với các hàng hóa, dịch vụ này” đúng vì bám đúng vai trò của đơn vị mua sắm tập trung và cách thực hiện sau lựa chọn."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (6.1-MSTT-YT)-N",
-          "number": 14,
-          "question": "Danh mục hàng hóa, dịch vụ áp dụng mua sắm tập trung do Bộ trưởng Bộ Y tế ban hành:",
-          "options": [
-            "Danh mục mua sắm tập trung cấp quốc gia đối với ô tô trong trường hợp cần thiết",
-            "Danh mục mua sắm tập trung cấp quốc gia đối với thuốc; danh mục mua sắm tập trung cấp quốc gia đối với thiết bị công nghệ thông tin trong trường hợp cần thiết",
-            "Danh mục mua sắm tập trung cấp quốc gia đối với thuốc; danh mục mua sắm tập trung cấp quốc gia đối với dịch vụ đơn giản trong trường hợp cần thiết",
-            "Danh mục mua sắm tập trung cấp quốc gia đối với thuốc; danh mục mua sắm tập trung cấp quốc gia đối với thiết bị y tế, vật tư xét nghiệm trong trường hợp cần thiết"
+            "Không được hoàn trả bảo đảm dự thầu",
+            "Bị đánh giá là không đảm bảo uy tín khi tham dự thầu",
+            "Không được tiếp tục đánh giá E-HSDT",
+            "Các phương án trên đều đúng"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Mua sắm tập trung gom nhu cầu của nhiều đơn vị để lựa chọn nhà thầu chung, sau đó phân bổ/ký hợp đồng theo thỏa thuận khung hoặc danh sách trúng thầu. Phương án “Danh mục mua sắm tập trung cấp quốc gia đối với thuốc; danh mục mua sắm tập trung cấp quốc gia đối với thiết bị y tế, vật tư xét nghiệm trong trường hợp cần thiết” đúng vì bám đúng vai trò của đơn vị mua sắm tập trung và cách thực hiện sau lựa chọn."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Các phương án trên đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (6.1-MSTT-YT)-N",
-          "number": 15,
-          "question": "Gói thầu mua thuốc là gói thầu nào?",
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 13,
+          "question": "Đối với đấu thầu qua mạng, sau khi đánh giá E-HSDT, tổ trưởng tổ chuyên gia đính kèm bản scan báo cáo đánh giá E-HSDT lên Hệ thống mạng đấu thầu quốc gia với yêu cầu nào sau đây?",
           "options": [
-            "Gói thầu mua sắm hàng hóa",
-            "Gói thầu cung cấp dịch vụ phi tư vấn",
-            "Gói thầu hỗn hợp",
-            "Gói thầu xây lắp"
+            "Báo cáo đánh giá E-HSDT có chữ ký của tất cả thành viên trong tổ chuyên gia (A)",
+            "Báo cáo đánh giá E-HSDT chỉ cần có chữ ký của tổ trưởng tổ chuyên gia (B)",
+            "Báo cáo đánh giá E-HSDT (đăng tải báo cáo đánh giá tổng hợp, không cần kèm theo các phiếu chấm của thành viên trong tổ chuyên gia) (C)",
+            "Phương án B và C đều đúng"
           ],
           "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Mua thuốc, thiết bị y tế, hóa chất, vật tư xét nghiệm có quy định riêng vì liên quan đến tính sẵn có, tính chuyên dụng, đăng ký lưu hành và an toàn sử dụng. Khi đề nhắc nhóm hàng y tế, cần ưu tiên quy định chuyên ngành trong Luật/Nghị định thay vì áp máy móc như hàng hóa thông thường."
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Báo cáo đánh giá E-HSDT có chữ ký của tất cả thành viên trong tổ chuyên gia (A). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (6.1-MSTT-YT)-N",
-          "number": 17,
-          "question": "Đối với gói thầu mua sắm thiết bị y tế, tổ chức đấu thầu rộng rãi qua mạng gói thầu mua sắm thiết bị y tế, trường hợp nhà thầu dự thầu không đề xuất cụ thể ký mã hiệu, nhãn hiệu, xuất xứ, hãng sản xuất thì xử lý như thế nào?",
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 14,
+          "question": "Đối với đấu thầu qua mạng, nhà thầu đính kèm bản scan thư giảm giá khi tham dự thầu trên Hệ thống mạng đấu thầu quốc gia thì việc đánh giá tệp tin đính kèm này được thực hiện theo phương án nào sau đây?",
           "options": [
-            "Chủ đầu tư yêu cầu nhà thầu bổ sung, làm rõ E-HSDT",
-            "Chủ đầu tư tiếp tục đánh giá E-HSDT, trường hợp nhà thầu xếp thứ nhất thì yêu cầu nhà thầu bổ sung thông tin để hoàn thiện hợp đồng",
-            "E-HSDT của nhà thầu bị đánh giá không đáp ứng và bị loại",
-            "Xin ý kiến người có thẩm quyền để xử lý tình huống trong đấu thầu Nhận học bổng mỗi tuần"
+            "Không được xem xét, đánh giá",
+            "Được xem xét, đánh giá căn cứ tệp tin đính kèm",
+            "Được làm rõ trong trường hợp có sự sai khác thông tin về giảm giá giữa tệp tin đính kèm này và thông tin kê khai trong đơn dự thầu",
+            "Được bổ sung trong trường hợp có sự sai khác thông tin về giảm giá giữa tệp tin đính kèm này và thông tin kê khai trong đơn dự thầu"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Không được xem xét, đánh giá. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 15,
+          "question": "Đối với đấu thầu không qua mạng, biên bản mở thầu bắt buộc phải có chữ ký của các chủ thể nào sau đây?",
+          "options": [
+            "Chủ đầu tư, tổ chuyên gia và các nhà thầu tham dự lễ mở thầu",
+            "Chủ đầu tư, tổ chuyên gia và các nhà thầu tham dự thầu",
+            "Chủ đầu tư và các nhà thầu tham dự lễ mở thầu",
+            "Các phương án trên đều đúng"
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Mua thuốc, thiết bị y tế, hóa chất, vật tư xét nghiệm có quy định riêng vì liên quan đến tính sẵn có, tính chuyên dụng, đăng ký lưu hành và an toàn sử dụng. Khi đề nhắc nhóm hàng y tế, cần ưu tiên quy định chuyên ngành trong Luật/Nghị định thay vì áp máy móc như hàng hóa thông thường."
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Chủ đầu tư và các nhà thầu tham dự lễ mở thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.2 - QLNN - Kiến nghị)-N",
-          "number": 20,
-          "question": "Gói thầu mua thuốc áp dụng phương thức một giai đoạn hai túi hồ sơ có giá gói thầu 100 tỷ đồng. Trong quá trình tham dự thầu, nhà thầu X không đạt về kỹ thuật có kiến nghị về kết quả lựa chọn nhà thầu của gói thầu gửi Hội đồng giải quyết kiến nghị (trong đơn kiến nghị nhà thầu nêu giá dự thầu của mình là 90 tỷ đồng). Chi phí giải quyết kiến nghị nhà thầu X phải nộp là?",
-          "options": [
-            "Nhà thầu X phải nộp 25 triệu đồng",
-            "Nhà thầu X phải nộp 22,5 triệu đồng",
-            "Nhà thầu X phải nộp 20 triệu đồng",
-            "Nhà thầu X phải nộp 15 triệu đồng Nhận học bổng mỗi tuần"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Phương thức một giai đoạn một túi hồ sơ phù hợp khi yêu cầu kỹ thuật đã rõ và có thể đánh giá trong cùng một bộ hồ sơ. Cách nhớ: nhà thầu nộp một lần, trong một túi hồ sơ gồm đề xuất kỹ thuật và tài chính theo yêu cầu."
-        }
-      ]
-    },
-    {
-      "title": "Đấu thầu qua mạng và chào giá trực tuyến",
-      "theory": [
-        {
-          "heading": "1. Văn bản điện tử: giá trị pháp lý nằm ở dấu vết hệ thống",
-          "points": [
-            "Văn bản điện tử trên Hệ thống mạng đấu thầu quốc gia có giá trị pháp lý theo pháp luật về giao dịch điện tử nếu được tạo lập, gửi, nhận, lưu trữ đúng quy định.",
-            "Thời điểm gửi/nhận được xác định theo thời gian ghi nhận trên Hệ thống, không theo giờ máy cá nhân. Điều này quan trọng khi tính đóng thầu, gia hạn, gửi làm rõ, xác nhận trao hợp đồng.",
-            "Văn bản điện tử là căn cứ để đánh giá, thẩm định, kiểm tra, thanh tra, kiểm toán, giải ngân và thanh quyết toán."
-          ]
-        },
-        {
-          "heading": "2. File/tệp tin: lỗi kỹ thuật có thể làm mất quyền được đánh giá",
-          "points": [
-            "File nộp trên Hệ thống phải mở được, đọc được bằng phần mềm thông dụng, dùng phông Unicode, file nén phải giải nén được.",
-            "File không được nhiễm virus, không lỗi/hỏng và không đặt mật khẩu. Nếu nhà thầu nộp file khóa mật khẩu khiến bên mời thầu không đọc được, file đó không có cơ sở để xem xét, đánh giá.",
-            "Khi có sai khác giữa thông tin kê khai trên biểu mẫu Hệ thống và file đính kèm, câu hỏi thường yêu cầu xác định căn cứ đánh giá chính. Với gói hàng hóa, biểu mẫu kê khai như Mẫu 10B là điểm hay được hỏi."
-          ]
-        },
-        {
-          "heading": "3. Tài khoản, chứng thư số và phân quyền",
-          "points": [
-            "Chứng thư số sử dụng trên Hệ thống là chứng thư số công cộng hoặc chứng thư số chuyên dùng Chính phủ theo quy định. Nó xác thực danh tính và giá trị pháp lý của thao tác điện tử.",
-            "Tài khoản tham gia Hệ thống là tài khoản của tổ chức/cá nhân tham gia đấu thầu. Tài khoản nghiệp vụ là tài khoản được tạo để phân quyền cho người dùng thực hiện từng thao tác cụ thể.",
-            "Không được dùng tài khoản sai vai trò để làm thay trách nhiệm của chủ thể khác. Ví dụ tư vấn đấu thầu thay chủ đầu tư đăng tải nội dung thuộc trách nhiệm chủ đầu tư có thể bị khóa tài khoản."
-          ]
-        },
-        {
-          "heading": "4. Sự cố Hệ thống và gia hạn đóng thầu",
-          "points": [
-            "Nếu Hệ thống gặp sự cố đúng khoảng thời gian có gói thầu đóng thầu hoặc kết thúc chào giá, Hệ thống tự động gia hạn để bảo vệ quyền tham dự của nhà thầu.",
-            "Mốc hay hỏi: các gói có thời điểm đóng thầu/kết thúc chào giá trong thời gian từ khi Hệ thống gặp sự cố đến sau khi khắc phục sự cố 02 giờ được gia hạn tự động.",
-            "Nếu chủ đầu tư chủ động sửa E-HSMT hoặc cần thêm thời gian cho nhà thầu, việc gia hạn thời điểm đóng thầu phải công khai trên Hệ thống."
-          ]
-        },
-        {
-          "heading": "5. Chào giá trực tuyến rút gọn: nhớ 4 điểm",
-          "points": [
-            "Không yêu cầu bảo đảm dự thầu.",
-            "Kể từ lượt chào thứ hai, giá chào không được thấp hơn 90% giá chào thấp nhất trước đó.",
-            "Kết quả lựa chọn nhà thầu theo quy trình rút gọn không phải thẩm định như quy trình thông thường.",
-            "Nhà thầu được yêu cầu trao hợp đồng phải xác nhận trên Hệ thống; nếu từ chối/không xác nhận có thể bị xử lý tài khoản và uy tín theo quy định."
-          ],
-          "note": "Mẹo nhớ: rút gọn = nhẹ thủ tục nhưng nặng trách nhiệm với giá đã chào."
-        }
-      ],
-      "questions": [
-        {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 1,
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 16,
           "question": "Yêu cầu nào sau đây là đúng đối với tệp tin (file) đăng tải trên Hệ thống mạng đấu thầu quốc gia?",
           "options": [
             "Các file mở, đọc được bằng các phần mềm thông dụng như: các phần mềm đọc, soạn thảo văn bản MS Office hoặc Open Office; các phần mềm đọc file PDF; các phần mềm thiết kế thông dụng như AutoCad, Photoshop; phần mềm đọc file ảnh tích hợp sẵn trên Hệ điều hành Windows. Các file sử dụng phông chữ không thuộc bảng mã Unicode",
@@ -5292,12 +2514,12 @@ window.STUDY_DATA = {
             "Các phương án trên đều đúng"
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Tệp tin đăng tải trên Hệ thống mạng đấu thầu quốc gia phải đọc được, không lỗi/hỏng, không nhiễm virus và không đặt mật khẩu làm cản trở truy cập. Nếu hồ sơ bị khóa, lỗi hoặc không mở được thì bên mời thầu không có cơ sở đánh giá khách quan."
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Không bị nhiễm virus, không bị lỗi, hỏng và không thiết lập mật khẩu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 2,
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 17,
           "question": "Loại Chứng thư số nào sau đây được sử dụng trên Hệ thống mạng đấu thầu quốc gia?",
           "options": [
             "Chứng thư số chuyên dùng do tất cả tổ chức có chức năng cung cấp dịch vụ chứng thực chữ ký số chuyên dùng cấp (A)",
@@ -5306,12 +2528,12 @@ window.STUDY_DATA = {
             "Phương án A và C đều đúng"
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Chứng thư số dùng trên Hệ thống phải là chứng thư số công cộng do tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng cấp. Đây là điều kiện xác thực danh tính và giá trị pháp lý của thao tác điện tử trong đấu thầu qua mạng."
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Chứng thư số công cộng do tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng cấp hoặc chứng thư số do tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng Chính phủ cấp (C). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 3,
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 18,
           "question": "Nhận định nào sau đây đúng về văn bản điện tử trên Hệ thống mạng đấu thầu quốc gia?",
           "options": [
             "Văn bản điện tử trên Hệ thống có giá trị theo quy định của pháp luật về giao dịch điện tử, làm cơ sở đối chiếu, so sánh, xác thực thông tin phục vụ công tác đánh giá, thẩm định, thanh tra, kiểm tra, kiểm toán và giải ngân",
@@ -5320,12 +2542,26 @@ window.STUDY_DATA = {
             "Cả 3 phương án trên đều đúng"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Văn bản điện tử trên Hệ thống có giá trị pháp lý khi được tạo lập, gửi, nhận và lưu trữ đúng quy định. Nếu các phương án đều mô tả đặc tính pháp lý/kỹ thuật đúng của văn bản điện tử thì đáp án tổng hợp “cả 3 phương án” là hợp lý."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Cả 3 phương án trên đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 5,
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 19,
+          "question": "Theo quy định tại Thông tư số 79/2025/TT BTC, quy định về thời điểm bắt đầu và kết thúc chào giá trực tuyến theo quy trình rút gọn?",
+          "options": [
+            "Thời điểm bắt đầu và kết thúc phải trong giờ hành chính.",
+            "Thời điểm bắt đầu không bắt buộc trong giờ hành chính nhưng kết thúc phải trong giờ hành chính.",
+            "Thời điểm bắt đầu và kết thúc không bắt buộc trong giờ hành chính.",
+            "Tất cả phương án trên đều sai"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Thời điểm bắt đầu và kết thúc phải trong giờ hành chính.. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 20,
           "question": "Tài khoản nghiệp vụ trên Hệ thống mạng đấu thầu quốc gia là gì?",
           "options": [
             "Tài khoản do người sử dụng đăng ký và được phê duyệt trên Hệ thống mạng đấu thầu quốc gia (A)",
@@ -5334,12 +2570,12 @@ window.STUDY_DATA = {
             "Phương án A và B đều đúng"
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Tài khoản nghiệp vụ là tài khoản được tạo từ tài khoản tham gia Hệ thống để phân quyền thao tác cụ thể cho cá nhân/bộ phận. Cần phân biệt tài khoản nghiệp vụ với tài khoản tham gia Hệ thống của tổ chức."
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Tài khoản do Tài khoản tham gia hệ thống tạo ra (C). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 6,
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 21,
           "question": "Trong đấu thầu qua mạng, nhà thầu tư vấn đấu thầu bị khoá tài khoản trong vòng 06 tháng khi thực hiện hành vi nào sau đây?",
           "options": [
             "Tham gia vào quá trình lập và đánh giá E-HSMT",
@@ -5348,12 +2584,54 @@ window.STUDY_DATA = {
             "Đăng tải thông tin về năng lực, kinh nghiệm của mình trên Hệ thống mạng đấu thầu quốc gia"
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Khóa tài khoản 06 tháng áp dụng với hành vi tư vấn đấu thầu thực hiện thay chủ đầu tư các nội dung thuộc trách nhiệm đăng tải của chủ đầu tư. Logic xử lý là ngăn việc dùng tài khoản/ủy quyền sai vai trò, làm mờ trách nhiệm trên Hệ thống."
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Thay chủ đầu tư đăng tải các nội dung thuộc trách nhiệm đăng tải của chủ đầu tư. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 10,
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 22,
+          "question": "Đối với gói thầu chào giá trực tuyến rút gọn, nhà thầu xác nhận về việc chấp thuận được trao hợp đồng trong thời gian tối đa bao lâu kể từ ngày chủ đầu tư mời nhà thầu xác nhận trên Hệ thống mạng đấu thầu quốc gia?",
+          "options": [
+            "03 ngày",
+            "03 ngày làm việc",
+            "05 ngày",
+            "05 ngày làm việc"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: 03 ngày làm việc. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 23,
+          "question": "Gói thầu chào giá trực tuyến rút gọn, trường hợp nhà thầu từ chối hoặc không xác nhận về việc chấp thuận được trao hợp đồng trên Hệ thống mạng đấu thầu quốc gia thì nội dung nào sau đây không đúng?",
+          "options": [
+            "Công khai tên nhà thầu trên Hệ thống mạng đấu thầu quốc gia",
+            "Khoá tài khoản trong thời hạn 03 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của chủ đầu tư",
+            "Khóa chức năng chào giá trực tuyến trong thời hạn 06 tháng kể từ ngày chủ đầu tư công khai tên nhà thầu trên Hệ thống mạng đấu thầu quốc gia",
+            "Bị đá h iá ề tí t iệ th dự thầ Bị đánh giá về uy tín trong việc tham dự thầu"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Khoá tài khoản trong thời hạn 03 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của chủ đầu tư. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 24,
+          "question": "Trong quá trình đánh giá, Tổ chuyên gia phát hiện nhà thầu tham dự thầu trên Hệ thống mạng đấu thầu quốc gia đính kèm tệp tin có thiết lập mật khẩu thì xử lý thế nào?",
+          "options": [
+            "Yêu cầu nhà thầu nộp lại tệp tin không có thiết lập mật khẩu trên Hệ thống mạng đấu thầu quốc gia để xem xét, đánh giá (A)",
+            "Yêu cầu nhà thầu cung cấp mật khẩu để xem xét, đánh giá (B)",
+            "Tệp tin này không được xem xét, đánh giá (C)",
+            "Phương án A và B đều đúng"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Tệp tin này không được xem xét, đánh giá (C). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 25,
           "question": "Đối với chào giá trực tuyến rút gọn, kể từ lượt chào giá thứ hai, giá chào của nhà thầu không được thấp hơn giá thấp nhất hiển thị trên Hệ thống mạng đấu thầu quốc gia là bao nhiêu %?",
           "options": [
             "80%",
@@ -5362,12 +2640,40 @@ window.STUDY_DATA = {
             "95%"
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Đây là phương án không đúng trong tình huống chào giá trực tuyến. Điểm sai không nằm ở việc nhà thầu có thể bị xử lý, mà ở cách diễn đạt điều kiện/mốc xử lý trong phương án “90%”; với quy trình rút gọn, nghĩa vụ chính của nhà thầu là xác nhận chấp thuận trao hợp đồng trên Hệ thống và chế tài phải bám đúng trình tự điện tử được quy định."
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: 90%. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 13,
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 26,
+          "question": "Đối với chào giá trực tuyến rút gọn, giá trị bảo đảm dự thầu tối đa là giá trị nào sau đây?",
+          "options": [
+            "5% giá gói thầu",
+            "10% giá gói thầu",
+            "1-3% giá gói thầu",
+            "Không yêu cầu về bảo đảm dự thầu"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Không yêu cầu về bảo đảm dự thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 27,
+          "question": "Đối với gói thầu áp dụng chào giá trực tuyến theo quy trình thông thường, trường hợp nhà thầu được mời tham gia chào giá trực tuyến nhưng nhà thầu từ chối tham gia thì xử lý thế nào?",
+          "options": [
+            "Đề xuất về tài chính của nhà thầu sẽ bị đánh giá là không đạt (A)",
+            "Nhà thầu sẽ bị loại và bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong vòng 06 tháng (B)",
+            "Hồ sơ dự thầu của nhà thầu sẽ tiếp tục được đánh giá về tài chính căn cứ theo hồ sơ dự thầu đã nộp trước thời điểm đóng thầu (C)",
+            "Phương án A và B đều đúng"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Hồ sơ dự thầu của nhà thầu sẽ tiếp tục được đánh giá về tài chính căn cứ theo hồ sơ dự thầu đã nộp trước thời điểm đóng thầu (C). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 28,
           "question": "Nhận định nào sau đây về văn bản điện tử trên Hệ thống mạng đấu thầu quốc gia là đúng?",
           "options": [
             "Văn bản điện tử trên Hệ thống có giá trị theo quy định của pháp luật về giao dịch điện tử, làm cơ sở đối chiếu, so sánh, xác thực thông tin phục vụ công tác đánh giá, thẩm định, thanh tra, kiểm tra, kiểm toán và giải ngân",
@@ -5376,12 +2682,40 @@ window.STUDY_DATA = {
             "Các phương án trên đều đúng"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Văn bản điện tử trên Hệ thống có giá trị pháp lý khi được tạo lập, gửi, nhận và lưu trữ đúng quy định. Nếu các phương án đều mô tả đặc tính pháp lý/kỹ thuật đúng của văn bản điện tử thì đáp án tổng hợp “cả 3 phương án” là hợp lý."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Các phương án trên đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 16,
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 29,
+          "question": "Gói thầu hàng hóa có giá gói thầu 02 tỷ đồng thực hiện chào giá trực tuyến theo quy trình rút gọn, trường hợp chủ đầu tư đăng tải thông báo mời thầu vào 11h00 ngày Thứ 2 (08/9/2025), thời điểm nào sau đây là thời điểm kết thúc chào giá trực tuyến sớm nhất?",
+          "options": [
+            "11h00 ngày thứ 6 (12/9/2025)",
+            "08h00 ngày thứ 3 (16/9/2025)",
+            "11h00 ngày thứ 3 (16/9/2025)",
+            "08h00 ngày thứ 4 (17/9/2025)"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: 08h00 ngày thứ 4 (17/9/2025). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 30,
+          "question": "Gói thầu hàng hóa có giá gói thầu 01 tỷ đồng thực hiện chào giá trực tuyến theo quy trình rút gọn, trường hợp chủ đầu tư đăng tải thông báo mời thầu vào 11h00 ngày Thứ 2 (08/9/2025), thời điểm nào sau đây là thời điểm kết thúc chào giá trực tuyến sớm nhất?",
+          "options": [
+            "08h00 ngày thứ 6 (12/9/2025)",
+            "08h00 ngày thứ bẩy (13/9/2025)",
+            "11h00 ngày thứ 6 (12/9/2025)",
+            "08h00 ngày thứ 2 (15/9/2025)"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: 08h00 ngày thứ 2 (15/9/2025). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 31,
           "question": "Đối với gói thầu áp dụng hình thức chào giá trực tuyến rút gọn, việc thẩm định kết quả lựa chọn nhà thầu được thực hiện như thế nào?",
           "options": [
             "Chỉ thẩm định nội dung về giá chào (A)",
@@ -5390,12 +2724,12 @@ window.STUDY_DATA = {
             "Phương án A và B đều đúng"
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Chào giá trực tuyến rút gọn được thiết kế để rút ngắn quy trình, nên kết quả lựa chọn nhà thầu không phải thẩm định như quy trình thông thường. Cần nhớ đây là ngoại lệ của quy trình rút gọn, không áp dụng cho mọi hình thức qua mạng."
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Không phải thẩm định kết quả lựa chọn nhà thầu (C). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 17,
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 32,
           "question": "File đính kèm nào sau đây của nhà thầu nộp trên Hệ thống mạng đấu thầu quốc gia không được xem xét, đánh giá?",
           "options": [
             "Các file mở, đọc được bằng các phần mềm thông dụng như: các phần mềm đọc, soạn thảo văn bản MS Office hoặc Open Office; các phần mềm đọc file PDF; các phần mềm thiết kế thông dụng như AutoCad, Photoshop; phần mềm đọc file ảnh tích hợp sẵn trên Hệ điều hành Windows",
@@ -5404,12 +2738,26 @@ window.STUDY_DATA = {
             "Các file bị nhiễm virus, bị lỗi, hỏng"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Tệp tin đăng tải trên Hệ thống mạng đấu thầu quốc gia phải đọc được, không lỗi/hỏng, không nhiễm virus và không đặt mật khẩu làm cản trở truy cập. Nếu hồ sơ bị khóa, lỗi hoặc không mở được thì bên mời thầu không có cơ sở đánh giá khách quan."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Các file bị nhiễm virus, bị lỗi, hỏng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 19,
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 33,
+          "question": "Nhà thầu phải thực hiện xác nhận về việc chấp thuận được trao hợp đồng trên Hệ thống mạng đấu thầu quốc gia đối với các hình thức lựa chọn nhà thầu qua mạng nào?",
+          "options": [
+            "Đấu thầu rộng rãi, chào hàng cạnh tranh, đấu thầu hạn chế.",
+            "Chào giá trực tuyến theo quy trình thông thường",
+            "Chào giá trực tuyến theo quy trình rút gọn",
+            "Các phương án trên đều đúng"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Chào giá trực tuyến theo quy trình rút gọn. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 34,
           "question": "Đối với đấu thầu qua mạng, trường hợp Hệ thống gặp sự cố thì trường hợp nào được Hệ thống tự động gia hạn thời điểm đóng thầu?",
           "options": [
             "Các gói thầu có thời điểm đóng thầu, thời điểm kết thúc chào giá trực tuyến trong thời gian từ khi Hệ thống gặp sự cố cho đến thời điểm sau hoàn thành khắc phục sự cố 02 giờ",
@@ -5418,12 +2766,12 @@ window.STUDY_DATA = {
             "Các đáp án trên đều sai"
           ],
           "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Khi Hệ thống mạng đấu thầu quốc gia gặp sự cố, các gói có thời điểm đóng thầu hoặc kết thúc chào giá nằm trong khoảng sự cố sẽ được gia hạn tự động đến sau khi khắc phục để bảo đảm nhà thầu không mất quyền dự thầu vì lỗi kỹ thuật của Hệ thống. Cách nhớ mốc trong ngân hàng câu hỏi: sau khi hoàn thành khắc phục sự cố 02 giờ."
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Các gói thầu có thời điểm đóng thầu, thời điểm kết thúc chào giá trực tuyến trong thời gian từ khi Hệ thống gặp sự cố cho đến thời điểm sau hoàn thành khắc phục sự cố 02 giờ. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 20,
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 35,
           "question": "Gói thầu áp dụng hình thức chào giá trực tuyến rút gọn, việc phê duyệt kết quả lựa chọn nhà thầu thực hiện như thế nào?",
           "options": [
             "Trên cơ sở đề nghị của tổ chuyên gia (A)",
@@ -5432,12 +2780,40 @@ window.STUDY_DATA = {
             "Phương án A và B đều đúng"
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Chào giá trực tuyến đặt trọng tâm vào cạnh tranh giá trên Hệ thống theo thời điểm và lượt chào. Phương án “Trên cơ sở chấp thuận được trao hợp đồng của nhà thầu” đúng vì phản ánh đúng nghĩa vụ/thời hạn/quy tắc vận hành của nhà thầu trong quy trình này."
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Trên cơ sở chấp thuận được trao hợp đồng của nhà thầu (C). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 23,
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 36,
+          "question": "Việc xét duyệt trúng thầu đối với gói thầu áp dụng hình thức chào giá trực tuyến theo quy trình rút gọn thực hiện như thế nào?",
+          "options": [
+            "Căn cứ vào giá dự thầu trong đơn dự thầu của nhà thầu",
+            "Căn cứ vào giá gói thầu trong kế hoạch lựa chọn nhà thầu được phê duyệt",
+            "Căn cứ vào giá dự thầu tại thời điểm kết thúc chào giá trực tuyến của nhà thầu xếp thứ nhất",
+            "Các phương án trên đều sai"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Căn cứ vào giá dự thầu tại thời điểm kết thúc chào giá trực tuyến của nhà thầu xếp thứ nhất. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 37,
+          "question": "Chào giá trực tuyến theo quy trình thông thường được thực hiện ở bước nào trong quá trình lựa chọn nhà thầu?",
+          "options": [
+            "Bước chuẩn bị lựa chọn nhà thầu",
+            "Bước đánh giá về tài chính",
+            "Bước thương thảo hợp đồng",
+            "Bước đánh giá hồ sơ đề xuất kỹ thuật"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Bước đánh giá về tài chính. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 38,
           "question": "Trong quá trình chào giá trực tuyến, thông tin nào của nhà thầu không được công khai trên Hệ thống mạng đấu thầu quốc gia?",
           "options": [
             "Mức giá chào",
@@ -5446,12 +2822,40 @@ window.STUDY_DATA = {
             "Thời gian còn lại của phiên chào giá"
           ],
           "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Đây là phương án không đúng trong tình huống chào giá trực tuyến. Điểm sai không nằm ở việc nhà thầu có thể bị xử lý, mà ở cách diễn đạt điều kiện/mốc xử lý trong phương án “Tên nhà thầu”; với quy trình rút gọn, nghĩa vụ chính của nhà thầu là xác nhận chấp thuận trao hợp đồng trên Hệ thống và chế tài phải bám đúng trình tự điện tử được quy định."
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Tên nhà thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 26,
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 39,
+          "question": "Khi có yêu cầu đặt hàng trong mua sắm trực tuyến, Hệ thống mạng đấu thầu quốc gia sẽ tự động gửi thông báo cho ai?",
+          "options": [
+            "Nhà thầu đã trúng thầu thông qua hình thức mua sắm tập trung hoặc không tập trung trên Hệ thống mạng đấu thầu quốc gia",
+            "Nhà hầ đã ú hầ ắ ậ ớ đó Nhà thầu đã trúng thầu trong mua sắm tập trung trước đó",
+            "Chủ đầu tư",
+            "Đơn vị mua sắm tập trung"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Nhà hầ đã ú hầ ắ ậ ớ đó Nhà thầu đã trúng thầu trong mua sắm tập trung trước đó. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 40,
+          "question": "Sau khi nhận được yêu cầu đặt hàng qua hình thức mua sắm trực tuyến, nhà thầu có bao nhiêu thời gian để xác nhận hoặc từ chối đơn hàng?",
+          "options": [
+            "24 giờ",
+            "03 ngày làm việc",
+            "05 ngày",
+            "05 ngày làm việc"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: 03 ngày làm việc. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 41,
           "question": "Sau khi kết thúc chào giá trực tuyến, nếu có nhiều nhà thầu cùng chào giá thấp nhất bằng nhau, nhà thầu nào sẽ được xếp hạng thứ nhất?",
           "options": [
             "Nhà thầu có năng lực tài chính tốt nhất",
@@ -5460,12 +2864,26 @@ window.STUDY_DATA = {
             "Yêu cầu các nhà thầu này chào lại giá"
           ],
           "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Chào giá trực tuyến đặt trọng tâm vào cạnh tranh giá trên Hệ thống theo thời điểm và lượt chào. Phương án “Nhà thầu chào giá đầu tiên thấp nhất” đúng vì phản ánh đúng nghĩa vụ/thời hạn/quy tắc vận hành của nhà thầu trong quy trình này."
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Nhà thầu chào giá đầu tiên thấp nhất. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 28,
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 42,
+          "question": "Chủ đầu tư phải gửi thông báo mời tham gia chào giá trực tuyến theo quy trình thông thường đến các nhà thầu đáp ứng yêu cầu kỹ thuật trong thời hạn tối thiểu bao lâu trước thời điểm bắt đầu chào giá?",
+          "options": [
+            "24 giờ",
+            "03 ngày làm việc",
+            "05 ngày",
+            "05 ngày làm việc"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: 03 ngày làm việc. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 43,
           "question": "Gói thầu nào sau đây không phải áp dụng đấu thầu qua mạng trên Hệ thống mạng đấu thầu quốc gia?",
           "options": [
             "Gói thầu hỗn hợp theo phương thức 02 giai đoạn",
@@ -5474,12 +2892,12 @@ window.STUDY_DATA = {
             "Các phương án trên đều đúng"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Câu này yêu cầu nhận diện một nhóm nhận định cùng đúng/sai, không chỉ một ý đơn lẻ. Phương án “Các phương án trên đều đúng” được chọn vì các ý còn lại khi ghép lại phản ánh đầy đủ hơn quy định trong chủ đề “Đấu thầu qua mạng và chào giá trực tuyến”. Khi ôn, nên đọc từng mệnh đề rồi kiểm tra xem chúng có cùng thuộc một điều kiện/quy trình hay không."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Các phương án trên đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 29,
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 44,
           "question": "Đối với đấu thầu qua mạng, khi tham dự thầu, nhà thầu....?",
           "options": [
             "Chịu trách nhiệm về tính chính xác của các thông tin kê khai trên webform và file tài liệu đính kèm",
@@ -5488,12 +2906,12 @@ window.STUDY_DATA = {
             "Cả 3 đáp án trên đều đúng"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Phương án “Cả 3 đáp án trên đều đúng” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Đấu thầu qua mạng và chào giá trực tuyến”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Cả 3 đáp án trên đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 30,
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 45,
           "question": "Khi nào nhà thầu phải nộp lại E-HSDT đã nộp?",
           "options": [
             "Khi Tổ chuyên gia phát hiện E-HSDT bị lỗi kỹ thuật không mở được",
@@ -5502,12 +2920,12 @@ window.STUDY_DATA = {
             "Các phương án trên đều đúng"
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Phương án “Khi E-HSMT được sửa đổi” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Đấu thầu qua mạng và chào giá trực tuyến”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Khi E-HSMT được sửa đổi. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 31,
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 46,
           "question": "Đối với đấu thầu qua mạng, trường hợp cần sửa đổi E-HSDT đã nộp trước thời điểm đóng thầu, nhà thầu phải thực hiện theo phương án nào sau đây khi E-HSMT của gói thầu này không phải sửa đổi?",
           "options": [
             "Phải tiến hành rút toàn bộ E-HSDT đã nộp trước đó để sửa đổi cho phù hợp và tiến hành nộp lại E-HSDT mới",
@@ -5516,12 +2934,12 @@ window.STUDY_DATA = {
             "Nhà thầu không được sửa đổi E-HSDT đã nộp"
           ],
           "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Khi E-HSMT thiếu thông tin hoặc có nội dung chưa phù hợp, chủ đầu tư phải sửa đổi/bổ sung và đăng tải lại trên Hệ thống để mọi nhà thầu tiếp cận cùng một bộ yêu cầu. Đây là nguyên tắc bình đẳng thông tin; không thể chỉ giải thích riêng cho một nhà thầu."
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Phải tiến hành rút toàn bộ E-HSDT đã nộp trước đó để sửa đổi cho phù hợp và tiến hành nộp lại E-HSDT mới. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 32,
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 47,
           "question": "Đối với đấu thầu qua mạng, nhà thầu đã nộp E-HSDT nhưng sau đó E-HSMT của gói thầu này sửa đổi thì nhà thầu cần thực hiện theo phương án nào sau đây",
           "options": [
             "Phải tiến hành rút toàn bộ E-HSDT đã nộp trước đó để sửa đổi cho phù hợp và tiến hành nộp lại E-HSDT mới",
@@ -5530,12 +2948,26 @@ window.STUDY_DATA = {
             "Các phương án trên đều sai p g"
           ],
           "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Khi E-HSMT thiếu thông tin hoặc có nội dung chưa phù hợp, chủ đầu tư phải sửa đổi/bổ sung và đăng tải lại trên Hệ thống để mọi nhà thầu tiếp cận cùng một bộ yêu cầu. Đây là nguyên tắc bình đẳng thông tin; không thể chỉ giải thích riêng cho một nhà thầu."
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Không phải tiến hành rút toàn bộ E-HSDT đã nộp trước đó, chỉ cần sửa đổi cho phù hợp và tiến hành nộp lại E-HSDT mới. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 34,
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 48,
+          "question": "Đối với đấu thầu qua mạng, trường hợp file đính kèm trong E-HSMT không thể mở hoặc không đọc được thì chủ đầu tư phải thực hiện hành động nào sau đây?",
+          "options": [
+            "Đăng tải và phát hành lại toàn bộ E-HSMT",
+            "Sửa đổi E-HSMT và không phải phát hành lại toàn bộ E-HSMT",
+            "Đề nghị Trung tâm Đấu thầu qua mạng quốc gia sửa đổi E-HSMT trong trường hợp chủ đầu tư không sửa đổi được E-HSMT",
+            "Các phương án trên đều đúng"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Đăng tải và phát hành lại toàn bộ E-HSMT. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 49,
           "question": "Đối với đấu thầu qua mạng, trường hợp Hệ thống mạng đấu thầu quốc gia gặp sự cố không thể vận hành và phải tự động gia hạn thời điểm đóng thầu của các gói thầu bị ảnh hưởng (có thời điểm đóng thầu trong thời gian từ khi Hệ thống bị sự cố cho đến thời điểm sau hoàn thành khắc phục sự cố 02 giờ) thì việc đánh giá E-HSDT được thực hiện trên cơ sở thời điểm đóng thầu nào sau đây?",
           "options": [
             "Thời điểm đóng thầu nêu trong E-TBMT được đăng tải (trước thời điểm Hệ thống mạng đấu thầu quốc gia gặp sự cố) (A)",
@@ -5544,12 +2976,26 @@ window.STUDY_DATA = {
             "Phương án A và B đều đúng"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Khi Hệ thống mạng đấu thầu quốc gia gặp sự cố, các gói có thời điểm đóng thầu hoặc kết thúc chào giá nằm trong khoảng sự cố sẽ được gia hạn tự động đến sau khi khắc phục để bảo đảm nhà thầu không mất quyền dự thầu vì lỗi kỹ thuật của Hệ thống. Cách nhớ mốc trong ngân hàng câu hỏi: sau khi hoàn thành khắc phục sự cố 02 giờ."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Phương án A và B đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (5.1 - ĐTQM) - Đấu thầu qua mạng",
-          "number": 36,
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 50,
+          "question": "Đối với đấu thầu qua mạng, trường hợp nhà thầu sử dụng bảo lãnh dự thầu điện tử trên Hệ thống mạng đấu thầu quốc gia, phát biểu nào sau đây là đúng?",
+          "options": [
+            "Giá trị bảo lãnh dự thầu luôn đáp ứng yêu cầu trong E-HSMT",
+            "Thời gian hiệu lực của bảo lãnh dự thầu luôn đáp ứng yêu cầu trong E-HSMT CĐ (5.1 - ĐTQM)-N CDa.nhĐ sốáic thư cợânu ghỏ tihụ hưởng bảo lãnh dự thầu luôn đáp ứng yêu cầu trong E-HSMT",
+            "Danh sách người thụ hưởng bảo lãnh dự thầu luôn đáp ứng yêu cầu trong E-HSMT",
+            "Các phương án trên đều đúng"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Các phương án trên đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "CĐ 5.1 - Đấu thầu qua mạng",
+          "number": 51,
           "question": "Đối với đấu thầu qua mạng, nội dung nào sau đây là đúng?",
           "options": [
             "Việc đánh giá HSDT được thực hiện trên bản chụp",
@@ -5558,226 +3004,749 @@ window.STUDY_DATA = {
             "Các phương án trên đều sai"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Câu này yêu cầu nhận diện một nhóm nhận định cùng đúng/sai, không chỉ một ý đơn lẻ. Phương án “Các phương án trên đều sai” được chọn vì các ý còn lại khi ghép lại phản ánh đầy đủ hơn quy định trong chủ đề “Đấu thầu qua mạng và chào giá trực tuyến”. Khi ôn, nên đọc từng mệnh đề rồi kiểm tra xem chúng có cùng thuộc một điều kiện/quy trình hay không."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Các phương án trên đều sai. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.2 - QLNN - Kiến nghị)-N",
-          "number": 18,
-          "question": "Các tài liệu, thông tin nào sau đây trong việc giải quyết kiến nghị được công khai trên Hệ thống mạng đấu thầu quốc gia?",
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 52,
+          "question": "Đối với gói thầu đã áp dụng sơ tuyển, trường hợp năng lực và kinh nghiệm của nhà thầu vượt qua bước sơ tuyển khi nộp E-HSDT có sự thay đổi so với khi tham dự sơ tuyển, thì nhà thầu cần phải?",
           "options": [
-            "Nội dung kiến nghị kết quả lựa chọn nhà thầu",
-            "Văn bản giải quyết kiến nghị của chủ đầu tư",
-            "Văn bản giải quyết kiến nghị của người có thẩm quyền",
+            "Cập nhật lại năng lực và kinh nghiệm của mình khi tham dự thầu",
+            "Chỉ phải đính kèm hồ sơ năng lực và kinh nghiệm của mình khi tham dự thầu",
+            "Không phải cập nhật năng lực và kinh nghiệm của mình khi tham dự thầu nhưng phải đính kèm hồ sơ năng lực",
+            "Phương án A và C đều đúng"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Cập nhật lại năng lực và kinh nghiệm của mình khi tham dự thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 53,
+          "question": "Sau khi có quyết định phê duyệt kết quả lựa chọn nhà thầu, nhận định nào sau đây không đúng?",
+          "options": [
+            "Chủ đầu tư đăng tải kết quả lựa chọn nhà thầu trên Hệ thống trong vòng 05 ngày làm việc kể từ ngày phê duyệt kết quả lựa chọn nhà thầu.",
+            "Nhà thầu gửi đề nghị trên Hệ thống hoặc gặp trực tiếp Chủ đầu tư yêu cầu giải thích lý do cụ thể nhà thầu không trúng thầu.",
+            "Chủ đầu tư có trách nhiệm trả lời yêu cầu giải thích lý do cụ thể nhà thầu không trúng thầu của nhà thầu trong thời hạn 02 ngày làm việc kể từ ngày nhận được yêu cầu của nhà thầu",
+            "Chủ đầu tư gửi văn bản thông báo kết quả lựa chọn nhà thầu cho các nhà thầu tham dự thầu trong thời hạn 03 ngày làm việc kể từ ngày phê duyệt kết quả lựa chọn nhà thầu"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Chủ đầu tư gửi văn bản thông báo kết quả lựa chọn nhà thầu cho các nhà thầu tham dự thầu trong thời hạn 03 ngày làm việc kể từ ngày phê duyệt kết quả lựa chọn nhà thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 54,
+          "question": "Trong chào giá trực tuyến rút gọn, bước giá được tính như thế nào?",
+          "options": [
+            "Giá trị trong khoảng từ 0,1% đến 0,3% giá trần",
+            "Giá trị trong khoảng từ 0,5% đến 0.8% giá trần",
+            "Giá trị trong khoảng từ 01% đến 02% giá trần",
+            "Giá trị trong khoảng từ 01% đến 03% giá trần"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Giá trị trong khoảng từ 0,1% đến 0,3% giá trần. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 55,
+          "question": "Trường hợp gặp sự cố dẫn đến Hệ thống mạng đấu thầu quốc gia không thể vận hành và việc khắc phục sự cố dự kiến diễn ra trong thời gian dài, cơ quan nào có trách nhiệm thông báo về cách thức lựa chọn nhà thầu?",
+          "options": [
+            "Bộ Tài chính",
+            "Cục Quản lý đấu thầu",
+            "Trung tâm Đấu thầu qua mạng quốc gia",
+            "Tất cả phương án trên đều đúng"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Bộ Tài chính. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 56,
+          "question": "Trường hợp gặp sự cố dẫn đến Hệ thống mạng đấu thầu quốc gia không thể vận hành và việc khắc phục sự cố dự kiến diễn ra trong thời gian dài, Bộ Tài chính thông báo ở đâu?",
+          "options": [
+            "Cổng thông tin điện tử của Chính phủ",
+            "Cổng thông tin điện tử của Bộ Tài chính",
+            "Hệ thống mạng đấu thầu quốc gia",
+            "Tất cả phương án trên đều đúng"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Hệ thống mạng đấu thầu quốc gia. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 57,
+          "question": "Đối với gói thầu mua sắm hàng hóa, dịch vụ có giá trị dưới 500 triệu đồng áp dụng lựa chọn nhà thầu theo hình thức mua sắm trực tuyến, việc ký kết hợp đồng được thực hiện như thế nào?",
+          "options": [
+            "Bắt buộc ký hợp đồng điện tử trên Hệ thống mạng đấu thầu quốc gia",
+            "Không bắt buộc ký hợp đồng điện tử, chủ đầu tư quyết định hình thức ký kết",
+            "Ký hợp đồng điện tử trên Hệ thống khi việc thanh toán hợp đồng được thực hiện qua Kho bạc nhà nước",
+            "Không ký hợp đồng điện tử đối với gói thầu có giá trị nhỏ hơn 500 triệu đồng"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Ký hợp đồng điện tử trên Hệ thống khi việc thanh toán hợp đồng được thực hiện qua Kho bạc nhà nước. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 58,
+          "question": "Nhận định nào sau đây là không phù hợp đối với gói thầu mua sắm hàng hoá áp dụng chào giá trực tuyến theo quy trình rút gọn?",
+          "options": [
+            "Chủ đầu tư được nêu yêu cầu cụ thể về xuất xứ, ký mã hiệu, nhãn hiệu, hãng sản xuất, thông số kỹ thuật của hàng hóa và các yêu cầu khác (nếu có) như: lắp đặt, đào tạo, bảo hành…",
+            "Chủ đầu tư cần nghiên cứu để đưa ra khoảng thời gian phù hợp giữa ngày giao hàng sớm nhất và ngày giao hàng muộn nhất",
+            "Nhà thầu sẽ không đề xuất ngày giao hàng cụ thể mà chỉ cam kết tuân thủ theo yêu cầu của chủ đầu tư tại E- TBMT",
+            "Trong quá trình chào giá, mức giá do các nhà thầu chào và tên nhà thầu được công khai trên Hệ thống mạng đấu thầu quốc gia"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Trong quá trình chào giá, mức giá do các nhà thầu chào và tên nhà thầu được công khai trên Hệ thống mạng đấu thầu quốc gia. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 59,
+          "question": "Trong chào giá trực tuyến theo quy trình rút gọn gói thầu hàng hóa, phát biểu nào sau đây không đúng?",
+          "options": [
+            "Đối với lần chào giá đầu tiên nhà thầu nhập các trọng số là đơn giá của hàng hóa nhà thầu dự kiến xác định sẽ",
+            "Nhà thầu không được thay đổi trọng số của từng hạng mục hàng hóa trong quá trình chào giá",
+            "Nhà thầu cần nghiên cứu công thức tính thành tiền và đơn giá dự thầu từ các trọng số để đề xuất các trọng số cho phù hợp",
+            "Nhà thầu phải điền các trọng số về đơn giá (N1, N2,...) của từng hạng mục"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Nhà thầu không được thay đổi trọng số của từng hạng mục hàng hóa trong quá trình chào giá. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 60,
+          "question": "Trong chào giá trực tuyến theo quy trình rút gọn, khi nhập trọng số trong lần chào giá đầu tiên, nhà thầu cần làm gì?",
+          "options": [
+            "Nhập ngẫu nhiên các giá trị trọng số",
+            "Nhập trọng số bằng giá trị khối lượng từng hạng mục",
+            "Nhập trọng số là đơn giá dự kiến chào cho từng hạng mục ầ ố ố",
+            "Không cần nhập trọng số, hệ thống sẽ tự động tính"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Nhập trọng số là đơn giá dự kiến chào cho từng hạng mục ầ ố ố. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 61,
+          "question": "Trường hợp Hệ thống chưa trích xuất tự động thông tin về nghĩa vụ nộp thuế của nhà thầu thì nhà thầu nộp tài liệu nào để chứng minh nghĩa vụ nộp thuế?",
+          "options": [
+            "Phải bao gồm Tờ khai thuế (thông báo nộp tiền của cơ quan thuế đối với hộ kinh doanh) và giấy nộp tiền có xác nhận của cơ quan thuế được in từ Hệ thống thuế điện tử (A)",
+            "Phải bao gồm Tờ khai thuế (thông báo nộp tiền của cơ quan thuế đối với hộ kinh doanh) và xác nhận của cơ quan thuế về việc thực hiện nghĩa vụ thuế (B)",
+            "Phải bao gồm Tờ khai thuế (thông báo nộp tiền của cơ quan thuế đối với hộ kinh doanh), giấy nộp tiền có xác nhận của cơ quan thuế được in từ Hệ thống thuế điện tử và xác nhận của cơ quan thuế về việc thực hiện nghĩa vụ thuế.(C)",
+            "Phương án A hoặc B đúng"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Phương án A hoặc B đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_05_Dau_thau_qua_mang_va_He_thong.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 62,
+          "question": "Hồ sơ mời sơ tuyển được phát hành như thế nào, thời gian chuẩn bị hồ sơ dự sơ tuyển tối thiểu là bao nhiêu ngày?",
+          "options": [
+            "Phát hành miễn phí trên Hệ thống mạng đấu thầu quốc gia, thời gian chuẩn bị tối thiểu là 7 ngày làm việc",
+            "Phát hành trên Hệ thống mạng đấu thầu quốc gia với giá 110.000 đồng/hồ sơ, thời gian chuẩn bị tối thiểu là 9 ngày làm việc",
+            "Phát hành miễn phí trên Hệ thống mạng đấu thầu quốc gia, thời gian chuẩn bị tối thiểu là 9 ngày làm việc",
+            "Phát hành miễn phí trên Hệ thống mạng đấu thầu quốc gia, thời gian chuẩn bị tối thiểu là 9 ngày"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Phát hành miễn phí trên Hệ thống mạng đấu thầu quốc gia, thời gian chuẩn bị tối thiểu là 9 ngày. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        }
+      ]
+    },
+    {
+      "title": "Đánh giá hồ sơ dự thầu và xét duyệt trúng thầu",
+      "theory": [
+        {
+          "heading": "Nguồn pháp lý tham khảo",
+          "points": [
+            "Luật Đấu thầu số 22/2023/QH15: https://vanban.chinhphu.vn/?classid=1&docid=208419&orggroupid=1&pageid=27160",
+            "Luật số 57/2024/QH15: https://vanban.chinhphu.vn/?classid=1&docid=212485&orggroupid=1&pageid=27160",
+            "Luật số 90/2025/QH15: https://vanban.chinhphu.vn/?docid=214558&orggroupid=1&pageid=27160",
+            "Nghị định số 214/2025/NĐ-CP: https://vanban.chinhphu.vn/?classid=1&docid=214821&pageid=27160&typegroupid=4",
+            "Thông tư số 79/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214844&pageid=27160",
+            "Thông tư số 80/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214968&pageid=27160"
+          ],
+          "note": "Các nguồn này được ghi trong database chuyên đề để người học đối chiếu khi cần."
+        },
+        {
+          "heading": "1. Mục tiêu của đánh giá hồ sơ dự thầu",
+          "points": [
+            "Đánh giá hồ sơ dự thầu nhằm xác định nhà thầu đáp ứng yêu cầu của hồ sơ mời thầu và được xếp hạng theo phương pháp đánh giá đã phê duyệt. Không được thay đổi tiêu chuẩn đánh giá sau khi mở thầu để làm lợi hoặc gây bất lợi cho nhà thầu."
+          ]
+        },
+        {
+          "heading": "2. Các lớp đánh giá cơ bản",
+          "points": [
+            "Thông thường cần xem xét tư cách hợp lệ, tính hợp lệ của hồ sơ dự thầu, năng lực kinh nghiệm, kỹ thuật và tài chính. Với từng loại gói thầu và phương thức lựa chọn, thứ tự đánh giá có thể khác nhau nhưng nguyên tắc là phải bám tiêu chuẩn đã nêu trong hồ sơ mời thầu."
+          ]
+        },
+        {
+          "heading": "3. Làm rõ, sửa lỗi và hiệu chỉnh sai lệch",
+          "points": [
+            "Làm rõ hồ sơ dự thầu không được làm thay đổi bản chất hồ sơ dự thầu hoặc giá dự thầu sau đóng thầu. Sửa lỗi và hiệu chỉnh sai lệch nhằm đưa hồ sơ về cơ sở so sánh thống nhất. Giá đề nghị trúng thầu thường được hiểu là giá dự thầu sau sửa lỗi, hiệu chỉnh sai lệch và trừ giá trị giảm giá hợp lệ nếu có."
+          ]
+        },
+        {
+          "heading": "4. Phương pháp đánh giá",
+          "points": [
+            "Các phương pháp thường gặp gồm giá thấp nhất, giá đánh giá, kết hợp giữa kỹ thuật và giá, giá cố định và dựa trên kỹ thuật đối với tư vấn. Mỗi phương pháp có điều kiện áp dụng và cách xếp hạng riêng; khi làm bài phải đọc đúng loại gói thầu trước khi chọn phương pháp."
+          ]
+        },
+        {
+          "heading": "Bẫy thường gặp",
+          "points": [
+            "Làm rõ hồ sơ thành bổ sung làm thay đổi bản chất dự thầu.",
+            "Nhầm giá dự thầu ban đầu với giá đề nghị trúng thầu.",
+            "Áp dụng sai phương pháp đánh giá cho loại gói thầu."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 1,
+          "question": "Trường hợp hồ sơ đề xuất về tài chính của Nhà thầu không vượt qua bước đánh giá về kỹ thuật, Nhà thầu từ chối nhận lại hồ sơ đề xuất của mình thì Chủ đầu tư phải xử lý như thế nào?",
+          "options": [
+            "Chủ đầu tư xem xét, quyết định việc hủy hồ sơ nhưng phải đảm bảo thông tin không bị tiết lộ",
+            "Chủ đầu tư phải lưu trữ theo quy định của pháp luật về lưu trữ",
+            "Chủ đầu tư lưu trữ tối thiểu 05 năm",
+            "Tất cả các phương án trên đều sai"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Chủ đầu tư xem xét, quyết định việc hủy hồ sơ nhưng phải đảm bảo thông tin không bị tiết lộ. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 2,
+          "question": "Đối với gói thầu xây lắp đấu thầu không qua mạng, hồ sơ đề xuất tài chính của nhà thầu không được lựa chọn sẽ được trả lại khi nào?",
+          "options": [
+            "Khi gửi thư mời thương thảo",
+            "Khi kết thúc giai đoạn đánh giá kỹ thuật",
+            "Khi hoàn trả bảo đảm dự thầu của nhà thầu không được lựa chọn hoặc đăng tải kết quả lựa chọn nhà thầu",
+            "Khi ký hợp đồng"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Khi hoàn trả bảo đảm dự thầu của nhà thầu không được lựa chọn hoặc đăng tải kết quả lựa chọn nhà thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 3,
+          "question": "Đối với gói thầu cung cấp dịch vụ tư vấn không qua mạng, trường hợp hồ sơ đề xuất về tài chính của nhà thầu không vượt qua bước đánh giá về kỹ thuật sẽ được xử lý như thế nào theo quy định của pháp luật về đấu thầu?",
+          "options": [
+            "Trả lại nguyên trạng cho nhà thầu trong thời hạn 10 ngày kể từ ngày ký hợp đồng với nhà thầu được lựa chọn",
+            "Trả lại nguyên trạng cho nhà thầu trong thời hạn 05 ngày kể từ ngày ký hợp đồng với nhà thầu được lựa chọn",
+            "Trả lại nguyên trạng cho nhà thầu trong thời hạn 15 ngày kể từ ngày ký hợp đồng với nhà thầu được lựa chọn",
+            "Hồ sơ được lưu trữ theo quy định của Pháp luật về lưu trữ"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Trả lại nguyên trạng cho nhà thầu trong thời hạn 10 ngày kể từ ngày ký hợp đồng với nhà thầu được lựa chọn. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 4,
+          "question": "Việc giữ lại hồ sơ tài chính của nhà thầu không đạt kỹ thuật sau thời hạn quy định sẽ...?",
+          "options": [
+            "Là cơ sở để tiếp tục đánh giá trong trường hợp phải đánh giá lại (A)",
+            "Bảo đảm trách nhiệm của chủ đầu tư theo quy định của pháp luật về đấu thầu (B)",
+            "Có thể dẫn tới khiếu nại từ nhà thầu (C)",
+            "Phương án A và B đều đúng"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Có thể dẫn tới khiếu nại từ nhà thầu (C). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 5,
+          "question": "Có 4 nhà thầu tham dự thầu gói thầu mua sắm hàng hóa áp dụng phương pháp giá thấp nhất, trong đó: - Nhà thầu A, B, D là doanh nghiệp nhỏ và vừa do phụ nữ làm chủ. - Nhà thầu A, B, C và D có giá dự thầu sau sửa lỗi, hiệu chỉnh sai lệch, trừ đi giá trị giảm giá lần lượt là: 95 tỷ đồng, 100 tỷ đồng, 100 tỷ đồng và 105 tỷ đồng. - Nhà thầu A, B, C và D chứng minh được hàng hóa mình tham dự có tỷ lệ chi phí sản xuất trong nước lần lượt là: 20%, 40%, 45% và 60%. Trong trường hợp tất cả nhà thầu đều đáp ứng về kỹ thuật thì nhà thầu nào được xét duyệt trúng thầu?",
+          "options": [
+            "Nhà thầu A được xét duyệt trúng thầu",
+            "Nhà thầu B được xét duyệt trúng thầu",
+            "Nhà thầu C được xét duyệt trúng thầu",
+            "Nhà thầu D được xét duyệt trúng thầu"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Nhà thầu B được xét duyệt trúng thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 6,
+          "question": "Thành viên tổ chuyên gia cần có tối thiểu bao nhiêu năm kinh nghiệm trong lĩnh vực liên quan?",
+          "options": [
+            "01 năm công tác thuộc một trong các lĩnh vực liên quan đến nội dung pháp lý, kỹ thuật, tài chính của gói thầu",
+            "02 năm công tác thuộc một trong các lĩnh vực liên quan đến nội dung pháp lý, kỹ thuật, tài chính của gói thầu",
+            "03 năm công tác thuộc một trong các lĩnh vực liên quan đến nội dung pháp lý, kỹ thuật, tài chính của gói thầu",
+            "Không có quy định về số năm kinh nghiệm"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: 03 năm công tác thuộc một trong các lĩnh vực liên quan đến nội dung pháp lý, kỹ thuật, tài chính của gói thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 7,
+          "question": "Nhà thầu liên danh A-B tham dự thầu và nộp bảo đảm dự thầu riêng rẽ, trong quá trình đánh giá hồ sơ dự thầu tổ chuyên gia có bằng chứng cho thấy nhà thầu A có hành vi gian lận, thuộc hành vi bị cấm trong đấu thầu, trong trường hợp này bảo đảm dự thầu của nhà thầu liên danh xử lý như thế nào?",
+          "options": [
+            "Không hoàn trả bảo đảm dự thầu của cả nhà thầu liên danh A-B",
+            "Không hoàn trả bảo đảm dự thầu của nhà thầu A",
+            "Không hoàn trả bảo đảm dự thầu của nhà thầu B",
+            "Nhà thầu A và nhà thầu B vẫn được hoàn trả bảo đảm dự thầu"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Không hoàn trả bảo đảm dự thầu của cả nhà thầu liên danh A-B. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 8,
+          "question": "Nội dung nào là tiêu chuẩn đánh giá đánh giá về năng lực và kinh nghiệm bắt buộc đối với gói thầu xây lắp tổ chức đấu thầu rộng rãi không qua mạng?",
+          "options": [
+            "Có bản gốc hồ sơ dự thầu",
+            "Có tên trong danh sách ngắn",
+            "Năng lực tài chính",
+            "Có bảo đảm dự thầu hợp lệ"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Năng lực tài chính. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 9,
+          "question": "Đối với đấu thầu qua mạng, nội dung nào sau đây do Hệ thống tự động đánh giá?",
+          "options": [
+            "Bảo đảm dự thầu",
+            "Thoả thuận liên danh đối với nhà thầu liên danh",
+            "Doanh thu bình quân 3 năm gần nhất của nhà thầu",
+            "Các đáp án trên đều đúng"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Doanh thu bình quân 3 năm gần nhất của nhà thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 10,
+          "question": "Đối với đấu thầu qua mạng, nội dung đánh giá kết quả hoạt động tài chính nào sau đây là đúng?",
+          "options": [
+            "Đối với số liệu về kết quả hoạt động tài chính từ 2021 trở đi, Hệ thống đánh giá căn cứ thông tin được trích xuất hoặc thông tin do nhà thầu cập nhật",
+            "Đối với số liệu về kết quả hoạt động tài chính trước năm 2021, hệ thống đánh giá căn cứ thông tin do nhà thầu kê khai",
+            "Đối với nhà thầu là hộ kinh doanh, không đánh giá tiêu chí kết quả hoạt động tài chính",
             "Tất cả phương án trên đều đúng"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Kiến nghị là cơ chế để nhà thầu yêu cầu xem xét lại vấn đề trong lựa chọn nhà thầu trước khi đi sang khiếu nại/khởi kiện. Phương án “Tất cả phương án trên đều đúng” đúng vì khớp đúng chủ thể, thời hạn hoặc quyền hạn trong quy trình giải quyết kiến nghị."
-        }
-      ]
-    },
-    {
-      "title": "Vi phạm, cấm thầu và kiến nghị",
-      "theory": [
-        {
-          "heading": "1. Nhóm hành vi bị cấm: học bằng mức độ nguy hiểm",
-          "points": [
-            "Gian lận là cố ý làm sai lệch thông tin, hồ sơ, tài liệu hoặc kết quả; đây là hành vi rất nặng vì phá vỡ tính trung thực của cuộc thầu. Ngân hàng câu hỏi gắn mốc cấm tham gia đấu thầu từ 03 đến 05 năm.",
-            "Cản trở là gây khó khăn, can thiệp trái phép, ngăn nhà thầu/chủ thể khác thực hiện quyền và nghĩa vụ trong đấu thầu. Nhóm này thường gắn mốc cấm từ 01 đến 03 năm.",
-            "Một lỗi vai trò hay hỏi: tham gia lập đồng thời tham gia thẩm định HSMT của cùng gói thầu. Ngân hàng câu hỏi gắn mốc 06 tháng đến 01 năm.",
-            "Nếu có từ 02 hành vi vi phạm trở lên thuộc cùng phạm vi quản lý và chưa bị cấm, thời gian cấm có thể tính tổng nhưng tối đa không quá 05 năm."
-          ],
-          "note": "Mẹo nhớ mức phạt: gian lận nặng nhất; cản trở thấp hơn; sai vai trò lập/thẩm định thấp hơn nữa."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Tất cả phương án trên đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "heading": "2. Liên danh và bảo đảm dự thầu khi có vi phạm",
-          "points": [
-            "Với liên danh, cần xác định thành viên nào vi phạm, bảo đảm dự thầu nộp chung hay riêng, hành vi có làm sai lệch tư cách của cả liên danh hay không.",
-            "Nếu có bằng chứng một thành viên liên danh gian lận trong quá trình dự thầu, hậu quả có thể ảnh hưởng đến cả liên danh, bao gồm xử lý bảo đảm dự thầu và kết quả tham dự.",
-            "Không nên máy móc rằng thành viên nào vi phạm thì chỉ thành viên đó bị ảnh hưởng; phải đọc tình huống xem hồ sơ dự thầu được nộp dưới tư cách liên danh như một nhà thầu dự thầu."
-          ]
-        },
-        {
-          "heading": "3. Kiến nghị, khiếu nại và Hội đồng giải quyết kiến nghị",
-          "points": [
-            "Kiến nghị là cơ chế để nhà thầu yêu cầu xem xét lại vấn đề trong quá trình hoặc kết quả lựa chọn nhà thầu. Khi đã chuyển sang khiếu nại, việc giải quyết kiến nghị cùng nội dung phải chấm dứt để tránh hai cơ chế song song.",
-            "Đối với kiến nghị về kết quả lựa chọn nhà thầu, Hội đồng giải quyết kiến nghị phải có văn bản giải quyết trong thời hạn 30 ngày kể từ ngày được thành lập theo ngân hàng câu hỏi.",
-            "Chi phí giải quyết kiến nghị được nộp cho bộ phận thường trực giúp việc cho Chủ tịch Hội đồng giải quyết kiến nghị. Chi phí này không phải lúc nào cũng được hoàn trả.",
-            "Hội đồng có quyền yêu cầu nhà thầu, chủ đầu tư, bên mời thầu và cơ quan liên quan cung cấp hồ sơ, tài liệu để xem xét khách quan."
-          ]
-        },
-        {
-          "heading": "4. Kiểm tra hoạt động đấu thầu",
-          "points": [
-            "Kiểm tra có thể là định kỳ hoặc đột xuất. Định kỳ giúp quản lý thường xuyên; đột xuất dùng khi có dấu hiệu rủi ro, phản ánh, kiến nghị hoặc yêu cầu quản lý.",
-            "Kiểm tra khác với thanh tra/kiểm toán ở mục đích và thẩm quyền, nhưng đều nhằm bảo đảm tuân thủ, minh bạch và trách nhiệm giải trình trong đấu thầu.",
-            "Khi câu hỏi hỏi “hình thức kiểm tra”, đáp án đúng thường là cả định kỳ và đột xuất."
-          ]
-        }
-      ],
-      "questions": [
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.2 - QLNN - Kiến nghị)-N",
-          "number": 3,
-          "question": "Ông A là người đại diện hợp pháp của nhà thầu B ký đơn kiến nghị về kết quả lựa chọn nhà thầu. Trong trường hợp này, anh C là con đẻ của ông A có được tham gia là thành viên Hội đồng giải quyết kiến nghị hay không?",
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 11,
+          "question": "Đối với đấu thầu rộng rãi qua mạng, một số nội dung do Hệ thống mạng đấu thầu quốc gia đánh giá \"không đạt\" thì Tổ chuyên gia không thể sửa đổi kết quả đánh giá từ \"không đạt\" thành \"đạt\". Phương án nào sau đây là đúng?",
           "options": [
-            "Không được tham gia",
-            "Được tham gia nếu đủ năng lực, kinh nghiệm",
-            "Được tham gia khi Chủ tịch Hội đồng giải quyết kiến nghị chấp thuận",
-            "Được tham gia khi người có thẩm quyền chấp thuận"
-          ],
-          "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Kiến nghị là cơ chế để nhà thầu yêu cầu xem xét lại vấn đề trong lựa chọn nhà thầu trước khi đi sang khiếu nại/khởi kiện. Phương án “Không được tham gia” đúng vì khớp đúng chủ thể, thời hạn hoặc quyền hạn trong quy trình giải quyết kiến nghị."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.2 - QLNN - Kiến nghị)-N",
-          "number": 5,
-          "question": "Theo quy định pháp luật về đấu thầu, kiểm tra hoạt động đấu thầu được tiến hành theo hình thức nào?",
-          "options": [
-            "Kiểm tra trực tiếp",
-            "Báo cáo bằng văn bản",
-            "Kết hợp giữa kiểm tra trực tiếp và báo cáo bằng văn bản",
-            "Kiểm tra định kỳ hoặc đột xuất"
+            "Tư cách hợp lệ, nhà thầu không có nhân sự bị tòa án kết án có hành vi vi phạm quy định về đấu thầu gây hậu quả nghiêm trọng, trạng thái bị tạm ngừng, chấm dứt tham gia Hệ thống mạng đấu thầu quốc gia, doanh thu bình quân hằng năm.",
+            "Tư cách hợp lệ, bảo đảm dự thầu, thực hiện nghĩa vụ kê khai thuế và nộp thuế, kết quả hoạt động tài chính, doanh thu bình quân hằng năm",
+            "Tư cách hợp lệ, nhà thầu không có nhân sự bị tòa án kết án có hành vi vi phạm quy định về đấu thầu gây hậu quả nghiêm trọng, trạng thái bị tạm ngừng, chấm dứt tham gia Hệ thống mạng đấu thầu quốc gia, thực hiện nghĩa vụ kê khai thuế và nộp thuế, kết quả hoạt động tài chính, doanh thu bình quân hằng năm",
+            "Tư cách hợp lệ, nhà thầu không có nhân sự bị tòa án kết án có hành vi vi phạm quy định về đấu thầu gây hậu quả nghiêm trọng, lịch sử không hoàn thành hợp đồng do lỗi của nhà thầu, thực hiện nghĩa vụ kê khai thuế và nộp thuế, kết quả hoạt động tài chính, doanh thu bình quân hằng năm"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Kiểm tra hoạt động đấu thầu có thể thực hiện theo kế hoạch định kỳ hoặc đột xuất khi có yêu cầu/dấu hiệu cần kiểm tra. Vì vậy đáp án đúng là kiểm tra định kỳ hoặc đột xuất, không chỉ giới hạn ở một hình thức."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Tư cách hợp lệ, nhà thầu không có nhân sự bị tòa án kết án có hành vi vi phạm quy định về đấu thầu gây hậu quả nghiêm trọng, lịch sử không hoàn thành hợp đồng do lỗi của nhà thầu, thực hiện nghĩa vụ kê khai thuế và nộp thuế, kết quả hoạt động tài chính, doanh thu bình quân hằng năm. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.2 - QLNN - Kiến nghị)-N",
-          "number": 8,
-          "question": "Trường hợp đang trong quá trình giải quyết kiến nghị mà nhà thầu gửi đơn khiếu nại thì việc giải quyết kiến nghị được xử lý thế nào",
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 12,
+          "question": "Đối với gói thầu chia thành 2 phần (phần 1: mua sắm máy tính; phần 2: mua sắm bàn ghế cho cán bộ công chức), áp dụng phương pháp giá thấp nhất. Máy tính và bàn ghế là hàng hóa thuộc danh mục do Chính phủ, Thủ tướng Chính phủ quy định tiêu chuẩn, định mức, việc xét duyệt trúng thầu trong trường hợp này được thực hiện như thế nào?",
           "options": [
-            "Tiếp tục giải quyết kiến nghị",
-            "Chấm dứt ngay việc giải quyết kiến nghị",
-            "Tạm dừng việc giải quyết kiến nghị đến khi có kết quả giải quyết khiếu nại",
+            "Giá đề nghị trúng thầu của từng hàng hóa đảm bảo không vượt mức giá của từng hàng hóa đó theo tiêu chuẩn, định mức do cấp có thẩm quyền ban hành và tổng giá đề nghị trúng thầu của gói thầu là thấp nhất, không vượt giá gói thầu được duyệt",
+            "Tổng giá đề nghị trúng thầu của gói thầu là thấp nhất và không vượt giá gói thầu được duyệt mà không so sánh với ước tính chi phí của từng phần, không cần so sánh với tiêu chuẩn, định mức từng mặt hàng",
+            "Giá từng phần thấp nhất, tổng giá đề nghị trúng thầu không vượt giá gói thầu được duyệt, không cần so sánh với tiêu chuẩn, định mức từng mặt hàng",
             "Tất cả phương án trên đều sai"
           ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Khi nhà thầu đang được giải quyết kiến nghị mà chuyển sang khiếu nại, việc giải quyết kiến nghị phải chấm dứt để tránh hai cơ chế xử lý song song cùng một nội dung. Khi đó vụ việc đi theo trình tự khiếu nại."
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Giá đề nghị trúng thầu của từng hàng hóa đảm bảo không vượt mức giá của từng hàng hóa đó theo tiêu chuẩn, định mức do cấp có thẩm quyền ban hành và tổng giá đề nghị trúng thầu của gói thầu là thấp nhất, không vượt giá gói thầu được duyệt. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.2 - QLNN - Kiến nghị)-N",
-          "number": 10,
-          "question": "Chi phí giải quyết kiến nghị được nhà thầu nộp cho chủ thể nào sau đây?",
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 13,
+          "question": "Danh sách xếp hạng nhà thầu có bắt buộc phải thẩm định trước khi phê duyệt hay không?",
           "options": [
-            "Chủ tịch Hội đồng tư vấn giải quyết kiến nghị",
-            "Bộ phận thường trực giúp việc cho Chủ tịch Hội đồng giải quyết kiến nghị",
-            "Chủ đầu tư",
-            "Người có thẩm quyền"
+            "Phải thẩm định trong trường hợp có hơn 01 nhà thầu trong danh sách xếp hạng (A)",
+            "Không phải thẩm định (B)",
+            "Do người có thẩm quyền quyết định (C)",
+            "Phương án A và C đều đúng"
           ],
           "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Chi phí giải quyết kiến nghị được nộp cho bộ phận thường trực giúp việc cho Chủ tịch Hội đồng giải quyết kiến nghị. Khoản chi phí này chỉ được hoàn trả trong các trường hợp quy định; nếu kiến nghị không được kết luận là đúng hoặc nhà thầu rút kiến nghị không thuộc diện hoàn trả thì không được nhận lại."
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Không phải thẩm định (B). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.2 - QLNN - Kiến nghị)-N",
-          "number": 11,
-          "question": "Đối với kiến nghị về kết quả lựa chọn nhà thầu, Hội đồng giải quyết kiến nghị phải có văn bản giải quyết kiến nghị trong thời hạn bao nhiêu ngày kể từ ngày Hội đồng được thành lập?",
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 14,
+          "question": "Đối với đấu thầu qua mạng, việc làm rõ E-HSDT giữa Chủ đầu tư và nhà thầu có E- HSDT cần phải làm rõ được thực hiện như thế nào?",
           "options": [
-            "25 ngày",
-            "30 ngày",
-            "35 ngày",
-            "20 ngày"
-          ],
-          "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Kiến nghị là cơ chế để nhà thầu yêu cầu xem xét lại vấn đề trong lựa chọn nhà thầu trước khi đi sang khiếu nại/khởi kiện. Phương án “30 ngày” đúng vì khớp đúng chủ thể, thời hạn hoặc quyền hạn trong quy trình giải quyết kiến nghị."
-        },
-        {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.2 - QLNN - Kiến nghị)-N",
-          "number": 12,
-          "question": "Các trường hợp nào sau đây nhà thầu không được hoàn trả chi phí giải quyết kiến nghị",
-          "options": [
-            "Kiến nghị của nhà thầu được kết luận là đúng (A)",
-            "Một hoặc các nội dung kiến nghị của nhà thầu được kết luận là không đúng (B)",
-            "Nhà thầu rút đơn kiến nghị trong quá trình giải quyết kiến nghị (C)",
-            "Phương án B và C đều đúng"
+            "Chủ đầu tư được làm rõ đối với các nội dung về tư cách hợp lệ, năng lực, kinh nghiệm, không được làm rõ đối với yêu cầu về kỹ thuật, tài chính",
+            "Chủ đầu tư được làm rõ đối với yêu cầu về kỹ thuật, tài chính, không được làm rõ đối với các nội dung về tư cách hợp lệ, năng lực, kinh nghiệm",
+            "Chủ đầu tư dành cho nhà thầu tối đa 03 ngày để nhà thầu thực hiện việc làm rõ E-HSDT",
+            "Chủ đầu tư dành cho nhà thầu tối thiểu 03 ngày làm việc để nhà thầu thực hiện việc làm rõ E-HSDT"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Chi phí giải quyết kiến nghị được nộp cho bộ phận thường trực giúp việc cho Chủ tịch Hội đồng giải quyết kiến nghị. Khoản chi phí này chỉ được hoàn trả trong các trường hợp quy định; nếu kiến nghị không được kết luận là đúng hoặc nhà thầu rút kiến nghị không thuộc diện hoàn trả thì không được nhận lại."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Chủ đầu tư dành cho nhà thầu tối thiểu 03 ngày làm việc để nhà thầu thực hiện việc làm rõ E-HSDT. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.2 - QLNN - Kiến nghị)-N",
-          "number": 13,
-          "question": "Phương án nào sau đây là đúng trong việc giải quyết kiến nghị đối với gói thầu sử dụng vốn sản xuất kinh doanh của doanh nghiệp nhà nước?",
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 15,
+          "question": "Thời gian phê duyệt kết quả lựa chọn nhà thầu được quy định như thế nào?",
           "options": [
-            "Hội đồng giải quyết kiến nghị do Sở Tài chính thành lập có trách nhiệm giải quyết kiến nghị cho gói thầu (A)",
-            "Hội đồng giải quyết kiến nghị do Bộ trưởng Bộ Tài chính thành lập có trách nhiệm giải quyết kiến nghị cho gói thầu (B)",
-            "Người đứng đầu doanh nghiệp nhà nước tự ban hành điều kiện, quy trình về giải quyết kiến nghị trong đơn vị mình (C)",
-            "Tất cả phương án A, B, C đều sai"
+            "Tối đa là 03 ngày làm việc kể từ ngày tổ chuyên gia trình báo cáo đánh giá hồ sơ dự thầu",
+            "Tối đa là 05 ngày làm việc kể từ ngày tổ chuyên gia trình báo cáo đánh giá hồ sơ dự thầu",
+            "Tối đa là 05 ngày làm việc kể từ ngày tổ thẩm định trình báo cáo thẩm định kết quả lựa chọn nhà thầu",
+            "Do chủ đầu tư quyết định trên cơ sở bảo đảm tiến độ của dự án, gói thầu và phù hợp với thời gian tổ chức lựa chọn nhà thầu trong kế hoạch lựa chọn nhà thầu được phê duyệt"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Do chủ đầu tư quyết định trên cơ sở bảo đảm tiến độ của dự án, gói thầu và phù hợp với thời gian tổ chức lựa chọn nhà thầu trong kế hoạch lựa chọn nhà thầu được phê duyệt. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 16,
+          "question": "Phương án nào sau đây được xác định là một bước trong quá trình lựa chọn nhà thầu theo quy trình chỉ định thầu thông thường được pháp luật về đấu thầu quy định?",
+          "options": [
+            "Xác định tối thiểu 03 nhà thầu có đủ năng lực, kinh nghiệm để mời nhận hồ sơ yêu cầu (A)",
+            "Chuẩn bị và gửi dự thảo hợp đồng cho tối thiểu 03 nhà thầu có đủ năng lực, kinh nghiệm để đàm phán hợp đồng (B)",
+            "Đánh giá hồ sơ đề xuất và thương thảo về các đề xuất của nhà thầu (C)",
+            "Phương án A và C đều đúng"
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Kiến nghị là cơ chế để nhà thầu yêu cầu xem xét lại vấn đề trong lựa chọn nhà thầu trước khi đi sang khiếu nại/khởi kiện. Phương án “Người đứng đầu doanh nghiệp nhà nước tự ban hành điều kiện, quy trình về giải quyết kiến nghị trong đơn vị mình” đúng vì khớp đúng chủ thể, thời hạn hoặc quyền hạn trong quy trình giải quyết kiến nghị."
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Đánh giá hồ sơ đề xuất và thương thảo về các đề xuất của nhà thầu (C). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.2 - QLNN - Kiến nghị)-N",
-          "number": 14,
-          "question": "Hội đồng giải quyết kiến nghị có quyền thực hiện việc nào sau đây?",
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 17,
+          "question": "Quy trình, thủ tục lựa chọn nhà thầu đối với chỉ định thầu theo quy trình rút gọn bao gồm các bước nào sau đây?",
           "options": [
-            "Hủy thầu",
-            "Yêu cầu chủ đầu tư tạm dừng, ký kết hợp đồng",
-            "Yêu cầu nhà thầu, chủ đầu tư và các cơ quan liên quan cung cấp thông tin của gói thầu, dự án và các thông tin liên quan khác để thực hiện nhiệm vụ",
-            "Không công nhận kết quả lựa chọn nhà thầu"
+            "Chuẩn bị và gửi dự thảo hợp đồng cho nhà thầu; thương thảo, hoàn thiện hợp đồng; trình, phê duyệt và công khai kết quả lựa chọn nhà thầu; ký kết hợp đồng",
+            "Chuẩn bị và gửi dự thảo hợp đồng cho nhà thầu; thương thảo hợp đồng; trình, phê duyệt kết quả lựa chọn nhà thầu; ký kết và quản lý thực hiện hợp đồng",
+            "Chuẩn bị và gửi dự thảo hợp đồng cho nhà thầu; hoàn thiện hợp đồng, phê duyệt và công khai kết quả lựa chọn nhà thầu; ký kết và quản lý thực hiện hợp đồng",
+            "Lập, phê duyệt hồ sơ yêu cầu; xác định nhà thầu dự kiến được mời nhận hồ sơ yêu cầu; đánh giá hồ sơ đề xuất và thương thảo về các đề xuất của nhà thầu; phê duyệt và công khai kết quả lựa chọn nhà thầu; hoàn thiện, ký kết và quản lý thực hiện hợp đồng"
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Kiến nghị là cơ chế để nhà thầu yêu cầu xem xét lại vấn đề trong lựa chọn nhà thầu trước khi đi sang khiếu nại/khởi kiện. Phương án “Yêu cầu nhà thầu, chủ đầu tư và các cơ quan liên quan cung cấp thông tin của gói thầu, dự án và các thông tin liên quan khác để thực hiện nhiệm vụ” đúng vì khớp đúng chủ thể, thời hạn hoặc quyền hạn trong quy trình giải quyết kiến nghị."
-        }
-      ]
-    },
-    {
-      "title": "Tổng hợp tình huống lựa chọn nhà thầu",
-      "theory": [
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Chuẩn bị và gửi dự thảo hợp đồng cho nhà thầu; hoàn thiện hợp đồng, phê duyệt và công khai kết quả lựa chọn nhà thầu; ký kết và quản lý thực hiện hợp đồng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
         {
-          "heading": "1. Công thức bóc tách tình huống dài",
-          "points": [
-            "Bước 1: xác định nguồn vốn và chủ thể. Nếu dùng ngân sách/vốn nhà nước hoặc chủ thể công thì kiểm tra phạm vi Luật Đấu thầu.",
-            "Bước 2: xác định loại gói thầu: tư vấn, phi tư vấn, hàng hóa, xây lắp, hỗn hợp, y tế, mua sắm tập trung hay trực tuyến.",
-            "Bước 3: xác định giai đoạn: lập kế hoạch, HSMT, nộp/mở thầu, đánh giá, phê duyệt, hợp đồng, kiến nghị, xử lý vi phạm.",
-            "Bước 4: gắn điều kiện bắt buộc: hạn mức, tư cách hợp lệ, năng lực, kỹ thuật, bảo đảm dự thầu, bảo đảm cạnh tranh, thời hạn.",
-            "Bước 5: loại phương án sai chủ thể, sai bước, sai mốc, sai loại gói thầu hoặc biến ngoại lệ thành nguyên tắc."
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 18,
+          "question": "Trong gói thầu dịch vụ tư vấn, thông tin về uy tín của nhà thầu được sử dụng để?",
+          "options": [
+            "Đánh giá về năng lực, kinh nghiệm",
+            "Đánh giá tư cách hợp lệ của nhà thầu",
+            "Đánh giá về kỹ thuật",
+            "Loại nhà thầu đã bị đánh giá về uy tín"
           ],
-          "note": "Mẹo làm bài: đừng đọc đáp án trước. Gạch chân chủ thể - nguồn vốn - loại gói - giai đoạn - con số."
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Đánh giá về kỹ thuật. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "heading": "2. Phương pháp đánh giá theo loại gói thầu",
-          "points": [
-            "Gói tư vấn chú trọng chất lượng chuyên môn, phương pháp thực hiện và nhân sự. Vì vậy phương pháp giá đánh giá không áp dụng cho gói tư vấn; các phương pháp thường xoay quanh kỹ thuật, kỹ thuật và giá, giá cố định tùy trường hợp.",
-            "Phương pháp kết hợp kỹ thuật và giá dùng khi gói tư vấn cần cân bằng cả chất lượng và chi phí.",
-            "Khi chấm điểm kỹ thuật, ngưỡng điểm yêu cầu tối thiểu trong ngân hàng câu hỏi là không thấp hơn 70% tổng điểm kỹ thuật.",
-            "Với hàng hóa, xây lắp, phi tư vấn, hỗn hợp, phương pháp giá đánh giá dùng để quy đổi các yếu tố kỹ thuật, thương mại, vận hành về một mặt bằng chi phí để so sánh."
-          ]
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 19,
+          "question": "Khi thương thảo hợp đồng đối với gói thầu tư vấn áp dụng đấu thầu rộng rãi qua mạng, trường hợp nào nhà thầu được phép thay đổi nhân sự đã đề xuất trong E-HSDT?",
+          "options": [
+            "Không được thay đổi nhân sự đã đề xuất trong E-HSDT trong mọi trường hợp (A)",
+            "Được thay đổi nhân sự đã đề xuất trong E-HSDT 01 lần trong trường hợp nhân sự không đáp ứng yêu cầu hoặc không chứng minh được khả năng huy động (B)",
+            "Được thay đổi nhân sự đã đề xuất trong E-HSDT trong trường hợp do thời gian đánh giá E-HSDT kéo dài hơn so với dự kiến trong kế hoạch lựa chọn nhà thầu hoặc vì lý do bất khả kháng mà các vị trí nhân sự chủ chốt do nhà thầu đã đề xuất không thể tham gia thực hiện hợp đồng (C)",
+            "Phương án B và C đều đúng"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Được thay đổi nhân sự đã đề xuất trong E-HSDT trong trường hợp do thời gian đánh giá E-HSDT kéo dài hơn so với dự kiến trong kế hoạch lựa chọn nhà thầu hoặc vì lý do bất khả kháng mà các vị trí nhân sự chủ chốt do nhà thầu đã đề xuất không thể tham gia thực hiện hợp đồng (C). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "heading": "3. Điều kiện xét duyệt trúng thầu: đừng nhầm giữa kỹ thuật và giá",
-          "points": [
-            "Nếu phương pháp dựa trên kỹ thuật hoặc giá cố định, nhà thầu được ưu tiên theo điểm kỹ thuật cao nhất sau khi đáp ứng các điều kiện bắt buộc.",
-            "Nếu phương pháp giá thấp nhất hoặc giá đánh giá, cần xét giá sau sửa lỗi, hiệu chỉnh sai lệch, trừ giảm giá và quy đổi theo tiêu chí trong HSMT.",
-            "Nhà thầu xây lắp phải đáp ứng điều kiện về sai lệch thiếu không quá giới hạn cho phép; ngân hàng câu hỏi có mốc không quá 10% giá dự thầu.",
-            "Điều kiện trúng thầu không chỉ là giá thấp. Hồ sơ phải hợp lệ, nhà thầu đủ năng lực, kỹ thuật đạt, giá không vượt giá gói thầu và đáp ứng yêu cầu cụ thể của HSMT."
-          ]
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 20,
+          "question": "Đối với gói thầu áp dụng một giai đoạn một túi hồ sơ, trường hợp nào được thực hiện bước thương thảo hợp đồng?",
+          "options": [
+            "Gói thầu hỗn hợp",
+            "Gói thầu mua sắm hàng hóa áp dụng đấu thầu quốc tế",
+            "Gói thầu áp dụng đấu thầu hạn chế do có yêu cầu đặc thù về kỹ thuật mà chỉ có một hoặc một số nhà thầu đáp ứng yêu cầu của gói thầu",
+            "Tất cả phương án trên đều đúng"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Tất cả phương án trên đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "heading": "4. Các cụm câu hỏi hay đi cùng nhau",
-          "points": [
-            "Nguồn vốn + quyền tự quyết: doanh nghiệp/đơn vị sự nghiệp có được tự quyết hay bắt buộc theo Luật Đấu thầu?",
-            "HSMT + hạn chế cạnh tranh: giấy phép bán hàng, nhãn hiệu, hợp đồng tương tự, nhân sự chủ chốt có bị đặt quá mức không?",
-            "Qua mạng + sự cố Hệ thống: thời điểm đóng thầu, mở thầu, biên bản mở thầu, file lỗi/mật khẩu, tài khoản nghiệp vụ.",
-            "Y tế + đàm phán giá: thuốc, thiết bị y tế, vật tư xét nghiệm chỉ có 01 hoặc 02 hãng sản xuất; hóa chất xét nghiệm có thể đi kèm máy, phần mềm, bảo dưỡng.",
-            "Vi phạm + liên danh + bảo đảm dự thầu: ai vi phạm, vi phạm ảnh hưởng đến tư cách nhà thầu như thế nào, bảo đảm dự thầu xử lý ra sao."
-          ]
-        }
-      ],
-      "questions": [
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 21,
+          "question": "Việc đánh giá nhà thầu đang trong thời gian bị cấm tham dự thầu thuộc nội dung đánh giá về?",
+          "options": [
+            "Kỹ thuật",
+            "Tài chính",
+            "Tư cách hợp lệ",
+            "Năng lực, kinh nghiệm"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Tư cách hợp lệ. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (4.1 – PP Đánh giá)-N - Luật Đấu thầu",
-          "number": 1,
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 22,
+          "question": "Gói thầu mua sắm hàng hóa có: - Thời điểm đóng thầu theo E-TBMT là: 8h00 ngày 25/9/2025 - Hiệu lực của bảo đảm dự thầu theo yêu cầu của E-HSMT là: 90 ngày - Do lỗi hệ thống nên Hệ thống tự động gia hạn thời điểm đóng thầu mới là: 11h ngày 26/9/2025 - Nhà thầu A đã nộp E-HSDT trước thời điểm Hệ thống xảy ra sự cố với hiệu lực của bảo đảm dự thầu là 90 ngày kể từ ngày 25/9/2025; Nhà thầu B nộp E-HSDT sau thời điểm Hệ thống xảy ra sự cố và trước thời điểm đóng thầu mới với hiệu lực của bảo đảm dự thầu là 90 ngày kể từ ngày 26/9/2025 Bảo đảm dự thầu của nhà thầu A và nhà thầu B được đánh giá như thế nào?",
+          "options": [
+            "Bảo đảm dự thầu của nhà thầu A được đánh giá là không hợp lệ; Bảo đảm dự thầu của nhà thầu B được đánh giá là hợp lệ",
+            "Bảo đảm dự thầu của nhà thầu A và nhà thầu B đều được đánh giá là hợp lệ",
+            "Bảo đảm dự thầu của nhà thầu A được đánh giá là hợp lệ; Bảo đảm dự thầu của nhà thầu B được đánh giá là không hợp lệ",
+            "Bảo đảm dự thầu của nhà thầu A và nhà thầu B được đánh giá là không hợp lệ"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Bảo đảm dự thầu của nhà thầu A và nhà thầu B đều được đánh giá là hợp lệ. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 23,
+          "question": "Gói thầu dịch vụ phi tư vấn chia thành nhiều phần thì việc đánh giá về doanh thu đối với nhà thầu tham dự nhiều phần được thực hiện như thế nào?",
+          "options": [
+            "Việc đánh giá về doanh thu căn cứ trên tổng giá trị doanh thu bình quân yêu cầu đối với các phần mà nhà thầu tham dự",
+            "Việc đánh giá về doanh thu căn cứ trên từng phần mà nhà thầu tham dự, nhà thầu không phải đáp ứng tổng doanh thu đối với các phần mà nhà thầu tham dự",
+            "Việc đánh giá về doanh thu căn cứ trên phần có giá trị lớn nhất trong tổng số các phần nhà thầu tham dự",
+            "Các phương án trên đều sai"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Việc đánh giá về doanh thu căn cứ trên tổng giá trị doanh thu bình quân yêu cầu đối với các phần mà nhà thầu tham dự. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 24,
+          "question": "Đối với gói thầu mua sắm hàng hóa áp dụng đấu thầu rộng rãi, trong hồ sơ dự thầu nhà thầu không đề xuất cụ thể ký mã hiệu, nhãn hiệu, xuất xứ, hãng sản xuất thì xử lý như thế nào?",
+          "options": [
+            "Chủ đầu tư yêu cầu nhà thầu làm rõ các thông tin này để làm cơ sở đánh giá trên cơ sở không được thay đổi giá dự thầu",
+            "Tổ chuyên gia căn cứ theo cataloge, đề xuất kỹ thuật kèm theo để làm cơ sở đánh giá",
+            "Hồ sơ dự thầu của nhà thầu không được xem xét, đánh giá",
+            "Tiếp tục đánh giá hồ sơ dự thầu, trường hợp nhà thầu trúng thầu thì yêu cầu nhà thầu bổ sung, làm rõ các thông tin này"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Hồ sơ dự thầu của nhà thầu không được xem xét, đánh giá. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 25,
+          "question": "Thời gian đánh giá hồ sơ dự thầu được quy định như thế nào?",
+          "options": [
+            "Tối đa không quá 45 ngày đối với đấu thầu trong nước và không quá 60 ngày đối với đấu thầu quốc tế",
+            "Tối đa không quá 30 ngày đối với đấu thầu trong nước và không quá 60 ngày đối với đấu thầu quốc tế",
+            "Do người có thẩm quyền, chủ đầu tư có trách nhiệm quyết định",
+            "Do chủ đầu tư quyết định trên cơ sở bảo đảm tiến độ của dự án, gói thầu"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Do chủ đầu tư quyết định trên cơ sở bảo đảm tiến độ của dự án, gói thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 26,
+          "question": "Đối với đấu thầu rộng rãi qua mạng, trường hợp gói thầu có giá trị bảo đảm dự thầu nhỏ hơn 50 triệu đồng, thời gian có hiệu lực của thư bảo lãnh dự thầu hoặc giấy chứng nhận bảo hiểm bảo lãnh được quy định tại đâu?",
+          "options": [
+            "Trong E-HSMT",
+            "Trong thông báo mời đối chiếu tài liệu",
+            "Trong thông báo mời thương thảo hợp đồng",
+            "Các phương án trên đều sai"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Trong thông báo mời đối chiếu tài liệu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 27,
+          "question": "Đối với đấu thầu rộng rãi qua mạng, trường hợp gói thầu có giá trị bảo đảm dự thầu nhỏ hơn 50 triệu đồng, nhà thầu thực hiện nộp thư bảo lãnh dự thầu hoặc giấy chứng nhận bảo hiểm bảo lãnh thì thời gian có hiệu lực của thư bảo lãnh dự thầu hoặc giấy chứng nhận bảo hiểm bảo lãnh được tính từ ngày nào?",
+          "options": [
+            "Ngày có thời điểm đóng thầu",
+            "Ngày phê duyệt kết quả lựa chọn nhà thầu",
+            "Ngày thực hiện đối chiếu tài liệu",
+            "Các phương án trên đều sai"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Ngày thực hiện đối chiếu tài liệu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 28,
+          "question": "Trường hợp nhà thầu bị đánh giá về uy tín khi thực hiện hành vi: được lựa chọn trúng thầu nhưng không tiến hành hoặc từ chối tiến hành hoàn thiện hợp đồng hoặc không ký kết hợp đồng thì khi tham gia gói thầu khác, nhà thầu sẽ bị bất lợi như thế nào?",
+          "options": [
+            "Đối với gói thầu hàng hóa, xây lắp, phi tư vấn, hỗn hợp, nhà thầu bị đánh giá về uy tín phải nộp gấp 3 lần bảo đảm dự thầu trong vòng 03 năm kể từ lần cuối cùng thực hiện hành vi (A)",
+            "Đối với gói thầu tư vấn, thông tin uy tín này sẽ được sử dụng để đánh giá về kỹ thuật (B)",
+            "Bị đưa vào xem xét, đánh giá về kỹ thuật trong quá trình lựa chọn nhà thầu đối với gói thầu xây lắp, phi tư vấn, hàng hóa, hỗn hợp (C)",
+            "Đáp án B và C đều đúng"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Đối với gói thầu tư vấn, thông tin uy tín này sẽ được sử dụng để đánh giá về kỹ thuật (B). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 29,
+          "question": "Nội dung nào không phù hợp với quy định về nhà thầu phụ đối với gói thầu mua sắm hàng hóa?",
+          "options": [
+            "Chủ đầu tư phải ghi tỷ lệ % giá trị dành cho nhà thầu phụ trong E-BDL làm cơ sở để nhà thầu lập E-HSDT",
+            "Năng lực và kinh nghiệm của nhà thầu phụ sẽ không được xem xét khi đánh giá E-HSDT của nhà thầu",
+            "Nhà thầu được ký kết hợp đồng với các nhà thầu phụ trong danh sách các nhà thầu phụ nêu trong E-HSDT",
+            "Nhà thầu được ký kết hợp đồng với các nhà thầu phụ được chủ đầu tư chấp thuận để tham gia thực hiện cung cấp dịch vụ liên quan"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Chủ đầu tư phải ghi tỷ lệ % giá trị dành cho nhà thầu phụ trong E-BDL làm cơ sở để nhà thầu lập E-HSDT. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 30,
+          "question": "Đối với gói thầu xây lắp tổ chức đấu thầu rộng rãi, hồ sơ mời thầu có bắt buộc quy định việc đánh giá đối với yêu cầu về nguồn lực tài chính phải bằng cam kết tín dụng không?",
+          "options": [
+            "Bắt buộc quy định trong hồ sơ mời thầu do đây là tiêu chí chứng minh nguồn lực tài chính",
+            "Không bắt buộc quy định, hồ sơ mời thầu có thể đưa ra yêu cầu về cam kết cung cấp tín dụng hoặc không yêu cầu về cam kết cung cấp tín dụng",
+            "Bắt buộc quy định trong hồ sơ mời thầu đối với gói thầu xây lắp áp dụng phương thức một giai đoạn hai túi hồ sơ",
+            "Bắt buộc quy định trong hồ sơ mời thầu đối với gói thầu có giá trên 20 tỷ đồng"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Không bắt buộc quy định, hồ sơ mời thầu có thể đưa ra yêu cầu về cam kết cung cấp tín dụng hoặc không yêu cầu về cam kết cung cấp tín dụng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 31,
+          "question": "Quy trình, thủ tục lựa chọn nhà thầu đối với mua sắm trực tiếp không bao gồm bước nào sau đây?",
+          "options": [
+            "Thẩm định hồ sơ yêu cầu",
+            "Đánh giá hồ sơ đề xuất và thương thảo về các đề xuất của nhà thầu",
+            "Phát hành hồ sơ yêu cầu",
+            "Phê duyệt và công khai kết quả mua sắm trực tiếp"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Thẩm định hồ sơ yêu cầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 32,
+          "question": "Gói thầu mua sắm máy điều hòa không khí của Sở Tài chính tỉnh X được tổ chức đấu thầu tập trung có được nêu xuất xứ hàng hóa không?",
+          "options": [
+            "Được nêu xuất xứ cụ thể của một nước bất kỳ",
+            "Được nêu xuất xứ theo nhóm nước, vùng lãnh thổ",
+            "Được nêu xuất xứ cụ thể của một nước bất kỳ nhưng phải kèm theo cụm từ \"hoặc tương đương\"",
+            "Không được nêu xuất xứ theo nhóm nước, vùng lãnh thổ"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Được nêu xuất xứ theo nhóm nước, vùng lãnh thổ. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 33,
+          "question": "Quy trình 02 trong đánh giá E-HSDT được áp dụng đối với gói thầu nào sau đây?",
+          "options": [
+            "Gói thầu mua sắm hàng hóa áp dụng phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp \"giá thấp nhất\" và các nhà thầu, E-HSDT đều không có bất kỳ ưu đãi nào",
+            "Gói thầu dịch vụ phi tư vấn áp dụng phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp \"giá đánh giá\" và các nhà thầu, E-HSDT chào ưu đãi như nhau",
+            "Gói thầu xây lắp áp dụng phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp \"giá thấp nhất\" và các nhà thầu, E-HSDT đều không có bất kỳ ưu đãi nào",
+            "Gói thầu máy đặt, máy mượn áp dụng phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp \"giá thấp nhất\" và các nhà thầu, E-HSDT chào ưu đãi như nhau"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Gói thầu mua sắm hàng hóa áp dụng phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp \"giá thấp nhất\" và các nhà thầu, E-HSDT đều không có bất kỳ ưu đãi nào. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 34,
+          "question": "Đối với đấu thầu rộng rãi không qua mạng, nếu sau khi đóng thầu, nhà thầu tự phát hiện hồ sơ dự thầu thiếu tài liệu chứng minh năng lực, kinh nghiệm thì nhà thầu nên làm gì?",
+          "options": [
+            "Trường hợp chủ đầu tư có yêu cầu bổ sung, làm rõ nhà thầu mới được bổ sung tài liệu chứng minh năng lực, kinh nghiệm",
+            "Được phép gửi tài liệu đến chủ đầu tư để làm rõ về năng lực, kinh nghiệm",
+            "Không được bổ sung tài liệu chứng minh năng lực, kinh nghiệm còn thiếu",
+            "Rút hồ sơ dự thầu để nộp lại"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Được phép gửi tài liệu đến chủ đầu tư để làm rõ về năng lực, kinh nghiệm. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 35,
+          "question": "Trường hợp nào nhà thầu được quyền từ chối hoàn thiện hợp đồng mà không bị đánh giá về uy tín khi tham dự thầu, không bị tịch thu bảo đảm dự thầu?",
+          "options": [
+            "Nhà thầu được quyền từ chối hoàn thiện hợp đồng trong mọi trường hợp (A)",
+            "Khi chủ đầu tư đưa ra các yêu cầu khi hoàn thiện hợp đồng không phù hợp với nội dung hồ sơ mời thầu, hồ sơ dự thầu (B)",
+            "Khi nhà thầu đề nghị điều chỉnh đơn giá hạng mục mà nhà thầu đã chào theo yêu cầu của hồ sơ mời thầu nhưng chủ đầu tư không chấp nhận (C)",
+            "Phương án B và C đều đúng"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Khi chủ đầu tư đưa ra các yêu cầu khi hoàn thiện hợp đồng không phù hợp với nội dung hồ sơ mời thầu, hồ sơ dự thầu (B). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 36,
+          "question": "Đối với đấu thầu không qua mạng, trường hợp hồ sơ dự thầu của nhà thầu có sai lệch thiếu sau khi hiệu chỉnh sai lệch vẫn được xếp hạng thứ nhất và hồ sơ dự thầu của nhà thầu này không có đơn giá của phần sai lệch thiếu, đơn giá nào sẽ được ưu tiên áp dụng đầu tiên để đề nghị trúng thầu?",
+          "options": [
+            "Đơn giá trong dự toán gói thầu",
+            "Đơn giá tương ứng có giá trị thấp nhất trong các hồ sơ dự thầu khác vượt qua bước đánh giá về kỹ thuật",
+            "Đơn giá hình thành giá gói thầu",
+            "Đơn giá tương ứng có giá trị cao nhất trong các hồ sơ dự thầu khác vượt qua bước đánh giá về kỹ thuật"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Đơn giá tương ứng có giá trị thấp nhất trong các hồ sơ dự thầu khác vượt qua bước đánh giá về kỹ thuật. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 37,
+          "question": "Nội dung nào là nội dung đánh giá tính hợp lệ của hồ sơ dự thầu?",
+          "options": [
+            "Nhân sự chủ chốt",
+            "Hiệu lực của hồ sơ dự thầu",
+            "Năng lực tài chính",
+            "Việc thực hiện nghĩa vụ kê khai thuế, nộp thuế"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Hiệu lực của hồ sơ dự thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 38,
+          "question": "Bảo đảm cạnh tranh trong đấu thầu thuộc nội dung đánh giá về?",
+          "options": [
+            "Tư cách hợp lệ",
+            "Năng lực, kinh nghiệm",
+            "Kỹ thuật",
+            "Tài chính"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Tư cách hợp lệ. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 4.1 - Phương pháp đánh giá",
+          "number": 39,
           "question": "Đối với gói thầu cung cấp dịch vụ tư vấn, phương pháp đánh giá nào không được áp dụng?",
           "options": [
             "Giá thấp nhất",
@@ -5786,12 +3755,12 @@ window.STUDY_DATA = {
             "Giá cố định"
           ],
           "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Dịch vụ tư vấn là công việc thiên về chuyên môn trí tuệ như lập quy hoạch, khảo sát, thiết kế, giám sát, thẩm định hoặc tư vấn quản lý. Phương án “Giá đánh giá” thuộc nhóm tạo sản phẩm tư vấn/chuyên môn, nên được xếp là gói thầu cung cấp dịch vụ tư vấn."
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Giá đánh giá. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (4.1 – PP Đánh giá)-N - Luật Đấu thầu",
-          "number": 2,
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 4.1 - Phương pháp đánh giá",
+          "number": 40,
           "question": "Phương pháp kết hợp giữa kỹ thuật và giá được áp dụng cho gói thầu tư vấn có đặc điểm nào trong các phương án sau đây?",
           "options": [
             "Gói thầu tư vấn đơn giản, chi phí thấp",
@@ -5800,12 +3769,12 @@ window.STUDY_DATA = {
             "Gói thầu tư vấn có quy trình thực hiện đã được tiêu chuẩn hoá"
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Phương án “Gói thầu tư vấn chú trọng tới cả chất lượng và chi phí thực hiện” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Tổng hợp tình huống lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Gói thầu tư vấn chú trọng tới cả chất lượng và chi phí thực hiện. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (4.1 – PP Đánh giá)-N - Luật Đấu thầu",
-          "number": 3,
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 4.1 - Phương pháp đánh giá",
+          "number": 41,
           "question": "Khi sử dụng phương pháp chấm điểm để xây dựng tiêu chuẩn đánh giá về kỹ thuật, mức điểm yêu cầu tối thiểu về kỹ thuật được quy định là bao nhiêu?",
           "options": [
             "Không thấp hơn 60% tổng số điểm kỹ thuật",
@@ -5814,12 +3783,12 @@ window.STUDY_DATA = {
             "Không thấp hơn 90% tổng số điểm kỹ thuật"
           ],
           "answer": 1,
-          "explanation": "Đáp án B. Giải thích: Mốc cần nhớ ở câu này là “Không thấp hơn 70% tổng số điểm kỹ thuật”. Đây là câu hỏi kiểm tra con số/thời hạn cụ thể trong chủ đề “Tổng hợp tình huống lựa chọn nhà thầu”, vì vậy cách làm là xác định đúng thủ tục hoặc loại gói thầu trước, sau đó mới gắn với mốc tương ứng."
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Không thấp hơn 70% tổng số điểm kỹ thuật. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (4.1 – PP Đánh giá)-N - Luật Đấu thầu",
-          "number": 4,
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 4.1 - Phương pháp đánh giá",
+          "number": 42,
           "question": "Đối với gói thầu mua sắm hàng hóa, xây lắp, phi tư vấn, hỗn hợp, phương pháp giá đánh giá được áp dụng cho các hình thức lựa chọn nhà thầu nào?",
           "options": [
             "Chỉ áp dụng với đấu thầu rộng rãi",
@@ -5828,12 +3797,12 @@ window.STUDY_DATA = {
             "Tất cả hình thức lựa chọn nhà thầu"
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Phương án “Đấu thầu rộng rãi, đấu thầu hạn chế, chào hàng cạnh tranh” khớp với quy định áp dụng cho tình huống trong đề. Khi ôn phần “Tổng hợp tình huống lựa chọn nhà thầu”, hãy xác định trước 4 yếu tố: loại gói thầu, chủ thể thực hiện, bước quy trình và hệ quả pháp lý; đáp án đúng là phương án phù hợp đồng thời các yếu tố đó."
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Đấu thầu rộng rãi, đấu thầu hạn chế, chào hàng cạnh tranh. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (4.1 – PP Đánh giá)-N - Luật Đấu thầu",
-          "number": 5,
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 4.1 - Phương pháp đánh giá",
+          "number": 43,
           "question": "Điều kiện nào sau đây là bắt buộc đối với nhà thầu xây lắp nhưng không được đề cập trong điều kiện xét duyệt trúng thầu đối với nhà thầu tư vấn là tổ chức?",
           "options": [
             "Có hồ sơ dự thầu hợp lệ",
@@ -5842,12 +3811,12 @@ window.STUDY_DATA = {
             "Có giá trị phần sai lệch thiếu không quá 10% giá dự thầu"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Điều kiện xét duyệt trúng thầu phụ thuộc phương pháp đánh giá đã chọn. Nếu phương pháp dựa trên kỹ thuật/giá cố định thì trọng tâm là điểm kỹ thuật; nếu giá thấp nhất hoặc giá đánh giá thì trọng tâm là giá sau sửa lỗi, hiệu chỉnh và quy đổi. Phương án “Có giá trị phần sai lệch thiếu không quá 10% giá dự thầu” đúng với phương pháp được nêu trong đề."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Có giá trị phần sai lệch thiếu không quá 10% giá dự thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (4.1 – PP Đánh giá)-N - Luật Đấu thầu",
-          "number": 6,
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 4.1 - Phương pháp đánh giá",
+          "number": 44,
           "question": "Đối với gói thầu áp dụng chào hàng cạnh tranh, việc đánh giá về kỹ thuật thực hiện theo phương án nào sau đây?",
           "options": [
             "Phải sử dụng phương pháp đánh giá “đạt”, “không đạt”",
@@ -5856,12 +3825,12 @@ window.STUDY_DATA = {
             "Chỉ cần yêu cầu nhà thầu cam kết đáp ứng yêu cầu về kỹ thuật"
           ],
           "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Nội dung cần nhớ là chào hàng cạnh tranh dùng cho gói thầu thông dụng, yêu cầu rõ, dễ so sánh về giá và kỹ thuật. Đề đang hỏi đúng điều kiện/hệ quả của hình thức này nên chọn “Phải sử dụng phương pháp đánh giá “đạt”, “không đạt””."
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Phải sử dụng phương pháp đánh giá “đạt”, “không đạt”. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "DauThau_Dap an 1-2-3-4-5.pdf",
-          "originalTopic": "Chủ đề (4.1 – PP Đánh giá)-N - Luật Đấu thầu",
-          "number": 7,
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "CĐ 4.1 - Phương pháp đánh giá",
+          "number": 45,
           "question": "So sánh điều kiện xét duyệt trúng thầu giữa phương pháp giá cố định và phương pháp dựa trên kỹ thuật đối với gói thầu dịch vụ tư vấn, điểm chung quyết định để nhà thầu được xếp hạng thứ nhất là gì?",
           "options": [
             "Có giá dự thầu thấp nhất",
@@ -5870,12 +3839,1029 @@ window.STUDY_DATA = {
             "Có giá đề nghị trúng thầu thấp nhất"
           ],
           "answer": 2,
-          "explanation": "Đáp án C. Giải thích: Dịch vụ tư vấn là công việc thiên về chuyên môn trí tuệ như lập quy hoạch, khảo sát, thiết kế, giám sát, thẩm định hoặc tư vấn quản lý. Phương án “Có điểm kỹ thuật cao nhất” thuộc nhóm tạo sản phẩm tư vấn/chuyên môn, nên được xếp là gói thầu cung cấp dịch vụ tư vấn."
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Có điểm kỹ thuật cao nhất. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 46,
+          "question": "Đối với đấu thầu qua mạng, nội dung nào sau đây là đúng khi đánh giá E-HSDT?",
+          "options": [
+            "Quy trình 02 áp dụng đối với gói thầu mua sắm hàng hóa, dịch vụ phi tư vấn, máy đặt, máy mượn theo phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp “giá thấp nhất” và các nhà thầu, E-HSDT đều không có bất kỳ ưu đãi nào",
+            "Hệ thống tự động xếp hạng nhà thầu theo giá dự thầu sau khi trừ đi giá trị giảm giá (nếu có) thấp nhất (không phải phê duyệt danh sách xếp hạng nhà thầu) đối với gói thầu áp dụng quy trình 02",
+            "Trường hợp có từ 02 nhà thầu trở lên cùng xếp thứ nhất thì không đánh giá theo quy trình 02 mà phải đánh giá theo quy trình 01",
+            "Cả 3 đáp án đều đúng"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Cả 3 đáp án đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 47,
+          "question": "Việc đánh giá E-HSDT gói thầu mua sắm hàng hóa theo quy trình 02 được thực hiện theo trình tự nào sau đây?",
+          "options": [
+            "Đánh giá E-HSDT của tất cả nhà thầu tham dự thầu về: tính hợp lệ của E-HSDT; năng lực và kinh nghiệm; kỹ thuật. Trường hợp nhà thầu không đáp ứng bước trước thì không tiếp tục đánh giá bước tiếp theo",
+            "Đánh giá E-HSDT của nhà thầu xếp hạng thứ nhất về: tính hợp lệ của E-HSDT; năng lực và kinh nghiệm; kỹ thuật. Trường hợp nhà thầu xếp hạng thứ nhất không đáp ứng thì đánh giá đối với nhà thầu xếp hạng tiếp theo",
+            "Đánh giá E-HSDT của nhà thầu xếp hạng thứ nhất về: tính hợp lệ của E-HSDT; kỹ thuật; tài chính; năng lực và kinh nghiệm. Trường hợp nhà thầu xếp hạng thứ nhất không đáp ứng thì đánh giá đối với nhà thầu xếp hạng tiếp theo",
+            "Đánh giá E-HSDT của tất cả nhà thầu tham dự thầu về: tính hợp lệ của E-HSDT; kỹ thuật; tài chính; năng lực và kinh nghiệm. Trường hợp nhà thầu không đáp ứng bước trước thì không tiếp tục đánh giá bước tiếp theo"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Đánh giá E-HSDT của nhà thầu xếp hạng thứ nhất về: tính hợp lệ của E-HSDT; năng lực và kinh nghiệm; kỹ thuật. Trường hợp nhà thầu xếp hạng thứ nhất không đáp ứng thì đánh giá đối với nhà thầu xếp hạng tiếp theo. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 48,
+          "question": "Đối với gói thầu mua sắm hàng hóa, trường hợp cần yêu cầu về hàng mẫu để đánh giá về kỹ thuật thì nhận định nào sau đây là đúng?",
+          "options": [
+            "Nhà thầu có thể nộp bổ sung hàng mẫu trong thời hạn 05 ngày làm việc sau thời điểm đóng thầu (A)",
+            "Chủ đầu tư phải bảo đảm việc yêu cầu cung cấp hàng mẫu không dẫn đến làm tăng chi phí của gói thầu, hạn chế sự tham gia của nhà thầu hoặc nhằm tạo lợi thế cho một hoặc một số nhà thầu gây ra sự cạnh tranh không bình đẳng (B)",
+            "Phương án A và B đều sai (C)",
+            "Phương án A và B đều đúng"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Phương án A và B đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 49,
+          "question": "Khi đánh giá E-HSDT đối với gói thầu mua sắm hàng hóa, trường hợp có sự sai khác giữa thông tin kê khai về về ký mã hiệu, nhãn hiệu, xuất xứ, hãng sản xuất trong bảng đề xuất về hàng hóa của nhà thầu (Mẫu số 10B chương IV) so với tài liệu đính kèm thì Tổ chuyên gia đánh giá như thế nào?",
+          "options": [
+            "Đánh giá theo thông tin trong tài liệu đính kèm trong trường hợp sau khi làm rõ E-HSDT thông tin trong tài liệu đính kèm là chính xác",
+            "Đánh giá theo thông tin trong Mẫu số 10B nhà thầu kê khai, trừ trường hợp ký mã hiệu (nếu có), nhãn hiệu, hãng sản xuất kê khai tại Mẫu số 10B không tồn tại trên thị trường.",
+            "Loại nhà thầu E-HSDT của nhà thầu do có sự sai khác giữa thông tin kê khai và tài liệu đính kèm.",
+            "Phương án A và B đều đúng"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Đánh giá theo thông tin trong Mẫu số 10B nhà thầu kê khai, trừ trường hợp ký mã hiệu (nếu có), nhãn hiệu, hãng sản xuất kê khai tại Mẫu số 10B không tồn tại trên thị trường.. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 50,
+          "question": "Đối với đấu thầu qua mạng, khi tham dự gói thầu mua sắm hàng hóa, trong bảng đề xuất về hàng hóa (Mẫu số 10B chương IV), nhà thầu A chào '“theo catalog đính kèm” thay vì kê khai thông tin theo Mẫu số 10B. Tổ chuyên gia đánh giá nội dung này trong E-HSDT của nhà thầu như thế nào là phù hợp?",
+          "options": [
+            "Tổ chuyên gia đánh giá nội dung này theo Catalog nhà thầu A đính kèm. Nội dung này được tiếp tục đánh giá khi Catalog không tham chiếu đến nhiều hơn 01 ký mã hiệu, nhãn hiệu, hãng sản xuất...cho một loại hàng hóa",
+            "Báo cáo chủ đầu tư yêu cầu nhà thầu A làm rõ nội dung này nếu Catalog tham chiếu đến nhiều hơn 01 ký mã hiệu, nhãn hiệu, hãng sản xuất...cho một loại hàng hóa để làm cơ sở đánh giá",
+            "E-HSDT của nhà thầu A không được xem xét, đánh giá",
+            "Phương án A và B đều đúng"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: E-HSDT của nhà thầu A không được xem xét, đánh giá. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 51,
+          "question": "Đối với đấu thầu qua mạng, khi tham dự gói thầu mua sắm hàng hóa, trong bảng đề xuất về hàng hóa (Mẫu số 10B chương IV), nhà thầu A chào ''không có'' đối với nội dung ký, mã hiệu. Tuy nhiên, trong quá trình đánh giá, Tổ chuyên gia phát hiện hãng sản xuất có ký, mã hiệu của hàng hóa này. Tổ chuyên gia đánh giá như thế nào trong tình huống này?",
+          "options": [
+            "Báo cáo chủ đầu tư yêu cầu nhà thầu A làm rõ nội dung này trên Hệ thống",
+            "E-HSDT không được xem xét, đánh giá",
+            "Tiếp tục xem xét, đánh giá nếu tài liệu đính kèm của nhà thầu đầy đủ thông tin",
+            "Cả 3 phương án đều sai"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: E-HSDT không được xem xét, đánh giá. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 52,
+          "question": "Đối với đấu thầu không qua mạng, trường hợp nhà thầu có thư giảm giá, việc hiệu chỉnh sai lệch được thực hiện trên cơ sở nào?",
+          "options": [
+            "Giá dự thầu của nhà thầu sau khi trừ đi giá trị giảm giá",
+            "Giá đề nghị trúng thầu",
+            "Giá gói thầu",
+            "Giá dự thầu của nhà thầu chưa trừ đi giá trị giảm giá"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Giá dự thầu của nhà thầu chưa trừ đi giá trị giảm giá. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 53,
+          "question": "Ban Quản lý dự án đầu tư xây dựng tỉnh tổ chức đấu thầu rộng rãi qua mạng đối với gói thầu xây lắp . Nhà thầu A được xếp hạng nhất tại gói thầu này, tuy nhiên, do trong E-HSDT, nhà thầu A đề xuất 01 nhân sự chủ chốt đã huy động cho hợp đồng khác có thời gian làm việc trùng với thời gian thực hiện gói thầu này. Trong trường hợp này, tổ chuyên gia đánh giá về nhân sự chủ chốt của nhà thầu A như thế nào?",
+          "options": [
+            "Nhà thầu A bị loại và không được xem xét trúng thầu",
+            "Chủ đầu tư cho phép nhà thầu bổ sung, thay thế tối đa hai lần. Trường hợp nhà thầu không có nhân sự thay thế đáp ứng yêu cầu của E-HSMT thì nhà thầu A bị loại và bị đánh giá về uy tín khi tham dự thầu",
+            "Tiếp tục đánh giá theo cam kết của nhà thầu trong đơn dự thầu và xét duyệt trúng thầu đối với nhà thầu A",
+            "Nhà thầu A bị loại và bị đánh giá là gian lận trong kê khai về nhân sự chủ chốt"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Chủ đầu tư cho phép nhà thầu bổ sung, thay thế tối đa hai lần. Trường hợp nhà thầu không có nhân sự thay thế đáp ứng yêu cầu của E-HSMT thì nhà thầu A bị loại và bị đánh giá về uy tín khi tham dự thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 54,
+          "question": "Nội dung nào sau đây không thuộc trách nhiệm của chủ đầu tư?",
+          "options": [
+            "Lập báo cáo đánh giá hồ sơ dự thầu",
+            "Thương thảo hợp đồng",
+            "Phê duyệt hồ sơ mời thầu",
+            "Yêu cầu nhà thầu làm rõ hồ sơ dự thầu"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Lập báo cáo đánh giá hồ sơ dự thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 55,
+          "question": "Khi tham dự thầu gói thầu mua sắm hàng hóa, trong hồ sơ dự thầu của nhà thầu tuyên bố giá dự thầu không bao gồm thuế, phí, lệ phí thì được đánh giá như thế nào?",
+          "options": [
+            "Hồ sơ dự thầu của nhà thầu không được tiếp tục xem xét, đánh giá",
+            "Hồ sơ dự thầu của nhà thầu được tiếp tục xem xét, đánh giá và giá dự thầu của nhà thầu được hiểu là đã bao gồm toàn bộ thuế, phí, lệ phí",
+            "Tiến hành hiệu chỉnh sai lệch về thuế, phí, lệ phí của nhà thầu theo quy định",
+            "Hồ sơ dự thầu của nhà thầu được tiếp tục xem xét, đánh giá và giá dự thầu của nhà thầu được hiểu là không bao gồm thuế, phí, lệ phí"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Hồ sơ dự thầu của nhà thầu không được tiếp tục xem xét, đánh giá. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_06_Danh_gia_HSDT_va_xet_duyet_trung_thau.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 56,
+          "question": "Nhà thầu không thực hiện gia hạn hiệu lực hồ sơ dự thầu theo đề nghị của chủ đầu tư thì xử lý như thế nào?",
+          "options": [
+            "Không được hoàn trả giá trị bảo đảm dự thầu (A)",
+            "Bị đánh giá về uy tín trong tham dự thầu và đăng tải trên hệ thống mạng đấu thầu quốc gia (B)",
+            "Được hoàn trả bảo đảm dự thầu cho nhà thầu (C)",
+            "Phương án A và B đều đúng"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Được hoàn trả bảo đảm dự thầu cho nhà thầu (C). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        }
+      ]
+    },
+    {
+      "title": "Ưu đãi, mua sắm tập trung và y tế",
+      "theory": [
+        {
+          "heading": "Nguồn pháp lý tham khảo",
+          "points": [
+            "Luật Đấu thầu số 22/2023/QH15: https://vanban.chinhphu.vn/?classid=1&docid=208419&orggroupid=1&pageid=27160",
+            "Luật số 57/2024/QH15: https://vanban.chinhphu.vn/?classid=1&docid=212485&orggroupid=1&pageid=27160",
+            "Luật số 90/2025/QH15: https://vanban.chinhphu.vn/?docid=214558&orggroupid=1&pageid=27160",
+            "Nghị định số 214/2025/NĐ-CP: https://vanban.chinhphu.vn/?classid=1&docid=214821&pageid=27160&typegroupid=4",
+            "Thông tư số 79/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214844&pageid=27160",
+            "Thông tư số 80/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214968&pageid=27160"
+          ],
+          "note": "Các nguồn này được ghi trong database chuyên đề để người học đối chiếu khi cần."
+        },
+        {
+          "heading": "1. Ưu đãi trong lựa chọn nhà thầu",
+          "points": [
+            "Ưu đãi được dùng để khuyến khích hàng hóa, dịch vụ, nhà thầu hoặc nhóm lao động thuộc đối tượng chính sách. Một nội dung đánh giá chỉ được hưởng một loại ưu đãi có lợi nhất; không cộng chồng nhiều ưu đãi cho cùng một nội dung nếu pháp luật không cho phép."
+          ]
+        },
+        {
+          "heading": "2. Cách tính ưu đãi hàng hóa",
+          "points": [
+            "Với hàng hóa, cần xác định tỷ lệ chi phí sản xuất trong nước. Công thức thường dùng: D = G*/G × 100% hoặc D = (G - C)/G × 100%, trong đó G* là chi phí sản xuất trong nước, G là giá chào hoặc giá EXW, C là chi phí nhập ngoại.",
+            "Khi áp dụng phương pháp giá thấp nhất hoặc giá đánh giá, ưu đãi thường được thực hiện bằng cách cộng tiền vào giá so sánh của đối tượng không được ưu đãi hoặc có mức ưu đãi thấp hơn, không phải trừ trực tiếp vào giá chào của đối tượng được ưu đãi."
+          ]
+        },
+        {
+          "heading": "3. Mua sắm tập trung và y tế",
+          "points": [
+            "Mua sắm tập trung dùng để gom nhu cầu mua sắm cùng loại nhằm tăng hiệu quả, chuẩn hóa hàng hóa, dịch vụ và tăng sức mua. Cơ chế này thường gắn với thỏa thuận khung, đơn vị mua sắm tập trung, đơn vị có nhu cầu mua sắm và nhà thầu trúng thầu.",
+            "Trong lĩnh vực y tế, thuốc, hóa chất, vật tư xét nghiệm và thiết bị y tế được xem là hàng hóa nhưng có nhiều quy định chuyên ngành, danh mục và yêu cầu kỹ thuật riêng."
+          ]
+        },
+        {
+          "heading": "Bẫy thường gặp",
+          "points": [
+            "Trừ ưu đãi trực tiếp vào giá chào của nhà thầu được ưu đãi.",
+            "Cộng chồng nhiều ưu đãi cho cùng một nội dung.",
+            "Nhầm mua sắm tập trung với mua sắm trực tiếp."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "source": "Chuyen_de_07_Uu_dai_mua_sam_tap_trung_va_y_te.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
           "number": 1,
+          "question": "Theo quy định pháp luật về đấu thầu, hàng hóa gồm?",
+          "options": [
+            "Máy móc, thiết bị, nguyên liệu, nhiên liệu, vật liệu, vật tư, phụ tùng; sản phẩm; phương tiện; hàng tiêu dùng, phần mềm thương mại (A)",
+            "Thuốc, hóa chất, vật tư xét nghiệm, thiết bị y tế (B)",
+            "Phương án A và B đều đúng (C)",
+            "Logistics, bảo hiểm, quảng cáo, nghiệm thu chạy thử, chụp ảnh vệ tinh"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Phương án A và B đều đúng (C). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_07_Uu_dai_mua_sam_tap_trung_va_y_te.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 2,
+          "question": "Nhà thầu trong nước nào được hưởng ưu đãi trong lựa chọn nhà thầu?",
+          "options": [
+            "Nhà thầu trong nước sản xuất hàng hóa có xuất xứ Việt Nam phù hợp với hồ sơ mời thầu",
+            "Nhà thầu trong nước tham dự thầu với tư cách độc lập hoặc liên danh với nhà thầu trong nước khác khi tham dự đấu thầu quốc tế",
+            "Nhà thầu có sử dụng lao động nữ, thương binh, người khuyết tật hoặc người dân tộc thiểu số",
+            "Tất cả các phương án trên đều đúng"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Tất cả các phương án trên đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_07_Uu_dai_mua_sam_tap_trung_va_y_te.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 3,
+          "question": "Trường hợp gói thầu có giá gói thầu dưới 500 triệu đồng đối với dự toán mua sắm thì chủ đầu tư được quyết định cho phép nhà thầu nào sau đây được tham dự thầu?",
+          "options": [
+            "Nhà thầu có từ 50% lao động trở lên là người khuyết tật, thương binh, dân tộc thiểu số có hợp đồng lao động với thời gian thực hiện hợp đồng từ 03 tháng trở lên và đến thời điểm đóng thầu hợp đồng vẫn còn hiệu lực",
+            "Nhà thầu có từ 25% lao động trở lên là người khuyết tật, thương binh, dân tộc thiểu số có hợp đồng lao động với thời gian thực hiện hợp đồng từ 03 tháng trở lên và đến thời điểm đóng thầu hợp đồng vẫn còn hiệu lực",
+            "Nhà thầu có từ 50% lao động trở lên là người khuyết tật, thương binh, dân tộc thiểu số có hợp đồng lao động với thời gian thực hiện hợp đồng dưới 03 tháng và đến thời điểm đóng thầu hợp đồng vẫn còn hiệu lực",
+            "Nhà thầu có từ 25% lao động trở lên là người khuyết tật, thương binh, dân tộc thiểu số có hợp đồng lao động với thời gian thực hiện hợp đồng dưới 03 tháng và đến thời điểm đóng thầu hợp đồng vẫn còn hiệu lực"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Nhà thầu có từ 50% lao động trở lên là người khuyết tật, thương binh, dân tộc thiểu số có hợp đồng lao động với thời gian thực hiện hợp đồng từ 03 tháng trở lên và đến thời điểm đóng thầu hợp đồng vẫn còn hiệu lực. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_07_Uu_dai_mua_sam_tap_trung_va_y_te.md",
+          "originalTopic": "CĐ 2.1 - Kế hoạch lựa chọn nhà thầu",
+          "number": 4,
+          "question": "Đàm phán giá được áp dụng trong trường hợp nào sau đây?",
+          "options": [
+            "Mua vật tư tiêu hao",
+            "Mua thuốc, thiết bị y tế, vật tư xét nghiệm chỉ có 01 hoặc 02 hãng sản xuất",
+            "Mua hàng hóa chỉ có 01 hãng sản xuất",
+            "Mua hàng hóa chỉ có 01 hoặc 02 hãng sản xuất"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Mua thuốc, thiết bị y tế, vật tư xét nghiệm chỉ có 01 hoặc 02 hãng sản xuất. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_07_Uu_dai_mua_sam_tap_trung_va_y_te.md",
+          "originalTopic": "CĐ 6.1 - Mua sắm tập trung và y tế",
+          "number": 5,
+          "question": "Hình thức lựa chọn nhà thầu khi áp dụng mua sắm tập trung bảo hiểm tài sản cho các cơ quan thuộc tỉnh Y",
+          "options": [
+            "Đấu thầu rộng rãi.",
+            "Đấu thầu hạn chế.",
+            "Đàm phán giá.",
+            "Đấu thầu rộng rãi và đàm phán giá."
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Đấu thầu rộng rãi.. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_07_Uu_dai_mua_sam_tap_trung_va_y_te.md",
+          "originalTopic": "CĐ 6.1 - Mua sắm tập trung và y tế",
+          "number": 6,
+          "question": "Trong mua sắm tập trung, hợp đồng điện tử có thể được ký kết giữa các đối tượng nào?",
+          "options": [
+            "Đơn vị mua sắm tập trung và các nhà thầu trúng thầu (trong trường hợp không ký thỏa thuận khung) (A)",
+            "Đơn vị có nhu cầu mua sắm với các nhà thầu trúng thầu (trong trường hợp đơn vị mua sắm tập trung ký thỏa thuận khung với nhà thầu trúng thầu) (B)",
+            "Phương án A và B đều đúng (C)",
+            "Phương án A và B đều sai"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Phương án A và B đều đúng (C). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_07_Uu_dai_mua_sam_tap_trung_va_y_te.md",
+          "originalTopic": "CĐ 6.1 - Mua sắm tập trung và y tế",
+          "number": 7,
+          "question": "Đơn vị mua sắm tập trung:",
+          "options": [
+            "Thực hiện việc lựa chọn nhà thầu trên cơ sở nhiệm vụ được giao (A)",
+            "Thực hiện việc lựa chọn nhà thầu trên cơ sở hợp đồng ký với các đơn vị có nhu cầu (B)",
+            "Không được thực hiện việc lựa chọn nhà thầu (C)",
+            "Phương án A và B đều đúng"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Phương án A và B đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_07_Uu_dai_mua_sam_tap_trung_va_y_te.md",
+          "originalTopic": "CĐ 6.1 - Mua sắm tập trung và y tế",
+          "number": 8,
+          "question": "Thời hạn của thỏa thuận khung:",
+          "options": [
+            "Thời hạn áp dụng thỏa thuận khung được quy định là 40 tháng (A)",
+            "Thời hạn áp dụng thỏa thuận khung được quy định trong kế hoạch lựa chọn nhà thầu nhưng không quá 36 tháng (B)",
+            "Thời hạn áp dụng thỏa thuận khung do người có thẩm quyền quyết định trong kế hoạch lựa chọn nhà thầu (C)",
+            "Phương án B và C đều đúng"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Thời hạn áp dụng thỏa thuận khung được quy định trong kế hoạch lựa chọn nhà thầu nhưng không quá 36 tháng (B). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_07_Uu_dai_mua_sam_tap_trung_va_y_te.md",
+          "originalTopic": "CĐ 6.1 - Mua sắm tập trung và y tế",
+          "number": 9,
+          "question": "Tại bước hoàn thiện, ký kết và thực hiện hợp đồng với nhà thầu đối với gói thầu mua sắm tập trung:",
+          "options": [
+            "Nhà thầu đã ký kết thỏa thuận khung phải thực hiện biện pháp bảo đảm thực hiện hợp đồng trước hoặc cùng thời điểm hợp đồng có hiệu lực cho đơn vị mua sắm tập trung",
+            "Nhà thầu đã ký kết thỏa thuận khung phải thực hiện biện pháp bảo đảm thực hiện hợp đồng trước hoặc cùng thời điểm hợp đồng có hiệu lực cho đơn vị có nhu cầu mua sắm",
+            "Nhà thầu đã ký kết thỏa thuận khung không phải thực hiện biện pháp bảo đảm thực hiện hợp đồng trước thời điểm hợp đồng có hiệu lực cho đơn vị có nhu cầu mua sắm",
+            "Nhà thầu đã ký kết thỏa thuận khung phải thực hiện biện pháp bảo đảm thực hiện hợp đồng sau thời điểm hợp đồng có hiệu lực cho đơn vị mua sắm tập trung"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Nhà thầu đã ký kết thỏa thuận khung phải thực hiện biện pháp bảo đảm thực hiện hợp đồng trước hoặc cùng thời điểm hợp đồng có hiệu lực cho đơn vị có nhu cầu mua sắm. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_07_Uu_dai_mua_sam_tap_trung_va_y_te.md",
+          "originalTopic": "CĐ 6.1 - Mua sắm tập trung và y tế",
+          "number": 10,
+          "question": "Đối với các gói thầu mua sắm tập trung, trách nhiệm cung cấp thông tin về kết quả thực hiện hợp đồng của nhà thầu do ai thực hiện?",
+          "options": [
+            "Đơn vị có nhu cầu mua sắm",
+            "Bên mời thầu",
+            "Đơn vị tư vấn được thuê làm bên mời thầu",
+            "Không phải đăng tải thông tin"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Đơn vị có nhu cầu mua sắm. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_07_Uu_dai_mua_sam_tap_trung_va_y_te.md",
+          "originalTopic": "CĐ 6.1 - Mua sắm tập trung và y tế",
+          "number": 11,
+          "question": "Áp dụng hình thức lựa chọn nhà thầu nào khi mua sắm tập trung đối với gói thầu điều hòa không khí thông dụng, sẵn có trên thị trường, có giá gói thầu là 03 tỷ đồng cho các cơ quan thuộc tỉnh X?",
+          "options": [
+            "Đấu thầu rộng rãi hoặc mua sắm trực tiếp",
+            "Đấu thầu rộng rãi hoặc chỉ định thầu theo hạn mức",
+            "Đấu thầu rộng rãi hoặc chào hàng cạnh tranh",
+            "Đấu thầu rộng rãi hoặc chỉ định thầu hoặc đám phán giá"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Đấu thầu rộng rãi hoặc chào hàng cạnh tranh. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_07_Uu_dai_mua_sam_tap_trung_va_y_te.md",
+          "originalTopic": "CĐ 6.1 - Mua sắm tập trung và y tế",
+          "number": 12,
+          "question": "Trách nhiệm trong mua sắm tập trung",
+          "options": [
+            "Đơn vị mua sắm tập trung thực hiện trách nhiệm của người có thẩm quyền theo quy định của Luật Đấu thầu",
+            "Đơn vị mua sắm tập trung thực hiện trách nhiệm của chủ đầu tư quy định của Luật Đấu thầu",
+            "Đơn vị mua sắm tập trung thực hiện trách nhiệm của bên mời thầu quy định của Luật Đấu thầu",
+            "Đơn vị mua sắm tập trung thực hiện trách nhiệm của tổ chuyên gia theo quy định của Luật Đấu thầu"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Đơn vị mua sắm tập trung thực hiện trách nhiệm của chủ đầu tư quy định của Luật Đấu thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_07_Uu_dai_mua_sam_tap_trung_va_y_te.md",
+          "originalTopic": "CĐ 6.1 - Mua sắm tập trung và y tế",
+          "number": 13,
+          "question": "Nhà thầu đã ký thỏa thuận khung và được đơn vị có nhu cầu mua sắm yêu cầu ký hợp đồng nhưng không ký hợp đồng, không thực hiện biện pháp bảo đảm thực hiện hợp đồng sẽ bị xử lý như thế nào?",
+          "options": [
+            "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 06 tháng kể từ ngày đơn vị có nhu cầu mua sắm công khai tên nhà thầu trên Hệ thống mạng đấu thầu quốc gia",
+            "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 06 tháng kể từ ngày đơn vị mua sắm tập trung công khai tên nhà thầu trên Hệ thống mạng đấu thầu quốc gia, trừ trường hợp bất khả kháng",
+            "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn trong thời hạn 03 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của đơn vị có nhu cầu mua sắm, trừ trường hợp bất khả kháng",
+            "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn trong thời hạn 06 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của đơn vị có nhu cầu mua sắm, trừ trường hợp bất khả kháng"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 06 tháng kể từ ngày đơn vị mua sắm tập trung công khai tên nhà thầu trên Hệ thống mạng đấu thầu quốc gia, trừ trường hợp bất khả kháng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_07_Uu_dai_mua_sam_tap_trung_va_y_te.md",
+          "originalTopic": "CĐ 6.1 - Mua sắm tập trung và y tế",
+          "number": 14,
+          "question": "Đối với gói thầu mua sắm tập trung áp dụng lựa chọn nhà thầu căn cứ theo khả năng cung cấp và áp dụng phương pháp giá thấp nhất, việc lựa chọn danh sách nhà thầu trúng thầu được thực hiện như thế nào?",
+          "options": [
+            "Phải đảm bảo tổng số lượng hàng hóa mà các nhà thầu trúng thầu chào thầu tối thiểu bằng số lượng hàng hóa nêu trong hồ sơ mời thầu, đồng thời bảo đảm điểm tổng hợp của gói thầu cao nhất",
+            "Phải đảm bảo tổng số lượng hàng hóa mà các nhà thầu trúng thầu chào thầu bằng số lượng hàng hóa nêu trong hồ sơ mời thầu, đồng thời bảo đảm tổng giá đề nghị trúng thầu của gói thầu cao nhất",
+            "Phải đảm bảo tổng số lượng hàng hóa mà các nhà thầu trúng thầu chào thầu bằng số lượng hàng hóa nêu trong hồ sơ mời thầu, đồng thời bảo đảm tổng giá đề nghị trúng thầu của gói thầu thấp nhất",
+            "Phải đảm bảo tổng số lượng hàng hóa mà các nhà thầu trúng thầu chào thầu bằng số lượng hàng hóa nêu trong hồ sơ mời thầu, đồng thời bảo đảm tổng giá đánh giá của gói thầu là thấp nhất"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Phải đảm bảo tổng số lượng hàng hóa mà các nhà thầu trúng thầu chào thầu bằng số lượng hàng hóa nêu trong hồ sơ mời thầu, đồng thời bảo đảm tổng giá đề nghị trúng thầu của gói thầu thấp nhất. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_07_Uu_dai_mua_sam_tap_trung_va_y_te.md",
+          "originalTopic": "CĐ 6.1 - Mua sắm tập trung và y tế",
+          "number": 15,
+          "question": "Đối với gói thầu mua sắm tập trung áp dụng lựa chọn nhà thầu căn cứ khối lượng mời thầu, danh sách phê duyệt nhà thầu trúng thầu bao gồm:",
+          "options": [
+            "Danh sách chính (nhà thầu xếp thứ nhất) và danh sách dự bị (nhà thầu xếp thứ 2 trở đi)",
+            "Danh sách chính (nhà thầu xếp thứ nhất) và danh sách nhà thầu không đáp ứng yêu cầu của hồ sơ mời thầu",
+            "Danh sách các nhà thầu đáp ứng yêu cầu về năng lực và kinh nghiệm theo yêu cầu của hồ sơ mời thầu",
+            "Danh sách chính (nhà thầu xếp thứ nhất và nhà thầu xếp thứ 2) và danh sách dự bị (nhà thầu xếp thứ 3 trở đi)"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Danh sách chính (nhà thầu xếp thứ nhất) và danh sách dự bị (nhà thầu xếp thứ 2 trở đi). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_07_Uu_dai_mua_sam_tap_trung_va_y_te.md",
+          "originalTopic": "CĐ 6.1 - Mua sắm tập trung và y tế",
+          "number": 16,
+          "question": "Đối với hàng hóa, dịch vụ không thuộc danh mục mua sắm tập trung do Chủ tịch UBND tỉnh X ban hành nhưng nhiều cơ quan, tổ chức, đơn vị trong tỉnh X có nhu cầu mua sắm hàng hóa, dịch vụ cùng loại thì thực hiện như thế nào?",
+          "options": [
+            "Từng cơ quan, tổ chức, đơn vị trong tỉnh X căn cứ vào thỏa thuận khung do UBND tỉnh X đã ký kết trước đó để ị ậ mua sắm tập trung đối với các hàng hóa, dịch vụ này",
+            "Có thể gộp thành một gói thầu để một trong các cơ quan, tổ chức, đơn vị mua sắm hoặc để đơn vị có chức năng mua sắm tập trung thực hiện việc mua sắm đối với các hàng hóa, dịch vụ này",
+            "Sở Tài chính thuộc tỉnh X có trách nhiệm thực hiện mua sắm tập trung đối với các hàng hóa, dịch vụ này",
+            "Các cơ quan, tổ chức, đơn vị báo cáo lên người có thẩm quyền để phê duyệt kế hoạch chọn nhà thầu theo hình thức mua sắm tập trung đối với các hàng hóa, dịch vụ này"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Có thể gộp thành một gói thầu để một trong các cơ quan, tổ chức, đơn vị mua sắm hoặc để đơn vị có chức năng mua sắm tập trung thực hiện việc mua sắm đối với các hàng hóa, dịch vụ này. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_07_Uu_dai_mua_sam_tap_trung_va_y_te.md",
+          "originalTopic": "CĐ 6.1 - Mua sắm tập trung và y tế",
+          "number": 17,
+          "question": "Phương án nào xác định quy mô của hợp đồng tương tự đối với gói thầu áp dụng mua sắm tập trung là phù hợp?",
+          "options": [
+            "Trong mọi trường hợp có thể điều chỉnh giảm yêu cầu về quy mô của hợp đồng tương tự xuống còn Y/1,5 (Y thông thường khoảng 50% giá trị của gói thầu đang xét)",
+            "Trường hợp mua sắm tập trung hoặc mua sắm hàng hóa có số lượng, khối lượng mời thầu lớn thì có thể điều chỉnh giảm yêu cầu về quy mô của hợp đồng tương tự xuống còn Y/1,25 (Y thông thường khoảng 50% giá trị của gói thầu đang xét) và/hoặc chia gói thầu thành các phần (lô) để tăng tính cạnh tranh cho gói thầu",
+            "Trường hợp mua sắm tập trung hoặc mua sắm hàng hóa có số lượng, khối lượng mời thầu lớn thì có thể điều chỉnh giảm yêu cầu về quy mô của hợp đồng tương tự xuống còn Y/1,5 (Y thông thường khoảng 50% giá trị của gói thầu đang xét) và/hoặc chia gói thầu thành các phần (lô) để tăng tính cạnh tranh cho gói thầu",
+            "Trường hợp mua sắm tập trung hoặc mua sắm hàng hóa có số lượng, khối lượng mời thầu lớn, chủ đầu tư báo cáo người có thẩm quyền để điều chỉnh giảm yêu cầu về quy mô của hợp đồng tương tự xuống còn Y/1,25 (Y thông thường khoảng 50% giá trị của gói thầu đang xét) và/hoặc chia gói thầu thành các phần (lô) để tăng tính cạnh tranh cho gói thầu"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Trường hợp mua sắm tập trung hoặc mua sắm hàng hóa có số lượng, khối lượng mời thầu lớn thì có thể điều chỉnh giảm yêu cầu về quy mô của hợp đồng tương tự xuống còn Y/1,25 (Y thông thường khoảng 50% giá trị của gói thầu đang xét) và/hoặc chia gói thầu thành các phần (lô) để tăng tính cạnh tranh cho gói thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_07_Uu_dai_mua_sam_tap_trung_va_y_te.md",
+          "originalTopic": "CĐ 6.1 - Mua sắm tập trung và y tế",
+          "number": 18,
+          "question": "Danh mục hàng hóa, dịch vụ áp dụng mua sắm tập trung do Bộ trưởng Bộ Y tế ban hành:",
+          "options": [
+            "Danh mục mua sắm tập trung cấp quốc gia đối với ô tô trong trường hợp cần thiết",
+            "Danh mục mua sắm tập trung cấp quốc gia đối với thuốc; danh mục mua sắm tập trung cấp quốc gia đối với thiết bị công nghệ thông tin trong trường hợp cần thiết",
+            "Danh mục mua sắm tập trung cấp quốc gia đối với thuốc; danh mục mua sắm tập trung cấp quốc gia đối với dịch vụ đơn giản trong trường hợp cần thiết",
+            "Danh mục mua sắm tập trung cấp quốc gia đối với thuốc; danh mục mua sắm tập trung cấp quốc gia đối với thiết bị y tế, vật tư xét nghiệm trong trường hợp cần thiết"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Danh mục mua sắm tập trung cấp quốc gia đối với thuốc; danh mục mua sắm tập trung cấp quốc gia đối với thiết bị y tế, vật tư xét nghiệm trong trường hợp cần thiết. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_07_Uu_dai_mua_sam_tap_trung_va_y_te.md",
+          "originalTopic": "CĐ 6.1 - Mua sắm tập trung và y tế",
+          "number": 19,
+          "question": "Gói thầu mua thuốc là gói thầu nào?",
+          "options": [
+            "Gói thầu mua sắm hàng hóa",
+            "Gói thầu cung cấp dịch vụ phi tư vấn",
+            "Gói thầu hỗn hợp",
+            "Gói thầu xây lắp"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Gói thầu mua sắm hàng hóa. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_07_Uu_dai_mua_sam_tap_trung_va_y_te.md",
+          "originalTopic": "CĐ 6.1 - Mua sắm tập trung và y tế",
+          "number": 20,
+          "question": "Trường hợp đơn vị được giao nhiệm vụ mua sắm tập trung không đủ năng lực, kinh nghiệm tổ chức lựa chọn nhà thầu thì thực hiện như thế nào?",
+          "options": [
+            "Vẫn thực hiện nhiệm vụ được giao, tổ chuyên gia không cần phải đáp ứng yêu cầu về năng lực, kinh nghiệm (A)",
+            "Phải thực hiện theo nhiệm vụ được giao, không được đi thuê đơn vị tư vấn để thực hiện việc lựa chọn nhà thầu (B)",
+            "Được phép thuê đơn vị tư vấn đấu thầu có kinh nghiệm để thực hiện việc lựa chọn nhà thầu (C)",
+            "Phương án A và C đều đúng"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Được phép thuê đơn vị tư vấn đấu thầu có kinh nghiệm để thực hiện việc lựa chọn nhà thầu (C). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_07_Uu_dai_mua_sam_tap_trung_va_y_te.md",
+          "originalTopic": "CĐ 6.1 - Mua sắm tập trung và y tế",
+          "number": 21,
+          "question": "Đối với gói thầu mua sắm thiết bị y tế, tổ chức đấu thầu rộng rãi qua mạng gói thầu mua sắm thiết bị y tế, trường hợp nhà thầu dự thầu không đề xuất cụ thể ký mã hiệu, nhãn hiệu, xuất xứ, hãng sản xuất thì xử lý như thế nào?",
+          "options": [
+            "Chủ đầu tư yêu cầu nhà thầu bổ sung, làm rõ E-HSDT",
+            "Chủ đầu tư tiếp tục đánh giá E-HSDT, trường hợp nhà thầu xếp thứ nhất thì yêu cầu nhà thầu bổ sung thông tin để hoàn thiện hợp đồng",
+            "E-HSDT của nhà thầu bị đánh giá không đáp ứng và bị loại",
+            "Xin ý kiến người có thẩm quyền để xử lý tình huống trong đấu thầu Nhận học bổng mỗi tuần"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: E-HSDT của nhà thầu bị đánh giá không đáp ứng và bị loại. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        }
+      ]
+    },
+    {
+      "title": "Hợp đồng trong đấu thầu",
+      "theory": [
+        {
+          "heading": "Nguồn pháp lý tham khảo",
+          "points": [
+            "Luật Đấu thầu số 22/2023/QH15: https://vanban.chinhphu.vn/?classid=1&docid=208419&orggroupid=1&pageid=27160",
+            "Luật số 57/2024/QH15: https://vanban.chinhphu.vn/?classid=1&docid=212485&orggroupid=1&pageid=27160",
+            "Luật số 90/2025/QH15: https://vanban.chinhphu.vn/?docid=214558&orggroupid=1&pageid=27160",
+            "Nghị định số 214/2025/NĐ-CP: https://vanban.chinhphu.vn/?classid=1&docid=214821&pageid=27160&typegroupid=4",
+            "Thông tư số 79/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214844&pageid=27160",
+            "Thông tư số 80/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214968&pageid=27160"
+          ],
+          "note": "Các nguồn này được ghi trong database chuyên đề để người học đối chiếu khi cần."
+        },
+        {
+          "heading": "1. Hồ sơ hợp đồng và giá trị pháp lý",
+          "points": [
+            "Hồ sơ hợp đồng thường gồm văn bản hợp đồng, phụ lục, biểu giá, tiến độ, điều kiện cụ thể, điều kiện chung và các tài liệu liên quan trong quá trình lựa chọn nhà thầu. Khi hợp đồng đã ký, việc thanh toán và thực hiện phải căn cứ vào hợp đồng, không chỉ căn cứ vào dự toán hoặc giá gói thầu."
+          ]
+        },
+        {
+          "heading": "2. Các loại hợp đồng",
+          "points": [
+            "Các loại hợp đồng thường gặp gồm trọn gói, đơn giá cố định, đơn giá điều chỉnh, theo thời gian, theo tỷ lệ phần trăm và hỗn hợp. Mỗi loại hợp đồng phù hợp với mức độ xác định về phạm vi công việc, khối lượng, thời gian và rủi ro biến động giá khác nhau."
+          ]
+        },
+        {
+          "heading": "3. Bảo đảm thực hiện và điều chỉnh hợp đồng",
+          "points": [
+            "Bảo đảm thực hiện hợp đồng nhằm ràng buộc trách nhiệm của nhà thầu sau khi trúng thầu. Việc điều chỉnh hợp đồng phải đúng loại hợp đồng, đúng căn cứ và không làm thay đổi bản chất lựa chọn nhà thầu. Nếu điều chỉnh vượt phạm vi thẩm quyền hoặc vượt giới hạn cho phép, phải xử lý theo quy định trước khi ký phụ lục."
+          ]
+        },
+        {
+          "heading": "4. Liên danh trong thực hiện hợp đồng",
+          "points": [
+            "Nhà thầu liên danh phải thực hiện theo phân công trong thỏa thuận liên danh và hợp đồng. Việc thay đổi phạm vi giữa các thành viên liên danh không phải lúc nào cũng được chấp nhận; cần xét nguyên nhân, năng lực còn lại và tác động đến tiến độ, chất lượng, hiệu quả gói thầu."
+          ]
+        },
+        {
+          "heading": "Bẫy thường gặp",
+          "points": [
+            "Thanh toán theo dự toán thay vì theo hợp đồng.",
+            "Điều chỉnh hợp đồng làm thay đổi bản chất lựa chọn nhà thầu.",
+            "Tự ý đổi phạm vi công việc giữa thành viên liên danh."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "source": "Chuyen_de_08_Hop_dong_trong_dau_thau.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 1,
+          "question": "Chủ đầu tư có trách nhiệm đăng tải thông tin chủ yếu của hợp đồng trên Hệ thống đấu thầu qua mạng quốc gia chậm nhất là?",
+          "options": [
+            "05 ngày làm việc kể từ ngày ký kết hợp đồng",
+            "05 ngày làm việc kể từ ngày hợp đồng có hiệu lực",
+            "05 ngày kể từ ngày hợp đồng có hiệu lực",
+            "05 ngày làm việc kể từ ngày nhà thầu nộp bảo đảm thực hiện hợp đồng"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: 05 ngày làm việc kể từ ngày hợp đồng có hiệu lực. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_08_Hop_dong_trong_dau_thau.md",
+          "originalTopic": "CĐ 3.1 - Quy trình lựa chọn nhà thầu",
+          "number": 2,
+          "question": "Đối với công trình đang xét là công trình xây dựng có loại kết cấu dạng nhà cấp II với giá trị công trình là 60 tỷ đồng, E-HSMT có yêu cầu về kinh nghiệm thực hiện hợp đồng xây lắp tương tự, trường hợp nào sau đây được đánh giá là một công trình xây lắp tương tự?",
+          "options": [
+            "Nhà thầu có 2 công trình xây dựng có loại kết cấu dạng nhà cấp III với giá trị đã hoàn thành toàn bộ lần lượt là 30 tỷ đồng, 50 tỷ đồng",
+            "Nhà thầu có 2 công trình xây dựng có loại kết cấu dạng nhà cấp III với giá trị đã hoàn thành toàn bộ lần lượt là 30 tỷ đồng, 20 tỷ đồng",
+            "Nhà thầu có 3 công trình xây dựng có loại kết cấu dạng nhà cấp III với giá trị đã hoàn thành toàn bộ lần lượt là 30 tỷ đồng, 20 tỷ đồng, 10 tỷ đồng",
+            "Nhà thầu có 1 công trình xây dựng có loại kết cấu dạng nhà cấp III với giá trị đã hoàn thành toàn bộ là 60 tỷ đồng"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Nhà thầu có 2 công trình xây dựng có loại kết cấu dạng nhà cấp III với giá trị đã hoàn thành toàn bộ lần lượt là 30 tỷ đồng, 50 tỷ đồng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_08_Hop_dong_trong_dau_thau.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 3,
+          "question": "Kinh nghiệm thực hiện hợp đồng xây lắp tương tự gói thầu chỉ bao gồm 01 công trình độc lập được xét trên cơ sở nào sau đây?",
+          "options": [
+            "Xét theo công trình nhà thầu đã hoàn thành toàn bộ hoặc hoàn thành phần lớn có loại kết cấu, cấp công trình và đáp ứng quy mô theo yêu cầu của hồ sơ mời thầu",
+            "Chỉ xét theo công trình nhà thầu đã hoàn thành toàn bộ, đã được nghiệm thu, cùng loại công trình và đáp ứng quy mô theo yêu cầu của hồ sơ mời thầu",
+            "Xét theo các hạng mục công việc có tính chất tương tự nhà thầu đã hoàn thành phần lớn",
+            "Tất cả phương án trên đều đúng"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Xét theo công trình nhà thầu đã hoàn thành toàn bộ hoặc hoàn thành phần lớn có loại kết cấu, cấp công trình và đáp ứng quy mô theo yêu cầu của hồ sơ mời thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_08_Hop_dong_trong_dau_thau.md",
+          "originalTopic": "CĐ 3.2 - Quy trình lựa chọn nhà thầu phần 2",
+          "number": 4,
+          "question": "Quy trình, thủ tục lựa chọn nhà thầu đối với chào hàng cạnh tranh không bao gồm bước sau đây:",
+          "options": [
+            "Phê duyệt kết quả lựa chọn nhà thầu",
+            "Công khai kết quả lựa chọn nhà thầu",
+            "Thẩm định kết quả lựa chọn nhà thầu",
+            "Hoàn thiện, ký kết và quản lý thực hiện hợp đồng"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Thẩm định kết quả lựa chọn nhà thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_08_Hop_dong_trong_dau_thau.md",
+          "originalTopic": "CĐ 7.1 - Hợp đồng",
+          "number": 5,
+          "question": "Hồ sơ hợp đồng bao gồm các tài liệu nào sau đây?",
+          "options": [
+            "Văn bản hợp đồng",
+            "Phụ lục hợp đồng gồm danh mục chi tiết về phạm vi công việc, biểu giá, tiến độ thực hiện (nếu có)",
+            "Quyết định phê duyệt kết quả lựa chọn nhà thầu",
+            "Tất cả các phương án trên."
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Tất cả các phương án trên.. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_08_Hop_dong_trong_dau_thau.md",
+          "originalTopic": "CĐ 7.1 - Hợp đồng",
+          "number": 6,
+          "question": "Hợp đồng theo theo tỷ lệ phần trăm có thể được áp dụng đối với gói thầu nào sau đây?",
+          "options": [
+            "Mua sắm thiết bị y tế",
+            "Xây dựng công trình",
+            "Bảo hiểm công trình mà giá trị hợp đồng được xác định chính xác trên cơ sở giá trị công trình thực tế được nghiệm thu",
+            "Tư vấn giám sát"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Bảo hiểm công trình mà giá trị hợp đồng được xác định chính xác trên cơ sở giá trị công trình thực tế được nghiệm thu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_08_Hop_dong_trong_dau_thau.md",
+          "originalTopic": "CĐ 7.1 - Hợp đồng",
+          "number": 7,
+          "question": "Cơ sở để thanh toán hợp đồng cho nhà thầu là gì?",
+          "options": [
+            "Giá hợp đồng và các điều khoản cụ thể về thanh toán được ghi trong hợp đồng (A)",
+            "Dự toán gói thầu và các điều khoản cụ thể về thanh toán được ghi trong hợp đồng (B)",
+            "Dự toán gói thầu (C)",
+            "Phương án A và C đều sai"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Giá hợp đồng và các điều khoản cụ thể về thanh toán được ghi trong hợp đồng (A). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_08_Hop_dong_trong_dau_thau.md",
+          "originalTopic": "CĐ 7.1 - Hợp đồng",
+          "number": 8,
+          "question": "Nhà thầu không được hoàn trả bảo đảm thực hiện hợp đồng trong trường hợp nào?",
+          "options": [
+            "Từ chối thực hiện hợp đồng khi hợp đồng đã có hiệu lực",
+            "Thực hiện hợp đồng chậm tiến độ nhưng vẫn hoàn thành hợp đồng",
+            "Nhà thầu đề nghị điều chỉnh tiến độ do bất khả kháng",
+            "Nhà thầu đề xuất thay đổi nhà thầu phụ"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Từ chối thực hiện hợp đồng khi hợp đồng đã có hiệu lực. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_08_Hop_dong_trong_dau_thau.md",
+          "originalTopic": "CĐ 7.1 - Hợp đồng",
+          "number": 9,
+          "question": "Trường hợp nào sau đây phải áp dụng bảo đảm thực hiện hợp đồng?",
+          "options": [
+            "Nhà thầu cung dịch vụ phi tư vấn",
+            "Nhà thầu thực hiện gói thầu có giá gói thầu thuộc hạn mức chỉ định thầu",
+            "Nhà thầu cung cấp dịch vụ tư vấn",
+            "Nhà thầu được lựa chọn theo hình thức tự thực hiện"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Nhà thầu cung dịch vụ phi tư vấn. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_08_Hop_dong_trong_dau_thau.md",
+          "originalTopic": "CĐ 7.1 - Hợp đồng",
+          "number": 10,
+          "question": "Trường hợp nào sau đây các bên không phải thỏa thuận trong hợp đồng về quy trình, thủ tục sửa đổi hợp đồng?",
+          "options": [
+            "Khi có sự thay đổi về chính sách, pháp luật làm ảnh hưởng trực tiếp đến việc thực hiện hợp đồng",
+            "Khi có sự kiện bất khả kháng",
+            "Khi thay đổi phương thức vận chuyển, địa điểm giao hàng, dịch vụ liên quan đối với gói thầu mua sắm hàng hóa",
+            "Tăng, giảm thời gian đối với hợp đồng theo thời gian; tăng, giảm chi phí trực tiếp thực hiện đối với hợp đồng chi phí cộng phí; tăng, giảm giá trị cơ sở để tính phần trăm chi phí đối với hợp đồng theo tỷ lệ phần trăm; tăng, giảm mức giảm trừ thanh toán, mức tăng giá trị thanh toán đối với hợp đồng theo kết quả đầu ra"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Tăng, giảm thời gian đối với hợp đồng theo thời gian; tăng, giảm chi phí trực tiếp thực hiện đối với hợp đồng chi phí cộng phí; tăng, giảm giá trị cơ sở để tính phần trăm chi phí đối với hợp đồng theo tỷ lệ phần trăm; tăng, giảm mức giảm trừ thanh toán, mức tăng giá trị thanh toán đối với hợp đồng theo kết quả đầu ra. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_08_Hop_dong_trong_dau_thau.md",
+          "originalTopic": "CĐ 7.1 - Hợp đồng",
+          "number": 11,
+          "question": "Khi sửa đổi hợp đồng làm thay đổi thời gian thực hiện nhưng không vượt thời gian thực hiện dự án, ai có quyền quyết định sửa đổi hợp đồng?",
+          "options": [
+            "Người có thẩm quyền",
+            "Chủ đầu tư",
+            "Cơ quan quản lý cấp trên của chủ đầu tư",
+            "Bên mời thầu"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Chủ đầu tư. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_08_Hop_dong_trong_dau_thau.md",
+          "originalTopic": "CĐ 7.1 - Hợp đồng",
+          "number": 12,
+          "question": "Thời gian có hiệu lực của bảo đảm thực hiện hợp đồng được tính từ khi nào đến khi nào?",
+          "options": [
+            "Từ ngày ký hợp đồng đến ngày thanh toán cuối cùng",
+            "Từ ngày hợp đồng có hiệu lực đến ngày các bên hoàn thành nghĩa vụ hoặc chuyển sang thực hiện nghĩa vụ bảo hành đối với trường hợp có quy định về bảo hành",
+            "Từ ngày nộp hồ sơ dự thầu đến ngày hoàn thành nghĩa vụ theo hợp đồng",
+            "Từ ngày thông báo trúng thầu đến ngày hết thời hạn bảo hành"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Từ ngày hợp đồng có hiệu lực đến ngày các bên hoàn thành nghĩa vụ hoặc chuyển sang thực hiện nghĩa vụ bảo hành đối với trường hợp có quy định về bảo hành. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_08_Hop_dong_trong_dau_thau.md",
+          "originalTopic": "CĐ 7.1 - Hợp đồng",
+          "number": 13,
+          "question": "Hợp đồng theo thời gian có thể áp dụng trong trường hợp nào?",
+          "options": [
+            "Trong tình trạng khẩn cấp",
+            "Sửa chữa bảo trì công trình máy móc thiết bị Sửa chữa, bảo trì công trình, máy móc, thiết bị",
+            "Dịch vụ tư vấn khi khó xác định được phạm vi và thời gian thực hiện dịch vụ",
+            "Tất cả phương án trên đều đúng"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Tất cả phương án trên đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_08_Hop_dong_trong_dau_thau.md",
+          "originalTopic": "CĐ 7.1 - Hợp đồng",
+          "number": 14,
+          "question": "Giá trị bảo đảm thực hiện hợp đồng được xác định dựa trên cơ sở nào?",
+          "options": [
+            "Giá gói thầu",
+            "Giá hợp đồng",
+            "Giá dự thầu của nhà thầu",
+            "Tổng mức đầu tư của dự án"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Giá hợp đồng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_08_Hop_dong_trong_dau_thau.md",
+          "originalTopic": "CĐ 7.1 - Hợp đồng",
+          "number": 15,
+          "question": "Trường hợp nào sau đây chủ đầu tư được tự quyết định sửa đổi hợp đồng mà không cần người có thẩm quyền cho phép?",
+          "options": [
+            "Sửa đổi hợp đồng làm vượt giá gói thầu đã duyệt và vượt tổng mức đầu tư của dự án",
+            "Sửa đổi hợp đồng làm thay đổi thời gian thực hiện hợp đồng nhưng không làm vượt thời gian thực hiện dự án hoặc vượt giá gói thầu (bao gồm dự phòng) được duyệt nhưng không làm vượt tổng mức đầu tư",
+            "Sửa đổi hợp đồng làm thay đổi thời gian thực hiện hợp đồng và vượt thời gian thực hiện dự án",
+            "Sửa đổi hợp đồng làm thay đổi thiết kế cơ sở dẫn đến phải điều chỉnh chủ trương đầu tư"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Sửa đổi hợp đồng làm thay đổi thời gian thực hiện hợp đồng nhưng không làm vượt thời gian thực hiện dự án hoặc vượt giá gói thầu (bao gồm dự phòng) được duyệt nhưng không làm vượt tổng mức đầu tư. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_08_Hop_dong_trong_dau_thau.md",
+          "originalTopic": "CĐ 7.1 - Hợp đồng",
+          "number": 16,
+          "question": "Các bên không phải ký kết văn bản sửa đổi hợp đồng khi thay đổi giá hợp đồng nếu đáp ứng đủ điều kiện nào sau đây?",
+          "options": [
+            "Không vượt giá gói thầu, nhưng có thể vượt thời gian thực hiện gói thầu ghi trong hợp đồng",
+            "Không vượt giá gói thầu, không vượt thời gian thực hiện gói thầu ghi trong hợp đồng và phương pháp, công thức, hạng mục và các nội dung cần thiết để điều chỉnh đã quy định trong hợp đồng",
+            "Không vượt thời gian thực hiện gói thầu ghi trong hợp đồng nhưng có thể vượt giá gói thầu",
+            "Khi thay đổi thời gian thực hiện hợp đồng nhưng không làm vượt thời gian thực hiện dự án hoặc vượt giá gói thầu (bao gồm dự phòng) được duyệt nhưng không làm vượt tổng mức đầu tư"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Không vượt giá gói thầu, không vượt thời gian thực hiện gói thầu ghi trong hợp đồng và phương pháp, công thức, hạng mục và các nội dung cần thiết để điều chỉnh đã quy định trong hợp đồng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_08_Hop_dong_trong_dau_thau.md",
+          "originalTopic": "CĐ 7.1 - Hợp đồng",
+          "number": 17,
+          "question": "Đâu là điểm khác biệt chính giữa hợp đồng theo đơn giá cố định và hợp đồng theo đơn giá điều chỉnh?",
+          "options": [
+            "Hợp đồng theo đơn giá cố định áp dụng cho gói thầu có thời gian thực hiện dài, hợp đồng theo đơn giá điều chỉnh áp dụng cho gói thầu có thời gian thực hiện ngắn",
+            "Đơn giá trong hợp đồng đơn giá cố định không thay đổi còn đơn giá trong hợp đồng đơn giá điều chỉnh có thể Đơn giá trong hợp đồng đơn giá cố định không thay đổi, còn đơn giá trong hợp đồng đơn giá điều chỉnh có thể",
+            "Hợp đồng theo đơn giá cố định không có chi phí dự phòng, còn hợp đồng theo đơn giá điều chỉnh có chi phí dự",
+            "Hợp đồng theo đơn giá cố định chỉ áp dụng cho gói thầu dịch vụ tư vấn, hợp đồng theo đơn giá điều chỉnh áp dụng cho gói thầu xây lắp"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Đơn giá trong hợp đồng đơn giá cố định không thay đổi còn đơn giá trong hợp đồng đơn giá điều chỉnh có thể Đơn giá trong hợp đồng đơn giá cố định không thay đổi, còn đơn giá trong hợp đồng đơn giá điều chỉnh có thể. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_08_Hop_dong_trong_dau_thau.md",
+          "originalTopic": "CĐ 7.1 - Hợp đồng",
+          "number": 18,
+          "question": "So sánh hai tình huống sửa đổi hợp đồng: (1) Vượt giá gói thầu 10% nhưng không vượt tổng mức đầu tư; (2) Vượt giá gói thầu 2% và làm tổng mức đầu tư tăng 1%, thẩm quyền phê duyệt có gì khác nhau?",
+          "options": [
+            "Cả 2 tình huống đều do chủ đầu tư quyết định",
+            "Tình huống (1) do chủ đầu tư quyết định, tình huống (2) phải trình người có thẩm quyền xem xét, quyết định",
+            "Cả 2 tình huống đều do người có thẩm quyền quyết định",
+            "Tình huống (1) phải trình người có thẩm quyền cho phép, tình huống (2) do Chủ tịch Uỷ ban nhân dân tỉnh quyết định"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Tình huống (1) do chủ đầu tư quyết định, tình huống (2) phải trình người có thẩm quyền xem xét, quyết định. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_08_Hop_dong_trong_dau_thau.md",
+          "originalTopic": "CĐ 7.1 - Hợp đồng",
+          "number": 19,
+          "question": "Loại hợp đồng nào được áp dụng khi tại thời điểm lựa chọn nhà thầu chưa đủ cơ sở xác định phạm vi công việc, nhu cầu cần thiết về các yếu tố, chi phí đầu vào để thực hiện các công việc dự kiến của hợp đồng?",
+          "options": [
+            "Hợp đồng trọn gói",
+            "Hợp đồng theo chi phí cộng phí",
+            "Hợp đồng theo đơn giá cố định",
+            "Hợp đồng theo kết quả đầu ra"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Hợp đồng theo chi phí cộng phí. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_08_Hop_dong_trong_dau_thau.md",
+          "originalTopic": "CĐ 7.1 - Hợp đồng",
+          "number": 20,
+          "question": "Đối với nhà thầu liên danh, việc ký kết văn bản hợp đồng được thực hiện như thế nào?",
+          "options": [
+            "Các thành viên liên danh có thể ủy quyền cho thành viên đứng đầu liên danh ký, đóng dấu (nếu có)",
+            "Tất cả thành viên tham gia liên danh phải trực tiếp ký, đóng dấu (nếu có)",
+            "Các thành viên liên danh có thể ủy quyền cho bất kỳ thành viên nào trong liên danh ký, đóng dấu (nếu có)",
+            "Bất kỳ thành viên nào trong liên danh cũng có thể đại diện ký, đóng dấu (nếu có)"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Tất cả thành viên tham gia liên danh phải trực tiếp ký, đóng dấu (nếu có). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_08_Hop_dong_trong_dau_thau.md",
+          "originalTopic": "CĐ 7.1 - Hợp đồng",
+          "number": 21,
+          "question": "Nhà thầu thực hiện gói thầu xây lắp theo hình thức lựa chọn nhà thầu nào thì không phải thực hiện bảo đảm thực hiện hợp đồng?",
+          "options": [
+            "Đấu thầu rộng rãi",
+            "Tự thực hiện",
+            "Đấu thầu hạn chế",
+            "Chào hàng cạnh tranh"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Tự thực hiện. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_08_Hop_dong_trong_dau_thau.md",
+          "originalTopic": "CĐ 7.1 - Hợp đồng",
+          "number": 22,
+          "question": "Chủ đầu tư A và nhà thầu B đã ký kết hợp đồng cung cấp 11000 đơn vị hàng hóa, loại hợp đồng theo đơn giá cố định. Trong quá trình thực hiện hợp đồng, nhu cầu sử dụng thực tế mà nhà thầu phải cung cấp cho chủ đầu tư chỉ là 10500 đơn vị hàng hóa. Hãy lựa chọn phương án đúng về sửa đổi hợp đồng trong trường hợp này?",
+          "options": [
+            "Chủ đầu tư A và nhà thầu B bắt buộc phải thực hiện thủ tục sửa đổi hợp đồng, phải ký kết văn bản sửa đổi hợp đồng (A)",
+            "Chủ đầu tư A và nhà thầu B không cần thực hiện thủ tục sửa đổi hợp đồng, không phải ký kết văn bản sửa đổi hợp đồng (B)",
+            "Chủ đầu tư A và nhà thầu B bắt buộc phải thực hiện thủ tục ký phụ lục hợp đồng để điều chỉnh khối lượng (C)",
+            "Phương án A và C đều đúng Color Blind Test Take this quiz to find out. Shopswell Quizzes"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Chủ đầu tư A và nhà thầu B không cần thực hiện thủ tục sửa đổi hợp đồng, không phải ký kết văn bản sửa đổi hợp đồng (B). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_08_Hop_dong_trong_dau_thau.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 23,
+          "question": "Đối với đấu thầu qua mạng, nhận định nào sau đây về thông báo chấp thuận E-HSDT và trao hợp đồng là đúng?",
+          "options": [
+            "Chủ đầu tư gửi thông báo chấp thuận E-HSDT và trao hợp đồng (sau khi đăng tải kết quả lựa chọn nhà thầu) trên Hệ thống cho nhà thầu trúng thầu; thông báo bao gồm cả yêu cầu về biện pháp bảo đảm thực hiện hợp đồng, thời gian hoàn thiện, ký kết hợp đồng.",
+            "Thô bá hấ h ậ E HSDT à h đồ là ộ hầ ủ hồ h đồ Thông báo chấp thuận E-HSDT và trao hợp đồng là một phần của hồ sơ hợp đồng",
+            "Thời hạn nêu trong thông báo chấp thuận E-HSDT và trao hợp đồng được tính kể từ ngày Chủ đầu tư gửi thông báo chấp thuận cho nhà thầu trúng thầu trên Hệ thống.",
+            "Tất cả các phương án trên đều đúng"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Tất cả các phương án trên đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_08_Hop_dong_trong_dau_thau.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 24,
+          "question": "Tại Mục 2.1 Chương III E-HSMT gói thầu xây lắp quy định nội dung sau: Trong thời gian từ 01/01/2022 đến thời điểm đóng thầu (năm 2025), nhà thầu đã hoàn thành toàn bộ hoặc hoàn thành phần lớn 01 công trình cấp II, có giá trị là 10 tỷ đồng với tư cách là nhà thầu chính (độc lập hoặc thành viên liên danh), nhà thầu quản lý hoặc nhà thầu phụ. Trường hợp nào sau đây nhà thầu được đánh giá là không đáp ứng yêu cầu về kinh nghiệm thực hiện hợp đồng tương tự?",
+          "options": [
+            "Nhà thầu đã hoàn thành toàn bộ 02 công trình cấp III có giá trị lần lượt là 9 tỷ đồng và 11 tỷ đồng; các hợp đồng được ký kết năm 2022, hoàn thành năm 2025 (trước thời điểm đóng thầu)",
+            "Nhà thầu đã hoàn thành toàn bộ 01 công trình cấp II có giá trị là 10 tỷ đồng, hợp đồng được ký kết năm 2018, hoàn thành năm 2022",
+            "Nhà thầu đã hoàn thành toàn bộ 01 công trình cấp II có giá trị là 10 tỷ đồng, hợp đồng được ký kết năm 2022, hoàn thành năm 2025 (trước thời điểm đóng thầu)",
+            "Tất cả phương án trên đều đáp ứng yêu cầu về kinh nghiệm thực hiện hợp đồng tương tự"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Nhà thầu đã hoàn thành toàn bộ 02 công trình cấp III có giá trị lần lượt là 9 tỷ đồng và 11 tỷ đồng; các hợp đồng được ký kết năm 2022, hoàn thành năm 2025 (trước thời điểm đóng thầu). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        }
+      ]
+    },
+    {
+      "title": "Xử lý tình huống, vi phạm và kiến nghị",
+      "theory": [
+        {
+          "heading": "Nguồn pháp lý tham khảo",
+          "points": [
+            "Luật Đấu thầu số 22/2023/QH15: https://vanban.chinhphu.vn/?classid=1&docid=208419&orggroupid=1&pageid=27160",
+            "Luật số 57/2024/QH15: https://vanban.chinhphu.vn/?classid=1&docid=212485&orggroupid=1&pageid=27160",
+            "Luật số 90/2025/QH15: https://vanban.chinhphu.vn/?docid=214558&orggroupid=1&pageid=27160",
+            "Nghị định số 214/2025/NĐ-CP: https://vanban.chinhphu.vn/?classid=1&docid=214821&pageid=27160&typegroupid=4",
+            "Thông tư số 79/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214844&pageid=27160",
+            "Thông tư số 80/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214968&pageid=27160"
+          ],
+          "note": "Các nguồn này được ghi trong database chuyên đề để người học đối chiếu khi cần."
+        },
+        {
+          "heading": "1. Xử lý tình huống trong đấu thầu",
+          "points": [
+            "Tình huống trong đấu thầu là các phát sinh chưa được quy định cụ thể hoặc cần quyết định để bảo đảm cạnh tranh, công bằng, minh bạch, hiệu quả kinh tế và trách nhiệm giải trình. Thẩm quyền xử lý phụ thuộc mức độ phức tạp và chủ thể được pháp luật giao quyền."
+          ]
+        },
+        {
+          "heading": "2. Hủy thầu, đình chỉ và không công nhận kết quả",
+          "points": [
+            "Đình chỉ cuộc thầu thường xảy ra trong quá trình lựa chọn nhà thầu, trước khi phê duyệt kết quả. Hủy thầu áp dụng trong các trường hợp luật định, từ giai đoạn phát hành hồ sơ đến trước khi ký hợp đồng hoặc thỏa thuận khung. Không công nhận kết quả lựa chọn nhà thầu được đặt ra khi phát hiện vi phạm nghiêm trọng làm sai lệch kết quả."
+          ]
+        },
+        {
+          "heading": "3. Hành vi bị cấm và chế tài",
+          "points": [
+            "Các nhóm hành vi bị cấm gồm hối lộ, lợi dụng chức vụ, thông thầu, gian lận, cản trở, không bảo đảm công bằng minh bạch, tiết lộ thông tin, chuyển nhượng thầu trái phép và tổ chức lựa chọn khi chưa xác định nguồn vốn. Mức cấm tham gia hoạt động đấu thầu phụ thuộc loại hành vi, hậu quả và phạm vi quản lý."
+          ]
+        },
+        {
+          "heading": "4. Kiến nghị trong đấu thầu",
+          "points": [
+            "Nhà thầu có quyền kiến nghị về hồ sơ mời thầu, kết quả lựa chọn nhà thầu và các vấn đề liên quan theo trình tự, thời hạn, điều kiện luật định. Khi đã rút đơn kiến nghị hoặc không đáp ứng điều kiện xử lý, việc giải quyết kiến nghị có thể chấm dứt theo quy định."
+          ]
+        },
+        {
+          "heading": "Bẫy thường gặp",
+          "points": [
+            "Nhầm hủy thầu, đình chỉ và không công nhận kết quả.",
+            "Áp dụng mức cấm thầu không đúng loại hành vi.",
+            "Bỏ qua điều kiện và thời hạn kiến nghị."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 1,
+          "question": "Biện pháp nào sau đây được thực hiện trong quá trình thực hiện hợp đồng?",
+          "options": [
+            "Hủy thầu (A)",
+            "Đình chỉ cuộc thầu (B)",
+            "Không công nhận kết quả lựa chọn nhà thầu (C)",
+            "Phương án A và B đều đúng"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Không công nhận kết quả lựa chọn nhà thầu (C). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 2,
+          "question": "Nhiệm vụ nào sau đây không thuộc trách nhiệm của người có thẩm quyền?",
+          "options": [
+            "Phê duyệt kế hoạch lựa chọn nhà thầu",
+            "Giải quyết kiến nghị và xử lý các vi phạm pháp luật về đấu thầu",
+            "Quyết định việc hủy thầu khi thay đổi mục tiêu đầu tư trong quyết định đầu tư",
+            "Quyết định việc hủy thầu, đình chỉ cuộc đấu thầu, không công nhận kết quả lựa chọn nhà thầu khi phát hiện có hành vi vi phạm pháp luật về đấu thầu"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Phê duyệt kế hoạch lựa chọn nhà thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 3,
+          "question": "Thời hiệu áp dụng biện pháp cấm tham gia hoạt động đấu thầu là bao lâu?",
+          "options": [
+            "10 năm tính từ ngày xảy ra hành vi vi phạm",
+            "10 năm tính từ ngày phát hiện ra hành vi vi phạm",
+            "05 năm tính từ ngày phát hiện ra hành vi vi phạm",
+            "05 năm tính từ ngày xảy ra hành vi vi phạm"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: 10 năm tính từ ngày xảy ra hành vi vi phạm. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 4,
+          "question": "Hành vi gian lận trong hoạt động đấu thầu sẽ bị cấm tham gia hoạt động đấu thầu trong thời gian bao lâu?",
+          "options": [
+            "Từ 06 tháng đến 01 năm",
+            "02 năm",
+            "Từ 01 năm đến 02 năm",
+            "Từ 03 năm đến 05 năm"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Từ 03 năm đến 05 năm. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 5,
+          "question": "Hành vi cản trở trong hoạt động đấu thầu sẽ bị cấm tham gia hoạt động đấu thầu trong thời gian bao lâu?",
+          "options": [
+            "06 tháng",
+            "Từ 06 tháng đến dưới 1 năm",
+            "Từ 01 năm đến 03 năm",
+            "05 năm"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Từ 01 năm đến 03 năm. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 1.1 - Quy định chung",
+          "number": 6,
+          "question": "Nhà thầu tư vấn giám sát đồng thời thực hiện tư vấn kiểm định đối với gói thầu do nhà thầu đó giám sát thì nhà thầu đó sẽ bị xử lý như thế nào?",
+          "options": [
+            "Bị cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm và khi tham dự thầu phải thực hiện biện pháp bảo đảm dự thầu với giá trị gấp 03 lần giá trị yêu cầu trong thời hạn 02 năm",
+            "Khi tham dự thầu phải thực hiện biện pháp bảo đảm dự thầu với giá trị gấp 03 lần giá trị yêu cầu trong thời hạn 02 năm",
+            "Bị cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm",
+            "Không bị xử lý vi phạm"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Bị cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
+          "number": 7,
           "question": "Thẩm quyền xử lý tình huống phức tạp trong đấu thầu?",
           "options": [
             "Chủ đầu tư quyết định xử lý tình huống sau khi có ý kiến của người có thẩm quyền",
@@ -5884,12 +4870,236 @@ window.STUDY_DATA = {
             "Người có thẩm quyền quyết định xử lý tình huống sau khi có ý kiến của chủ đầu tư và Tổ chuyên gia"
           ],
           "answer": 0,
-          "explanation": "Đáp án A. Giải thích: Tình huống phức tạp trong đấu thầu thuộc thẩm quyền xử lý của chủ đầu tư sau khi có ý kiến của người có thẩm quyền nếu quy định yêu cầu. Cách nhớ: chủ đầu tư chịu trách nhiệm trực tiếp về gói thầu, nhưng tình huống vượt thông thường phải có ý kiến cấp có thẩm quyền."
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Chủ đầu tư quyết định xử lý tình huống sau khi có ý kiến của người có thẩm quyền. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
+          "number": 8,
+          "question": "Đối với gói thầu tổ chức đấu thầu rộng rãi qua mạng, trường hợp tại thời điểm đóng thầu mà không có nhà thầu nộp E-HSDT thì chủ đầu tư quyết định theo phương án nào sau đây?",
+          "options": [
+            "Huỷ E-TBMT để mời thầu lại (A)",
+            "Chuyển sang hình thức đấu thầu rộng rãi không qua mạng (B)",
+            "Cho phép gia hạn thời điểm đóng thầu tối thiểu 05 ngày làm việc đối với gói thầu xây lắp, hỗn hợp có giá gói thầu không quá 20 tỷ đồng, gói thầu mua sắm hàng hoá, dịch vụ phi tư vấn có giá không quá 10 tỷ đồng (C)",
+            "Phương án A và C đều đúng"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Phương án A và C đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
+          "number": 9,
+          "question": "Trường hợp hồ sơ mời thầu cho phép nhà thầu đề xuất biện pháp thi công khác với biện pháp thi công nêu trong hồ sơ mời thầu thì phần sai khác giữa khối lượng công việc theo biện pháp thi công nêu trong hồ sơ mời thầu và khối lượng công việc theo biện pháp thi công do nhà thầu đề xuất được xem xét thế nào?",
+          "options": [
+            "Bị hiệu chỉnh sai lệch, phần sai khác được tính là sai lệch thừa",
+            "Không bị hiệu chỉnh sai lệch, phần sai khác không được tính là sai lệch thừa",
+            "Bị hiệu chỉnh sai lệch, phần sai khác được tính là sai lệch thiếu",
+            "Không bị hiệu chỉnh sai lệch, phần sai khác không bị tính là sai lệch thiếu"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Không bị hiệu chỉnh sai lệch, phần sai khác không bị tính là sai lệch thiếu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
+          "number": 10,
+          "question": "Trường hợp hồ sơ dự thầu có giá dự thầu sau sửa lỗi, hiệu chỉnh sai lệch, trừ đi giá trị giảm giá (nếu có) thấp khác thường thì chủ đầu tư có thể quy định giá trị bảo đảm thực hiện hợp đồng tối đa là bao nhiêu để đề phòng rủi ro?",
+          "options": [
+            "30% giá hợp đồng",
+            "35% giá hợp đồng",
+            "40% giá hợp đồng",
+            "45% giá hợp đồng"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: 30% giá hợp đồng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
+          "number": 11,
+          "question": "Đối với gói thầu chia phần, chủ đầu tư có thể phê duyệt kết quả lựa chọn nhà thầu cho từng phần hay không?",
+          "options": [
+            "Không thể",
+            "Có thể nhưng phải bảo đảm điều kiện giá đề nghị trúng thầu không vượt giá gói thầu",
+            "Có thể nhưng phải bảo đảm tỷ lệ tiết kiệm tối thiểu 5%",
+            "Có thể nhưng phải bảo đảm điều kiện giá đề nghị trúng thầu không vượt giá của phần đó trong giá gói thầu"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Có thể nhưng phải bảo đảm điều kiện giá đề nghị trúng thầu không vượt giá của phần đó trong giá gói thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
+          "number": 12,
+          "question": "Đối với gói thầu chia phần, trường hợp một phần của gói thầu không có nhà thầu tham dự thầu thì chủ đầu tư xử lý thế nào?",
+          "options": [
+            "Tách phần đó ra thành gói thầu riêng biệt để tổ chức lựa chọn nhà thầu theo quy định (A)",
+            "Hủy thầu (B)",
+            "Đàm phán với nhà thầu trúng thầu của phần khác để thực hiện (C)",
+            "Phương án B và C đều đúng"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Tách phần đó ra thành gói thầu riêng biệt để tổ chức lựa chọn nhà thầu theo quy định (A). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
+          "number": 13,
+          "question": "Trường hợp một hoặc một số thành viên liên danh vi phạm hợp đồng, không còn năng lực để tiếp tục thực hiện hợp đồng, làm ảnh hưởng nghiêm trọng đến tiến độ, chất lượng, hiệu quả của gói thầu thì việc đánh giá uy tín của nhà thầu trong việc thực hiện hợp đồng được xử lý như nào?",
+          "options": [
+            "Nhà thầu liên danh vi phạm hợp đồng bị coi là không hoàn thành hợp đồng và bị chủ đầu tư đăng tải thông tin nhà thầu liên danh vi phạm hợp đồng trên Hệ thống mạng đấu thầu quốc gia",
+            "Chỉ một hoặc một số thành viên liên danh vi phạm hợp đồng bị coi là không hoàn thành hợp đồng và bị chủ đầu tư đăng tải thông tin thành viên liên danh vi phạm hợp đồng trên Hệ thống mạng đấu thầu quốc gia",
+            "Chỉ một hoặc một số thành viên liên danh vi phạm hợp đồng bị coi là không hoàn thành hợp đồng và bị bên mời thầu đăng tải thông tin thành viên liên danh vi phạm hợp đồng trên Hệ thống mạng đấu thầu quốc gia",
+            "Nhà thầu liên danh vi phạm hợp đồng bị coi là không hoàn thành hợp đồng và bị bên mời thầu đăng tải thông tin nhà thầu liên danh vi phạm hợp đồng trên Hệ thống mạng đấu thầu quốc gia"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Chỉ một hoặc một số thành viên liên danh vi phạm hợp đồng bị coi là không hoàn thành hợp đồng và bị chủ đầu tư đăng tải thông tin thành viên liên danh vi phạm hợp đồng trên Hệ thống mạng đấu thầu quốc gia. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
+          "number": 14,
+          "question": "Trường hợp phải chấm dứt hợp đồng với nhà thầu vi phạm hợp đồng để thay thế nhà thầu mới thì phần công việc chưa thực hiện được áp dụng hình thức chỉ định thầu cho nhà thầu khác với giá trị được tính như nào?",
+          "options": [
+            "Bằng giá trị ghi trong hợp đồng trừ đi giá trị của phần công việc đã thực hiện, được nghiệm thu trước đó",
+            "Bằng giá trị ghi trong hợp đồng được cập nhật giá tại thời điểm áp dụng hình thức chỉ định thầu trừ đi giá trị của phần công việc đã thực hiện, được nghiệm thu trước đó",
+            "Bằng giá trị của phần công việc còn lại được cập nhật giá tại thời điểm áp dụng hình thức chỉ định thầu",
+            "Bằng giá trị ghi trong hợp đồng trừ đi giá trị của phần công việc đã thực hiện trước đó theo dự toán được duyệt"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Bằng giá trị ghi trong hợp đồng trừ đi giá trị của phần công việc đã thực hiện, được nghiệm thu trước đó. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
+          "number": 15,
+          "question": "Đối với nhà thầu liên danh, trường hợp trong quá trình thực hiện hợp đồng cần đẩy nhanh tiến độ thực hiện so với hợp đồng đã ký (cần sửa đổi hợp đồng) thì cần thực hiện như thế nào?",
+          "options": [
+            "Các thành viên liên danh thỏa thuận, điều chỉnh về phạm vi công việc, tiến độ được rút ngắn và không phải thông báo cho chủ đầu tư",
+            "Các thành viên liên danh thỏa thuận, điều chỉnh về phạm vi công việc, tiến độ được rút ngắn và thông báo cho chủ đầu tư",
+            "Phải được người có thẩm quyền cho phép chủ đầu tư và nhà thầu thỏa thuận, điều chỉnh phạm vi công việc giữa các thành viên liên danh phù hợp với tiến độ hoặc tiến độ được rút ngắn",
+            "Chủ đầu tư và nhà thầu được thỏa thuận điều chỉnh phạm vi công việc giữa các thành viên liên danh phù hợp với tiến độ hoặc tiến độ được rút ngắn"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Chủ đầu tư và nhà thầu được thỏa thuận điều chỉnh phạm vi công việc giữa các thành viên liên danh phù hợp với tiến độ hoặc tiến độ được rút ngắn. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
+          "number": 16,
+          "question": "Trường hợp nhà thầu có nhân sự (ký kết hợp đồng lao động với nhà thầu tại thời điểm nhân sự thực hiện hành vi vi phạm) bị cơ quan điều tra kết luận có hành vi vi phạm quy định về đấu thầu gây hậu quả nghiêm trọng theo quy định pháp luật về hình sự nhằm mục đích cho nhà thầu trúng thầu nhưng nhân sự của nhà thầu chưa bị Tòa án kết án hoặc nhà thầu chưa bị người có thẩm quyền ra quyết định cấm tham gia hoạt động đấu thầu thì tại thời điểm này nhà thầu có được tham dự thầu hay không?",
+          "options": [
+            "Nhà thầu không được tham dự thầu",
+            "Hồ sơ dự thầu, hồ sơ đề xuất của nhà thầu sẽ được mở nhưng không được xem xét, đánh giá",
+            "Hồ sơ dự thầu, hồ sơ đề xuất của nhà thầu không được mở thầu và trả lại theo nguyên trạng",
+            "Nhà thầu vẫn được tiếp tục tham dự thầu"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Nhà thầu vẫn được tiếp tục tham dự thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
+          "number": 17,
+          "question": "Trường hợp nào là một trong những điều kiện để chủ đầu tư chấp thuận đề xuất của nhà thầu trong quá trình thực hiện hợp đồng về việc thay đổi các hàng hóa có phiên bản sản xuất, năm sản xuất mới hơn so với hàng hóa ghi trong hợp đồng?",
+          "options": [
+            "Hàng hóa thay thế có tính năng kỹ thuật, cấu hình, thông số và các yêu cầu kỹ thuật khác tương đương hoặc tốt hơn hàng hóa ghi trong hợp đồng nhưng bắt buộc phải cùng hãng sản xuất và xuất xứ",
+            "Hàng hóa thay thế có tính năng kỹ thuật, cấu hình, thông số và các yêu cầu kỹ thuật khác tương đương hoặc tốt hơn hàng hóa ghi trong hợp đồng, phải cùng hãng sản xuất nhưng không bắt buộc cùng xuất xứ",
+            "Hàng hóa thay thế có tính năng kỹ thuật, cấu hình, thông số và các yêu cầu kỹ thuật khác tương đương hoặc tốt hơn hàng hóa ghi trong hợp đồng, phải cùng xuất xứ nhưng không bắt buộc cùng hãng sản xuất",
+            "Hàng hóa thay thế có tính năng kỹ thuật, cấu hình, thông số và các yêu cầu kỹ thuật khác tương đương hoặc tốt hơn hàng hóa ghi trong hợp đồng nhưng không bắt buộc cùng hãng sản xuất và cùng xuất xứ"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Hàng hóa thay thế có tính năng kỹ thuật, cấu hình, thông số và các yêu cầu kỹ thuật khác tương đương hoặc tốt hơn hàng hóa ghi trong hợp đồng nhưng bắt buộc phải cùng hãng sản xuất và xuất xứ. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
           "number": 18,
+          "question": "Trường hợp gói thầu có tính chất đặc thù và áp dụng hình thức chỉ định thầu hoặc lựa chọn nhà thầu trong trường hợp đặc biệt, nhà thầu nước ngoài có yêu cầu ràng buộc chỉ ký hợp đồng khi không phải đăng ký trên Hệ thống mạng đấu thầu quốc gia thì chủ đầu tư xử lý như thế nào?",
+          "options": [
+            "Không cần yêu cầu nhà thầu nước ngoài đăng ký khi đăng tải kết quả lựa chọn nhà thầu",
+            "Yêu cầu nhà thầu nước ngoài đăng ký khi đăng tải kết quả lựa chọn nhà thầu",
+            "Nhà thầu không được chấp nhận và bị loại",
+            "Hủy thầu"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Không cần yêu cầu nhà thầu nước ngoài đăng ký khi đăng tải kết quả lựa chọn nhà thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
+          "number": 19,
+          "question": "Đối với trường hợp hủy thầu thì phải thực hiện giải pháp nào sau đây?",
+          "options": [
+            "Phải điều chỉnh thời gian bắt đầu tổ chức lựa chọn nhà thầu trong kế hoạch lựa chọn nhà thầu",
+            "Phải điều chỉnh thời gian thực hiện gói thầu trong kế hoạch lựa chọn nhà thầu",
+            "Không phải điều chỉnh thời gian bắt đầu tổ chức lựa chọn nhà thầu trong kế hoạch lựa chọn nhà thầu",
+            "Tất cả các đáp án trên đều không đúng."
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Không phải điều chỉnh thời gian bắt đầu tổ chức lựa chọn nhà thầu trong kế hoạch lựa chọn nhà thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
+          "number": 20,
+          "question": "Đối với gói thầu tổ chức lựa chọn nhà thầu qua mạng, trường hợp trong quá trình đánh giá E-HSDT mà chưa có kết quả lựa chọn nhà thầu, nhà thầu có tên trong biên bản mở thầu bị khóa tài khoản theo quy định của pháp luật về đấu thầu thì chủ đầu tư xử lý như thế nào?",
+          "options": [
+            "Yêu cầu nhà thầu thực hiện các thủ tục để mở khóa tài khoản làm cơ sở xem xét, đánh giá E-HSDT của nhà",
+            "Tiếp tục xem xét, đánh giá E-HSDT của nhà thầu",
+            "Không tiếp tục xem xét, đánh giá E-HSDT của nhà thầu",
+            "Tiếp tục xem xét, đánh giá E-HSDT của nhà thầu và yêu cầu nhà thầu thực hiện các thủ tục để mở khóa tài khoản trước khi phê duyệt kết quả lựa chọn nhà thầu"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Không tiếp tục xem xét, đánh giá E-HSDT của nhà thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
+          "number": 21,
+          "question": "Đối với gói thầu xây lắp, dịch vụ phi tư vấn, dịch vụ tư vấn áp dụng đấu thầu trước quy định tại Điều 42 của Luật Đấu thầu, trường hợp dự án được phê duyệt có các nội dung dẫn đến tăng giá gói thầu (hoặc tăng dự toán nếu dự toán được phê duyệt sau khi phê duyệt kế hoạch lựa chọn nhà thầu) từ 30% trở lên hoặc thay đổi tiêu chuẩn đánh giá quan trọng về kỹ thuật hoặc thay đổi cấp công trình quy định trong hồ sơ mời thầu đã phát hành thì chủ đầu tư xử lý như thế nào?",
+          "options": [
+            "Tiếp tục đánh giá hồ sơ dự thầu trong trường hợp đã mở thầu",
+            "Được sửa đổi và phát hành bổ sung hồ sơ mời thầu trong trường hợp chưa mở thầu",
+            "Được sửa đổi, bổ sung khối lượng công việc, hoàn thiện để ký kết hợp đồng với nhà thầu",
+            "Hủy thầu"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Hủy thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
+          "number": 22,
+          "question": "Trường hợp nhà thầu trúng thầu không tiến hành hoàn thiện, ký kết hợp đồng hoặc tại thời điểm ký kết hợp đồng, nhà thầu trúng thầu không đáp ứng yêu cầu về năng lực kỹ thuật, tài chính quy định tại khoản 2 Điều 66 của Luật Đấu thầu thì chủ đầu tư xử lý như thế nào trong trường hợp này?",
+          "options": [
+            "Hủy quyết định phê duyệt kết quả lựa chọn nhà thầu trúng thầu",
+            "Hủy thầu",
+            "Không công nhận kết quả lựa chọn nhà thầu",
+            "Đình chỉ cuộc thầu"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Hủy quyết định phê duyệt kết quả lựa chọn nhà thầu trúng thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
+          "number": 23,
+          "question": "Trường hợp nào dưới đây, chủ đầu tư và nhà thầu liên danh được thỏa thuận điều chỉnh phạm vi công việc giữa các thành viên liên danh?",
+          "options": [
+            "Khi một thành viên liên danh không muốn tiếp tục thực hiện phần việc đã cam kết",
+            "Khi chủ đầu tư thấy một thành viên trong liên danh thực hiện tốt nên muốn điều chuyển toàn bộ phần việc cho thành viên liên danh đó",
+            "Khi cần đẩy nhanh tiến độ thực hiện hợp đồng hoặc do điều kiện khách quan không phải lỗi của nhà thầu làm ảnh hưởng tiến độ",
+            "Khi một thành viên liên danh đề nghị chuyển nhượng phần việc để tiết kiệm chi phí"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Khi cần đẩy nhanh tiến độ thực hiện hợp đồng hoặc do điều kiện khách quan không phải lỗi của nhà thầu làm ảnh hưởng tiến độ. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
+          "number": 24,
           "question": "Đối với gói thầu xây lắp áp dụng hình thức đấu thầu rộng rãi trong nước (không áp dụng sơ tuyển), trường hợp tại thời điểm đóng thầu chỉ có 01 nhà thầu nộp hồ sơ dự thầu thì xử lý như thế nào?",
           "options": [
             "Mở thầu ngay để tiến hành đánh giá (A)",
@@ -5898,12 +5108,54 @@ window.STUDY_DATA = {
             "Phương án A và B đều đúng"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Câu này yêu cầu nhận diện một nhóm nhận định cùng đúng/sai, không chỉ một ý đơn lẻ. Phương án “Phương án A và B đều đúng” được chọn vì các ý còn lại khi ghép lại phản ánh đầy đủ hơn quy định trong chủ đề “Tổng hợp tình huống lựa chọn nhà thầu”. Khi ôn, nên đọc từng mệnh đề rồi kiểm tra xem chúng có cùng thuộc một điều kiện/quy trình hay không."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Phương án A và B đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         },
         {
-          "source": "Dau thau_Dap an phan 6-7-8-9.pdf",
-          "originalTopic": "Chủ đề (8.1 - Tình huống)-N",
-          "number": 22,
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
+          "number": 25,
+          "question": "Gói thầu EC có giá dự thầu sau sửa lỗi, hiệu chỉnh sai lệch, trừ đi giá trị giảm giá bằng 85% giá gói thầu thì chủ đầu tư có thể quy định giá trị bảo đảm thực hiện hợp đồng ở mức 15% hay không?",
+          "options": [
+            "Không được quy định",
+            "Có thể quy định",
+            "Chủ đầu tư quyết định để ngừa rủi ro cho quá trình thực hiện",
+            "Có thể quy định nhưng phải được người có thẩm quyền chấp thuận"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Không được quy định. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
+          "number": 26,
+          "question": "Việc chấp thuận hoặc không chấp thuận việc điều chuyển khối lượng, phạm vi công việc của nhà thầu phụ cho tổ chức, đơn vị khác khi cần đáp ứng yêu cầu về tiến độ, chất lượng gói thầu khi nhà thầu chính đề xuất thuộc trách nhiệm của ai?",
+          "options": [
+            "Tổ chuyên gia",
+            "Chủ đầu tư",
+            "Người có thẩm quyền",
+            "Tổ thẩm định"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Chủ đầu tư. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
+          "number": 27,
+          "question": "Đối với gói thầu hỗn hợp, có yêu cầu đặc thù về kỹ thuật chỉ có một số nhà thầu đáp ứng yêu cầu của gói thầu áp dụng bước thương thảo hợp đồng, trường hợp nhà thầu xếp hạng thứ nhất (danh sách xếp hạng có 03 nhà thầu) không tiến hành thương thảo, không ký biên bản thương thảo, thương thảo không thành công thì chủ đầu tư thực hiện bước tiếp theo như thế nào?",
+          "options": [
+            "Mời nhà thầu xếp hạng tiếp theo vào thương thảo hợp đồng",
+            "Hủy thầu",
+            "Cho phép các nhà thầu còn lại chào lại giá dự thầu",
+            "Mời nhà thầu xếp hạng tiếp theo vào hoàn thiện hợp đồng"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Mời nhà thầu xếp hạng tiếp theo vào thương thảo hợp đồng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
+          "number": 28,
           "question": "Việc hủy E-TBMT được thực hiện tại thời điểm nào?",
           "options": [
             "Được thực hiện tại thời điểm đóng thầu trong trường hợp không có nhà thầu tham dự thầu (A)",
@@ -5912,7 +5164,800 @@ window.STUDY_DATA = {
             "Phương án A và C đều đúng"
           ],
           "answer": 3,
-          "explanation": "Đáp án D. Giải thích: Câu này yêu cầu nhận diện một nhóm nhận định cùng đúng/sai, không chỉ một ý đơn lẻ. Phương án “Phương án A và C đều đúng” được chọn vì các ý còn lại khi ghép lại phản ánh đầy đủ hơn quy định trong chủ đề “Tổng hợp tình huống lựa chọn nhà thầu”. Khi ôn, nên đọc từng mệnh đề rồi kiểm tra xem chúng có cùng thuộc một điều kiện/quy trình hay không."
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Phương án A và C đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
+          "number": 29,
+          "question": "Đối với gói thầu xây lắp áp dụng đấu thầu quốc tế, trường hợp nhà thầu xếp thứ nhất có hồ sơ dự thầu không cân bằng (có đơn giá chào cao hơn đáng kể so với đơn giá tương ứng trong dự toán gói thầu ở các hạng mục công việc có các yêu cầu kỹ thuật đơn giản, dễ thực hiện, hạng mục công việc có khả năng phát sinh khối lượng ngoài khối lượng trong bảng giá dự thầu và có đơn giá chào thấp hơn đáng kể so với đơn giá tương ứng trong dự toán gói thầu ở các hạng mục công việc phức tạp, khó thực hiện) thì chủ đầu tư có thể xử lý thế nào?",
+          "options": [
+            "Yêu cầu nhà thầu làm rõ bằng văn bản về các chi phí cấu thành giá dự thầu (A)",
+            "Có thể quy định giá trị bảo đảm thực hiện hợp đồng lớn hơn 10% nhưng không quá 30% giá hợp đồng để đề phòng rủi ro (B)",
+            "Mời nhà thầu chào lại giá (C)",
+            "Phương án A và B đều đúng"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Phương án A và B đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
+          "number": 30,
+          "question": "Trường hợp xí nghiệp được tách ra khỏi pháp nhân theo quy định của pháp luật về dân sự thì nhà thầu tiếp nhận có được kế thừa năng lực, kinh nghiệm của xí nghiệp hay không?",
+          "options": [
+            "Không được kế thừa năng lực, kinh nghiệm của xí nghiệp",
+            "Được kế thừa năng lực, kinh nghiệm của xí nghiệp",
+            "Chỉ được kế thừa về kinh nghiệm của xí nghiệp",
+            "Chỉ được kế thừa về năng lực của xí nghiệp"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Được kế thừa năng lực, kinh nghiệm của xí nghiệp. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
+          "number": 31,
+          "question": "Chủ đầu tư yêu cầu gia hạn hiệu lực hồ sơ dự thầu, bảo đảm dự thầu trong trường hợp nào sau đây?",
+          "options": [
+            "Trước khi hết hạn hiệu lực hồ sơ dự thầu trong trường hợp cần gia hạn để tiếp tục đánh giá hồ sơ dự thầu (A)",
+            "Trường hợp hồ sơ dự thầu của nhà thầu xếp hạng tiếp theo hết hiệu lực thì Chủ đầu tư phải yêu cầu nhà thầu gia hạn hiệu lực của hồ sơ dự thầu, bảo đảm dự thầu trước khi thương thảo hợp đồng (B)",
+            "Trước khi có kết quả lựa chọn nhà thầu (C)",
+            "Phương án A và B đều đúng"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Phương án A và B đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
+          "number": 32,
+          "question": "Trong lễ mở thầu đối với gói thầu đấu thầu quốc tế không qua mạng, chủ đầu tư xử lý như thế nào khi nhà thầu đề nghị bổ sung thư giảm giá do bị thất lạc trong quá trình nộp hồ sơ dự thầu theo đường bưu điện?",
+          "options": [
+            "Chủ đầu tư chấp nhận do đây là lỗi vận chuyển theo bưu điện",
+            "Chủ đầu tư không chấp nhận vì thư giảm giá của nhà thầu nộp sau thời điểm đóng thầu",
+            "Chủ đầu tư tạm thời ghi nhận nội dung trong thư giảm giá của nhà thầu và trình Người có thẩm quyền quyết định",
+            "Chủ đầu tư coi là tình huống trong đấu thầu và xử lý trên cơ sở bảo đảm cạnh tranh, công bằng, minh bạch, hiệu quả kinh tế và trách nhiệm giải trình"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Chủ đầu tư không chấp nhận vì thư giảm giá của nhà thầu nộp sau thời điểm đóng thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
+          "number": 33,
+          "question": "Đối với gói thầu mua sắm hàng hóa có giá gói thầu 15 tỷ đồng thực hiện đấu thầu rộng rãi qua mạng, trường hợp tại thời điểm đóng thầu không có nhà thầu tham dự thầu, chủ đầu tư quyết định xử lý tình huống theo cách gia hạn thời điểm đóng thầu thì thời gian gia hạn tối thiểu là bao nhiêu ngày?",
+          "options": [
+            "10 ngày",
+            "05 ngày làm việc",
+            "05 ngày",
+            "03 ngày làm việc"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: 10 ngày. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
+          "number": 34,
+          "question": "Trong quá trình thực hiện hợp đồng của nhà thầu liên danh A-B, nhà thầu B không còn năng lực để tiếp tục thực hiện hợp đồng, làm ảnh hưởng nghiêm trọng đến tiến độ, chất lượng, hiệu quả của gói thầu. Trong trường hợp này, bảo đảm thực hiện hợp đồng của nhà thầu xử lý như thế nào?",
+          "options": [
+            "Không tịch thu giá trị bảo đảm thực hiện hợp đồng của nhà thầu A-B (A)",
+            "Tịch thu giá trị bảo đảm thực hiện hợp đồng của tất cả thành viên liên danh trong trường hợp phần công việc còn lại của các thành viên liên danh vi phạm hợp đồng được tách thành gói thầu riêng để lựa chọn nhà thầu (B)",
+            "Chỉ tịch thu giá trị bảo đảm thực hiện hợp đồng của nhà thầu B nếu nhà thầu A có đủ năng lực, kinh nghiệm đảm nhận phần công việc còn lại của nhà thầu B (C)",
+            "Phương án B và C đều đúng"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Phương án B và C đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
+          "number": 35,
+          "question": "Trường hợp các nhà thầu chào hàng hóa có cùng ký mã hiệu (nếu có), hãng sản xuất, năm sản xuất, xuất xứ Việt Nam nhưng có nhà thầu kê khai, có nhà thầu không kê khai hàng hóa này thuộc đối tượng ưu đãi thì chủ đầu tư xử lý thế nào?",
+          "options": [
+            "Không tính ưu đãi của tất cả các nhà thầu tham dự",
+            "Quyết định cho các nhà thầu không kê khai được làm rõ để có cơ sở đánh giá ưu đãi",
+            "Chỉ xét ưu đãi cho các nhà thầu đã kê khai",
+            "Tính ưu đãi cho tất cả nhà nhà thầu tham dự mà không cần làm rõ với nhà thầu không kê khai"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Quyết định cho các nhà thầu không kê khai được làm rõ để có cơ sở đánh giá ưu đãi. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
+          "number": 36,
+          "question": "Gói thầu xây lắp A được phê duyệt KHLCNT với thời gian thực hiện gói thầu là 120 ngày. Trong quá trình thực hiện Hợp đồng, do có phát sinh dẫn tới thời gian thực hiện gói thầu bị kéo dài thành 180 ngày. Trong trường hợp này, chủ đầu tư xử lý như thế nào?",
+          "options": [
+            "Báo cáo người có thẩm quyền trước khi điều chỉnh thời gian thực hiện gói thầu trong kế hoạch lựa chọn nhà thầu đã được phê duyệt",
+            "Chủ đầu tư thực hiện điều chỉnh thời gian thực hiện gói thầu trong kế hoạch lựa chọn nhà thầu đã được phê duyệt mà không cần báo cáo người có thẩm quyền",
+            "Chủ đầu tư không cần điều chỉnh kế hoạch lựa chọn nhà thầu",
+            "Các phương án trên đều sai"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Chủ đầu tư không cần điều chỉnh kế hoạch lựa chọn nhà thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.1 - Xử lý tình huống",
+          "number": 37,
+          "question": "Đối với gói thầu tổ chức lựa chọn nhà thầu qua mạng, trong quá trình đánh giá E-HSDT, Chủ đầu tư nhận thấy nhà thầu có tên trong biên bản mở thầu đang bị khóa tài khoản theo quy định của pháp luật về đấu thầu, E-HSDT của nhà thầu bị đánh giá như thế nào?",
+          "options": [
+            "E-HSDT của nhà thầu được tiếp tục xem xét, đánh giá mà không cần phải mở khóa tài khoản trước khi ký hợp đồng",
+            "E-HSDT của nhà thầu được tiếp tục xem xét, đánh giá nhưng chỉ được đề nghị trúng thầu khi thực hiện mở khóa tài khoản trước khi ký hợp đồng",
+            "E-HSDT của nhà thầu không được tiếp tục xem xét, đánh giá",
+            "Nhà thầu bị cấm tham gia hoạt động đấu thầu do có hành vi gian lận Color Blind Test Take this quiz to find out. Shopswell Quizzes"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: E-HSDT của nhà thầu không được tiếp tục xem xét, đánh giá. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.2 - Quản lý nhà nước và kiến nghị",
+          "number": 38,
+          "question": "Thông tư số 80/2025/TT-BTC quy định chi tiết mẫu hồ sơ yêu cầu, báo cáo đánh giá, báo cáo thẩm định, kiểm tra, báo cáo tình hình thực hiện hoạt động đấu thầu có hiệu lực từ thời điểm nào?",
+          "options": [
+            "Ngày 08/8/2025",
+            "Ngày 04/8/2025",
+            "Ngày 01/8/2025",
+            "Ngày 01/7/2025"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Ngày 08/8/2025. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.2 - Quản lý nhà nước và kiến nghị",
+          "number": 39,
+          "question": "Trung tâm X là đơn vị sự nghiệp công lập tự chủ chi thường xuyên thuộc tỉnh A tổ chức lựa chọn nhà thầu đối với gói thầu mua sắm hàng hóa sử dụng nguồn thu hợp pháp (không sử dụng ngân sách nhà nước), trường hợp nhà thầu có kiến nghị về hồ sơ mời thầu gửi cả người có thẩm quyền và chủ đầu tư của gói thầu thì việc giải quyết kiến nghị được thực hiện theo quy trình nào?",
+          "options": [
+            "Trong thời hạn 07 ngày làm việc kể từ ngày nhận được đơn kiến nghị của nhà thầu, chủ đầu tư phải có văn bản giải quyết kiến nghị gửi đến nhà thầu, cơ quan, tổ chức và đăng tải trên Hệ thống mạng đấu thầu quốc gia (A)",
+            "Người có thẩm quyền phải có văn bản giải quyết kiến nghị gửi đến nhà thầu, cơ quan, tổ chức trong thời hạn 07 ngày làm việc kể từ ngày nhận được đơn kiến nghị của nhà thầu và gửi đến chủ đầu tư để đăng tải trên Hệ thống mạng đấu thầu quốc gia (B)",
+            "Thực hiện theo quy trình về giải quyết kiến nghị do người đứng đầu Trung tâm X ban hành trong đơn vị mình (C)",
+            "Phương án A và B đều đúng"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Thực hiện theo quy trình về giải quyết kiến nghị do người đứng đầu Trung tâm X ban hành trong đơn vị mình (C). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.2 - Quản lý nhà nước và kiến nghị",
+          "number": 40,
+          "question": "Ông A là người đại diện hợp pháp của nhà thầu B ký đơn kiến nghị về kết quả lựa chọn nhà thầu. Trong trường hợp này, anh C là con đẻ của ông A có được tham gia là thành viên Hội đồng giải quyết kiến nghị hay không?",
+          "options": [
+            "Không được tham gia",
+            "Được tham gia nếu đủ năng lực, kinh nghiệm",
+            "Được tham gia khi Chủ tịch Hội đồng giải quyết kiến nghị chấp thuận",
+            "Được tham gia khi người có thẩm quyền chấp thuận"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Không được tham gia. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.2 - Quản lý nhà nước và kiến nghị",
+          "number": 41,
+          "question": "Đơn vị nào có trách nhiệm tiếp nhận và quản lý chi phí do nhà thầu có kiến nghị nộp?",
+          "options": [
+            "Người có thẩm quyền",
+            "Chủ đầu tư",
+            "Bộ phận thường trực giúp việc cho Chủ tịch Hội đồng giải quyết kiến nghị",
+            "Tổ chuyên gia"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Bộ phận thường trực giúp việc cho Chủ tịch Hội đồng giải quyết kiến nghị. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.2 - Quản lý nhà nước và kiến nghị",
+          "number": 42,
+          "question": "Theo quy định pháp luật về đấu thầu, kiểm tra hoạt động đấu thầu được tiến hành theo hình thức nào?",
+          "options": [
+            "Kiểm tra trực tiếp",
+            "Báo cáo bằng văn bản",
+            "Kết hợp giữa kiểm tra trực tiếp và báo cáo bằng văn bản",
+            "Kiểm tra định kỳ hoặc đột xuất"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Kiểm tra định kỳ hoặc đột xuất. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.2 - Quản lý nhà nước và kiến nghị",
+          "number": 43,
+          "question": "Đối với việc giải quyết kiến nghị về các vấn đề trước khi có thông báo kết quả lựa chọn nhà thầu, cá nhân, đơn vị nào sau đây có trách nhiệm giải quyết kiến nghị?",
+          "options": [
+            "Chủ đầu tư, người có thẩm quyền",
+            "Chủ đầu tư, Hội đồng giải quyết kiến nghị",
+            "Người có thẩm quyền, Hội đồng giải quyết kiến nghị",
+            "Chủ đầu tư, tổ chuyên gia"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Chủ đầu tư, người có thẩm quyền. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.2 - Quản lý nhà nước và kiến nghị",
+          "number": 44,
+          "question": "Đối với việc giải quyết kiến nghị về kết quả lựa chọn nhà thầu, cá nhân, đơn vị nào sau đây có trách nhiệm giải quyết kiến nghị?",
+          "options": [
+            "Chủ đầu tư, người có thẩm quyền",
+            "Chủ đầu tư, Hội đồng giải quyết kiến nghị",
+            "Người có thẩm quyền, Hội đồng giải quyết kiến nghị",
+            "Chủ đầu tư, tổ chuyên gia"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Chủ đầu tư, Hội đồng giải quyết kiến nghị. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.2 - Quản lý nhà nước và kiến nghị",
+          "number": 45,
+          "question": "Trường hợp đang trong quá trình giải quyết kiến nghị mà nhà thầu gửi đơn khiếu nại thì việc giải quyết kiến nghị được xử lý thế nào",
+          "options": [
+            "Tiếp tục giải quyết kiến nghị",
+            "Chấm dứt ngay việc giải quyết kiến nghị",
+            "Tạm dừng việc giải quyết kiến nghị đến khi có kết quả giải quyết khiếu nại",
+            "Tất cả phương án trên đều sai"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Chấm dứt ngay việc giải quyết kiến nghị. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.2 - Quản lý nhà nước và kiến nghị",
+          "number": 46,
+          "question": "Đơn vị sự nghiệp công lập (tự chủ chi thường xuyên và chi đầu tư) thuộc tỉnh B tổ chức đấu thầu cho dự án sử dụng vốn ngân sách nhà nước thì Giám đốc Sở Tài chính Tỉnh B có trách nhiệm thành lập Hội đồng giải quyết kiến nghị cho gói thầu có kiến nghị tại Dự án này hay không?",
+          "options": [
+            "Có trách nhiệm thành lập",
+            "Không có trách nhiệm thành lập",
+            "Thành lập khi chủ tịch UBND tỉnh yêu cầu",
+            "Thành lập khi Giám đốc doanh nghiệp A đề nghị"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Có trách nhiệm thành lập. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.2 - Quản lý nhà nước và kiến nghị",
+          "number": 47,
+          "question": "Chi phí giải quyết kiến nghị được nhà thầu nộp cho chủ thể nào sau đây?",
+          "options": [
+            "Chủ tịch Hội đồng tư vấn giải quyết kiến nghị",
+            "Bộ phận thường trực giúp việc cho Chủ tịch Hội đồng giải quyết kiến nghị",
+            "Chủ đầu tư",
+            "Người có thẩm quyền"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Bộ phận thường trực giúp việc cho Chủ tịch Hội đồng giải quyết kiến nghị. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.2 - Quản lý nhà nước và kiến nghị",
+          "number": 48,
+          "question": "Đối với kiến nghị về kết quả lựa chọn nhà thầu, Hội đồng giải quyết kiến nghị phải có văn bản giải quyết kiến nghị trong thời hạn bao nhiêu ngày kể từ ngày Hội đồng được thành lập?",
+          "options": [
+            "25 ngày",
+            "30 ngày",
+            "35 ngày",
+            "20 ngày"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: 30 ngày. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.2 - Quản lý nhà nước và kiến nghị",
+          "number": 49,
+          "question": "Các trường hợp nào sau đây nhà thầu không được hoàn trả chi phí giải quyết kiến nghị",
+          "options": [
+            "Kiến nghị của nhà thầu được kết luận là đúng (A)",
+            "Một hoặc các nội dung kiến nghị của nhà thầu được kết luận là không đúng (B)",
+            "Nhà thầu rút đơn kiến nghị trong quá trình giải quyết kiến nghị (C)",
+            "Phương án B và C đều đúng"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Phương án B và C đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.2 - Quản lý nhà nước và kiến nghị",
+          "number": 50,
+          "question": "Phương án nào sau đây là đúng trong việc giải quyết kiến nghị đối với gói thầu sử dụng vốn sản xuất kinh doanh của doanh nghiệp nhà nước?",
+          "options": [
+            "Hội đồng giải quyết kiến nghị do Sở Tài chính thành lập có trách nhiệm giải quyết kiến nghị cho gói thầu (A)",
+            "Hội đồng giải quyết kiến nghị do Bộ trưởng Bộ Tài chính thành lập có trách nhiệm giải quyết kiến nghị cho gói thầu (B)",
+            "Người đứng đầu doanh nghiệp nhà nước tự ban hành điều kiện, quy trình về giải quyết kiến nghị trong đơn vị mình (C)",
+            "Tất cả phương án A, B, C đều sai"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Người đứng đầu doanh nghiệp nhà nước tự ban hành điều kiện, quy trình về giải quyết kiến nghị trong đơn vị mình (C). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.2 - Quản lý nhà nước và kiến nghị",
+          "number": 51,
+          "question": "Hội đồng giải quyết kiến nghị có quyền thực hiện việc nào sau đây?",
+          "options": [
+            "Hủy thầu",
+            "Yêu cầu chủ đầu tư tạm dừng, ký kết hợp đồng",
+            "Yêu cầu nhà thầu, chủ đầu tư và các cơ quan liên quan cung cấp thông tin của gói thầu, dự án và các thông tin liên quan khác để thực hiện nhiệm vụ",
+            "Không công nhận kết quả lựa chọn nhà thầu"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Yêu cầu nhà thầu, chủ đầu tư và các cơ quan liên quan cung cấp thông tin của gói thầu, dự án và các thông tin liên quan khác để thực hiện nhiệm vụ. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.2 - Quản lý nhà nước và kiến nghị",
+          "number": 52,
+          "question": "Đối với kiến nghị về các vấn đề trước khi có thông báo kết quả lựa chọn nhà thầu, trường hợp nhà thầu gửi đơn kiến nghị đồng thời đến người có thẩm quyền và chủ đầu tư thì chủ thể nào có trách nhiệm giải quyết kiến nghị?",
+          "options": [
+            "Người có thẩm quyền",
+            "Chủ đầu tư",
+            "Bộ phận thường trực",
+            "Hội đồng giải quyết kiến nghị"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Chủ đầu tư. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.2 - Quản lý nhà nước và kiến nghị",
+          "number": 53,
+          "question": "Đối với kiến nghị về kết quả lựa chọn nhà thầu, trường hợp nhà thầu gửi đơn kiến nghị đồng thời đến bộ phận thường trực và chủ đầu tư thì chủ thể nào có trách nhiệm giải quyết kiến nghị?",
+          "options": [
+            "Người có thẩm quyền",
+            "Chủ đầu tư",
+            "Bộ phận thường trực",
+            "Hội đồng giải quyết kiến nghị"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Hội đồng giải quyết kiến nghị. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.2 - Quản lý nhà nước và kiến nghị",
+          "number": 54,
+          "question": "Đối với kiến nghị về quá trình tổ chức lựa chọn nhà thầu (không phải kiến nghị về nội dung hồ sơ mời thầu), đơn kiến nghị phải là của chủ thể nào?",
+          "options": [
+            "Cá nhân quan tâm đến gói thầu (A)",
+            "Nhà thầu tham dự thầu (B)",
+            "Cơ quan, tổ chức quan tâm đến gói thầu (C)",
+            "Phương án B và C đều đúng"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Nhà thầu tham dự thầu (B). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.2 - Quản lý nhà nước và kiến nghị",
+          "number": 55,
+          "question": "Các tài liệu, thông tin nào sau đây trong việc giải quyết kiến nghị được công khai trên Hệ thống mạng đấu thầu quốc gia?",
+          "options": [
+            "Nội dung kiến nghị kết quả lựa chọn nhà thầu",
+            "Văn bản giải quyết kiến nghị của chủ đầu tư",
+            "Văn bản giải quyết kiến nghị của người có thẩm quyền",
+            "Tất cả phương án trên đều đúng"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Tất cả phương án trên đều đúng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.2 - Quản lý nhà nước và kiến nghị",
+          "number": 56,
+          "question": "Nhà thầu có trách nhiệm nộp chi phí giải quyết kiến nghị trong thời hạn bao lâu kể từ ngày nhận được thông báo của bộ phận thường trực?",
+          "options": [
+            "03 ngày làm việc",
+            "02 ngày làm việc",
+            "04 ngày làm việc",
+            "05 ngày làm việc"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: 02 ngày làm việc. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_09_Xu_ly_tinh_huong_vi_pham_va_kien_nghi.md",
+          "originalTopic": "CĐ 8.2 - Quản lý nhà nước và kiến nghị",
+          "number": 57,
+          "question": "Gói thầu mua thuốc áp dụng phương thức một giai đoạn hai túi hồ sơ có giá gói thầu 100 tỷ đồng. Trong quá trình tham dự thầu, nhà thầu X không đạt về kỹ thuật có kiến nghị về kết quả lựa chọn nhà thầu của gói thầu gửi Hội đồng giải quyết kiến nghị (trong đơn kiến nghị nhà thầu nêu giá dự thầu của mình là 90 tỷ đồng). Chi phí giải quyết kiến nghị nhà thầu X phải nộp là?",
+          "options": [
+            "Nhà thầu X phải nộp 25 triệu đồng",
+            "Nhà thầu X phải nộp 22,5 triệu đồng",
+            "Nhà thầu X phải nộp 20 triệu đồng",
+            "Nhà thầu X phải nộp 15 triệu đồng Nhận học bổng mỗi tuần"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Nhà thầu X phải nộp 25 triệu đồng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        }
+      ]
+    },
+    {
+      "title": "Đấu thầu quốc tế và hiệp định thương mại",
+      "theory": [
+        {
+          "heading": "Nguồn pháp lý tham khảo",
+          "points": [
+            "Luật Đấu thầu số 22/2023/QH15: https://vanban.chinhphu.vn/?classid=1&docid=208419&orggroupid=1&pageid=27160",
+            "Luật số 57/2024/QH15: https://vanban.chinhphu.vn/?classid=1&docid=212485&orggroupid=1&pageid=27160",
+            "Luật số 90/2025/QH15: https://vanban.chinhphu.vn/?docid=214558&orggroupid=1&pageid=27160",
+            "Nghị định số 214/2025/NĐ-CP: https://vanban.chinhphu.vn/?classid=1&docid=214821&pageid=27160&typegroupid=4",
+            "Thông tư số 79/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214844&pageid=27160",
+            "Thông tư số 80/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214968&pageid=27160"
+          ],
+          "note": "Các nguồn này được ghi trong database chuyên đề để người học đối chiếu khi cần."
+        },
+        {
+          "heading": "1. Khi nào tổ chức đấu thầu quốc tế",
+          "points": [
+            "Đấu thầu quốc tế được áp dụng khi đáp ứng điều kiện luật định, ví dụ nhà tài trợ yêu cầu, nhà thầu trong nước không đáp ứng, cần nhà thầu nước ngoài để nâng chất lượng tư vấn hoặc hàng hóa trong nước không sản xuất được hoặc không đáp ứng yêu cầu kỹ thuật, chất lượng, giá. Không phải cứ hàng nhập khẩu là phải tổ chức đấu thầu quốc tế."
+          ]
+        },
+        {
+          "heading": "2. Ngôn ngữ trong đấu thầu quốc tế",
+          "points": [
+            "Ngôn ngữ trong đấu thầu quốc tế thường là tiếng Anh hoặc tiếng Việt và tiếng Anh tùy hồ sơ mời thầu. Nếu hồ sơ mời thầu cho phép tiếng Việt và tiếng Anh, nhà thầu có thể sử dụng ngôn ngữ theo quy định trong hồ sơ."
+          ]
+        },
+        {
+          "heading": "3. Hiệp định thương mại và mua sắm chính phủ",
+          "points": [
+            "Các hiệp định như CPTPP, EVFTA và UKVFTA có quy định về mở cửa thị trường mua sắm chính phủ. Khi gói thầu thuộc phạm vi điều chỉnh của hiệp định, cần xem xét ngưỡng áp dụng, cơ quan mua sắm, loại hàng hóa/dịch vụ, nguyên tắc đấu thầu nội khối và ưu đãi."
+          ]
+        },
+        {
+          "heading": "4. Ưu đãi trong bối cảnh hiệp định",
+          "points": [
+            "Ưu đãi trong nước hoặc ưu đãi đối với nhà thầu, hàng hóa nội khối phải tuân thủ giới hạn của từng hiệp định và giai đoạn chuyển tiếp. Không áp dụng ưu đãi theo thói quen nếu hiệp định có quy định khác."
+          ]
+        },
+        {
+          "heading": "Bẫy thường gặp",
+          "points": [
+            "Cứ có yếu tố nước ngoài là chọn đấu thầu quốc tế.",
+            "Nhầm đấu thầu quốc tế với đấu thầu nội khối theo hiệp định.",
+            "Áp dụng ưu đãi trong nước mà không kiểm tra giới hạn hiệp định."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "source": "Chuyen_de_10_Dau_thau_quoc_te_va_hiep_dinh_thuong_mai.md",
+          "originalTopic": "CĐ 9.1 - Hợp tác quốc tế",
+          "number": 1,
+          "question": "Hiện nay, Việt Nam đã mở cửa thị trường mua sắm chính phủ (đấu thầu) trong những hiệp định nào?",
+          "options": [
+            "Chỉ Hiệp định Đối tác Toàn diện và Tiến bộ Xuyên Thái Bình Dương (CPTPP)",
+            "Hiệp định CPTPP và Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh Châu Âu (EVFTA)",
+            "Hiệp định CPTPP, Hiệp định EVFTA và Hiệp định Thương mại Tự do giữa Việt Nam và Liên hiệp Vương quốc Anh và Bắc Ailen (UKVFTA)",
+            "Tất cả các hiệp định mà Việt Nam là thành viên"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Hiệp định CPTPP, Hiệp định EVFTA và Hiệp định Thương mại Tự do giữa Việt Nam và Liên hiệp Vương quốc Anh và Bắc Ailen (UKVFTA). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_10_Dau_thau_quoc_te_va_hiep_dinh_thuong_mai.md",
+          "originalTopic": "CĐ 9.1 - Hợp tác quốc tế",
+          "number": 2,
+          "question": "Số lượng các nước thành viên Hiệp định Đối tác Toàn diện và Tiến bộ Xuyên Thái Bình Dương (CPTPP) ký kết hiệp định ban đầu là bao nhiêu nước?",
+          "options": [
+            "8 nước",
+            "9 nước",
+            "11 nước",
+            "12 nước"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: 11 nước. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_10_Dau_thau_quoc_te_va_hiep_dinh_thuong_mai.md",
+          "originalTopic": "CĐ 9.1 - Hợp tác quốc tế",
+          "number": 3,
+          "question": "Trong các hiệp định dưới đây, hiệp định nào không có quy định về các trường hợp chỉ định thầu?",
+          "options": [
+            "Hiệp định Đối tác Toàn diện và Tiến bộ Xuyên Thái Bình Dương (CPTPP)",
+            "Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh Châu Âu (EVFTA)",
+            "Hiệp định EVFTA và Hiệp định Thương mại Tự do giữa Việt Nam và Liên hiệp Vương quốc Anh và Bắc Ailen (UKVFTA)",
+            "Hiệp định Đối tác Kinh tế Toàn diện Khu vực (RCEP)"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Hiệp định Đối tác Kinh tế Toàn diện Khu vực (RCEP). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_10_Dau_thau_quoc_te_va_hiep_dinh_thuong_mai.md",
+          "originalTopic": "CĐ 9.1 - Hợp tác quốc tế",
+          "number": 4,
+          "question": "Hoạt động nào sau đây không thuộc phạm vi điều chỉnh của Nghị định số 95/2020/NĐ-CP?",
+          "options": [
+            "Mua sắm thiết bị văn phòng",
+            "Thuê dịch vụ tư vấn",
+            "Thuê quyền sử dụng đất",
+            "Mua sắm vật tư y tế"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Thuê quyền sử dụng đất. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_10_Dau_thau_quoc_te_va_hiep_dinh_thuong_mai.md",
+          "originalTopic": "CĐ 9.1 - Hợp tác quốc tế",
+          "number": 5,
+          "question": "Theo các hiệp định mà Việt Nam có mở cửa thị trường mua sắm chính phủ (đấu thầu), nhà thầu nước ài đượ th i đấ thầ t i Việt N t t ườ hợ à ? ngoài được tham gia đấu thầu tại Việt Nam trong trường hợp nào?",
+          "options": [
+            "Tất cả các gói thầu",
+            "Chỉ gói thầu ODA",
+            "Gói thầu thuộc phạm vi điều chỉnh của hiệp định",
+            "Gói thầu có giá trị lớn, phức tạp"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Gói thầu thuộc phạm vi điều chỉnh của hiệp định. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_10_Dau_thau_quoc_te_va_hiep_dinh_thuong_mai.md",
+          "originalTopic": "CĐ 9.1 - Hợp tác quốc tế",
+          "number": 6,
+          "question": "Theo quy định tại Nghị định số 95/2020/NĐ-CP, đấu thầu nội khối là?",
+          "options": [
+            "Đấu thầu mà chỉ có nhà thầu nội khối được tham dự",
+            "Đấu thầu cho các dự án trong khối CPTPP",
+            "Đấu thầu giữa các nước thành viên EVFTA, UKVFTA",
+            "Đấu thầu trong nước"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Đấu thầu mà chỉ có nhà thầu nội khối được tham dự. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_10_Dau_thau_quoc_te_va_hiep_dinh_thuong_mai.md",
+          "originalTopic": "CĐ 9.1 - Hợp tác quốc tế",
+          "number": 7,
+          "question": "Theo quy định tại Nghị định số 09/2022/NĐ-CP, cơ quan mua sắm phải tổ chức đấu thầu nội khối, trừ trường hợp nào?",
+          "options": [
+            "Không có nhà thầu trong nước tham gia",
+            "Giá gói thầu quá lớn",
+            "Người có thẩm quyền xét thấy cần tổ chức đấu thầu quốc tế để mang lại hiệu quả cao hơn cho dự án, gói thầu",
+            "Hàng hóa thuộc gói thầu quá phức tạp mà nhà thầu trong nước không đáp ứng được"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Người có thẩm quyền xét thấy cần tổ chức đấu thầu quốc tế để mang lại hiệu quả cao hơn cho dự án, gói thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_10_Dau_thau_quoc_te_va_hiep_dinh_thuong_mai.md",
+          "originalTopic": "CĐ 9.1 - Hợp tác quốc tế",
+          "number": 8,
+          "question": "Theo Thông tư số 21/2022/TT-BKHĐT, khi nào được đưa ra yêu cầu về nhân sự chủ chốt trong gói thầu dịch vụ phi tư vấn?",
+          "options": [
+            "Trong mọi trường hợp",
+            "Khi giá gói thầu lớn",
+            "Chỉ khi dịch vụ có yếu tố đặc thù, phức tạp cần thiết phải có nhân sự có hiểu biết, nhiều kinh nghiệm đảm nhận",
+            "Khi có yêu cầu của nhà thầu"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Chỉ khi dịch vụ có yếu tố đặc thù, phức tạp cần thiết phải có nhân sự có hiểu biết, nhiều kinh nghiệm đảm nhận. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_10_Dau_thau_quoc_te_va_hiep_dinh_thuong_mai.md",
+          "originalTopic": "CĐ 9.1 - Hợp tác quốc tế",
+          "number": 9,
+          "question": "Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh Châu Âu (EVFTA) có hiệu lực từ ngày nào?",
+          "options": [
+            "01/7/2020",
+            "01/8/2020",
+            "01/9/2020",
+            "01/10/2020"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: 01/8/2020. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_10_Dau_thau_quoc_te_va_hiep_dinh_thuong_mai.md",
+          "originalTopic": "CĐ 9.1 - Hợp tác quốc tế",
+          "number": 10,
+          "question": "Trường hợp tổ chức lựa chọn nhà thầu đối với gói thầu mua sắm hàng hóa thuộc phạm vi điều chỉnh của Hiệp định UKVFTA tại thời điểm tháng 9/2025, cơ quan mua sắm lập hồ sơ mời thầu theo Mẫu hồ sơ mời thầu ban hành kèm theo Thông tư nào?",
+          "options": [
+            "Thông tư số 09/2020/TT-BKHĐT",
+            "Thông tư số 12/2022/TT-BKHĐT",
+            "Thông tư số 15/2022/TT-BKHĐT",
+            "Thông tư số 20/2022/TT-BKHĐT"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Thông tư số 12/2022/TT-BKHĐT. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_10_Dau_thau_quoc_te_va_hiep_dinh_thuong_mai.md",
+          "originalTopic": "CĐ 9.1 - Hợp tác quốc tế",
+          "number": 11,
+          "question": "Việc đấu thầu thuốc theo quy định của Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh Châu Âu (EVFTA) được Chính phủ giao cơ quan, tổ chức nào hướng dẫn?",
+          "options": [
+            "Bộ Tư pháp",
+            "Bộ Y tế",
+            "Bộ Tài chính",
+            "Bộ Công Thương"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: Bộ Y tế. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_10_Dau_thau_quoc_te_va_hiep_dinh_thuong_mai.md",
+          "originalTopic": "CĐ 9.1 - Hợp tác quốc tế",
+          "number": 12,
+          "question": "Việt Nam chính thức trở thành thành viên của Hiệp định mua sắm chính phủ của WTO (GPA) từ năm nào?",
+          "options": [
+            "2018",
+            "2019",
+            "2020",
+            "Việt Nam chưa phải là thành viên của GPA"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Việt Nam chưa phải là thành viên của GPA. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_10_Dau_thau_quoc_te_va_hiep_dinh_thuong_mai.md",
+          "originalTopic": "CĐ 9.1 - Hợp tác quốc tế",
+          "number": 13,
+          "question": "Theo quy định tại Nghị định số 95/2020/NĐ-CP (được sửa đổi, bổ sung tại Nghị định số 09/2022/NĐ- CP, Nghị định số 17/2025/NĐ-CP), khái niệm Nước thành viên không bao gồm:",
+          "options": [
+            "Nước thành viên Hiệp định Đối tác Toàn diện và Tiến bộ Xuyên Thái Bình Dương (CPTPP)",
+            "Nước thành viên EU",
+            "Vương quốc Anh và Bắc Ai-len",
+            "Các nước ASEAN chưa gia nhập Hiệp định CPTPP"
+          ],
+          "answer": 3,
+          "explanation": "Phương án D đúng vì phù hợp với phần lý thuyết của chuyên đề: Các nước ASEAN chưa gia nhập Hiệp định CPTPP. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_10_Dau_thau_quoc_te_va_hiep_dinh_thuong_mai.md",
+          "originalTopic": "CĐ 9.1 - Hợp tác quốc tế",
+          "number": 14,
+          "question": "Đối với gói thầu thuộc phạm vi điều chỉnh của Hiệp định Đối tác Toàn diện và Tiến bộ Xuyên Thái Bình Dương (CPTPP), ngôn ngữ sử dụng trong đấu thầu nội khối là:",
+          "options": [
+            "Chỉ tiếng Việt",
+            "Chỉ tiếng Anh",
+            "Tiếng Việt; hoặc tiếng Việt và tiếng Anh",
+            "Bất kỳ ngôn ngữ nào của các nước thành viên"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Tiếng Việt; hoặc tiếng Việt và tiếng Anh. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_10_Dau_thau_quoc_te_va_hiep_dinh_thuong_mai.md",
+          "originalTopic": "CĐ 9.1 - Hợp tác quốc tế",
+          "number": 15,
+          "question": "Theo quy định tại Thông tư số 21/2022/TT-BKHĐT, hồ sơ mời thầu gói thầu dịch vụ phi tư vấn không được đưa ra yêu cầu nào sau đây:",
+          "options": [
+            "Yêu cầu về năng lực",
+            "Yêu cầu về kinh nghiệm",
+            "Yêu cầu nhà thầu phải có kinh nghiệm cung cấp dịch vụ trong lãnh thổ của một quốc gia cụ thể",
+            "Yêu cầu về chất lượng dịch vụ"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Yêu cầu nhà thầu phải có kinh nghiệm cung cấp dịch vụ trong lãnh thổ của một quốc gia cụ thể. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_10_Dau_thau_quoc_te_va_hiep_dinh_thuong_mai.md",
+          "originalTopic": "CĐ 9.1 - Hợp tác quốc tế",
+          "number": 16,
+          "question": "Trong Hiệp định Đối tác Toàn diện và Tiến bộ Xuyên Thái Bình Dương (CPTPP), việc áp dụng biện pháp ưu đãi trong nước:",
+          "options": [
+            "Được phép áp dụng vĩnh viễn",
+            "Không bao giờ được phép áp dụng",
+            "Được phép áp dụng trong thời gian chuyển tiếp",
+            "Tùy quy mô, tính chất từng gói thầu"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Được phép áp dụng trong thời gian chuyển tiếp. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_10_Dau_thau_quoc_te_va_hiep_dinh_thuong_mai.md",
+          "originalTopic": "CĐ 9.1 - Hợp tác quốc tế",
+          "number": 17,
+          "question": "Đối với gói thầu thuộc phạm vi điều chỉnh của Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh Châu Âu (EVFTA), có những hình thức lựa chọn nhà thầu nào:",
+          "options": [
+            "Đấu thầu hạn chế và chỉ định thầu",
+            "Chỉ có chỉ định thầu",
+            "Đấu thầu rộng rãi và chỉ định thầu",
+            "Chỉ có đấu thầu rộng rãi"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Đấu thầu rộng rãi và chỉ định thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_10_Dau_thau_quoc_te_va_hiep_dinh_thuong_mai.md",
+          "originalTopic": "CĐ 9.1 - Hợp tác quốc tế",
+          "number": 18,
+          "question": "Hiệp định Đối tác Toàn diện và Tiến bộ Xuyên Thái Bình Dương (CPTPP) có cho phép áp dụng đấu thầu qua mạng không?",
+          "options": [
+            "Không cho phép",
+            "Bắt buộc phải áp dụng",
+            "Khuyến khích áp dụng",
+            "Tùy quy mô, tính chất từng gói thầu Color Blind Test Take this quiz to find out. Shopswell Quizzes"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: Khuyến khích áp dụng. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_10_Dau_thau_quoc_te_va_hiep_dinh_thuong_mai.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 19,
+          "question": "Đối với gói thầu dịch vụ xây dựng thuộc phạm vi điều chỉnh của Hiệp định CPTPP và tổ chức đấu thầu quốc tế, cơ quan mua sắm có thể áp dụng ưu đãi đối với nhà thầu nội khối nào?",
+          "options": [
+            "Nhà thầu liên danh trong đó có thành viên liên danh là nhà thầu Nhật Bản và thành viên này đảm nhận từ 50% trở lên giá trị công việc của gói thầu",
+            "Nhà thầu liên danh trong đó có thành viên liên danh là nhà thầu nội khối và thành viên này đảm nhận từ 25% trở lên giá trị công việc của gói thầu",
+            "Nhà thầu liên danh trong đó có thành viên liên danh là nhà thầu Hoa Kỳ và thành viên này đảm nhận từ 50% trở lên giá trị công việc của gói thầu",
+            "Nhà thầu liên danh trong đó có thành viên liên danh là nhà thầu nội khối và thành viên này đảm nhận từ 40% trở lên giá trị công việc của gói thầu"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Nhà thầu liên danh trong đó có thành viên liên danh là nhà thầu Nhật Bản và thành viên này đảm nhận từ 50% trở lên giá trị công việc của gói thầu. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_10_Dau_thau_quoc_te_va_hiep_dinh_thuong_mai.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 20,
+          "question": "Đối với gói thầu chỉ thuộc phạm vi điều chỉnh của Hiệp định CPTPP, thời điểm chấm dứt áp dụng ưu đãi trong nước là?",
+          "options": [
+            "14 tháng 01 năm 2038",
+            "01 tháng 08 năm 2038",
+            "14 tháng 01 năm 2044",
+            "01 tháng 08 năm 2044"
+          ],
+          "answer": 2,
+          "explanation": "Phương án C đúng vì phù hợp với phần lý thuyết của chuyên đề: 14 tháng 01 năm 2044. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_10_Dau_thau_quoc_te_va_hiep_dinh_thuong_mai.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 21,
+          "question": "Đối với gói thầu thuộc phạm vi điều chỉnh của Hiệp định EVFTA, trong giai đoạn từ 01/8/2020 đến 13/01/2029, tổng giá trị ưu đãi trong nước tối đa trong một năm là?",
+          "options": [
+            "30% tổng giá hợp đồng các gói thầu thuộc phạm vi điều chỉnh của Nghị định số 95/2020/NĐ-CP",
+            "40% tổng giá hợp đồng các gói thầu thuộc phạm vi điều chỉnh của Nghị định số 95/2020/NĐ-CP",
+            "50% tổng giá hợp đồng các gói thầu thuộc phạm vi điều chỉnh của Nghị định số 95/2020/NĐ-CP",
+            "60% tổng giá hợp đồng các gói thầu thuộc phạm vi điều chỉnh của Nghị định số 95/2020/NĐ-CP"
+          ],
+          "answer": 1,
+          "explanation": "Phương án B đúng vì phù hợp với phần lý thuyết của chuyên đề: 40% tổng giá hợp đồng các gói thầu thuộc phạm vi điều chỉnh của Nghị định số 95/2020/NĐ-CP. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_10_Dau_thau_quoc_te_va_hiep_dinh_thuong_mai.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 22,
+          "question": "Một nhà thầu EU tham gia đấu thầu quốc tế gói thầu mua sắm hàng hóa thuộc Hiệp định EVFTA có chi phí sản xuất hàng hóa tại nước thành viên là 45%, gói thầu có áp dụng ưu đãi đối với hàng hóa từ các nước thành viên. Nhà thầu này có được hưởng ưu đãi không?",
+          "options": [
+            "Không được hưởng ưu đãi vì chi phí sản xuất hàng hóa tại các nước thành viên dưới 50%",
+            "Được hưởng ưu đãi vì có chi phí sản xuất hàng hóa tại nước thành viên",
+            "Được hưởng ưu đãi vì tổng chi phí tại nước thành viên là 45%",
+            "Không đủ thông tin để xác định tính chất phức tạp của gói thầu"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Không được hưởng ưu đãi vì chi phí sản xuất hàng hóa tại các nước thành viên dưới 50%. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_10_Dau_thau_quoc_te_va_hiep_dinh_thuong_mai.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 23,
+          "question": "Gói thầu thuộc phạm vi điều chỉnh của Hiệp định CPTPP mua sắm hàng hóa thông dụng, sẵn có trên thị trường với đặc tính kỹ thuật được tiêu chuẩn hóa, tương đương nhau về chất lượng và có giá gói thầu không quá 10 tỷ đồng thì thời gian chuẩn bị hồ sơ dự thầu tối thiểu là?",
+          "options": [
+            "10 ngày",
+            "15 ngày",
+            "20 ngày",
+            "25 ngày"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: 10 ngày. Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
+        },
+        {
+          "source": "Chuyen_de_10_Dau_thau_quoc_te_va_hiep_dinh_thuong_mai.md",
+          "originalTopic": "Cụm 50-4-N tổng hợp",
+          "number": 24,
+          "question": "Đối với gói thầu thuộc phạm vi điều chỉnh của Hiệp định EVFTA tổ chức đấu thầu quốc tế, có áp dụng ưu đãi đối với hàng hóa, nhà thầu nội khối, một trong các nguyên tắc ưu đãi là?",
+          "options": [
+            "Sau khi tính ưu đãi, nếu các hồ sơ dự thầu xếp hạng ngang nhau thì ưu tiên cho nhà thầu sử dụng nhiều lao động nội khối hơn (tính trên giá trị tiền lương, tiền công chi trả)",
+            "Sau khi tính ưu đãi, nếu các hồ sơ dự thầu xếp hạng ngang nhau thì ưu tiên cho nhà thầu có đề xuất chi phí nội khối thấp hơn.",
+            "Nhà thầu được hưởng tất cả các ưu đãi thuộc đối tượng áp dụng",
+            "Sau khi tính ưu đãi, nếu các hồ sơ dự thầu xếp hạng ngang nhau thì ưu tiên cho nhà thầu có đề xuất chi phí nội khối ít chênh lệch nhất so với yêu cầu của hồ sơ mời thầu Nhận học bổng mỗi tuần"
+          ],
+          "answer": 0,
+          "explanation": "Phương án A đúng vì phù hợp với phần lý thuyết của chuyên đề: Sau khi tính ưu đãi, nếu các hồ sơ dự thầu xếp hạng ngang nhau thì ưu tiên cho nhà thầu sử dụng nhiều lao động nội khối hơn (tính trên giá trị tiền lương, tiền công chi trả). Các phương án còn lại không đáp ứng đúng điều kiện áp dụng, thẩm quyền, mốc thời gian hoặc cách xử lý đã nêu trong lý thuyết."
         }
       ]
     }
