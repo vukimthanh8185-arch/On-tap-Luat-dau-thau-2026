@@ -1,34 +1,25 @@
 # Lý thuyết ôn tập Luật Đấu thầu
 
-Tài liệu này trích xuất từ database chuyên đề mới, gồm 10 chuyên đề và 390 câu hỏi thực hành trong app.
-
-## Mục lục
-
-1. Quy định chung và phạm vi áp dụng
-2. Phân loại gói thầu và hình thức lựa chọn nhà thầu
-3. Kế hoạch lựa chọn nhà thầu
-4. Hồ sơ mời thầu và chuẩn bị lựa chọn nhà thầu
-5. Đấu thầu qua mạng và hệ thống mạng đấu thầu quốc gia
-6. Đánh giá hồ sơ dự thầu và xét duyệt trúng thầu
-7. Ưu đãi, mua sắm tập trung và y tế
-8. Hợp đồng trong đấu thầu
-9. Xử lý tình huống, vi phạm và kiến nghị
-10. Đấu thầu quốc tế và hiệp định thương mại
+Gồm 10 chuyên đề và 390 câu hỏi thực hành liên quan.
 
 # Chuyên đề 1. Quy định chung và phạm vi áp dụng
 
-Số câu thực hành liên quan trong app: 34.
+Số câu thực hành liên quan: 34.
 
-## Nguồn pháp lý tham khảo
+## Bảng học nhanh: xác định có phải áp dụng Luật Đấu thầu không
 
-- Luật Đấu thầu số 22/2023/QH15: https://vanban.chinhphu.vn/?classid=1&docid=208419&orggroupid=1&pageid=27160
-- Luật số 57/2024/QH15: https://vanban.chinhphu.vn/?classid=1&docid=212485&orggroupid=1&pageid=27160
-- Luật số 90/2025/QH15: https://vanban.chinhphu.vn/?docid=214558&orggroupid=1&pageid=27160
-- Nghị định số 214/2025/NĐ-CP: https://vanban.chinhphu.vn/?classid=1&docid=214821&pageid=27160&typegroupid=4
-- Thông tư số 79/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214844&pageid=27160
-- Thông tư số 80/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214968&pageid=27160
+| Câu hỏi kiểm tra | Cách xác định | Dạng câu hay gặp |
+| --- | --- | --- |
+| Ai mua? | Cơ quan nhà nước, đơn vị sự nghiệp công lập, chủ đầu tư dự án dùng vốn nhà nước thường thuộc phạm vi luật | Hỏi trường hợp bắt buộc lựa chọn nhà thầu |
+| Dùng nguồn tiền nào? | Ngân sách nhà nước, vốn đầu tư công, nguồn thu hợp pháp thuộc phạm vi luật định | Hỏi trường hợp được tự quyết hoặc không thuộc đối tượng |
+| Mục đích mua gì? | Gói thầu thuộc dự án, dự toán mua sắm, thuốc/vật tư y tế, xây lắp, hàng hóa, dịch vụ | Hỏi phân biệt hộ kinh doanh/cơ quan nhà nước/bệnh viện công |
+| Có ngoại lệ không? | Một số trường hợp tự quyết vẫn phải công khai, minh bạch, hiệu quả và giải trình | Hỏi tài trợ trong nước, đơn vị tự bảo đảm chi |
 
-> Các nguồn này được ghi trong database chuyên đề để người học đối chiếu khi cần.
+## Mẹo cần nhớ
+
+- Đừng nhìn mỗi tên đơn vị; phải nhìn đồng thời chủ thể, nguồn vốn và mục đích sử dụng vốn.
+- “Tự quyết định” không có nghĩa là tùy ý, mà vẫn phải có căn cứ, chứng từ, hiệu quả và giải trình.
+- Gói thầu của bệnh viện công dùng ngân sách để mua thuốc, hóa chất, vật tư xét nghiệm thường thuộc phạm vi đấu thầu; hộ kinh doanh tự mua phần mềm bằng tiền riêng thì không.
 
 ## 1. Câu hỏi cần trả lời trước tiên
 
@@ -58,18 +49,23 @@ Số câu thực hành liên quan trong app: 34.
 
 # Chuyên đề 2. Phân loại gói thầu và hình thức lựa chọn nhà thầu
 
-Số câu thực hành liên quan trong app: 35.
+Số câu thực hành liên quan: 35.
 
-## Nguồn pháp lý tham khảo
+## Bảng học nhanh: loại gói thầu và hình thức lựa chọn
 
-- Luật Đấu thầu số 22/2023/QH15: https://vanban.chinhphu.vn/?classid=1&docid=208419&orggroupid=1&pageid=27160
-- Luật số 57/2024/QH15: https://vanban.chinhphu.vn/?classid=1&docid=212485&orggroupid=1&pageid=27160
-- Luật số 90/2025/QH15: https://vanban.chinhphu.vn/?docid=214558&orggroupid=1&pageid=27160
-- Nghị định số 214/2025/NĐ-CP: https://vanban.chinhphu.vn/?classid=1&docid=214821&pageid=27160&typegroupid=4
-- Thông tư số 79/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214844&pageid=27160
-- Thông tư số 80/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214968&pageid=27160
+| Nội dung | Ý cần nhớ | Cách nhận diện trong câu hỏi |
+| --- | --- | --- |
+| Tư vấn | Công việc dùng chuyên môn/chất xám như lập quy hoạch, khảo sát, thiết kế, giám sát, thẩm định | Hỏi “gói nào là dịch vụ tư vấn” |
+| Phi tư vấn | Dịch vụ thông dụng như vệ sinh, bảo vệ, in ấn, vận chuyển, bảo trì | Hỏi phân loại gói thầu |
+| Hàng hóa | Máy móc, thiết bị, vật tư, thuốc, hóa chất, vật tư xét nghiệm, thiết bị y tế | Hỏi mua sắm trực tiếp, mua sắm tập trung |
+| Đấu thầu rộng rãi | Không quy định hạn mức áp dụng, là hình thức cạnh tranh rộng nhất | Hỏi hạn mức đấu thầu rộng rãi |
+| Chỉ định thầu | Ngoại lệ, phải đúng trường hợp và hạn mức | Hỏi 500 triệu, 800 triệu, 2 tỷ |
+| Chào hàng cạnh tranh | Hàng hóa/dịch vụ thông dụng, đơn giản, sẵn có | Hỏi gói thông dụng 5 tỷ, 10 tỷ |
 
-> Các nguồn này được ghi trong database chuyên đề để người học đối chiếu khi cần.
+## Mẹo cần nhớ
+
+- Hình thức lựa chọn là “đấu thầu rộng rãi, chỉ định thầu, chào hàng cạnh tranh…”. “Đấu thầu qua mạng” là cách thức thực hiện, không phải hình thức.
+- Hạn mức chỉ định thầu: dự toán mua sắm không hình thành dự án = 500 triệu; tư vấn thuộc dự án = 800 triệu; hàng hóa/xây lắp/phi tư vấn/hỗn hợp thuộc dự án = 2 tỷ.
 
 ## 1. Mục tiêu của chuyên đề
 
@@ -93,18 +89,22 @@ Số câu thực hành liên quan trong app: 35.
 
 # Chuyên đề 3. Kế hoạch lựa chọn nhà thầu
 
-Số câu thực hành liên quan trong app: 17.
+Số câu thực hành liên quan: 17.
 
-## Nguồn pháp lý tham khảo
+## Bảng học nhanh: kế hoạch lựa chọn nhà thầu
 
-- Luật Đấu thầu số 22/2023/QH15: https://vanban.chinhphu.vn/?classid=1&docid=208419&orggroupid=1&pageid=27160
-- Luật số 57/2024/QH15: https://vanban.chinhphu.vn/?classid=1&docid=212485&orggroupid=1&pageid=27160
-- Luật số 90/2025/QH15: https://vanban.chinhphu.vn/?docid=214558&orggroupid=1&pageid=27160
-- Nghị định số 214/2025/NĐ-CP: https://vanban.chinhphu.vn/?classid=1&docid=214821&pageid=27160&typegroupid=4
-- Thông tư số 79/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214844&pageid=27160
-- Thông tư số 80/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214968&pageid=27160
+| Thành phần trong kế hoạch | Vì sao quan trọng | Câu hỏi hay gặp |
+| --- | --- | --- |
+| Tên gói thầu | Xác định phạm vi công việc | Hỏi nội dung bắt buộc của kế hoạch |
+| Giá gói thầu | Là căn cứ chọn hình thức, phương thức, loại hợp đồng, nguồn vốn | Hỏi giá gói thầu trong kế hoạch |
+| Nguồn vốn | Xác định khả năng thanh toán và phạm vi áp dụng | Hỏi dùng ngân sách/vốn nhà nước |
+| Hình thức, phương thức | Quyết định cách tổ chức lựa chọn nhà thầu | Hỏi đấu thầu rộng rãi/chỉ định/chào hàng |
+| Thời gian tổ chức | Bảo đảm tiến độ dự án/gói thầu | Hỏi đăng tải trong 05 ngày làm việc |
 
-> Các nguồn này được ghi trong database chuyên đề để người học đối chiếu khi cần.
+## Mẹo cần nhớ
+
+- Kế hoạch lựa chọn nhà thầu là “bản đồ đường đi” của gói thầu; HSMT phải bám kế hoạch đã duyệt.
+- Chậm nhất 05 ngày làm việc từ ngày kế hoạch được ký ban hành phải đăng tải trên Hệ thống mạng đấu thầu quốc gia.
 
 ## 1. Vai trò của kế hoạch lựa chọn nhà thầu
 
@@ -127,18 +127,22 @@ Số câu thực hành liên quan trong app: 17.
 
 # Chuyên đề 4. Hồ sơ mời thầu và chuẩn bị lựa chọn nhà thầu
 
-Số câu thực hành liên quan trong app: 60.
+Số câu thực hành liên quan: 60.
 
-## Nguồn pháp lý tham khảo
+## Bảng học nhanh: HSMT/E-HSMT
 
-- Luật Đấu thầu số 22/2023/QH15: https://vanban.chinhphu.vn/?classid=1&docid=208419&orggroupid=1&pageid=27160
-- Luật số 57/2024/QH15: https://vanban.chinhphu.vn/?classid=1&docid=212485&orggroupid=1&pageid=27160
-- Luật số 90/2025/QH15: https://vanban.chinhphu.vn/?docid=214558&orggroupid=1&pageid=27160
-- Nghị định số 214/2025/NĐ-CP: https://vanban.chinhphu.vn/?classid=1&docid=214821&pageid=27160&typegroupid=4
-- Thông tư số 79/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214844&pageid=27160
-- Thông tư số 80/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214968&pageid=27160
+| Nội dung HSMT | Yêu cầu đúng | Bẫy hay gặp |
+| --- | --- | --- |
+| Tiêu chuẩn kỹ thuật | Rõ, đo được, phù hợp nhu cầu | Ghi nhãn hiệu cụ thể nhưng không có “hoặc tương đương” |
+| Hợp đồng tương tự | Tương tự về bản chất, quy mô, độ phức tạp | Yêu cầu quá hẹp làm hạn chế cạnh tranh |
+| Giấy phép bán hàng | Chỉ yêu cầu khi hàng hóa đặc thù cần bảo hành, bảo trì, nguồn gốc | Yêu cầu tràn lan với hàng thông dụng |
+| Nhân sự chủ chốt | Chỉ đặt khi gói thầu phức tạp/cần chuyên môn đặc thù | Dùng nhân sự để loại bớt nhà thầu |
+| Làm rõ/sửa đổi E-HSMT | Thực hiện trên Hệ thống để mọi nhà thầu biết | Trả lời riêng ngoài Hệ thống |
 
-> Các nguồn này được ghi trong database chuyên đề để người học đối chiếu khi cần.
+## Mẹo cần nhớ
+
+- HSMT tốt phải giúp nhà thầu hiểu đúng yêu cầu, không được “may đo” cho một nhà thầu.
+- Làm rõ là giải thích hồ sơ; sửa đổi là thay đổi nội dung hồ sơ và phải đăng tải công khai.
 
 ## 1. Hồ sơ mời thầu là gì
 
@@ -160,18 +164,18 @@ Số câu thực hành liên quan trong app: 60.
 
 # Chuyên đề 5. Đấu thầu qua mạng và hệ thống mạng đấu thầu quốc gia
 
-Số câu thực hành liên quan trong app: 62.
+Số câu thực hành liên quan: 62.
 
-## Nguồn pháp lý tham khảo
+## Bảng học nhanh: đấu thầu qua mạng
 
-- Luật Đấu thầu số 22/2023/QH15: https://vanban.chinhphu.vn/?classid=1&docid=208419&orggroupid=1&pageid=27160
-- Luật số 57/2024/QH15: https://vanban.chinhphu.vn/?classid=1&docid=212485&orggroupid=1&pageid=27160
-- Luật số 90/2025/QH15: https://vanban.chinhphu.vn/?docid=214558&orggroupid=1&pageid=27160
-- Nghị định số 214/2025/NĐ-CP: https://vanban.chinhphu.vn/?classid=1&docid=214821&pageid=27160&typegroupid=4
-- Thông tư số 79/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214844&pageid=27160
-- Thông tư số 80/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214968&pageid=27160
-
-> Các nguồn này được ghi trong database chuyên đề để người học đối chiếu khi cần.
+| Nội dung | Quy tắc cần nhớ | Câu hỏi hay gặp |
+| --- | --- | --- |
+| Văn bản điện tử | Có giá trị pháp lý theo thời điểm Hệ thống ghi nhận | Hỏi thời điểm gửi/nhận |
+| File đính kèm | Mở được, không lỗi, không virus, không mật khẩu | Hỏi file có mật khẩu có được đánh giá không |
+| Tài khoản nghiệp vụ | Dùng để phân quyền thao tác trên Hệ thống | Hỏi tài khoản nghiệp vụ là gì |
+| Chứng thư số | Xác thực thao tác điện tử | Hỏi loại chứng thư số được dùng |
+| Sự cố Hệ thống | Có thể gia hạn tự động khi ảnh hưởng thời điểm đóng thầu/kết thúc chào giá | Hỏi mốc sau khắc phục sự cố 02 giờ |
+| Chào giá trực tuyến rút gọn | Không bảo đảm dự thầu; có quy tắc 90%; nhà thầu phải xác nhận trao hợp đồng | Hỏi 90%, khóa tài khoản, không thẩm định |
 
 ## 1. Bản chất của đấu thầu qua mạng
 
@@ -197,18 +201,23 @@ Số câu thực hành liên quan trong app: 62.
 
 # Chuyên đề 6. Đánh giá hồ sơ dự thầu và xét duyệt trúng thầu
 
-Số câu thực hành liên quan trong app: 56.
+Số câu thực hành liên quan: 56.
 
-## Nguồn pháp lý tham khảo
+## Bảng học nhanh: đánh giá HSDT và xét duyệt trúng thầu
 
-- Luật Đấu thầu số 22/2023/QH15: https://vanban.chinhphu.vn/?classid=1&docid=208419&orggroupid=1&pageid=27160
-- Luật số 57/2024/QH15: https://vanban.chinhphu.vn/?classid=1&docid=212485&orggroupid=1&pageid=27160
-- Luật số 90/2025/QH15: https://vanban.chinhphu.vn/?docid=214558&orggroupid=1&pageid=27160
-- Nghị định số 214/2025/NĐ-CP: https://vanban.chinhphu.vn/?classid=1&docid=214821&pageid=27160&typegroupid=4
-- Thông tư số 79/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214844&pageid=27160
-- Thông tư số 80/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214968&pageid=27160
+| Bước đánh giá | Nội dung kiểm tra | Cách làm câu hỏi |
+| --- | --- | --- |
+| Tính hợp lệ | Đơn dự thầu, bảo đảm dự thầu, tư cách hợp lệ, chữ ký/thẩm quyền | Loại hồ sơ sai hình thức nghiêm trọng |
+| Năng lực, kinh nghiệm | Doanh thu, tài chính, hợp đồng tương tự, nhân sự, thiết bị | Xác định tiêu chí bắt buộc/không bắt buộc |
+| Kỹ thuật | Đạt/không đạt hoặc chấm điểm theo HSMT | Tư vấn thường chú trọng chất lượng |
+| Tài chính | Giá dự thầu, sửa lỗi, hiệu chỉnh sai lệch, giảm giá | Chỉ xét khi đạt kỹ thuật |
+| Xếp hạng/trúng thầu | Theo phương pháp đã duyệt và giá không vượt giá gói thầu | Không đồng nhất “giá thấp nhất” với “trúng thầu” trong mọi trường hợp |
 
-> Các nguồn này được ghi trong database chuyên đề để người học đối chiếu khi cần.
+## Mẹo cần nhớ
+
+- Đạt kỹ thuật rồi mới xét tài chính.
+- Tư vấn không dùng phương pháp giá đánh giá như hàng hóa/xây lắp/phi tư vấn.
+- Ngưỡng điểm kỹ thuật trong câu hỏi thường là không thấp hơn 70%.
 
 ## 1. Mục tiêu của đánh giá hồ sơ dự thầu
 
@@ -234,18 +243,22 @@ Số câu thực hành liên quan trong app: 56.
 
 # Chuyên đề 7. Ưu đãi, mua sắm tập trung và y tế
 
-Số câu thực hành liên quan trong app: 21.
+Số câu thực hành liên quan: 21.
 
-## Nguồn pháp lý tham khảo
+## Bảng học nhanh: ưu đãi, mua sắm tập trung và y tế
 
-- Luật Đấu thầu số 22/2023/QH15: https://vanban.chinhphu.vn/?classid=1&docid=208419&orggroupid=1&pageid=27160
-- Luật số 57/2024/QH15: https://vanban.chinhphu.vn/?classid=1&docid=212485&orggroupid=1&pageid=27160
-- Luật số 90/2025/QH15: https://vanban.chinhphu.vn/?docid=214558&orggroupid=1&pageid=27160
-- Nghị định số 214/2025/NĐ-CP: https://vanban.chinhphu.vn/?classid=1&docid=214821&pageid=27160&typegroupid=4
-- Thông tư số 79/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214844&pageid=27160
-- Thông tư số 80/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214968&pageid=27160
+| Nhóm nội dung | Ý cần nhớ | Dạng câu hỏi |
+| --- | --- | --- |
+| Ưu đãi | Chỉ áp dụng cho đối tượng đủ điều kiện; không biến nhà thầu không đạt thành đạt | Hỏi hàng hóa Việt Nam, DNNVV, doanh nghiệp đặc thù |
+| Mua sắm tập trung | Gom nhu cầu nhiều đơn vị, có thỏa thuận khung/danh sách trúng thầu | Hỏi đơn vị mua sắm tập trung, thời hạn thỏa thuận khung |
+| Thỏa thuận khung | Là nền để ký hợp đồng/đặt hàng cụ thể | Hỏi không quá 36 tháng |
+| Thuốc, hóa chất, vật tư xét nghiệm, thiết bị y tế | Có quy định riêng vì liên quan chất lượng khám chữa bệnh và cung ứng liên tục | Hỏi bệnh viện, đàm phán giá, mua hóa chất kèm máy |
+| Đàm phán giá | Dùng khi thuốc/thiết bị/vật tư chỉ có 01 hoặc 02 hãng sản xuất | Hỏi trường hợp áp dụng đàm phán giá |
 
-> Các nguồn này được ghi trong database chuyên đề để người học đối chiếu khi cần.
+## Mẹo cần nhớ
+
+- Mua vật tư, thuốc của bệnh viện không chỉ nhìn “hàng hóa”; phải xét cả nguồn vốn, tính chuyên ngành y tế, tính liên tục khám chữa bệnh và số lượng nhà sản xuất.
+- Hóa chất/vật tư xét nghiệm có thể gắn với máy, phần mềm, hiệu chuẩn, bảo hành, bảo dưỡng và dịch vụ đi kèm.
 
 ## 1. Ưu đãi trong lựa chọn nhà thầu
 
@@ -269,18 +282,17 @@ Số câu thực hành liên quan trong app: 21.
 
 # Chuyên đề 8. Hợp đồng trong đấu thầu
 
-Số câu thực hành liên quan trong app: 24.
+Số câu thực hành liên quan: 24.
 
-## Nguồn pháp lý tham khảo
+## Bảng học nhanh: hợp đồng trong đấu thầu
 
-- Luật Đấu thầu số 22/2023/QH15: https://vanban.chinhphu.vn/?classid=1&docid=208419&orggroupid=1&pageid=27160
-- Luật số 57/2024/QH15: https://vanban.chinhphu.vn/?classid=1&docid=212485&orggroupid=1&pageid=27160
-- Luật số 90/2025/QH15: https://vanban.chinhphu.vn/?docid=214558&orggroupid=1&pageid=27160
-- Nghị định số 214/2025/NĐ-CP: https://vanban.chinhphu.vn/?classid=1&docid=214821&pageid=27160&typegroupid=4
-- Thông tư số 79/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214844&pageid=27160
-- Thông tư số 80/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214968&pageid=27160
-
-> Các nguồn này được ghi trong database chuyên đề để người học đối chiếu khi cần.
+| Nội dung | Ý cần nhớ | Dạng câu hỏi |
+| --- | --- | --- |
+| Hồ sơ hợp đồng | Không chỉ là bản hợp đồng; gồm HSMT, HSDT, kết quả, biên bản hoàn thiện, phụ lục | Hỏi “bao gồm tài liệu nào” |
+| Bảo đảm thực hiện hợp đồng | Ràng buộc nhà thầu sau khi trúng thầu/ký hợp đồng | Phân biệt với bảo đảm dự thầu |
+| Loại hợp đồng | Trọn gói, đơn giá cố định, đơn giá điều chỉnh, theo thời gian, chi phí cộng phí… | Hỏi tình huống chưa đủ cơ sở xác định khối lượng/chi phí |
+| Sửa đổi hợp đồng | Chỉ trong phạm vi được phép, không làm thay đổi bản chất gói thầu | Hỏi điều chỉnh hợp đồng |
+| Thanh lý/quyết toán | Căn cứ hồ sơ, nghiệm thu, khối lượng và điều kiện hợp đồng | Hỏi lưu trữ, hoàn công, quyết toán |
 
 ## 1. Hồ sơ hợp đồng và giá trị pháp lý
 
@@ -306,18 +318,22 @@ Số câu thực hành liên quan trong app: 24.
 
 # Chuyên đề 9. Xử lý tình huống, vi phạm và kiến nghị
 
-Số câu thực hành liên quan trong app: 57.
+Số câu thực hành liên quan: 57.
 
-## Nguồn pháp lý tham khảo
+## Bảng học nhanh: xử lý tình huống, vi phạm và kiến nghị
 
-- Luật Đấu thầu số 22/2023/QH15: https://vanban.chinhphu.vn/?classid=1&docid=208419&orggroupid=1&pageid=27160
-- Luật số 57/2024/QH15: https://vanban.chinhphu.vn/?classid=1&docid=212485&orggroupid=1&pageid=27160
-- Luật số 90/2025/QH15: https://vanban.chinhphu.vn/?docid=214558&orggroupid=1&pageid=27160
-- Nghị định số 214/2025/NĐ-CP: https://vanban.chinhphu.vn/?classid=1&docid=214821&pageid=27160&typegroupid=4
-- Thông tư số 79/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214844&pageid=27160
-- Thông tư số 80/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214968&pageid=27160
+| Nhóm | Mốc/ý cần nhớ | Câu hỏi hay gặp |
+| --- | --- | --- |
+| Gian lận | Vi phạm nặng, thường gắn cấm tham gia 03-05 năm | Hỏi thời hạn cấm thầu |
+| Cản trở | Gây khó khăn/can thiệp trái phép, thường gắn 01-03 năm | Hỏi phân biệt với gian lận |
+| Sai vai trò lập/thẩm định HSMT | Gắn mốc 06 tháng-01 năm trong ngân hàng câu hỏi | Hỏi một đơn vị vừa lập vừa thẩm định |
+| Kiến nghị | Cơ chế yêu cầu xem xét lại quá trình/kết quả lựa chọn | Hỏi 30 ngày, chi phí kiến nghị, hội đồng |
+| Khiếu nại | Khi chuyển sang khiếu nại thì chấm dứt giải quyết kiến nghị cùng nội dung | Hỏi đang kiến nghị mà gửi khiếu nại |
 
-> Các nguồn này được ghi trong database chuyên đề để người học đối chiếu khi cần.
+## Mẹo cần nhớ
+
+- Xử lý vi phạm phải xác định đúng hành vi trước rồi mới chọn thời hạn/hệ quả.
+- Với liên danh, xem vi phạm của thành viên có làm sai lệch tư cách của cả liên danh hay không và bảo đảm dự thầu nộp chung hay riêng.
 
 ## 1. Xử lý tình huống trong đấu thầu
 
@@ -343,18 +359,22 @@ Số câu thực hành liên quan trong app: 57.
 
 # Chuyên đề 10. Đấu thầu quốc tế và hiệp định thương mại
 
-Số câu thực hành liên quan trong app: 24.
+Số câu thực hành liên quan: 24.
 
-## Nguồn pháp lý tham khảo
+## Bảng học nhanh: đấu thầu quốc tế và hiệp định thương mại
 
-- Luật Đấu thầu số 22/2023/QH15: https://vanban.chinhphu.vn/?classid=1&docid=208419&orggroupid=1&pageid=27160
-- Luật số 57/2024/QH15: https://vanban.chinhphu.vn/?classid=1&docid=212485&orggroupid=1&pageid=27160
-- Luật số 90/2025/QH15: https://vanban.chinhphu.vn/?docid=214558&orggroupid=1&pageid=27160
-- Nghị định số 214/2025/NĐ-CP: https://vanban.chinhphu.vn/?classid=1&docid=214821&pageid=27160&typegroupid=4
-- Thông tư số 79/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214844&pageid=27160
-- Thông tư số 80/2025/TT-BTC: https://vanban.chinhphu.vn/?classid=1&docid=214968&pageid=27160
+| Nội dung | Ý cần nhớ | Câu hỏi hay gặp |
+| --- | --- | --- |
+| Đấu thầu quốc tế | Nhà thầu trong nước và nước ngoài được tham dự | Hỏi khái niệm đấu thầu quốc tế |
+| Nhà thầu nước ngoài | Không mặc nhiên được tham dự mọi gói thầu; phải thuộc phạm vi mở cửa/điều kiện HSMT | Hỏi gói thuộc phạm vi hiệp định |
+| CPTPP | Có 11 nước ký kết ban đầu | Hỏi số lượng thành viên |
+| EVFTA | Có hiệu lực với Việt Nam từ 01/8/2020 | Hỏi mốc hiệu lực |
+| RCEP | Thường là phương án nhiễu trong nhóm mua sắm chính phủ/chỉ định thầu | Hỏi hiệp định không có quy định tương ứng |
 
-> Các nguồn này được ghi trong database chuyên đề để người học đối chiếu khi cần.
+## Mẹo cần nhớ
+
+- Có yếu tố nước ngoài chưa chắc là đấu thầu quốc tế; phải xem HSMT có mở cho nhà thầu nước ngoài và gói thầu có thuộc phạm vi cam kết hay không.
+- CPTPP = 11; EVFTA = 01/8/2020.
 
 ## 1. Khi nào tổ chức đấu thầu quốc tế
 

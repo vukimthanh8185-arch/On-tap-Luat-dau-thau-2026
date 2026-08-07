@@ -40,6 +40,27 @@ function updateProgress() {
   progressBar.style.width = total ? `${(done / total) * 100}%` : "0%";
 }
 
+function renderTheoryTables(section) {
+  return (section.tables || [])
+    .map(
+      (table) => `
+        <div class="theory-table-wrap">
+          <table class="theory-table">
+            <thead>
+              <tr>${(table.headers || []).map((header) => `<th>${escapeHtml(header)}</th>`).join("")}</tr>
+            </thead>
+            <tbody>
+              ${(table.rows || [])
+                .map((row) => `<tr>${row.map((cell) => `<td>${escapeHtml(cell)}</td>`).join("")}</tr>`)
+                .join("")}
+            </tbody>
+          </table>
+        </div>
+      `
+    )
+    .join("");
+}
+
 function renderTopics(filter = "") {
   const keyword = filter.trim().toLowerCase();
   topicList.innerHTML = "";
@@ -97,9 +118,12 @@ function renderTheory(topic) {
           (section) => `
         <article class="theory-card">
           <h3>${escapeHtml(section.heading)}</h3>
-          <ul>
-            ${(section.points || []).map((point) => `<li>${escapeHtml(point)}</li>`).join("")}
-          </ul>
+          ${
+            (section.points || []).length
+              ? `<ul>${(section.points || []).map((point) => `<li>${escapeHtml(point)}</li>`).join("")}</ul>`
+              : ""
+          }
+          ${renderTheoryTables(section)}
           ${section.note ? `<div class="callout">${escapeHtml(section.note)}</div>` : ""}
         </article>
       `
