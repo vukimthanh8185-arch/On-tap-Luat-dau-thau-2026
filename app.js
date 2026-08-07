@@ -33,6 +33,12 @@ function escapeHtml(value) {
     .replace(/'/g, "&#039;");
 }
 
+function renderInline(value) {
+  return escapeHtml(value)
+    .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+    .replace(/`(.+?)`/g, "<code>$1</code>");
+}
+
 function updateProgress() {
   const total = totalQuestions();
   const done = answeredCount();
@@ -47,11 +53,11 @@ function renderTheoryTables(section) {
         <div class="theory-table-wrap">
           <table class="theory-table">
             <thead>
-              <tr>${(table.headers || []).map((header) => `<th>${escapeHtml(header)}</th>`).join("")}</tr>
+              <tr>${(table.headers || []).map((header) => `<th>${renderInline(header)}</th>`).join("")}</tr>
             </thead>
             <tbody>
               ${(table.rows || [])
-                .map((row) => `<tr>${row.map((cell) => `<td>${escapeHtml(cell)}</td>`).join("")}</tr>`)
+                .map((row) => `<tr>${row.map((cell) => `<td>${renderInline(cell)}</td>`).join("")}</tr>`)
                 .join("")}
             </tbody>
           </table>
@@ -59,6 +65,16 @@ function renderTheoryTables(section) {
       `
     )
     .join("");
+}
+
+function renderTheoryPoints(section) {
+  const points = section.points || [];
+  if (!points.length) return "";
+  const numbered = points.every((point) => /^\d+\.\s+/.test(point));
+  const tag = numbered ? "ol" : "ul";
+  return `<${tag}>${points
+    .map((point) => `<li>${renderInline(numbered ? point.replace(/^\d+\.\s+/, "") : point)}</li>`)
+    .join("")}</${tag}>`;
 }
 
 function renderTopics(filter = "") {
@@ -118,13 +134,9 @@ function renderTheory(topic) {
           (section) => `
         <article class="theory-card">
           <h3>${escapeHtml(section.heading)}</h3>
-          ${
-            (section.points || []).length
-              ? `<ul>${(section.points || []).map((point) => `<li>${escapeHtml(point)}</li>`).join("")}</ul>`
-              : ""
-          }
+          ${renderTheoryPoints(section)}
           ${renderTheoryTables(section)}
-          ${section.note ? `<div class="callout">${escapeHtml(section.note)}</div>` : ""}
+          ${section.note ? `<div class="callout">${renderInline(section.note)}</div>` : ""}
         </article>
       `
         )
@@ -208,7 +220,7 @@ function renderQuestion(q, qIndex) {
           hasAnswered
             ? `<strong>${isCorrect ? "Đúng rồi." : "Chưa đúng."} Đáp án đúng là ${String.fromCharCode(
                 65 + q.answer
-              )}.</strong><span>${escapeHtml(q.explanation)}</span>`
+              )}.</strong><span>${renderInline(q.explanation)}</span>`
             : ""
         }
       </div>

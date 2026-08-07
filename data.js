@@ -3,7 +3,7 @@ window.STUDY_DATA = {
     "database": "C:\\Users\\Administrator\\Documents\\Luat Dau thau\\Database for LuatdauthauApp",
     "topicCount": 10,
     "questionCount": 390,
-    "note": "Dữ liệu được sinh từ database Markdown; chuyên đề 1.1 giữ format mẫu nhưng lọc còn 34 câu tương ứng để tránh lặp."
+    "note": "Dữ liệu được sinh từ database Markdown, đã tách heading Markdown và danh sách/công thức để tránh lỗi hiển thị."
   },
   "topics": [
     {
@@ -44,27 +44,55 @@ window.STUDY_DATA = {
           "tables": []
         },
         {
-          "heading": "5. Ưu đãi trong lựa chọn nhà thầu – điều kiện và công thức",
+          "heading": "5.1. Đối tượng được hưởng ưu đãi",
           "points": [
-            "### 5.1. Đối tượng được hưởng ưu đãi",
-            "Gồm hàng hóa, dịch vụ có xuất xứ Việt Nam; nhà thầu trong nước sản xuất hàng hóa Việt Nam; nhà thầu trong nước tham dự đấu thầu quốc tế; nhà thầu sử dụng lao động nữ, thương binh, người khuyết tật, người dân tộc thiểu số theo điều kiện; doanh nghiệp siêu nhỏ, nhỏ; doanh nghiệp khởi nghiệp sáng tạo; sản phẩm đổi mới sáng tạo, công nghệ cao, sản phẩm số; sản phẩm/dịch vụ thân thiện môi trường. Nhà thầu phải chứng minh bằng tài liệu hợp lệ.",
-            "### 5.2. Nguyên tắc",
-            "1. Mỗi nội dung đánh giá chỉ hưởng **một loại ưu đãi có lợi nhất**. 2. Nếu tất cả nhà thầu đều được ưu đãi hoặc đều không được ưu đãi thì không cần tính ưu đãi để xếp hạng. 3. Gói hỗn hợp: nhà thầu được ưu đãi khi phần chi phí trong nước đạt điều kiện luật định. 4. Khi ngang nhau, nhà thầu thuộc đối tượng ưu đãi được xếp hạng cao hơn. 5. Phương pháp giá thấp nhất/giá đánh giá: **cộng tiền vào giá của đối tượng không được ưu đãi hoặc mức ưu đãi thấp hơn**, không trừ trực tiếp vào giá chào của đối tượng ưu đãi.",
-            "### 5.3. Xác định tỷ lệ chi phí sản xuất trong nước",
+            "Gồm hàng hóa, dịch vụ có xuất xứ Việt Nam; nhà thầu trong nước sản xuất hàng hóa Việt Nam; nhà thầu trong nước tham dự đấu thầu quốc tế; nhà thầu sử dụng lao động nữ, thương binh, người khuyết tật, người dân tộc thiểu số theo điều kiện; doanh nghiệp siêu nhỏ, nhỏ; doanh nghiệp khởi nghiệp sáng tạo; sản phẩm đổi mới sáng tạo, công nghệ cao, sản phẩm số; sản phẩm/dịch vụ thân thiện môi trường. Nhà thầu phải chứng minh bằng tài liệu hợp lệ."
+          ],
+          "tables": []
+        },
+        {
+          "heading": "5.2. Nguyên tắc",
+          "points": [
+            "1. Mỗi nội dung đánh giá chỉ hưởng **một loại ưu đãi có lợi nhất**.",
+            "2. Nếu tất cả nhà thầu đều được ưu đãi hoặc đều không được ưu đãi thì không cần tính ưu đãi để xếp hạng.",
+            "3. Gói hỗn hợp: nhà thầu được ưu đãi khi phần chi phí trong nước đạt điều kiện luật định.",
+            "4. Khi ngang nhau, nhà thầu thuộc đối tượng ưu đãi được xếp hạng cao hơn.",
+            "5. Phương pháp giá thấp nhất/giá đánh giá: **cộng tiền vào giá của đối tượng không được ưu đãi hoặc mức ưu đãi thấp hơn**, không trừ trực tiếp vào giá chào của đối tượng ưu đãi."
+          ],
+          "tables": []
+        },
+        {
+          "heading": "5.3. Xác định tỷ lệ chi phí sản xuất trong nước",
+          "points": [
             "Công thức trực tiếp: `D (%) = G* / G × 100%`",
             "Công thức gián tiếp: `D (%) = (G − C) / G × 100%`",
-            "Trong đó: `G*` là chi phí sản xuất trong nước; `G` là giá chào chưa gồm thuế, hoặc giá EXW với nhà sản xuất; `C` là chi phí nhập ngoại chưa gồm thuế, phí nhập khẩu; `D` là tỷ lệ chi phí sản xuất trong nước. Theo slide giảng dạy, hàng hóa được xét ưu đãi khi `D ≥ 30%`.",
-            "### 5.4. Phương pháp giá thấp nhất hoặc giá đánh giá – hàng hóa thông thường",
+            "Trong đó: `G*` là chi phí sản xuất trong nước; `G` là giá chào chưa gồm thuế, hoặc giá EXW với nhà sản xuất; `C` là chi phí nhập ngoại chưa gồm thuế, phí nhập khẩu; `D` là tỷ lệ chi phí sản xuất trong nước. Theo slide giảng dạy, hàng hóa được xét ưu đãi khi `D ≥ 30%`."
+          ],
+          "tables": []
+        },
+        {
+          "heading": "5.4. Phương pháp giá thấp nhất hoặc giá đánh giá – hàng hóa thông thường",
+          "points": [
             "**Trường hợp không có hàng hóa nào đạt D ≥ 50%:**",
             "Hàng hóa không thuộc ưu đãi (`D < 30%`): giá so sánh = giá sau sửa lỗi, hiệu chỉnh × `107,5%`.",
             "Hàng hóa thuộc ưu đãi (`30% ≤ D < 50%`): giữ nguyên giá.",
             "**Trường hợp có ít nhất một hàng hóa đạt D ≥ 50%:**",
             "`D < 30%`: giá so sánh = giá sau sửa lỗi, hiệu chỉnh × `110%`.",
             "`30% ≤ D < 50%`: giá so sánh = giá sau sửa lỗi, hiệu chỉnh × `102,5%`.",
-            "`D ≥ 50%`: giữ nguyên giá.",
-            "### 5.5. Phương pháp kết hợp kỹ thuật và giá",
-            "Điểm ưu đãi được cộng vào điểm tổng hợp theo tỷ trọng giá hàng hóa ưu đãi trong tổng giá dự thầu. Dạng tổng quát theo slide: `Điểm cộng = hệ số ưu đãi × (giá hàng hóa được ưu đãi / giá dự thầu) × điểm tổng hợp`. Hệ số thông thường là 7,5% hoặc 10% tùy tỷ lệ chi phí trong nước và điều kiện lao động; sản phẩm đổi mới sáng tạo có hệ số riêng cao hơn.",
-            "### 5.6. Ví dụ chuẩn – Câu 31",
+            "`D ≥ 50%`: giữ nguyên giá."
+          ],
+          "tables": []
+        },
+        {
+          "heading": "5.5. Phương pháp kết hợp kỹ thuật và giá",
+          "points": [
+            "Điểm ưu đãi được cộng vào điểm tổng hợp theo tỷ trọng giá hàng hóa ưu đãi trong tổng giá dự thầu. Dạng tổng quát theo slide: `Điểm cộng = hệ số ưu đãi × (giá hàng hóa được ưu đãi / giá dự thầu) × điểm tổng hợp`. Hệ số thông thường là 7,5% hoặc 10% tùy tỷ lệ chi phí trong nước và điều kiện lao động; sản phẩm đổi mới sáng tạo có hệ số riêng cao hơn."
+          ],
+          "tables": []
+        },
+        {
+          "heading": "5.6. Ví dụ chuẩn – Câu 31",
+          "points": [
             "A: 95 tỷ, D=20% → `95 × 110% = 104,5`. B: 100 tỷ, D=40% → `100 × 102,5% = 102,5`. C: 100 tỷ, D=45% → `100 × 102,5% = 102,5`. D: 105 tỷ, D=60% → giữ nguyên `105`. B và C cùng 102,5; B là doanh nghiệp nhỏ và vừa do phụ nữ làm chủ nên được xếp hạng cao hơn khi ngang nhau. **Kết quả: B trúng thầu.**"
           ],
           "tables": []
