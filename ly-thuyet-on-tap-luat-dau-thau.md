@@ -1,10 +1,10 @@
 # Lý thuyết ôn tập Luật Đấu thầu
 
-Gồm 10 chuyên đề, 420 câu hỏi thực hành liên quan.
+Gồm 10 chuyên đề, 390 câu hỏi thực hành liên quan.
 
 # Chuyên đề 1.1 – QUY ĐỊNH CHUNG VỀ LỰA CHỌN NHÀ THẦU
 
-Số câu thực hành liên quan: 64.
+Số câu thực hành liên quan: 34.
 
 ## 1. Phạm vi điều chỉnh, đối tượng áp dụng và quyền tự quyết định
 
