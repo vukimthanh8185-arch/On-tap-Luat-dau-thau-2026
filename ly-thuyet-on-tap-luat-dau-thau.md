@@ -1,53 +1,80 @@
 # Lý thuyết ôn tập Luật Đấu thầu
 
-Gồm 10 chuyên đề và 390 câu hỏi thực hành liên quan.
+Gồm 10 chuyên đề, 420 câu hỏi thực hành liên quan.
 
-# Chuyên đề 1. Quy định chung và phạm vi áp dụng
+# Chuyên đề 1.1 – QUY ĐỊNH CHUNG VỀ LỰA CHỌN NHÀ THẦU
 
-Số câu thực hành liên quan: 34.
+Số câu thực hành liên quan: 64.
 
-## Bảng học nhanh: xác định có phải áp dụng Luật Đấu thầu không
+## 1. Phạm vi điều chỉnh, đối tượng áp dụng và quyền tự quyết định
 
-| Câu hỏi kiểm tra | Cách xác định | Dạng câu hay gặp |
-| --- | --- | --- |
-| Ai mua? | Cơ quan nhà nước, đơn vị sự nghiệp công lập, chủ đầu tư dự án dùng vốn nhà nước thường thuộc phạm vi luật | Hỏi trường hợp bắt buộc lựa chọn nhà thầu |
-| Dùng nguồn tiền nào? | Ngân sách nhà nước, vốn đầu tư công, nguồn thu hợp pháp thuộc phạm vi luật định | Hỏi trường hợp được tự quyết hoặc không thuộc đối tượng |
-| Mục đích mua gì? | Gói thầu thuộc dự án, dự toán mua sắm, thuốc/vật tư y tế, xây lắp, hàng hóa, dịch vụ | Hỏi phân biệt hộ kinh doanh/cơ quan nhà nước/bệnh viện công |
-| Có ngoại lệ không? | Một số trường hợp tự quyết vẫn phải công khai, minh bạch, hiệu quả và giải trình | Hỏi tài trợ trong nước, đơn vị tự bảo đảm chi |
+- Luật điều chỉnh quản lý nhà nước về đấu thầu; thẩm quyền, trách nhiệm của các chủ thể; hoạt động lựa chọn nhà thầu và lựa chọn nhà đầu tư. Trọng tâm bắt buộc áp dụng là các gói thầu thuộc dự án, dự toán mua sắm sử dụng vốn ngân sách nhà nước, vốn từ nguồn thu hợp pháp của cơ quan nhà nước, đơn vị sự nghiệp công lập và các nguồn thuộc phạm vi luật định.
+- Một số trường hợp được **tự quyết định** việc lựa chọn nhà thầu nhưng vẫn phải bảo đảm **công khai – minh bạch – hiệu quả – trách nhiệm giải trình**, điển hình: vốn tài trợ trong nước khi nhà tài trợ yêu cầu không áp dụng Luật; lựa chọn của doanh nghiệp nhà nước không sử dụng ngân sách; một số đơn vị sự nghiệp công lập tự bảo đảm; mua đầu vào trực tiếp phục vụ hợp đồng mà đơn vị sự nghiệp công lập đã ký. Không được suy diễn “tự quyết định” thành tùy ý hoặc miễn trách nhiệm.
 
-## Mẹo cần nhớ
+## 2. Khái niệm, loại gói thầu, các loại giá và tư cách hợp lệ
 
-- Đừng nhìn mỗi tên đơn vị; phải nhìn đồng thời chủ thể, nguồn vốn và mục đích sử dụng vốn.
-- “Tự quyết định” không có nghĩa là tùy ý, mà vẫn phải có căn cứ, chứng từ, hiệu quả và giải trình.
-- Gói thầu của bệnh viện công dùng ngân sách để mua thuốc, hóa chất, vật tư xét nghiệm thường thuộc phạm vi đấu thầu; hộ kinh doanh tự mua phần mềm bằng tiền riêng thì không.
+- **Tư vấn:** khảo sát, lập quy hoạch/báo cáo, thiết kế, dự toán, tư vấn đấu thầu, thẩm tra, thẩm định, giám sát, quản lý dự án, kiểm toán.
+- **Phi tư vấn:** logistics, bảo hiểm, quảng cáo, in ấn, vệ sinh, truyền thông, sửa chữa, bảo trì, nghiệm thu chạy thử.
+- **Hàng hóa:** máy móc, thiết bị, vật tư, thuốc, hóa chất, vật tư xét nghiệm, thiết bị y tế, phần mềm thương mại.
+- **Xây lắp:** thi công, lắp đặt công trình.
+- **Hỗn hợp:** kết hợp từ hai loại công việc trở lên.
+- Công thức ghi nhớ: **Giá đề nghị trúng thầu = giá dự thầu sau sửa lỗi và hiệu chỉnh sai lệch – giá trị giảm giá hợp lệ**. Nhà thầu phải dùng tài khoản của chính mình trên Hệ thống; dùng tài khoản chi nhánh hoặc đơn vị phụ thuộc không đáp ứng tư cách hợp lệ.
 
-## 1. Câu hỏi cần trả lời trước tiên
+## 3. Bảo đảm cạnh tranh và xung đột lợi ích
 
-- Khi gặp một tình huống mua sắm hoặc lựa chọn nhà thầu, việc đầu tiên là xác định trường hợp đó có thuộc phạm vi điều chỉnh của Luật Đấu thầu hay không. Nếu xác định sai phạm vi áp dụng, các bước sau như lập kế hoạch, lập hồ sơ mời thầu, đánh giá hồ sơ dự thầu hoặc ký hợp đồng đều có thể sai theo.
-- Theo Điều 1 Luật Đấu thầu 2023, Luật điều chỉnh quản lý nhà nước về đấu thầu; thẩm quyền, trách nhiệm của cơ quan, tổ chức, cá nhân trong hoạt động đấu thầu; hoạt động lựa chọn nhà thầu và hoạt động lựa chọn nhà đầu tư.
+- Đánh giá độc lập pháp lý, tài chính và quan hệ sở hữu giữa nhà thầu với chủ đầu tư, nhà thầu tư vấn lập/thẩm định HSMT, tư vấn quản lý dự án, giám sát, thiết kế, dự toán. Các ngưỡng sở hữu và ngoại lệ phải áp dụng đúng từng quan hệ; không chỉ dựa vào việc khác tên pháp nhân. Với EPC/EP/EC, phải kiểm tra quan hệ với đơn vị lập/thẩm tra FEED, báo cáo khả thi hoặc báo cáo kinh tế-kỹ thuật.
 
-## 2. Nhận diện trường hợp bắt buộc áp dụng
+## 4. Công khai thông tin, Hệ thống mạng và lưu trữ hồ sơ
 
-- Trường hợp điển hình phải áp dụng Luật là hoạt động lựa chọn nhà thầu thuộc dự án, dự toán mua sắm sử dụng vốn ngân sách nhà nước, vốn từ nguồn thu hợp pháp của cơ quan nhà nước, đơn vị sự nghiệp công lập và các nguồn vốn thuộc phạm vi luật định.
-- Khi làm bài, cần nhìn đồng thời ba yếu tố: chủ thể mua sắm, nguồn vốn và mục đích sử dụng vốn. Không nên chỉ nhìn tên đơn vị. Một doanh nghiệp nhà nước, bệnh viện công lập hoặc đơn vị sự nghiệp công lập có thể được xử lý khác nhau tùy nguồn tiền cụ thể.
+- Các mốc trọng tâm: thông tin chủ yếu của hợp đồng đăng trong 05 ngày làm việc từ ngày hợp đồng có hiệu lực; danh sách nhà thầu bị đánh giá uy tín đăng trong 07 ngày làm việc; hồ sơ tư vấn không đạt kỹ thuật trả trong 10 ngày từ ngày ký hợp đồng; hồ sơ hủy thầu lưu 05 năm. Phân biệt rõ **ngày** và **ngày làm việc**, **ngày ký** và **ngày có hiệu lực**.
 
-## 3. Trường hợp được tự quyết định
+## 5. Ưu đãi trong lựa chọn nhà thầu – điều kiện và công thức
 
-- Một số trường hợp không bắt buộc đi theo toàn bộ quy trình lựa chọn nhà thầu của Luật, nhưng vẫn phải bảo đảm công khai, minh bạch, hiệu quả và trách nhiệm giải trình. Tự quyết định không có nghĩa là tùy ý; đơn vị vẫn phải chứng minh việc mua sắm là hợp lý, hiệu quả, có căn cứ và có thể giải trình.
-- Các nhóm dễ gặp trong câu hỏi gồm: doanh nghiệp nhà nước không sử dụng vốn ngân sách nhà nước; đơn vị sự nghiệp công lập tự bảo đảm theo điều kiện luật định; khoản tài trợ trong nước khi nhà tài trợ yêu cầu không áp dụng Luật; mua sắm đầu vào trực tiếp để thực hiện hợp đồng đã ký.
+- ### 5.1. Đối tượng được hưởng ưu đãi
+- Gồm hàng hóa, dịch vụ có xuất xứ Việt Nam; nhà thầu trong nước sản xuất hàng hóa Việt Nam; nhà thầu trong nước tham dự đấu thầu quốc tế; nhà thầu sử dụng lao động nữ, thương binh, người khuyết tật, người dân tộc thiểu số theo điều kiện; doanh nghiệp siêu nhỏ, nhỏ; doanh nghiệp khởi nghiệp sáng tạo; sản phẩm đổi mới sáng tạo, công nghệ cao, sản phẩm số; sản phẩm/dịch vụ thân thiện môi trường. Nhà thầu phải chứng minh bằng tài liệu hợp lệ.
+- ### 5.2. Nguyên tắc
+- 1. Mỗi nội dung đánh giá chỉ hưởng **một loại ưu đãi có lợi nhất**. 2. Nếu tất cả nhà thầu đều được ưu đãi hoặc đều không được ưu đãi thì không cần tính ưu đãi để xếp hạng. 3. Gói hỗn hợp: nhà thầu được ưu đãi khi phần chi phí trong nước đạt điều kiện luật định. 4. Khi ngang nhau, nhà thầu thuộc đối tượng ưu đãi được xếp hạng cao hơn. 5. Phương pháp giá thấp nhất/giá đánh giá: **cộng tiền vào giá của đối tượng không được ưu đãi hoặc mức ưu đãi thấp hơn**, không trừ trực tiếp vào giá chào của đối tượng ưu đãi.
+- ### 5.3. Xác định tỷ lệ chi phí sản xuất trong nước
+- Công thức trực tiếp: `D (%) = G* / G × 100%`
+- Công thức gián tiếp: `D (%) = (G − C) / G × 100%`
+- Trong đó: `G*` là chi phí sản xuất trong nước; `G` là giá chào chưa gồm thuế, hoặc giá EXW với nhà sản xuất; `C` là chi phí nhập ngoại chưa gồm thuế, phí nhập khẩu; `D` là tỷ lệ chi phí sản xuất trong nước. Theo slide giảng dạy, hàng hóa được xét ưu đãi khi `D ≥ 30%`.
+- ### 5.4. Phương pháp giá thấp nhất hoặc giá đánh giá – hàng hóa thông thường
+- **Trường hợp không có hàng hóa nào đạt D ≥ 50%:**
+- Hàng hóa không thuộc ưu đãi (`D < 30%`): giá so sánh = giá sau sửa lỗi, hiệu chỉnh × `107,5%`.
+- Hàng hóa thuộc ưu đãi (`30% ≤ D < 50%`): giữ nguyên giá.
+- **Trường hợp có ít nhất một hàng hóa đạt D ≥ 50%:**
+- `D < 30%`: giá so sánh = giá sau sửa lỗi, hiệu chỉnh × `110%`.
+- `30% ≤ D < 50%`: giá so sánh = giá sau sửa lỗi, hiệu chỉnh × `102,5%`.
+- `D ≥ 50%`: giữ nguyên giá.
+- ### 5.5. Phương pháp kết hợp kỹ thuật và giá
+- Điểm ưu đãi được cộng vào điểm tổng hợp theo tỷ trọng giá hàng hóa ưu đãi trong tổng giá dự thầu. Dạng tổng quát theo slide: `Điểm cộng = hệ số ưu đãi × (giá hàng hóa được ưu đãi / giá dự thầu) × điểm tổng hợp`. Hệ số thông thường là 7,5% hoặc 10% tùy tỷ lệ chi phí trong nước và điều kiện lao động; sản phẩm đổi mới sáng tạo có hệ số riêng cao hơn.
+- ### 5.6. Ví dụ chuẩn – Câu 31
+- A: 95 tỷ, D=20% → `95 × 110% = 104,5`. B: 100 tỷ, D=40% → `100 × 102,5% = 102,5`. C: 100 tỷ, D=45% → `100 × 102,5% = 102,5`. D: 105 tỷ, D=60% → giữ nguyên `105`. B và C cùng 102,5; B là doanh nghiệp nhỏ và vừa do phụ nữ làm chủ nên được xếp hạng cao hơn khi ngang nhau. **Kết quả: B trúng thầu.**
 
-## 4. Tư cách hợp lệ và bảo đảm cạnh tranh
+## 6. Đấu thầu quốc tế, ngôn ngữ và chi phí
 
-- Nhà thầu là tổ chức phải đáp ứng các điều kiện cơ bản theo Điều 5 Luật Đấu thầu như hạch toán tài chính độc lập, không trong quá trình giải thể hoặc mất khả năng thanh toán, không đang bị cấm tham dự thầu, bảo đảm cạnh tranh và có tên trên Hệ thống mạng đấu thầu quốc gia theo quy định.
-- Bảo đảm cạnh tranh không chỉ là khác tên doanh nghiệp. Cần xem xét quan hệ pháp lý, tài chính, sở hữu, quản lý và khả năng phát sinh xung đột lợi ích giữa nhà thầu với chủ đầu tư, bên mời thầu, tư vấn lập hoặc thẩm định hồ sơ mời thầu, tư vấn giám sát, tư vấn thiết kế, dự toán. Với EPC, EP, EC còn phải chú ý quan hệ với đơn vị lập hoặc thẩm tra thiết kế FEED, báo cáo nghiên cứu khả thi hoặc báo cáo kinh tế-kỹ thuật.
+- Đấu thầu quốc tế được tổ chức khi nhà tài trợ yêu cầu; nhà thầu trong nước không đáp ứng; cần nhà thầu nước ngoài để nâng chất lượng tư vấn; hoặc hàng hóa trong nước không sản xuất được/không đáp ứng kỹ thuật, chất lượng, giá. Hàng hóa thông dụng đã nhập khẩu và chào bán tại Việt Nam không phải căn cứ tổ chức quốc tế. Ngôn ngữ là tiếng Anh hoặc tiếng Việt và tiếng Anh.
 
-## Bẫy thường gặp
+## 7. Bảo đảm dự thầu, liên danh và đấu thầu trước
 
-- Chỉ nhìn tên chủ thể mà không xem nguồn vốn.
-- Hiểu “tự quyết định” thành không cần minh bạch.
-- Nhầm khác tên pháp nhân là chắc chắn bảo đảm cạnh tranh.
+- Bảo đảm dự thầu áp dụng cho đấu thầu rộng rãi, hạn chế, chào hàng cạnh tranh, trừ gói tư vấn và đấu thầu trước theo quy định. Liên danh có thể từng thành viên bảo đảm hoặc thỏa thuận một thành viên thực hiện; tổng giá trị phải đủ. Khi một thành viên vi phạm thuộc trường hợp không hoàn trả, bảo đảm của cả liên danh không được hoàn trả. Đấu thầu trước dùng cam kết trong đơn dự thầu.
 
-# Chuyên đề 2. Phân loại gói thầu và hình thức lựa chọn nhà thầu
+## 8. Hủy thầu, đình chỉ, không công nhận kết quả và thẩm quyền
+
+- **Đình chỉ cuộc thầu:** trong quá trình lựa chọn, trước phê duyệt kết quả.
+- **Hủy thầu:** từ phát hành hồ sơ đến trước ký hợp đồng/thỏa thuận khung.
+- **Không công nhận kết quả:** khi phát hiện vi phạm nghiêm trọng làm sai lệch kết quả.
+- Kế hoạch tổng thể LCNT: người có thẩm quyền phê duyệt. KHLCNT: chủ đầu tư phê duyệt, trừ trường hợp đặc biệt.
+
+## 9. Hành vi bị cấm và chế tài
+
+- Các nhóm chính: hối lộ, lợi dụng chức vụ, thông thầu, gian lận, cản trở, không bảo đảm công bằng minh bạch, tiết lộ thông tin, chuyển nhượng thầu và tổ chức lựa chọn khi chưa xác định nguồn vốn. Mức cấm thường gặp: gian lận 03–05 năm; cản trở 01–03 năm; vừa lập vừa thẩm định 06 tháng–01 năm; tư vấn giám sát đồng thời kiểm định 01–03 năm. Thời hiệu áp dụng biện pháp cấm là 10 năm từ ngày vi phạm.
+
+## 10. Quy định đặc thù và cập nhật văn bản
+
+- Nhà thầu trong nước của dự án khoa học, công nghệ, đổi mới sáng tạo, chuyển đổi số có thể dùng nhà thầu phụ đặc biệt nước ngoài cho phần việc đặc thù hoặc cần chuyển giao công nghệ. Luật số 90/2025/QH15 có hiệu lực 01/07/2025; Nghị định 214/2025/NĐ-CP và Thông tư 79/2025/TT-BTC có hiệu lực 04/08/2025. Chỉ dùng văn bản đã có hiệu lực, không dùng dự thảo năm 2026 để chấm đáp án.
+
+# Chuyên đề 2 – PHÂN LOẠI GÓI THẦU VÀ HÌNH THỨC LỰA CHỌN NHÀ THẦU
 
 Số câu thực hành liên quan: 35.
 
@@ -87,7 +114,7 @@ Số câu thực hành liên quan: 35.
 - Nhầm phần mềm thương mại là dịch vụ tư vấn.
 - Chọn chỉ định thầu chỉ vì thấy tình huống cần nhanh.
 
-# Chuyên đề 3. Kế hoạch lựa chọn nhà thầu
+# Chuyên đề 3 – KẾ HOẠCH LỰA CHỌN NHÀ THẦU
 
 Số câu thực hành liên quan: 17.
 
@@ -125,7 +152,7 @@ Số câu thực hành liên quan: 17.
 - Nhầm giá hợp đồng với giá gói thầu.
 - Quên thẩm quyền phê duyệt kế hoạch tổng thể và KHLCNT.
 
-# Chuyên đề 4. Hồ sơ mời thầu và chuẩn bị lựa chọn nhà thầu
+# Chuyên đề 4 – HỒ SƠ MỜI THẦU VÀ CHUẨN BỊ LỰA CHỌN NHÀ THẦU
 
 Số câu thực hành liên quan: 60.
 
@@ -162,7 +189,7 @@ Số câu thực hành liên quan: 60.
 - Đặt hợp đồng tương tự vượt quá quy mô cần thiết.
 - Nhầm tiêu chuẩn kỹ thuật với tiêu chuẩn năng lực kinh nghiệm.
 
-# Chuyên đề 5. Đấu thầu qua mạng và hệ thống mạng đấu thầu quốc gia
+# Chuyên đề 5 – ĐẤU THẦU QUA MẠNG VÀ HỆ THỐNG MẠNG ĐẤU THẦU QUỐC GIA
 
 Số câu thực hành liên quan: 62.
 
@@ -199,7 +226,7 @@ Số câu thực hành liên quan: 62.
 - Nhầm quyền sửa E-HSDT trước và sau thời điểm đóng thầu.
 - Không theo dõi E-HSMT sửa đổi trên Hệ thống.
 
-# Chuyên đề 6. Đánh giá hồ sơ dự thầu và xét duyệt trúng thầu
+# Chuyên đề 6 – ĐÁNH GIÁ HỒ SƠ DỰ THẦU VÀ XÉT DUYỆT TRÚNG THẦU
 
 Số câu thực hành liên quan: 56.
 
@@ -241,7 +268,7 @@ Số câu thực hành liên quan: 56.
 - Nhầm giá dự thầu ban đầu với giá đề nghị trúng thầu.
 - Áp dụng sai phương pháp đánh giá cho loại gói thầu.
 
-# Chuyên đề 7. Ưu đãi, mua sắm tập trung và y tế
+# Chuyên đề 7 – ƯU ĐÃI, MUA SẮM TẬP TRUNG VÀ Y TẾ
 
 Số câu thực hành liên quan: 21.
 
@@ -280,7 +307,7 @@ Số câu thực hành liên quan: 21.
 - Cộng chồng nhiều ưu đãi cho cùng một nội dung.
 - Nhầm mua sắm tập trung với mua sắm trực tiếp.
 
-# Chuyên đề 8. Hợp đồng trong đấu thầu
+# Chuyên đề 8 – HỢP ĐỒNG TRONG ĐẤU THẦU
 
 Số câu thực hành liên quan: 24.
 
@@ -316,7 +343,7 @@ Số câu thực hành liên quan: 24.
 - Điều chỉnh hợp đồng làm thay đổi bản chất lựa chọn nhà thầu.
 - Tự ý đổi phạm vi công việc giữa thành viên liên danh.
 
-# Chuyên đề 9. Xử lý tình huống, vi phạm và kiến nghị
+# Chuyên đề 9 – XỬ LÝ TÌNH HUỐNG, VI PHẠM VÀ KIẾN NGHỊ
 
 Số câu thực hành liên quan: 57.
 
@@ -357,7 +384,7 @@ Số câu thực hành liên quan: 57.
 - Áp dụng mức cấm thầu không đúng loại hành vi.
 - Bỏ qua điều kiện và thời hạn kiến nghị.
 
-# Chuyên đề 10. Đấu thầu quốc tế và hiệp định thương mại
+# Chuyên đề 10 – ĐẤU THẦU QUỐC TẾ VÀ HIỆP ĐỊNH THƯƠNG MẠI
 
 Số câu thực hành liên quan: 24.
 
